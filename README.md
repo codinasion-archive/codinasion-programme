@@ -80,6 +80,6 @@
 
 ## 🎉 Contributors
 
-<a href="https://github.com/harshraj8843/harshraj8843/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=harshraj8843/harshraj8843" />
+<a href="https://github.com/harshraj8843/codinasion/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=harshraj8843/codinasion" />
 </a>
