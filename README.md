@@ -80,5 +80,6 @@
 
 ## 🎉 Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+<a href="https://github.com/harshraj8843/harshraj8843/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=harshraj8843/harshraj8843" />
+</a>
