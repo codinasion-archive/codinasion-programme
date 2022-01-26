@@ -1,5 +1,5 @@
 <p align="center">
- <img width="200px" height="200px" src="https://raw.githubusercontent.com/harshraj8843/harshraj8843/assets/logo-nav-light.png" alt="Project logo" />
+ <img width="200px" height="200px" src="https://raw.githubusercontent.com/harshraj8843/harshraj8843/assets/logo-manifest.png" alt="Project logo" />
 </p>
 
 <h1 align="center">Codinasion</h1>
