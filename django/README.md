@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:96037db7a7ba40433d3d51cd12ea0bda942ec0c20902d4c61abd125c40856148
-size 309
+---
+metatitle: Django
+description: List of all Django related topics
+slug: /django
+---
+
+Here is the list of all Django related topics...
+
+1. ### [Django setup in Ubuntu for beginners](/django/django-setup-in-ubuntu)
+
+2. ### [Django setup in Windows for beginners](/django/django-setup-in-windows)
+
+<br/>
+
+---
