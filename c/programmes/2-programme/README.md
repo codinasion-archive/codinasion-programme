@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2fcb95fbdf46370c44c6e9a578be620d9f80b9027cc6ee04276822cf587a278d
-size 564
+---
+metatitle: Programme to print mailing address
+description: Write a program that will print your mailing address in the following form First line Name Second line Door No, Street Third line City, Pin code
+slug: /c/programmes/2
+---
+
+### Write a program that will print your mailing address in the following form:
+
+```
+First line  : Name
+Second line : Door No, Street
+Third line  : City, Pin code
+```
+
+---
+
+```c lineNumbers
+#include <stdio.h>
+
+void main()
+{
+    printf("Name\n");
+    printf("Door No, Street\n");
+    printf("City, Pin code\n");
+}
+```
+
+<br/>
+
+---
