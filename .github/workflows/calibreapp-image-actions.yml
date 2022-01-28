@@ -50,6 +50,10 @@ jobs:
       - name: Checkout LFS objects
         run: git lfs pull
 
+      # delete .lfs-assets-id
+      - name: Delete temp file
+        run: rm .lfs-assets-id
+
       # compress image starts here...
       - name: Compress Images
         id: calibre
