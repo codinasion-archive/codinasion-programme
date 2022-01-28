@@ -313,3 +313,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 
 # End of https://www.toptal.com/developers/gitignore/api/c,c++,django,python
+
+
+# custom ignores
+.lfs-assets-id
