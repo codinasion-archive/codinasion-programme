@@ -6,9 +6,13 @@
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/status-active-success.svg)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](/LICENSE)
+[![Status](https://img.shields.io/badge/status-LIVE-brightgreen)](https://codinasion.web.app/)
+
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](/LICENSE.md)
+![Github Repo Size](https://img.shields.io/github/repo-size/harshraj8843/codinasion)
+
 [![Github Contributors](https://img.shields.io/github/contributors/harshraj8843/codinasion)](https://github.com/harshraj8843/codinasion/graphs/contributors)
+[![Github Last Commit](https://img.shields.io/github/last-commit/harshraj8843/codinasion)](https://github.com/harshraj8843/codinasion/graphs/commit-activity)
 
 </div>
 
