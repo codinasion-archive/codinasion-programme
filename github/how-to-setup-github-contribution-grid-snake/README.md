@@ -10,7 +10,7 @@ slug: /github/how-to-setup-github-contribution-grid-snake
 
 This post will help you in setting up **github contribution grid snake** aka **snake game** for your `README.md` like this...
 
-![Snake game](https://raw.githubusercontent.com/harshraj8843/harshraj8843/output/github-contribution-grid-snake.gif)
+![Snake game](https://media.githubusercontent.com/media/harshraj8843/harshraj8843/output/github-contribution-grid-snake.gif)
 
 **Lets Begin...**
 

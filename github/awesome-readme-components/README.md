@@ -32,8 +32,8 @@ List of some of the awesome components for your github README.md
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 ![Discord Chat](https://img.shields.io/discord/933085421829779527)&nbsp;
-![Repo Size](https://img.shields.io/github/repo-size/harshraj8843/codinasion)&nbsp;
-![Github Contributors](https://img.shields.io/github/contributors/harshraj8843/codinasion?color=green)&nbsp;
+![Repo Size](https://img.shields.io/github/repo-size/codinasion/codinasion)&nbsp;
+![Github Contributors](https://img.shields.io/github/contributors/codinasion/codinasion?color=green)&nbsp;
 ![Twitter](https://img.shields.io/twitter/follow/harshraj8843?style=social)&nbsp;
 
 <details>
@@ -44,8 +44,8 @@ List of some of the awesome components for your github README.md
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 ![Discord Chat](https://img.shields.io/discord/933085421829779527)&nbsp;
-![Repo Size](https://img.shields.io/github/repo-size/harshraj8843/codinasion)&nbsp;
-![Github Contributors](https://img.shields.io/github/contributors/harshraj8843/codinasion?color=green)&nbsp;
+![Repo Size](https://img.shields.io/github/repo-size/codinasion/codinasion)&nbsp;
+![Github Contributors](https://img.shields.io/github/contributors/codinasion/codinasion?color=green)&nbsp;
 ![Twitter](https://img.shields.io/twitter/follow/harshraj8843?style=social)&nbsp;
 ```
 
@@ -141,14 +141,14 @@ List of some of the awesome components for your github README.md
 
 ## [Github Extra Pins](https://github.com/anuraghazra/github-readme-stats)
 
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=harshraj8843&repo=codinasion&theme=dark&show_owner=true)
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=codinasion&repo=codinasion&theme=dark&show_owner=true)
 
 <details>
 <summary>Code</summary>
 <br/>
 
 ```md
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=harshraj8843&repo=codinasion&theme=dark&show_owner=true)
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=codinasion&repo=codinasion&theme=dark&show_owner=true)
 ```
 
 </details>
@@ -355,14 +355,14 @@ List of some of the awesome components for your github README.md
 
 ## [Github Contribution Grid Snake](https://github.com/Platane/snk)
 
-![Snake game](https://raw.githubusercontent.com/harshraj8843/harshraj8843/output/github-contribution-grid-snake.gif)
+![Snake game](https://media.githubusercontent.com/media/harshraj8843/harshraj8843/output/github-contribution-grid-snake.gif)
 
 <details>
 <summary>Code</summary>
 <br/>
 
 ```md
-![Snake game](https://raw.githubusercontent.com/harshraj8843/harshraj8843/output/github-contribution-grid-snake.gif)
+![Snake game](https://media.githubusercontent.com/media/harshraj8843/harshraj8843/output/github-contribution-grid-snake.gif)
 ```
 
 </details>
