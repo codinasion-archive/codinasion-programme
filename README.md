@@ -1,5 +1,5 @@
 <p align="center">
- <img width="200px" height="200px" src="https://raw.githubusercontent.com/harshraj8843/harshraj8843/assets/logo-manifest.png" alt="Project logo" />
+ <img width="200px" height="200px" src="https://media.githubusercontent.com/media/harshraj8843/harshraj8843/assets/logo-manifest.png" alt="Project logo" />
 </p>
 
 <h1 align="center">Codinasion</h1>
@@ -9,10 +9,10 @@
 [![Status](https://img.shields.io/badge/status-LIVE-brightgreen)](https://codinasion.web.app/)
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](/LICENSE.md)
-![Github Repo Size](https://img.shields.io/github/repo-size/harshraj8843/codinasion)
+![Github Repo Size](https://img.shields.io/github/repo-size/codinasion/codinasion)
 
-[![Github Contributors](https://img.shields.io/github/contributors/harshraj8843/codinasion)](https://github.com/harshraj8843/codinasion/graphs/contributors)
-[![Github Last Commit](https://img.shields.io/github/last-commit/harshraj8843/codinasion)](https://github.com/harshraj8843/codinasion/graphs/commit-activity)
+[![Github Contributors](https://img.shields.io/github/contributors/codinasion/codinasion)](https://github.com/codinasion/codinasion/graphs/contributors)
+[![Github Last Commit](https://img.shields.io/github/last-commit/codinasion/codinasion)](https://github.com/codinasion/codinasion/graphs/commit-activity)
 
 </div>
 
@@ -84,6 +84,6 @@
 
 ## 🎉 Contributors
 
-<a href="https://github.com/harshraj8843/codinasion/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=harshraj8843/codinasion" />
+<a href="https://github.com/codinasion/codinasion/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=codinasion/codinasion" />
 </a>
