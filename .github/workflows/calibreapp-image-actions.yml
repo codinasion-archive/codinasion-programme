@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     # Only run on master repo on and PRs that match the master repo.
     if: |
-      github.repository == 'harshraj8843/codinasion' &&
+      github.repository == 'codinasion/codinasion' &&
       (github.event_name != 'pull_request' ||
        github.event.pull_request.head.repo.full_name == github.repository)
     steps:
