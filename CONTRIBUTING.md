@@ -78,4 +78,4 @@ Congratulations :tada::tada: The Codinasion team thanks you :sparkles:.
 
 Once your PR is merged, your contributions will be publicly visible on the [Codinasion](https://codinasion.web.app). 
 
-Now that you are part of the  Codinasion community, see how else you can [contribute to the docs](/contributing/types-of-contributions.md).
+Now that you are part of the  Codinasion community, see how else you can [contribute to codinasion](/contributing/types-of-contributions.md).
