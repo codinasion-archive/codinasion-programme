@@ -1,7 +1,3 @@
-<p align="center">
- <img width="200px" height="200px" src="https://media.githubusercontent.com/media/harshraj8843/harshraj8843/assets/logo-manifest.png" alt="Project logo" />
-</p>
-
 <h1 align="center">Codinasion</h1>
 
 <div align="center">
@@ -24,63 +20,35 @@
 
 ---
 
-## ✍️ How to contribute
+This repository contains the Markdown source files for [codinasion.web.app](https://codinasion.web.app/).
 
-- ### Fork this repository
+Codinasion team works on pre-production content in a private repo that regularly syncs with this public repo.
 
-  Fork this repository by clicking on the fork button on the top of the repo.
+Use the table of contents icon <img src="https://media.githubusercontent.com/media/harshraj8843/harshraj8843/assets/github/table-of-contents.png" width="25" height="25" /> on the top left corner of this document to get to a specific section of this guide quickly.
 
-- ### Clone the repository
+## Contributing
 
-  ```bash
-  git clone https://github.com/<your_username>/codinasion
-  ```
+See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project. 
 
-- ### Create a new branch
+We accept different [types of contributions](https://github.com/github/docs/blob/main/contributing/types-of-contributions.md), including some that don't require you to write a single line of code.
 
-  ```bash
-  cd codinasion
-  ```
+On the Codinasion site, you can click the `Edit on Github` button to open a pull request for quick fixes like typos, updates, or link fixes.
 
-  ```bash
-  git checkout -b your-new-branch-name
-  ```
+For more complex contributions, you can open an issue using the most appropriate [issue template](https://github.com/codinasion/codinasion/issues/new/choose) to describe the changes you'd like to see.
 
-- ### Make necessary changes and commit those changes
+If you're looking for a way to contribute, you can scan through our [existing issues](https://github.com/codinasion/codinasion/issues) for something to work on. When ready, check out [Getting Started with Contributing](/CONTRIBUTING.md) for detailed instructions.
 
-  ```bash
-  git add .
-  ```
+### Join us in discussions
 
-  ```bash
-  git commit -m "commit-message"
-  ```
+We use GitHub Discussions to talk about all sorts of topics related to documentation and this site. For example: if you'd like help troubleshooting a PR, have a great new idea, or want to share something amazing, join us in the [discussions](https://github.com/codinasion/codinasion/discussions).
 
-- ### Push changes to GitHub
+### And that's it!
 
-  ```bash
-  git push origin <branch-name-you-created-above>
-  ```
+That's how you can easily become a member of the Codinasion community. :sparkles:
 
-- ### Submit your changes for review
+## Thanks :purple_heart:
 
-  - Go to the forked repository on GitHub
-  - Click on `Compare & pull request` button
-  - Submit the `pull request`
-
----
-
-## 👨‍💻 What to contribute
-
-<!-- this section will be expanded later -->
-
-- `add tutorial`
-- `add question`
-- `add solution`
-- `edit something`
-- or, `other changes`
-  
----
+Thanks for all your contributions and efforts. We thank you being part of our :sparkles: community :sparkles: !
 
 ## 🎉 Contributors
 
