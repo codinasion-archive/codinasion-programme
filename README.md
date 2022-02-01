@@ -32,7 +32,7 @@ See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how t
 
 We accept different [types of contributions](https://github.com/github/docs/blob/main/contributing/types-of-contributions.md), including some that don't require you to write a single line of code.
 
-On the Codinasion site, you can click the `Edit on Github` button to open a pull request for quick fixes like typos, updates, or link fixes.
+On the Codinasion site, you can click the `Edit this page on GitHub` button to open a pull request for quick fixes like typos, updates, or link fixes.
 
 For more complex contributions, you can open an issue using the most appropriate [issue template](https://github.com/codinasion/codinasion/issues/new/choose) to describe the changes you'd like to see.
 
