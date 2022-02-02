@@ -1,8 +1,16 @@
 name: 📄 Documentation issue
 description: Found an issue in the documentation? You can use this one!
-title: "[DOCS] <description>"
 labels: ["📄 aspect: text"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **Hubbers!!** This is the an open source repo.
+
+        * For questions, ask in [Discussions](https://github.com/codinasion/codinasion/discussions).
+        * Before you file an issue read the [Contributing guide](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md).
+        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/codinasion/issues).
+
   - type: textarea
     id: description
     attributes:
@@ -10,6 +18,7 @@ body:
       description: A brief description of the question or issue, also include what you tried and what didn't work
     validations:
       required: true
+
   - type: textarea
     id: screenshots
     attributes:
@@ -17,6 +26,7 @@ body:
       description: Please add screenshots if applicable
     validations:
       required: false
+
   - type: textarea
     id: extrainfo
     attributes:

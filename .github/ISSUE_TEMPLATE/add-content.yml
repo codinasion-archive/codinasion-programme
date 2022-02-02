@@ -1,11 +1,11 @@
-name: Add content
+name: ✍️ Add content
 description: Add tutorial, question, answer.
-labels: ["content"]
+labels: ["📝 content"]
 body:
   - type: markdown
     attributes:
       value: |
-        **GEEKS!!** This is the codinasion/codinasion open source repo.
+        **Hubbers!!** This is the an open source repo.
 
         * For questions, ask in [Discussions](https://github.com/codinasion/codinasion/discussions).
         * Before you file an issue read the [Contributing guide](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md).
@@ -22,14 +22,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Title of webpage
+      label: Title of article
       description: Please enter the Title of the article.
     validations:
       required: true
-
-  - type: textarea
-    attributes:
-      label: Additional information
-      description: Add any other context or screenshots about the feature request here.
-    validations:
-      required: false
