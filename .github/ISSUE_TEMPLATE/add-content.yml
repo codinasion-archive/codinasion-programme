@@ -26,3 +26,11 @@ body:
       description: Please enter the Title of the article.
     validations:
       required: true
+  
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this issue?
+    validations:
+      required: false
