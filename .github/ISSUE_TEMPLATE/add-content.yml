@@ -1,0 +1,35 @@
+name: Add content
+description: Add tutorial, question, answer.
+labels: ["content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **GEEKS!!** This is the codinasion/codinasion open source repo.
+
+        * For questions, ask in [Discussions](https://github.com/codinasion/codinasion/discussions).
+        * Before you file an issue read the [Contributing guide](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md).
+        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/codinasion/issues).
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the Codinasion project's [Code of Conduct](https://github.com/codinasion/codinasion/blob/master/CODE_OF_CONDUCT.md)
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Title of webpage
+      description: Please enter the Title of the article.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
