@@ -56,4 +56,8 @@ section: C Programming
 
 <br/>
 
+9. ### [[ **Unanswered** ] Write a c program to check palindrome number.](/c/programmes/9)
+
+<br/>
+
 ---
