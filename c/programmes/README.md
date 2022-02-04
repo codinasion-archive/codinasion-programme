@@ -60,4 +60,8 @@ section: C Programming
 
 <br/>
 
+10. ### [[ **Unanswered** ] Write a c program to print factorial of a number.](/c/programmes/10)
+
+<br/>
+
 ---
