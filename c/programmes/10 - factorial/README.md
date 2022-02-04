@@ -4,7 +4,7 @@ description: Write a c program to print factorial of a number.
 slug: /c/programmes/10
 ---
 
-# Palindrome number
+# Factorial
 
 ---
 
