@@ -2,14 +2,16 @@
 
 # Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
 # Comment to be posted to on first time issues
-newIssueWelcomeComment: >
-  Thanks for opening this issue. A Codinasion team member should be by to give feedback soon. In the meantime, please check out the [contributing guidelines](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md).
+newIssueWelcomeComment: |
+  💖 Thanks for opening this issue. 💖
+  
+  A Codinasion team member should be by to give feedback soon. In the meantime, please check out the [contributing guidelines](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md).
 # Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: |
   💖 Thanks for opening this pull request! 💖
 
-  Thanks for opening this pull request! A Codinasion team member should be by to give feedback soon. In the meantime, please check out the [contributing guidelines](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md).
+  A Codinasion team member should be by to give feedback soon. In the meantime, please check out the [contributing guidelines](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md).
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
