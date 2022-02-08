@@ -55,6 +55,12 @@ Click **Edit this page on GitHub** at the bottom of any Codinasion webpage to ma
   git checkout -b your-new-branch-name
   ```
 
+#### Add Content
+
+Add a `README.md` in corresponding folder. See this [README.md template](/contributing/readme-template.md) for reference.
+
+- [Learn Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+
 ### Commit your update
 
 Commit the changes once you are happy with them. See [Atom's contributing guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages) to know how to use emoji for commit messages.
