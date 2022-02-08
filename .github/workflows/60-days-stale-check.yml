@@ -22,5 +22,5 @@ jobs:
           days-before-close: -1
           stale-issue-label: 'stale'
           stale-pr-label: 'stale'
-          exempt-pr-labels: 'never-stale,waiting for review'
-          exempt-issue-labels: 'never-stale,help wanted,waiting for review'
+          exempt-pr-labels: '📝 content,good first issue'
+          exempt-issue-labels: '📝 content,good first issue'
