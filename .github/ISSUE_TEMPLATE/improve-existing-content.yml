@@ -11,15 +11,6 @@ body:
         * Before you file an issue read the [Contributing guide](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md).
         * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/codinasion/issues).
 
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: This project has a Code of Conduct that all participants are expected to understand and follow.
-      options:
-        - label: I have read and agree to the Codinasion project's [Code of Conduct](https://github.com/codinasion/codinasion/blob/master/CODE_OF_CONDUCT.md)
-          required: true
-
   - type: textarea
     attributes:
       label: What article on codinasion.web.app is affected?
@@ -43,3 +34,12 @@ body:
       description: Add any other context or screenshots about the feature request here.
     validations:
       required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the Codinasion project's [Code of Conduct](https://github.com/codinasion/codinasion/blob/master/CODE_OF_CONDUCT.md)
+          required: true
