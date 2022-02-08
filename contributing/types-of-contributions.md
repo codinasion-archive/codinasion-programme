@@ -1,5 +1,19 @@
-# Types of contributions :memo:
+# Types of contributions
 You can contribute to the Codinasion content in several ways. This repo is a place to discuss and collaborate on codinasion.web.app Our small, but mighty :muscle: codinasion team is maintaining this repo, to preserve our bandwidth, off topic conversations will be closed.
+
+### :question: Questions
+
+If you'd like to ask/add a question, create a [New Issue](https://github.com/codinasion/codinasion/issues/new?assignees=&labels=%F0%9F%93%9D+content&template=add-content.yml)
+
+### :pencil2: Answers
+
+If you'd like to answer any question asked in [Issues](https://github.com/codinasion/codinasion/issues), [add question-answer](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md#make-changes) in the corresponding folder, create a [Pull Request](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md#solve-an-issue) and [Link your Pull Request to the corresponding Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+
+### :memo: Tutorials
+
+If you'd like to add a tutorial, [add/create tutorial](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md#make-changes) in the corresponding folder and create a [Pull Request](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md#pull-request)
+
+If you'd like to ask for a tutorial, create a [New Issue](https://github.com/codinasion/codinasion/issues/new?assignees=&labels=%F0%9F%93%9D+content&template=add-content.yml)
 
 ### :mega: Discussions
 Discussions are where we have conversations.
