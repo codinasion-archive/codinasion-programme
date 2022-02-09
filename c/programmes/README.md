@@ -64,4 +64,8 @@ section: C Programming
 
 <br/>
 
+11. ### [Write a c program to swap two numbers without using third variable.](/c/programmes/11)
+
+<br/>
+
 ---
