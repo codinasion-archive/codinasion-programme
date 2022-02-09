@@ -1,4 +1,25 @@
-﻿#include <stdio.h>
+---
+metatitle: Swap two numbers without using third variable
+description: Write a c program to swap two numbers without using third variable.
+slug: /c/programmes/11
+---
+
+# Swap two numbers without using third variable
+
+---
+
+### Write a c program to swap two numbers without using third variable.
+
+```
+Input:  a=10 b=20
+Output: a=20 b=10
+```
+
+---
+
+```c
+#include <stdio.h>
+
 int main()
 {
   //initialize two numbers
@@ -18,3 +39,8 @@ int main()
 
   return 0;
 }
+```
+
+<br/>
+
+---
