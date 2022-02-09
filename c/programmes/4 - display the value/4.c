@@ -1,3 +1,5 @@
+// Given the values of three variables a, b and c, write a program to compute and display the value of x, where x=a/(b-c)
+
 #include <stdio.h>
 
 void main()
