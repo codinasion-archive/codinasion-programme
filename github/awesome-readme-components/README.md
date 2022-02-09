@@ -355,14 +355,14 @@ List of some of the awesome components for your github README.md
 
 ## [Github Contribution Grid Snake](https://github.com/Platane/snk)
 
-![Snake game](https://media.githubusercontent.com/media/harshraj8843/harshraj8843/output/github-contribution-grid-snake.gif)
+![Snake game](https://raw.githubusercontent.com/harshraj8843/harshraj8843/output/github-contribution-grid-snake.gif)
 
 <details>
 <summary>Code</summary>
 <br/>
 
 ```md
-![Snake game](https://media.githubusercontent.com/media/harshraj8843/harshraj8843/output/github-contribution-grid-snake.gif)
+![Snake game](https://raw.githubusercontent.com/harshraj8843/harshraj8843/output/github-contribution-grid-snake.gif)
 ```
 
 </details>
