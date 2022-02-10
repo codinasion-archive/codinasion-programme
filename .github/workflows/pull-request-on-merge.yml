@@ -1,0 +1,30 @@
+on:
+  push:
+    branches:
+      - "master" # Support wildcard matching
+  workflow_dispatch:
+
+jobs:
+  pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Run the Action
+        uses: devops-infra/action-pull-request@v0.4.2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          source_branch: master
+          target_branch: dev
+          title: Auto pull request
+          template: .github/AUTO_PULL_REQUEST_TEMPLATE.md
+          body: "**Automated pull request**"
+          reviewer: harshraj8843
+          label: auto-pr
+          milestone: ""
+          draft: true
+          old_string: "<!-- Add your description here -->"
+          new_string: "** Automatic pull request**"
+          get_diff: true
+          ignore_users: "dependabot"
