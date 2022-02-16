@@ -1,18 +1,8 @@
----
-metatitle: Shrinking and expanding ball
-description: Write a computer graphics programme to show a shrinking and expanding ball
-slug: /cg/shrinking-and-expanding-ball
----
-
 # Shrinking and Expanding Ball
-
----
 
 Write a computer graphics programme to show a shrinking and expanding ball.
 
----
-
-```c title=cg/shrinking-and-expanding-ball.c lineNumbers
+```c
 #include <graphics.h>
 
 int main() {
@@ -58,7 +48,3 @@ int main() {
 ```
 
 ![shrinking and expanding ball](./assets/demo.gif)
-
-<br/>
-
----
