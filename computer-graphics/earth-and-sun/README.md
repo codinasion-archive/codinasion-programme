@@ -1,18 +1,8 @@
----
-metatitle: Earth and Sun
-description: Write a computer graphics programme to show earth and sun
-slug: /cg/earth-and-sun
----
-
 # Earth and Sun
-
----
 
 Write a computer graphics programme to show earth and sun.
 
----
-
-```c title=cg/earth-and-sun.c lineNumbers
+```c
 #include <graphics.h>
 #include <math.h>
 
@@ -71,7 +61,3 @@ int main()
 ```
 
 ![earth and sun](./assets/demo.gif)
-
-<br/>
-
----

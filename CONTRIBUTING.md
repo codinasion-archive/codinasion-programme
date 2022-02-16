@@ -6,8 +6,6 @@ Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approacha
 
 In this guide you will get an overview of the contribution workflow from opening an issue, creating a PR, reviewing, and merging the PR.
 
-Use the table of contents icon <img src="https://media.githubusercontent.com/media/harshraj8843/harshraj8843/assets/github/table-of-contents.png" width="25" height="25" /> on the top left corner of this document to get to a specific section of this guide quickly.
-
 ## New contributor guide
 
 To get an overview of the project, read the [README](README.md). Here are some resources to help you get started with open source contributions:
@@ -25,7 +23,7 @@ Check to see what [types of contributions](/contributing/types-of-contributions.
 
 #### Create a new issue
 
-If you spot a problem with the Codinasion content, [search if an issue already exists](https://github.com/codinasion/codinasion/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/codinasion/codinasion/issues/new/choose). 
+If you wanna add or modify Codinasion content, [search if an issue already exists](https://github.com/codinasion/codinasion/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/codinasion/codinasion/issues/new/choose). 
 
 #### Solve an issue
 
@@ -35,7 +33,9 @@ Scan through our [existing issues](https://github.com/codinasion/codinasion/issu
 
 #### Make changes in the UI
 
-Click **Edit this page on GitHub** at the bottom of any Codinasion webpage to make small changes such as a typo, sentence fix, or a broken link. This takes you to the `.md` file where you can make your changes and [create a pull request](#pull-request) for a review. 
+Click **Edit in GitHub** at the top of any Codinasion webpage to make small changes such as a typo, sentence fix, or a broken link. This takes you to the `.md` file where you can make your changes and [create a pull request](#pull-request) for a review.
+
+> In many cases, you will be redirected to `index.md` which is linked to corresponding `README.md`. In that case, consider updating the corresponding `README.md` not `index.md`. Thanks :)
 
 #### Make changes locally
 
@@ -57,9 +57,12 @@ Click **Edit this page on GitHub** at the bottom of any Codinasion webpage to ma
 
 #### Add Content
 
-Add a `README.md` in corresponding folder. See this [README.md template](/contributing/readme-template.md) for reference.
+- Add Answer
+  - Add or modify programme file (.py, .c, .cpp, etc) in corresponding folder.
 
-- [Learn Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+- Add Blog
+  - Add `README.md` file in corresponding folder
+  - [Learn Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 
 ### Commit your update
 
