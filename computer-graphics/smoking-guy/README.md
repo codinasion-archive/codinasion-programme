@@ -1,18 +1,8 @@
----
-metatitle: Smoking Guy
-description: Write a computer graphics programme for Smoking Guy
-slug: /cg/smoking-guy
----
-
 # Smoking Guy
-
----
 
 Write a computer graphics programme for Smoking Guy.
 
----
-
-```c title=cg/static-smoking-guy.c lineNumbers
+```c
 #include <graphics.h>
 #include <stdio.h>
 
@@ -66,7 +56,7 @@ int main() {
 <summary>Animated Smoking Guy</summary>
 <br/>
 
-```c title=cg/animated-smoking-guy.c lineNumbers
+```c
 #include <graphics.h>
 #include <stdio.h>
 
@@ -131,7 +121,3 @@ int main() {
 ![animated smoking guy](./assets/animated.gif)
 
 </details>
-
-<br/>
-
----

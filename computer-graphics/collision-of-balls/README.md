@@ -1,18 +1,8 @@
----
-metatitle: Collision of balls
-description: Write a computer graphics programme to show collision of balls
-slug: /cg/collision-of-balls
----
-
 # Collision of Balls
-
----
 
 Write a computer graphics programme to show collision of balls.
 
----
-
-```c title=cg/collision-of-balls.c lineNumbers
+```c
 #include <graphics.h>
 
 int main()
@@ -75,7 +65,3 @@ int main()
 ```
 
 ![collision of balls](./assets/collision.gif)
-
-<br/>
-
----
