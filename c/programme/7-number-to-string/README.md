@@ -76,13 +76,9 @@ int main()
 
 <br/>
 
-<details>
- <summary>Compile and Run in Ubuntu</summary>
- <br/>
+### Compile and Run in Ubuntu
  
 ```bash
 gcc -x c ntos.c -lm
 ./a.out
 ```
-
-</details>
