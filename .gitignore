@@ -6,3 +6,5 @@
 
 # Unignore all dirs
 !*/
+
+*.out
