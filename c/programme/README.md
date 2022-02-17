@@ -26,3 +26,5 @@
 5. ### [Write a C program to convert the temperature from Celsius to Fahrenheit and from Fahrenheit to Celsius.](./5-convert-celsius-to-fahrenheit/)
 
 6.  ### [Write a c program to swap two numbers without using third variable.](./6-swap-two-numbers-without-using-third-varible/)
+
+7.  ### [Write a c program to convert number to strings.](./7-number-to-string/)
