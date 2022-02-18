@@ -1,12 +1,14 @@
 #number to string 
+
 def tostring(n):
+    arr = ['zero ','one ','two ','three ','four ','five ','six ','seven ','eight ','nine ']
+    ans = ""
     if(n==0):
-        return "0"
-    ans=""
+        return arr[n]
     while(n):
-        x = n%10
+        ans = arr[n%10] + ans
         n = int(n/10)
-        ans = chr(x+48) + ans
+
     return ans
 
 print(tostring(24578676000))
