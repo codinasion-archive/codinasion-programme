@@ -1,5 +1,14 @@
-# number to string
+## Write a Python program to convert number to strings.
 
+```
+Input:  51
+Output: five one
+```
+
+---
+
+```python
+# num to str function
 def tostring(n):
     arr = ['zero ', 'one ', 'two ', 'three ', 'four ',
            'five ', 'six ', 'seven ', 'eight ', 'nine ']
@@ -12,4 +21,6 @@ def tostring(n):
 
     return ans
 
-# print(tostring(24578676000))
+# test
+print(tostring(24578676000))
+```
