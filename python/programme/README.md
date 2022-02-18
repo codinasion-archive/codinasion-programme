@@ -13,3 +13,10 @@
    Input:  a=10 b=20
    Output: a=20 b=10
    ```
+
+3. ### [Write a Python program to convert number to strings.](./3-number-to-string/)
+
+   ```
+   Input:  51
+   Output: five one
+   ```
