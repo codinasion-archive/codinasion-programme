@@ -7,3 +7,9 @@
    "Ajay"    25   "Delhi"   "1234567890"       25000
    "Arun"    36   "Ajmer"   "0987654321"       40000
    ```
+2. ### [Write a Python program to swap two numbers without using third variable.](./2-swap-two-numbers/)
+
+   ```
+   Input:  a=10 b=20
+   Output: a=20 b=10
+   ```
