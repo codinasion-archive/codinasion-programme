@@ -28,3 +28,11 @@
    Input:  5
    Output: 120
    ```
+
+5. ### [Write a Python programme to calculate the average of numbers.](./5-average-of-numbers/)
+
+   ```
+   Input:  2 3 4
+   Output: 3
+   ```
+
