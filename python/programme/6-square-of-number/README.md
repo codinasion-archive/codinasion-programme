@@ -1,20 +1,16 @@
-## Write a Python programme to calculate the average of numbers.
+## Write a Python programme to find the square of a number
 
 ```
-Input:  2 3 4
-Output: 3
+Input:  5
+Output: 25
 ```
 
 ---
 
 ```python
-# average of numbers
-#importing statistics module
-import statistics
-
-#test
-#taking input and making a list
-n = list(map(int, input("Input: ").split()))
-#printing output
-print('Output:', statistics.mean(n))
+#square of a number
+#input
+n=int(input('Input: '))
+#output
+print('Output: ',n**2)
 ```
