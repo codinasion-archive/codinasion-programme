@@ -1,0 +1,25 @@
+name: Track Issues
+description: Track other relater issues
+labels: ["track"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Hubbers!!** This issue is only to track other related issues.
+
+        * Please don't create a Pull Request to close this issues.
+        * Instead create pull requests to close other issues referenced in this issue.
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Please enter the description of tracking issues.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Tracking Issues
+      description: Link all the tracking issues
+    validations:
+      required: true
