@@ -7,6 +7,7 @@
    "Ajay"    25   "Delhi"   "1234567890"       25000
    "Arun"    36   "Ajmer"   "0987654321"       40000
    ```
+
 2. ### [Write a Python program to swap two numbers without using third variable.](./2-swap-two-numbers/)
 
    ```
@@ -19,4 +20,11 @@
    ```
    Input:  51
    Output: five one
+   ```
+
+4. ### [Write a Python program to get the factorial of a number](./4-factorial/)
+
+   ```
+   Input:  5
+   Output: 120
    ```
