@@ -23,4 +23,4 @@ jobs:
           stale-issue-label: 'stale'
           stale-pr-label: 'stale'
           exempt-pr-labels: '📝 content,good first issue'
-          exempt-issue-labels: '📝 content,good first issue'
+          exempt-issue-labels: '📝 content,good first issue,track'
