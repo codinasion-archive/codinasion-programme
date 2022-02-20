@@ -36,7 +36,7 @@
    Output: 3
    ```
    
-  6. ### [Create a function that will convert from Celsius to Fahrenheit](./6-celsius2fahrenheit)
+  8. ### [Create a function that will convert from Celsius to Fahrenheit](./8-celsius2fahrenheit)
 
       ```
       Input: 0
