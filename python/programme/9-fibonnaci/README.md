@@ -1,4 +1,4 @@
-## Write a Python program to print the Fibonacci series of the first 'n' numbers
+## Write a Python program to print the Fibonacci series for 'n' numbers
 
 ```
 Input: 10
