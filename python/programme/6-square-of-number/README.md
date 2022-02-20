@@ -11,6 +11,7 @@ Output: 25
 #square of a number
 #input
 n=int(input('Input: '))
+
 #output
 print('Output: ',n**2)
 ```
