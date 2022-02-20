@@ -36,3 +36,9 @@
    Output: 3
    ```
 
+11. ### [Write a Python program to print the reverse of a number.](./11-reverse-of-a-number/)
+
+   ```
+   Input: 1234
+   Output: 4321
+   ```
