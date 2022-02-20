@@ -70,3 +70,10 @@
    Input: 10
    Output: 0 1 1 2 3 5 8 13 21 34
    ```
+   
+11. ### [Write a Python program to print the reverse of a number.](./11-reverse-of-a-number/)
+
+   ```
+   Input: 1234
+   Output: 4321
+   ```
