@@ -1,2 +1,2 @@
-x=float(input('Input: '))
-print('Output: ',int(x*100))
+x = float(input('Input: '))
+print('Output: ', int(x*100))
