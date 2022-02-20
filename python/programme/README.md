@@ -49,3 +49,10 @@
    Input:  2 4
    Output: 16
    ```
+ 
+8. ### [Write a Python programme to print first n even numbers.](./8-print-even-numbers/)
+
+  ```
+  Input: 5
+  Output: 0 2 4 6 8
+  ```
