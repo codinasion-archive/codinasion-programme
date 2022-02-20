@@ -11,6 +11,7 @@ Output: 16
 #X power Y
 #input
 x, y = input("Input: ").split()
+
 #output
 print('Output: ', int(x)**int(y))
 ```
