@@ -36,6 +36,27 @@
    Output: 3
    ```
 
+6. ### [Write a Python programme to find the square of a number.](./6-square-of-number/)
+
+   ```
+   Input:  5
+   Output: 25
+   ```
+
+7. ### [Write a Python program to find X power Y](./7-X-power-Y/)
+
+   ```
+   Input:  2 4
+   Output: 16
+   ```
+
+8. ### [Write a Python programme to print first n even numbers.](./8-print-even-numbers/)
+
+   ```
+   Input: 5
+   Output: 0 2 4 6 8
+   ```
+
 9. ### [Write a Python program to convert rupee to paise.](./9-rupee-to-paise/)
 
    ```
