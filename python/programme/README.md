@@ -35,8 +35,24 @@
    Input:  2 3 4
    Output: 3
    ```
+
+6. ### [Square of Number](./6-square-of-number)
+
+      ```
+      Input:  5
+      Output: 25
+      ```
+
+7. ### [X power Y](./7-X-power-Y)
+
+      ```
+      Input:  2 4
+      Output: 16
+      ```
+
+    
    
-  8. ### [Create a function that will convert from Celsius to Fahrenheit](./8-celsius2fahrenheit)
+8. ### [Create a function that will convert from Celsius to Fahrenheit](./8-celsius2fahrenheit)
 
       ```
       Input: 0
