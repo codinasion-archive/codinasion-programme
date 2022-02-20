@@ -15,6 +15,7 @@ import statistics
 #test
 #taking input and making a list
 n = list(map(int, input("Input: ").split()))
+
 #printing output
 print('Output:', statistics.mean(n))
 ```
