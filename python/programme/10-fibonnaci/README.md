@@ -20,7 +20,7 @@ def Fib(n):
 #Input
 n=int(input("Input: "))
 
-#These line print the Output while ensuring that all the numbers are displayed on one line 
+#These line print the Output while ensuring that all the numbers are displayed on one line
 print('Output: ',end ='')
 for i in range(n):
     print(Fib(i),end =' ')
