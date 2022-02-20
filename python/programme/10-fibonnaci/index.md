@@ -1,6 +1,6 @@
 ---
-title: Fibonacci Series
-description: Write a Python program to print the Fibonacci series for'n' numbers
+title: Reverse of a Number
+description: Write a Python program to print the reverse of a number
 contributors:
     - harshi1122
 ---
