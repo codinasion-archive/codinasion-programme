@@ -35,4 +35,10 @@
    Input:  2 3 4
    Output: 3
    ```
+   
+  6. ### [Create a function that will convert from Celsius to Fahrenheit](./6-celsius2fahrenheit)
 
+      ```
+      Input: 0
+      Output: 32.0
+      ```
