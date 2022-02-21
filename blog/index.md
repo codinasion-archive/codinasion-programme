@@ -5,7 +5,7 @@ description: List of Computer Graphics programme
 
 import README from "./README.md"
 
-<Hero slots="heading"/> 
+<Hero slots="heading"/>
 
 # Blog
 

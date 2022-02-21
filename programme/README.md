@@ -1,7 +1,15 @@
 # Programmes
 
-1. ### [Write a programme to print hello world.](./hello-world/)
-
-   ```
-   Hello World !!!
-   ```
+1. ### [Write a program to find average of numbers](./average-of-numbers/)
+2. ### [Write a program to convert the temperature from Celsius to Fahrenheit and from Fahrenheit to Celsius](./celsius-to-fahrenheit/)
+3. ### [Write a program to get the factorial of a number](./factorial/)
+4. ### [Write a program to print the Fibonacci series for 'n' numbers](./fibonnaci-series/)
+5. ### [Write a program to output the following multiplication table](./multiplication-table/)
+6. ### [Write a program to convert number to strings](./number-to-string/)
+7. ### [Write a programme to print first n even numbers](print-even-numbers/index.md)
+8. ### [Write a program to print the reverse of a number](./reverse-of-a-number/)
+9. ### [Write a program to convert rupee to paise](./rupee-to-paise/)
+10. ### [Write a programme to find the square of a number](./square-of-number/)
+11. ### [Write a program to store the details of persons given by users at run-time in the format given below. Also add functionality in this program to list all person from given city and age group given by user. The age group 21-30 should have all the persons those are having age between 21 to 30.](./store-the-details-of-persons/)
+12. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-varible/)
+13. ### [Write a program to find X power Y](x-power-y/index.md)
