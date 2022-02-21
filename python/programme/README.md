@@ -36,6 +36,7 @@
    Output: 3
    ```
 
+
 6. ### [Square of Number](./6-square-of-number)
 
       ```
@@ -58,3 +59,45 @@
       Input: 0
       Output: 32.0
       ```
+
+6. ### [Write a Python programme to find the square of a number.](./6-square-of-number/)
+
+   ```
+   Input:  5
+   Output: 25
+   ```
+
+7. ### [Write a Python program to find X power Y](./7-X-power-Y/)
+
+   ```
+   Input:  2 4
+   Output: 16
+   ```
+
+8. ### [Write a Python programme to print first n even numbers.](./8-print-even-numbers/)
+
+   ```
+   Input: 5
+   Output: 0 2 4 6 8
+   ```
+
+9. ### [Write a Python program to convert rupee to paise.](./9-rupee-to-paise/)
+
+   ```
+   Input:  15.95
+   Output: 1595
+   ```
+
+10. ### [Write a Python program to print the Fibonacci series for 'n' numbers.](./10-fibonnaci/)
+
+   ```
+   Input: 10
+   Output: 0 1 1 2 3 5 8 13 21 34
+   ```
+   
+11. ### [Write a Python program to print the reverse of a number.](./11-reverse-of-a-number/)
+
+   ```
+   Input: 1234
+   Output: 4321
+   ```
