@@ -1,8 +1,6 @@
 ---
-title: Programmes
+title: Programming Problems
 description: List of programmes.
-contributors:
-  - harshraj8843
 ---
 
 import README from "./README.md"
