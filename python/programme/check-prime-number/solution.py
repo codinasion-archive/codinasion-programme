@@ -1,5 +1,5 @@
 def check_prime(num):
-    if (n == 0 or n == 1):
+    if (num == 0 or num == 1):
         return "Not prime number"
     for i in range(2, num//2+1):
         if num % i == 0:
