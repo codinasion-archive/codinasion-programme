@@ -77,3 +77,13 @@
    Input: 1234
    Output: 4321
    ```
+
+12. ### [Write a Python program to print the given pattern.](./12-pattern1/)
+    
+   ```
+   input :  3
+
+   output:     *  *  *
+                  *  *
+                     *
+   ```
