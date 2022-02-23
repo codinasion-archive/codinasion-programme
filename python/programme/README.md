@@ -87,3 +87,15 @@
                   *  *
                      *
    ```
+
+13. ### [Write a Python program to print the given pattern.](./13-pattern2/)
+
+  ```
+   input : 3
+   output:     * 
+              * * 
+             * * * 
+              * * 
+               * 
+        
+   ```  
