@@ -1,4 +1,4 @@
-# Write a Python program to print sum of digits.
+# Write a program to print sum of digits.
 n = int(input("Enter the number: "))
 sum_digits = 0
 while n > 0:
