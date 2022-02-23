@@ -1,3 +1,4 @@
+# Write a program to check prime number
 def check_prime(num):
     if (num == 0 or num == 1):
         return "Not prime number"
@@ -6,5 +7,6 @@ def check_prime(num):
             return "Not prime number"
     return "Prime number"
 
+
 n = int(input("Input : "))
-print("Output :",check_prime(n))
+print("Output :", check_prime(n))
