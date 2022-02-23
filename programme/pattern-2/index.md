@@ -1,6 +1,6 @@
 ---
-title: print pattern
-description: Write a Python programme to print a specific pattern.
+title: Print pattern
+description: Write a programme to print the given pattern.
 
 contributors:
   - yacine-zitouni
