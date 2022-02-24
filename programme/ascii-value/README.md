@@ -21,7 +21,7 @@ print("ASCII Value is : ", ord(character))
 
 #### C#
 
-```c#
+```cs
 using System;
 using System.Text;
 

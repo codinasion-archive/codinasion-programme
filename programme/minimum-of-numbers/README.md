@@ -21,7 +21,7 @@ print(min(n))
 
 #### C#
 
-```c#
+```cs
 using System;
 using System.Linq;
 
