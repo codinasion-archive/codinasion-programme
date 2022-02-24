@@ -1,12 +1,14 @@
 ---
-title: Computer Graphics
-description: List of Computer Graphics programme
+title: Blog
+description: List of programming related blogs
 ---
 
 import README from "./README.md"
 
-<Hero slots="heading"/> 
+<Hero slots="heading, text" background="rgb(50 50 50)" />
 
 # Blog
+
+Programming related blogs
 
 <README />
