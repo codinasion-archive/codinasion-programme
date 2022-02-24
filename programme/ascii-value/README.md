@@ -7,7 +7,17 @@ Output : 65
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C#" />
+<CodeBlock slots="heading, code" repeat="2" languages="Python, C#" />
+
+#### Python
+
+```python
+# input character
+character = input("Enter the Character : ")
+
+# output ASCII value
+print("ASCII Value is : ", ord(character))
+```
 
 #### C#
 
