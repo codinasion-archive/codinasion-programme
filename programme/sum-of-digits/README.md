@@ -7,7 +7,7 @@ Output: 10
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C++" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
 
 #### Python
 
@@ -22,22 +22,28 @@ while n > 0:
     sum_digits += rem
     n = n // 10
 
-print(sum_digits)
+print("Sum of digits : ", sum_digits)
 ```
+
 #### C
+
 ```c
 #include <stdio.h>
-int main() {
+
+int main()
+{
     int num, d, sum = 0;
     printf("Enter a number : ");
     scanf("%d", &num);
+
     while (num != 0)
     {
         d = num % 10;
         sum = sum + d;
         num = num / 10;
     }
-    printf("The sum of the digits of the number: %d", sum);
+
+    printf("Sum of digits : %d\n", sum);
     return 0;
 }
 ```
@@ -51,7 +57,7 @@ using namespace std;
 int main()
 {
     int num, d, sum = 0;
-    cout << "Enter a number : ";
+    cout << "Enter number : ";
     cin >> num;
 
     while (num != 0)
@@ -61,31 +67,29 @@ int main()
         num = num / 10;
     }
 
-    cout << "The sum of the digits of the number: " << sum << endl;
+    cout << "Sum of digits : " << sum << endl;
 }
 ```
 
 #### Java
+
 ```java
 import java.util.Scanner;
 
 class SumOfDigits {
     public static void main(String[] args) {
-        
         int num, d, sum = 0;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number: ");  
-        num=sc.nextInt();
-        
-        while (num != 0)
-        {
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter a number : ");
+            num = sc.nextInt();
+        }
+        while (num != 0) {
             d = num % 10;
             sum = sum + d;
             num = num / 10;
         }
-    
-        System.out.println("The sum of the digits of the number: "+sum);
-            
+        System.out.println("Sum of the digits : " + sum);
     }
 }
+
 ```
