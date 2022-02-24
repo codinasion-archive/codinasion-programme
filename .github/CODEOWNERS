@@ -3,7 +3,7 @@
 
 *.c @codinasion/review-c
 
-*.cpp @codinasion/review-c++
+*.cpp @codinasion/review-cpp
 
 *.cs @codinasion/review-c#
 
