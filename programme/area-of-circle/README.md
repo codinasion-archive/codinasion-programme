@@ -1,27 +1,22 @@
-## Write a Python programme to find the area of circle.
+## Write a programme to find the area of circle.
 
-Additional information
 ```
-r : radius of circle
-pi : 3.141
-```
-Programme
-```
-Enter r : 3
+r : 3
 Area : 28.27
 ```
-Formula
-```
-Area of circle = pi * (r^2)
-```
+
+---
+
+<CodeBlock slots="heading, code" repeat="1" languages="Python" />
 
 #### Python
+
 ```python
-#Write a Python programme to find the area of circle.
 import math
-#Vars
-r = int(input("Enter circle radius: ")) #radius input from user
-AOC = round((math.pi*(r**2)),2) #area of circle
-areaofc = "The Area of the circle is {}."
-print(areaofc.format(AOC));
+
+# radius input from user
+r = int(input("Enter radius: "))
+
+# output
+print('Area: ', round((math.pi*(r**2)),2))
 ```
