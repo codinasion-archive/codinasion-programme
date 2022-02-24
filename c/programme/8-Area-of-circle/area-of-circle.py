@@ -1,3 +1,3 @@
 import math
-n = int(input('Input : '))
-print('Output: ', math.pi*(n**2)) 
+n = int(input('Enter r : '))
+print('area: ', math.pi*(n**2)) 
