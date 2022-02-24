@@ -77,3 +77,9 @@
    Input: 1234
    Output: 4321
    ```
+12. ### [Write a Python program to print the sum of n natural numbers](./12-sum-of-square)
+
+   ```
+   Input: 3
+   Output: 14
+   ```
