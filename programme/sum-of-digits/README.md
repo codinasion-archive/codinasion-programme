@@ -24,6 +24,23 @@ while n > 0:
 
 print(sum_digits)
 ```
+#### C
+```c
+#include <stdio.h>
+int main() {
+    int num, d, sum = 0;
+    printf("Enter a number : ");
+    scanf("%d", &num);
+    while (num != 0)
+    {
+        d = num % 10;
+        sum = sum + d;
+        num = num / 10;
+    }
+    printf("The sum of the digits of the number: %d", sum);
+    return 0;
+}
+```
 
 #### C++
 
@@ -45,5 +62,30 @@ int main()
     }
 
     cout << "The sum of the digits of the number: " << sum << endl;
+}
+```
+
+#### Java
+```java
+import java.util.Scanner;
+
+class SumOfDigits {
+    public static void main(String[] args) {
+        
+        int num, d, sum = 0;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number: ");  
+        num=sc.nextInt();
+        
+        while (num != 0)
+        {
+            d = num % 10;
+            sum = sum + d;
+            num = num / 10;
+        }
+    
+        System.out.println("The sum of the digits of the number: "+sum);
+            
+    }
 }
 ```
