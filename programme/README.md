@@ -24,4 +24,3 @@
 22. ### [Write a program to find the sum of square of first 'n' numbers](./sum-of-square/)
 23. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-varible/)
 24. ### [Write a program to find X power Y](x-power-y/index.md)
-25. ### [Write a programme to find sum of cube of 'n' number.](./Sum-of-cube/)
