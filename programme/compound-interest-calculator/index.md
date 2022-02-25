@@ -1,6 +1,6 @@
 ---
 title: Compound Interest Calculator
-description: Write a Python programme to calculate compound interest.
+description: Write a programme to calculate compound interest.
 contributors:
   - theanorak
 ---

@@ -1,4 +1,4 @@
-## Write a Python programme to calculate compound interest.
+## Write a programme to calculate compound interest.
 
 ```
 Enter P : 100
@@ -11,15 +11,17 @@ Compound Interest : 159.37
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="1" languages="Python" />
 
 #### Python
+
 ```Python
 # Input from User
-p = int(input("Enter Principle Amount: "))
-t = int(input("Enter Time Period: "))
-r = int(input("Enter Rate of Interest: "))
+p = int(input("Enter Principle Amount : "))
+t = int(input("Enter Time Period : "))
+r = int(input("Enter Rate of Interest : "))
 
 # output
-print ('Compound Interest: ', (round((p*((1+(r/100))**t)) - p,2)))
+print('Amount : ', (round((p*((1+(r/100))**t)), 2)))
+print('Compound Interest : ', (round((p*((1+(r/100))**t)) - p, 2)))
 ```
