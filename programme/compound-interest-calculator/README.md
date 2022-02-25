@@ -15,7 +15,7 @@ Compound Interest : 159.37
 
 #### Python
 
-```Python
+```python
 # Input from User
 p = int(input("Enter Principle Amount : "))
 t = int(input("Enter Time Period : "))
