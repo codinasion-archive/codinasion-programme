@@ -60,5 +60,5 @@ public class ASCIIValue {
         int asciiValue = chr;
         System.out.println("ASCII value: " + asciiValue);
     }
-}  
+}
 ```
