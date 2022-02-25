@@ -7,7 +7,7 @@ Output : 65
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C#" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, C#, Java" />
 
 #### Python
 
@@ -45,6 +45,7 @@ public class ASCIIValue
 ```
 
 #### Java
+
 ```java
 import java.util.Scanner;
 
