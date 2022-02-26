@@ -1,13 +1,13 @@
 ## Write a programme to find sum of cubes of first n natural numbers.
 
 ```
-Input: 4
-Output: 100
+Input  : 4
+Output : 100
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, Java" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C, C++" />
 
 #### Python
 
@@ -39,5 +39,45 @@ public class solution
         System.out.println("Output: "+total);
         sc.close();
     }
+}
+```
+
+#### C
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int total = 0;
+    printf("Input : ");
+    scanf("%d", &a);
+    for (int i = 1; i <= a; i++)
+    {
+        total += (i * i * i);
+    }
+    printf("Output : %d\n", total);
+    return 0;
+}
+```
+
+#### C++
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, total = 0;
+    cout << "Input : ";
+    cin >> a;
+    for (int i = 1; i <= a; i++)
+    {
+        total += (i * i * i);
+    }
+    cout << "Output : " << total << endl;
+    return 0;
 }
 ```
