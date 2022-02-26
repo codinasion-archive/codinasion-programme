@@ -8,5 +8,5 @@
 !*/
 
 *.out
-
 *.exe
+*.class
