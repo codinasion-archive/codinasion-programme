@@ -7,7 +7,7 @@ Output: 16
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
+<CodeBlock slots="heading, code" repeat="2" languages="Python, C#" />
 
 #### Python
 
@@ -17,4 +17,29 @@ n = list(map(int, input("Input: ").split()))
 
 # Printing the maximum value
 print(max(n))
+```
+
+#### C#
+
+```cs
+using System;
+using System.Linq;
+
+public class MaxNumber
+{
+    static void Main(string[] args)
+    {
+        int Maximum(string input)
+        {
+            return input.Split(" ").Max(x => int.Parse(x));
+        }
+
+        // Input numbers
+        Console.Write("Enter numbers : ");
+        string input = Console.ReadLine();
+
+        // output minimum number
+        Console.WriteLine("Minimum : " + Maximum(input));
+    }
+}
 ```
