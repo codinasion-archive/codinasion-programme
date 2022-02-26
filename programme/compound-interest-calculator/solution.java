@@ -1,18 +1,23 @@
-# Write a programme to calculate compound interest.
+// Write a programme to calculate compound interest.
+import java.util.Scanner;
 
-public class CompoundInterest {
-
+public class solution {
     public static void main(String args[]) {
-        # Input from User
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Principle Amount : "));
-        int p = sc.nextInt();
-        System.out.print("Enter Time Period : "));
-        int t = sc.nextInt();
-        System.out.print("Enter Rate of Interest : "));
-        int r = sc.nextInt();
-        # output
-        System.out.println('Amount : ', (p * Math.pow(1 + (r / 100), t)))
-        System.out.println('Compound Interest : ', (amount - p))
+        try (
+                Scanner sc = new Scanner(System.in)) {
+            // Input from User
+            System.out.print("Enter Principle Amount : ");
+            double p = sc.nextInt();
+            System.out.print("Enter Time Period : ");
+            double t = sc.nextInt();
+            System.out.print("Enter Rate of Interest : ");
+            double r = sc.nextInt();
+
+            // output
+            double amount = (double) (p * Math.pow(1 + (r / 100), t));
+            System.out.println();
+            System.out.println("Amount : " + Math.round(amount * 100.0) / 100.0);
+            System.out.println("Compound Interest : " + Math.round((amount - p) * 100.0) / 100.0);
+        }
     }
 }
