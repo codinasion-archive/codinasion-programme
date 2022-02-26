@@ -2,7 +2,7 @@
 
 ```
 Input: 4
-Output: 100
+Output: 30
 ```
 
 ---
