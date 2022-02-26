@@ -5,7 +5,7 @@
 
 *.cpp @codinasion/review-cpp
 
-*.cs @codinasion/review-c#
+*.cs @codinasion/review-csharp
 
 *.py @codinasion/review-python
 

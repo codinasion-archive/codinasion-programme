@@ -22,5 +22,6 @@
 20. ### [Write a programme to find sum of cubes of first n natural numbers](./sum-of-cubes/)
 21. ### [Write a program to print sum of digits](./sum-of-digits/)
 22. ### [Write a program to find the sum of square of first 'n' numbers](./sum-of-square/)
-23. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-varible/)
-24. ### [Write a program to find X power Y](x-power-y/index.md)
+23. ### [Write a program to swap two numbers](./swap-two-numbers/)
+24. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-varible/)
+25. ### [Write a program to find X power Y](x-power-y/index.md)
