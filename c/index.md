@@ -20,3 +20,4 @@ Introduction to C Programming
 [Programmes](../programme/)
 
 List of programmes
+1. ### [Write a C programme to find sum of cube of 'n' number.](./Sum-of-cube/)
