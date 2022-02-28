@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Factorial {
     public static void main(String args[]) {
         // Input from User
-        Scanner sc = new Scanner(System.in))
+        Scanner sc = new Scanner(System.in);
         System.out.print("Input: ");
         double number = sc.nextInt();
 
