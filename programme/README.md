@@ -26,3 +26,4 @@
 24. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-varible/)
 25. ### [Write a program to find X power Y](x-power-y/index.md)
 26. ### [Write a C programme to find sum of square of 'n' number.](./Sum-of-square)
+27. ### [Write a C programme to find ASCII value of a character.](./ASCII-value/)
