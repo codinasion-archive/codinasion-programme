@@ -27,3 +27,4 @@
 25. ### [Write a program to swap two numbers](./swap-two-numbers/)
 26. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-varible/)
 27. ### [Write a program to find X power Y](x-power-y/index.md)
+28. ### [Write a program to print Fibonacci series.](./Fibonacci-nth-Python/)
