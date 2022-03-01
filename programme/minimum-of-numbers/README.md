@@ -7,7 +7,7 @@ Output : 1
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C#" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, C#, Java" />
 
 #### Python
 
@@ -40,6 +40,28 @@ public class MinNumber
 
         // output minimum number
         Console.WriteLine("Minimum : " + Minimum(input));
+    }
+}
+```
+
+#### Java
+
+```java
+import java.util.*;
+import java.util.stream.Collectors;
+
+class MinNumber {
+    public static void main(String[] args) {
+        // Input numbers
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter numbers: ");
+        String l = sc.nextLine();
+
+        // Output minimum number
+        List<Integer> ints = Arrays.stream(l.split(" "))
+                .map(Integer::parseInt)
+                .collect(Collectors.toList());
+        System.out.println("Minimum: " +  Collections.min(ints));
     }
 }
 ```

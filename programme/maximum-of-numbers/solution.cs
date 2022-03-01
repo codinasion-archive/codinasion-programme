@@ -1,27 +1,4 @@
-## Write a program to print the maximum of given numbers
-
-```
-Input: 2 4 1 16 6
-Output: 16
-```
-
----
-
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C#" />
-
-#### Python
-
-```python
-# Taking input and making a list
-n = list(map(int, input("Input: ").split()))
-
-# Printing the maximum value
-print(max(n))
-```
-
-#### C#
-
-```cs
+// Write a program to print the minimum of given numbers
 using System;
 using System.Linq;
 
@@ -42,4 +19,3 @@ public class MaxNumber
         Console.WriteLine("Minimum : " + Maximum(input));
     }
 }
-```
