@@ -12,11 +12,9 @@ Output : 9
 #### Python
 
 ```python
-# add two numbers
+# input two numbers
+x, y = input("Enter two numbers: ").split()
 
-#multiple inputs taken in one line in string format
-x,y = input("Enter two values: ").split()
-
-#adding the two in integer format
-print(int(x)+int(y))
+# print sum
+print("Sum of numbers : ", int(x)+int(y))
 ```
