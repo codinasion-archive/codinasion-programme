@@ -7,7 +7,7 @@ Output : 65
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, C#, Java" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, C#, Java, C++" />
 
 #### Python
 
@@ -60,5 +60,20 @@ public class ASCIIValue {
         int asciiValue = chr;
         System.out.println("ASCII value: " + asciiValue);
     }
+}
+```
+
+#### C++
+
+```cpp
+#include<iostream>
+using namespace std;
+
+int main(){
+    char a;
+    cout << "Input: ";
+    cin >> a;
+    cout << "Output: " << int(a) << endl;
+    return 0;
 }
 ```

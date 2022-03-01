@@ -5,6 +5,7 @@ contributors:
   - Mrczarny
   - PA11TEDDU
   - KikiManjaro
+  - NeelPatel31
 ---
 
 import README from "./README.md"
