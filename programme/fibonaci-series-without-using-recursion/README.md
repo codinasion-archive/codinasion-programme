@@ -7,7 +7,7 @@ Output: 0 1 1 2 3 5 8 13 21 34
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="C, Java" />
+<CodeBlock slots="heading, code" repeat="3" languages="C, Java, Python" />
 
 #### C
 
@@ -58,4 +58,21 @@ public class solution {
         sc.close();
     }
 }
+```
+
+#### Python
+
+```python
+a = 0
+b = 1
+i = 0
+n = int(input("Input  : "))
+print("Output : ", end="")
+while (i != n):
+    print(a, end=" ")
+    temp = a
+    a = b
+    b = temp + b
+    i += 1
+print()
 ```
