@@ -7,7 +7,7 @@ Output: 0 1 1 2 3 5 8 13 21 34
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="2" languages="C, Java" />
 
 #### C
 
@@ -30,5 +30,32 @@ int main()
     }
     printf("\n");
     return 0;
+}
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+public class solution {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input: ");
+        int n = sc.nextInt();
+        int a = 0, b = 1, temp = 0;
+
+        System.out.print("\n" + a + " " + b);
+
+        for (int i = 2; i < n; i++) {
+            temp = a + b;
+            System.out.print(" " + temp);
+            a = b;
+            b = temp;
+        }
+        System.out.println();
+        sc.close();
+    }
 }
 ```
