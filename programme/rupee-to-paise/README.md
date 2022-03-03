@@ -21,7 +21,7 @@ print('Output: ',int(x*100))
 
 #### C
 
-```C
+```c
 #include <stdio.h>
 
 int main()
