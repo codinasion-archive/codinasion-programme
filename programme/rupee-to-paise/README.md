@@ -18,3 +18,19 @@ x=float(input('Input: '))
 # output in paise
 print('Output: ',int(x*100))
 ```
+---
+
+<CodeBlock slots="heading, code" repeat="2" languages="C" />
+
+#### C
+
+```C
+#include <stdio.h>
+
+int main () {
+    float x;
+    scanf ("%g",&x); //reads input in rupee
+    printf ("%g\n",x*100); //prints result in paise
+    return 0;
+}
+```
