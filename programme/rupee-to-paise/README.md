@@ -7,7 +7,7 @@ Output: 1595
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
+<CodeBlock slots="heading, code" repeat="2" languages="Python, C" />
 
 #### Python
 
@@ -17,4 +17,23 @@ x=float(input('Input: '))
 
 # output in paise
 print('Output: ',int(x*100))
+```
+
+#### C
+
+```C
+#include <stdio.h>
+
+int main()
+{
+    float x;
+
+    // input in rupees
+    printf("Amount in Rupees : ");
+    scanf("%g", &x);
+
+    // output in paise
+    printf("Amount in Paise : %g\n", x * 100);
+    return 0;
+}
 ```
