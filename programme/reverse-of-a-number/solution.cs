@@ -8,10 +8,10 @@ public class Reverse
     {
         int Reverse(int input)
         {
-            return int.Parse(input
-                .ToString()
+            return int.Parse(new string(input.ToString()
                 .Reverse()
-                .ToString());
+                .ToArray()
+            ));
         }
 
         // Input numbers
