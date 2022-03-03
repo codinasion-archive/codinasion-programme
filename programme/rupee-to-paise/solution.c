@@ -1,9 +1,15 @@
 // Write a program to convert rupee to paise
 #include <stdio.h>
 
-int main () {
+int main()
+{
     float x;
-    scanf ("%g",&x); //reads input in rupee
-    printf ("%g\n",x*100); //prints result in paise
+
+    // input in rupees
+    printf("Amount in Rupees : ");
+    scanf("%g", &x);
+
+    // output in paise
+    printf("Amount in Paise : %g\n", x * 100);
     return 0;
 }
