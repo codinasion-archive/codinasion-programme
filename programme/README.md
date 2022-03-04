@@ -28,3 +28,4 @@
 26. ### [Write a program to swap two numbers](./swap-two-numbers/)
 27. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-varible/)
 28. ### [Write a program to find X power Y](x-power-y/index.md)
+29. ### [Write a program to check palindrome number.](./Palindrome-number/)
