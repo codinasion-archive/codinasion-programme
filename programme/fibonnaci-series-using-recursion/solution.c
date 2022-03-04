@@ -1,28 +1,19 @@
-#include <stdio.h>
-int main() {
-
-  int i, n;
-
-  // initialize first and second terms
-  int t1 = 0, t2 = 1;
-
-  // initialize the next term (3rd term)
-  int nextTerm = t1 + t2;
-
-  // get no. of terms from user
-  printf("Input  : ");
-  scanf("%d", &n);
-
-  // print the first two terms t1 and t2
-  printf("Output: %d %d ", t1, t2);
-
-  // print 3rd to nth terms
-  for (i = 3; i <= n; ++i) {
-    printf("%d ", nextTerm);
-    t1 = t2;
-    t2 = nextTerm;
-    nextTerm = t1 + t2;
+#include<stdio.h>
+#include<conio.h>
+int fibonacci(int);
+int main(){ 
+  int n, i; 
+  printf("Input  : "); 
+  scanf("%d",&n); 
+  printf("Output  : ");
+  for(i=0;i<n;i++) { 
+    printf("%d ",fibonacci(i));
   }
-
-  return 0;
+  getch();
+}
+ 
+int fibonacci(int i){ 
+  if(i==0) return 0; 
+  else if(i==1) return 1; 
+  else return (fibonacci(i-1)+fibonacci(i-2));
 }
