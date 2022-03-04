@@ -3,10 +3,15 @@ int main(){
     int a,b=0;
     printf("Input: ");
     scanf("%d",&a);
-    for(int i = 2 ; i<a;i++){
-        if(a%i==0){
-            b=1;
-            break;
+    if(a==0 || a==1){
+        b = 1;
+    }
+    else{
+        for(int i = 2 ; i<a;i++){
+            if(a%i==0){
+                b=1;
+                break;
+            }
         }
     }
     if(b==1){
