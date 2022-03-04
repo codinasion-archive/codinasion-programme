@@ -38,8 +38,8 @@ public class MaxNumber
         Console.Write("Enter numbers : ");
         string input = Console.ReadLine();
 
-        // output minimum number
-        Console.WriteLine("Minimum : " + Maximum(input));
+        // output maximum number
+        Console.WriteLine("Maximum : " + Maximum(input));
     }
 }
 ```
