@@ -7,7 +7,7 @@ Output : Prime number
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, Java, C" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, Java, C" />
 
 #### Python
 
@@ -59,30 +59,32 @@ public class solution {
     }
 }
 ```
+
 #### C
 
-```
-#include<stdio.h>
-int main(){
-    int a,b=0;
-    printf("Input: ");
-    scanf("%d",&a);
-    if(a==0 || a==1){
-        b = 1;
-    }
-    else{
-        for(int i = 2 ; i<a;i++){
-            if(a%i==0){
-                b=1;
-                break;
-            }
+```c
+#include <stdio.h>
+int main()
+{
+    int a, b = 0;
+    printf("Input  : ");
+    scanf("%d", &a);
+    printf("Output : ");
+    for (int i = 2; i < a; i++)
+    {
+        if (a % i == 0)
+        {
+            b = 1;
+            break;
         }
     }
-    if(b==1){
-        printf("Not prime number");
+    if (b == 1)
+    {
+        printf("Not prime number\n");
     }
-    else{
-        printf("Prime number");
+    else
+    {
+        printf("Prime number\n");
     }
     return 0;
 }
