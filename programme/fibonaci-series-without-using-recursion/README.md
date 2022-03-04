@@ -7,7 +7,7 @@ Output: 0 1 1 2 3 5 8 13 21 34
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="C, Java, Python" />
+<CodeBlock slots="heading, code" repeat="4" languages="C, Java, Python, C++" />
 
 #### C
 
@@ -75,4 +75,29 @@ while (i != n):
     b = temp + b
     i += 1
 print()
+```
+
+#### C++
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 0, b = 1, i = 0, temp = 0, n = 0;
+    cout << "Input  : ";
+    cin >> n;
+    cout << "Output : ";
+    while (i != n)
+    {
+        cout << a << " ";
+        temp = a;
+        a = b;
+        b = temp + b;
+        i++;
+    }
+    cout << endl;
+    return 0;
+}
 ```
