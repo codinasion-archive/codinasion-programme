@@ -2,7 +2,7 @@
 
 ```
 Input: 7
-Output: Not prime number
+Output: Prime number
 ```
 
 ---
