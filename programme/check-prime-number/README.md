@@ -7,7 +7,7 @@ Output : Prime number
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, Java" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C, C++" />
 
 #### Python
 
@@ -57,5 +57,73 @@ public class solution {
         }
         sc.close();
     }
+}
+```
+
+#### C
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a, b = 0;
+    printf("Input  : ");
+    scanf("%d", &a);
+    printf("Output : ");
+    for (int i = 2; i < a; i++)
+    {
+        if (a % i == 0)
+        {
+            b = 1;
+            break;
+        }
+    }
+    if (b == 1)
+    {
+        printf("Not prime number\n");
+    }
+    else
+    {
+        printf("Prime number\n");
+    }
+    return 0;
+}
+```
+
+#### C++
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a, b = 0;
+    cout << "Input  : ";
+    cin >> a;
+    cout << "Output : ";
+    if (a == 0 || a == 1)
+    {
+        cout << "Not prime number\n";
+    }
+    else
+    {
+        for (int i = 2; i < a; i++)
+        {
+            if (a % i == 0)
+            {
+                b = 1;
+                break;
+            }
+        }
+        if (b == 1)
+        {
+            cout << "Not prime number\n";
+        }
+        else
+        {
+            cout << "Prime number\n";
+        }
+    }
+    return 0;
 }
 ```
