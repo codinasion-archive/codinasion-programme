@@ -1,4 +1,4 @@
-// Write a program to print the minimum of given numbers
+// Write a program to print the maximum of given numbers
 using System;
 using System.Linq;
 
@@ -16,6 +16,6 @@ public class MaxNumber
         string input = Console.ReadLine();
 
         // output minimum number
-        Console.WriteLine("Minimum : " + Maximum(input));
+        Console.WriteLine("Maximum : " + Maximum(input));
     }
 }
