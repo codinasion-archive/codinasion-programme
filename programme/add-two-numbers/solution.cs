@@ -1,5 +1,5 @@
 // Write a programme to add two numbers
-
+using System;
 public class AddTwo
 {
     static void Main(string[] args)
@@ -14,8 +14,7 @@ public class AddTwo
         Console.Write("Enter numbers : ");
         string input = Console.ReadLine();
 
-        // output minimum number
-        Console.WriteLine("Result : " + AddTwo(input));
+        // output sum of numbers
+        Console.WriteLine("Sum : " + AddTwo(input));
     }
 }
-
