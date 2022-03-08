@@ -1,9 +1,8 @@
 ---
-title: Add two numbers
-description: Write a program to add two numbers
+title: Subtract two numbers
+description: Write a programme to subtract two numbers
 contributors:
-  - harshi1122
-  - Mrczarny
+  - DarkMatter-999
 ---
 
 import README from "./README.md"
