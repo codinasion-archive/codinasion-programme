@@ -11,6 +11,8 @@ Output : -2
 
 ---
 
+<CodeBlock slots="heading, code" repeat="3" languages="Python, C, C++" />
+
 #### Python
 
 ```python
@@ -60,5 +62,4 @@ int main() {
     
     return 0;
 }
-
 ```
