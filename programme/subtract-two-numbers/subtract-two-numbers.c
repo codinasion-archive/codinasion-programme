@@ -1,14 +1,17 @@
-// Programme to subtract two numbers
-#include<stdio.h>
+// Write a programme to subtract two numbers
+#include <stdio.h>
 
-int main() {
-    
+int main()
+{
+    // declare variables
     int x, y;
 
+    // get input
     printf("Enter two numbers ");
     scanf("%d %d", &x, &y);
 
-    printf("Difference of numbers : %d\n", (x-y));
+    // print difference
+    printf("Difference of numbers : %d\n", (x - y));
 
     return 0;
 }
