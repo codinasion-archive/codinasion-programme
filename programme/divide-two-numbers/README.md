@@ -1,11 +1,10 @@
 ## Write a program to divide two numbers
 
 ```
-Input  : 4 2
-Output : 2
+Input the Dividend: 4
+Input the Divisor: 2
 
-Input  : 2 4
-Output : 0.5
+Output : 2.0
 ```
 
 ---
@@ -19,6 +18,7 @@ Output : 0.5
 #include <stdlib.h> // for the exit function
 #include <assert.h> // for the assert function
 
+// call to divide function with two parameters
 double divide(int num1, int num2);
 void test(void);
 
@@ -29,15 +29,17 @@ int main(void)
 
     test();
 
-    printf("Input  : ");
-    scanf("%d %d", &num1, &num2);
+    printf("Input the Dividend: ");
+    scanf("%d", &num1);
+    printf("Input the Divisor: ");
+    scanf("%d", &num2);
     output = divide(num1, num2);
-    printf("Output : %.1lf\n", output);
+    printf("\nOutput : %.1lf\n", output);
 
     return 0;
 }
 
-// performs division
+// fuction which takes two parameters first one is Dividend and second one is Divisor
 double divide(int num1, int num2)
 {
     // if divisor is 0, exit the program
