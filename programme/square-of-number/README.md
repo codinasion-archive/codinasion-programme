@@ -1,8 +1,8 @@
 ## Write a programme to find the square of a number
 
 ```
-Input:  5
-Output: 25
+Input  : 5
+Output : 25
 ```
 
 ---
