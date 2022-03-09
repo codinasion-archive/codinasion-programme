@@ -7,7 +7,7 @@ Output: 25
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
+<CodeBlock slots="heading, code" repeat="2" languages="Python, Java" />
 
 #### Python
 
@@ -18,23 +18,26 @@ n=int(input('Input: '))
 # output
 print('Output: ',n**2)
 ```
----
-
-<CodeBlock slots="heading, code" repeat="1" languages="Java" />
 
 #### Java
 
-```Java
+```java
 import java.util.*;
 
 public class Square {
-    public static void main(String [] args){
-        Scanner sc = new Scanner(System.in); //scanner class to take input
-        System.out.print("Input: ");
+    public static void main(String[] args) {
+        // scanner class to take input
+        Scanner sc = new Scanner(System.in);
+
+        // input number
+        System.out.print("Input  : ");
         int n = sc.nextInt();
-        int squareOfn = n*n; //squaring n
-        System.out.print("Output: " + squareOfn); //printing output
+
+        // squaring n
+        int squareOfn = n * n;
+
+        // printing output
+        System.out.println("Output : " + squareOfn);
     }
 }
-
 ```
