@@ -1,4 +1,4 @@
-## Write a program to divide two numbers
+## Write a program to find the area of a square.
 
 ```
 side : 4
