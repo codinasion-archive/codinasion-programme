@@ -9,7 +9,7 @@ area : 3
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Java" />
+<CodeBlock slots="heading, code" repeat="2" languages="Java, Python" />
 
 #### Java
 
@@ -28,11 +28,24 @@ class area {
         System.out.print("height : ");
         double height = sc.nextDouble();
         
-        // calculate height
+        // calculate area
         double area = 0.5 * base * height;
         
         // print output
         System.out.println("\narea : " + area);
     }
 }
+```
+
+#### Python
+
+```python
+# input base
+base = input('Enter the base of the triangle : ')
+
+# input height
+height = input('Enter the height of the triangle : ')
+
+# output area
+print('\nThe area of the right angle triangle is : ', int(base) * int(height) / 2)
 ```
