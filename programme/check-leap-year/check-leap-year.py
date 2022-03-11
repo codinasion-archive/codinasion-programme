@@ -1,4 +1,5 @@
-year = int(input("Input : "))
+# Write a programme to check leap year
+year = int(input("Input  : "))
 
 print("Output : ", end="")
 
@@ -7,7 +8,7 @@ if year % 100 == 0:
         print("Leap Year")
     else:
         print("Not a Leap Year")
-else:    
+else:
     if year % 4 == 0:
         print("Leap Year")
     else:
