@@ -1,4 +1,4 @@
-## Write a programme to find the area of circle.
+## Write a programme to check leap year
 
 ```
 Input  : 2020
@@ -16,7 +16,7 @@ Output : Not a Leap Year
 #### Python
 
 ```python
-year = int(input("Input : "))
+year = int(input("Input  : "))
 
 print("Output : ", end="")
 
@@ -25,7 +25,7 @@ if year % 100 == 0:
         print("Leap Year")
     else:
         print("Not a Leap Year")
-else:    
+else:
     if year % 4 == 0:
         print("Leap Year")
     else:
