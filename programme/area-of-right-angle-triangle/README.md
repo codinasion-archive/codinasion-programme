@@ -1,15 +1,15 @@
-## Write a program compute the area of a right angle triangle
 
+## Write a program compute the area of a right angle triangle
 ```
-length : 2
-breadth : 3
+base  : 2
+height : 3
 
 area : 3
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="3" languages="C" />
 
 #### C
 
@@ -48,4 +48,43 @@ double area_of_right_angle_triangle(double base, double height) {
 void test(void) {
     assert(area_of_right_angle_triangle(2, 3) == 3);
 }
+```
+
+#### Java
+
+```java
+import java.util.*;
+
+class area {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        // input base
+        System.out.print("base : ");
+        double base = sc.nextDouble();
+        
+        // input height
+        System.out.print("height : ");
+        double height = sc.nextDouble();
+        
+        // calculate area
+        double area = 0.5 * base * height;
+        
+        // print output
+        System.out.println("\narea : " + area);
+    }
+}
+```
+
+#### Python
+
+```python
+# input base
+base = input('Enter the base of the triangle : ')
+
+# input height
+height = input('Enter the height of the triangle : ')
+
+# output area
+print('\nThe area of the right angle triangle is : ', int(base) * int(height) / 2)
 ```

@@ -8,41 +8,71 @@ area : 16
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="2" languages="Java, C" />
+
+#### Java
+
+```java
+import java.util.*;
+
+class Solution {
+    public static void main(String[] arg) {
+        int side = input();
+        int area = computeArea(side);
+        finish(area);
+    }
+
+    private static int input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("side : ");
+        int side = sc.nextInt();
+        sc.close();
+        return side;
+    }
+
+    private static int computeArea(int side) {
+        return side * side;
+    }
+
+    private static void finish(int area) {
+        System.out.println("area : " + area);
+    }
+}
+```
 
 #### C
 
 ```c
-/**
- * Computes the area of a square
- */
-
 #include <stdio.h>
-#include <assert.h>         // for the assert function
+#include <assert.h> // for the assert function
 
 double area_of_square(double side);
 void test(void);
 
-int main(void) {
+int main(void)
+{
     double area, side;
 
     test();
 
-    printf("Side: ");
+    printf("side : ");
     scanf("%lf", &side);
+    
     area = area_of_square(side);
-    printf("area: %.1lf\n", area);
+    printf("\narea : %.1lf\n", area);
 
     return 0;
 }
 
 // calculates the area
-double area_of_square(double side) {
+double area_of_square(double side)
+{
     return side * side;
 }
 
 // checks correctness of the area calculation
-void test(void) {
+void test(void)
+{
     assert(area_of_square(4) == 16);
 }
 ```
