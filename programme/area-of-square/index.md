@@ -1,6 +1,6 @@
 ---
 title: Area of Square
-description: Write a Java programme to find area of square
+description: Write a programme to find area of square
 contributors:
   - jessicant
 ---
