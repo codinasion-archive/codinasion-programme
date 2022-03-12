@@ -1,0 +1,12 @@
+# codeowners
+* @harshraj8843
+
+*.c @codinasion/review-c
+
+*.cpp @codinasion/review-cpp
+
+*.cs @codinasion/review-csharp
+
+*.py @codinasion/review-python
+
+*.java @codinasion/review-java
