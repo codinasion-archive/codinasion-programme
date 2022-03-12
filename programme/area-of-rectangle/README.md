@@ -49,3 +49,13 @@ void test(void)
     assert(area_of_rectangle(2, 3) == 6);
 }
 ```
+#### Python
+
+```python
+#taking in inputs (length and breadth)
+
+x=int(input('length: '))
+y=int(input('breadth: '))
+
+#calculating and giving area
+print('area: ',x*y)
