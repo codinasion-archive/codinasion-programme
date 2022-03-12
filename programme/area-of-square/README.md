@@ -76,3 +76,11 @@ void test(void)
     assert(area_of_square(4) == 16);
 }
 ```
+#### Python
+
+```python
+#taking in input
+x=int(input('side: '))
+#output
+print('area: ',x**2)
+```
