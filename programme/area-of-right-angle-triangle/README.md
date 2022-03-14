@@ -1,4 +1,4 @@
-## Write a programme to find area of right angle triangle.
+## Write a program to compute the area of a right angle triangle
 
 ```
 base  : 2
@@ -9,7 +9,20 @@ area : 3
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Java, Python" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, Java, C" />
+
+#### Python
+
+```python
+# input base
+base = input('Enter the base of the triangle : ')
+
+# input height
+height = input('Enter the height of the triangle : ')
+
+# output area
+print('\nThe area of the right angle triangle is : ', int(base) * int(height) / 2)
+```
 
 #### Java
 
@@ -37,15 +50,44 @@ class area {
 }
 ```
 
-#### Python
+#### C
 
-```python
-# input base
-base = input('Enter the base of the triangle : ')
+```c
+#include <stdio.h>
+#include <assert.h>
 
-# input height
-height = input('Enter the height of the triangle : ')
+double area_of_right_angle_triangle(double base, double height);
+void test(void);
 
-# output area
-print('\nThe area of the right angle triangle is : ', int(base) * int(height) / 2)
+int main(void)
+{
+    double area, base, height;
+
+    test();
+
+    printf("base : ");
+    scanf("%lf", &base);
+    printf("height : ");
+    scanf("%lf", &height);
+    area = area_of_right_angle_triangle(base, height);
+    printf("\narea : %.1lf\n", area);
+
+    return 0;
+}
+
+// calculates the area
+double area_of_right_angle_triangle(double base, double height)
+{
+    return 0.5 * base * height;
+}
+
+// checks correctness of the area calculation
+void test(void)
+{
+    assert(area_of_right_angle_triangle(2, 3) == 3);
+}
 ```
+
+
+
+
