@@ -8,7 +8,7 @@ area : 16
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Java, C, Python" />
+<CodeBlock slots="heading, code" repeat="3" languages="Java, C, Python" />
 
 #### Java
 
