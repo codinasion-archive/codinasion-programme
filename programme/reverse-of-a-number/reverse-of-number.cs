@@ -1,4 +1,4 @@
-// Write a program to print the minimum of given numbers
+// Write a program to print reverse of a number
 using System;
 using System.Linq;
 
@@ -14,12 +14,12 @@ public class Reverse
             ));
         }
 
-        // Input numbers
+        // Input number
         Console.Write("Enter numbers : ");
         int input = int.Parse(Console.ReadLine());
 
 
-        // output minimum number
+        // output reversed number
         Console.WriteLine("Reversed : " + Reverse(input));
     }
 }

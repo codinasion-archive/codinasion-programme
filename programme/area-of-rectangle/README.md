@@ -1,21 +1,34 @@
 ## Write a program to compute the area of a rectangle
 
 ```
-length : 2
+length  : 2
 breadth : 3
 
-area : 16
+area : 6
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="2" languages="Python, C" />
+
+#### Python
+
+```python
+# input length
+x = int(input('length  : '))
+
+# input breadth
+y = int(input('breadth : '))
+
+# output area
+print('\narea : ', x*y)
+```
 
 #### C
 
 ```c
 #include <stdio.h>
-#include <assert.h> // for the assert function
+#include <assert.h>
 
 double area_of_rectangle(double length, double breadth);
 void test(void);
