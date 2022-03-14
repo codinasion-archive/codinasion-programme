@@ -1,5 +1,5 @@
-#area of a rectangle
+# Computes the area of a rectangle
 
-x=int(input('length: '))
-y=int(input('breadth: '))
-print('area: ',x*y)
+x = int(input('length  : '))
+y = int(input('breadth : '))
+print('\narea : ', x*y)
