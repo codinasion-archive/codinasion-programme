@@ -1,8 +1,8 @@
 ## Write a program to print the reverse of a number
 
 ```
-Input: 1234
-Output: 4321
+Input  : 1234
+Output : 4321
 ```
 
 ---
@@ -53,60 +53,68 @@ public class Reverse
 
 #### C
 
-```C
-#include<stdio.h>
-int main(){
-    int a,n;
-    printf("Input: ");
-    scanf("%d",&a);
-    printf("Output: ");
-    while(a>0){
-        n = a%10;
-        printf("%d",n);
-        a/=10;
+```c
+#include <stdio.h>
+
+int main()
+{
+    int a, n;
+    printf("Input  : ");
+    scanf("%d", &a);
+    printf("Output : ");
+    while (a > 0)
+    {
+        n = a % 10;
+        printf("%d", n);
+        a /= 10;
     }
+    printf("\n");
     return 0;
 }
 ```
 
 #### Java
 
-```Java
+```java
 import java.util.Scanner;
 
 public class reverse_of_number {
     public static void main(String[] args) {
-        int a,n;
+        int a, n;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input: ");
+        System.out.print("Input  : ");
         a = sc.nextInt();
-        System.out.print("Output: ");
-        while(a>0){
-            n = a%10;
+        System.out.print("Output : ");
+        while (a > 0) {
+            n = a % 10;
             System.out.print(n);
-            a/=10;
+            a /= 10;
         }
+        System.out.println();
         sc.close();
     }
 }
-
 ```
 
 #### C++
 
-```C++
-#include<iostream>
+```cpp
+#include <iostream>
 using namespace std;
-int main(){
-    int a,n;
-    cout<<"Input: ";
-    cin>>a;
-    cout<<"Output: ";
-    while(a>0){
-        n = a%10;
-        cout<<n;
-        a/=10;
+
+int main()
+{
+    int a, n;
+    cout << "Input  : ";
+    cin >> a;
+    cout << "Output : ";
+    while (a > 0)
+    {
+        n = a % 10;
+        cout << n;
+        a /= 10;
     }
+    cout << endl;
     return 0;
 }
 ```
