@@ -1,8 +1,8 @@
 ## Write a program to convert number to strings.
 
 ```
-Input:  51
-Output: five one
+Input  : 51
+Output : five one
 ```
 
 ---
@@ -32,7 +32,6 @@ print(tostring(24578676000))
 #### C
 
 ```c
-// Write a c program to convert number to strings.
 #include <stdio.h>
 #include <math.h>
 
@@ -101,23 +100,25 @@ int main()
 
 #### C++
 
-```C++
-#include<iostream>
-#include<string>
+```cpp
+#include <iostream>
+#include <string>
 using namespace std;
-int main(){
-    int a,n=0;
-    string word[] = {"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
-    cout<<"Input: ";
-    cin>>a;
+int main()
+{
+    int a, n = 0;
+    string word[] = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
+    cout << "Input  : ";
+    cin >> a;
     string op = "";
-    while(a>0){
-        n = a%10;
-        op.insert(0,word[n]);
-        op.insert(0," ");
-        a = a/10;
+    while (a > 0)
+    {
+        n = a % 10;
+        op.insert(0, word[n]);
+        op.insert(0, " ");
+        a = a / 10;
     }
-    cout<<"Output:"<<op;
+    cout << "Output :" << op << endl;
     return 0;
 }
 ```
@@ -127,16 +128,17 @@ int main(){
 ```java
 import java.util.Scanner;
 
-public class numbers_to_string{
-    public static void main(String[] args){
-        String[] word = {"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
+public class numbers_to_string {
+    public static void main(String[] args) {
+        String[] word = { "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" };
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input: ");
+        System.out.print("Input  : ");
         String a = sc.nextLine();
-        System.out.print("Output: ");
-        for(int i = 0 ; i<a.length() ; i++){
-            System.out.print(word[(int)a.charAt(i)-48]+" ");
+        System.out.print("Output : ");
+        for (int i = 0; i < a.length(); i++) {
+            System.out.print(word[(int) a.charAt(i) - 48] + " ");
         }
+        System.out.println();
         sc.close();
     }
 }
