@@ -1,3 +1,4 @@
+// Write a programme to divide two numbers
 import java.util.Scanner;
 
 public class Divide_two_numbers {
@@ -12,16 +13,16 @@ public class Divide_two_numbers {
     }
 
     public static void main(String[] args) {
-        System.out.print("Input: ");
         Scanner sc = new Scanner(System.in);
-        // taking input from the user
+        System.out.print("Input the Dividend : ");
         int num1 = sc.nextInt();
+        System.out.print("Input the Divisor  : ");
         int num2 = sc.nextInt();
 
-        // here divide two numbers
+        // divide two numbers
         double result = Divide(num1, num2);
 
-        System.out.printf("%.1f", result);
+        System.out.printf("\nOutput : %.1f\n", result);
 
     }
 }
