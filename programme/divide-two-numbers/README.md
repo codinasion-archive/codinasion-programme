@@ -1,15 +1,15 @@
 ## Write a program to divide two numbers
 
 ```
-Input the Dividend: 4
-Input the Divisor: 2
+Input the Dividend : 4
+Input the Divisor  : 2
 
 Output : 2.0
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="2" languages="C, Java" />
 
 #### C
 
@@ -56,5 +56,37 @@ void test(void)
 {
     assert(divide(4, 2) == 2.0);
     assert(divide(2, 4) == 0.5);
+}
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+public class Divide_two_numbers {
+
+    public static double Divide(int num1, int num2) {
+        // if divisor is 0
+        if (num2 == 0) {
+            System.out.println("Division by 0 is not allowed");
+            return -1;
+        }
+        return (double) num1 / (double) num2;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input the Dividend : ");
+        int num1 = sc.nextInt();
+        System.out.print("Input the Divisor  : ");
+        int num2 = sc.nextInt();
+
+        // divide two numbers
+        double result = Divide(num1, num2);
+
+        System.out.printf("\nOutput : %.1f\n", result);
+
+    }
 }
 ```
