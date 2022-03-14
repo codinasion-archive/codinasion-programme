@@ -1,13 +1,13 @@
 ## Write a program to convert number to strings.
 
 ```
-Input:  51
-Output: five one
+Input  : 51
+Output : five one
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
 
 #### Python
 
@@ -32,7 +32,6 @@ print(tostring(24578676000))
 #### C
 
 ```c
-// Write a c program to convert number to strings.
 #include <stdio.h>
 #include <math.h>
 
@@ -96,5 +95,51 @@ int main()
     }
 
     return 0;
+}
+```
+
+#### C++
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int a, n = 0;
+    string word[] = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
+    cout << "Input  : ";
+    cin >> a;
+    string op = "";
+    while (a > 0)
+    {
+        n = a % 10;
+        op.insert(0, word[n]);
+        op.insert(0, " ");
+        a = a / 10;
+    }
+    cout << "Output :" << op << endl;
+    return 0;
+}
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+public class numbers_to_string {
+    public static void main(String[] args) {
+        String[] word = { "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" };
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input  : ");
+        String a = sc.nextLine();
+        System.out.print("Output : ");
+        for (int i = 0; i < a.length(); i++) {
+            System.out.print(word[(int) a.charAt(i) - 48] + " ");
+        }
+        System.out.println();
+        sc.close();
+    }
 }
 ```
