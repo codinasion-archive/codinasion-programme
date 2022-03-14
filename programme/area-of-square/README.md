@@ -8,7 +8,7 @@ area : 16
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Java, C" />
+<CodeBlock slots="heading, code" repeat="2" languages="Java, C, Python" />
 
 #### Java
 
@@ -75,4 +75,14 @@ void test(void)
 {
     assert(area_of_square(4) == 16);
 }
+```
+
+#### Python
+
+```python
+# input side
+x = int(input('side : '))
+
+# output srea
+print('area :', x**2)
 ```
