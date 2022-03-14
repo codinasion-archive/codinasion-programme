@@ -11,7 +11,7 @@ Output : Not a Leap Year
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
+<CodeBlock slots="heading, code" repeat="2" languages="Python, C" />
 
 #### Python
 
@@ -32,3 +32,32 @@ else:
         print("Not a Leap Year")
 ```
 
+#### C
+
+```c
+#include <stdio.h>
+
+int main() {
+    int year;
+    
+    printf("Input: ");
+    scanf("%d", &year);
+
+    if (year % 100 == 0) {
+        if (year % 400 == 0) {
+            printf("Leap year.\n");
+        }
+        else {
+            printf("Not a leap year.\n");
+        }
+    }
+    else {
+        if (year % 4 == 0) {
+            printf("Leap year.\n");
+        }
+        else {
+            printf("Not a leap year.\n");
+        }
+    }
+}
+```
