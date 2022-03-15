@@ -6,6 +6,7 @@ contributors:
   - PA11TEDDU
   - KikiManjaro
   - NeelPatel31
+  - RuiL1904
 ---
 
 import README from "./README.md"
