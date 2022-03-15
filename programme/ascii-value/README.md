@@ -7,7 +7,7 @@ Output : 65
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C#, Java, C++" />
+<CodeBlock slots="heading, code" repeat="5" languages="Python, C#, Java, C++, C" />
 
 #### Python
 
@@ -74,6 +74,22 @@ int main(){
     cout << "Input: ";
     cin >> a;
     cout << "Output: " << int(a) << endl;
+    return 0;
+}
+```
+
+
+#### C
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    char a;
+    printf("Enter the character : ");
+    scanf("%c", &a);
+    printf("ASCII value is : %d\n", (int)(a));
     return 0;
 }
 ```
