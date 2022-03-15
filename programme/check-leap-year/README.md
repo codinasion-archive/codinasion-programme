@@ -4,6 +4,7 @@
 Input  : 2020
 Output : Leap Year
 ```
+
 ```
 Input  : 2021
 Output : Not a Leap Year
@@ -37,27 +38,38 @@ else:
 ```c
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int year;
-    
-    printf("Input: ");
+
+    // input year
+    printf("Input  : ");
     scanf("%d", &year);
 
-    if (year % 100 == 0) {
-        if (year % 400 == 0) {
-            printf("Leap year.\n");
+    // output result
+    printf("Output : ");
+    if (year % 100 == 0)
+    {
+        if (year % 400 == 0)
+        {
+            printf("Leap year\n");
         }
-        else {
-            printf("Not a leap year.\n");
+        else
+        {
+            printf("Not a leap year\n");
         }
     }
-    else {
-        if (year % 4 == 0) {
-            printf("Leap year.\n");
+    else
+    {
+        if (year % 4 == 0)
+        {
+            printf("Leap year\n");
         }
-        else {
-            printf("Not a leap year.\n");
+        else
+        {
+            printf("Not a leap year\n");
         }
     }
 }
+
 ```
