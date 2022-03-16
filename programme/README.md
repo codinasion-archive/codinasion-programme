@@ -37,3 +37,4 @@
 35. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-varible/)
 36. ### [Write a program to find X power Y](x-power-y/index.md)
 37. ### [Write a program to print number triangle pattern.](./Number-Triangle-Pattern/)
+38. ### [Write a program to convert decimal number to binary.](./decimal-to-binary/)
