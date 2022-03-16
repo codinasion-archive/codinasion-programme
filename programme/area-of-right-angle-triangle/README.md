@@ -9,7 +9,7 @@ area : 3
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, Java, C" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C, C++" />
 
 #### Python
 
@@ -85,6 +85,32 @@ double area_of_right_angle_triangle(double base, double height)
 void test(void)
 {
     assert(area_of_right_angle_triangle(2, 3) == 3);
+}
+```
+
+
+#### C++
+
+```c++
+#include<iostream>
+using namespace std;
+
+int main(){
+    double base, height;
+
+    //input base
+    cout << "Base  : ";
+    cin >> base;
+
+    //input height
+    cout << "height : ";
+    cin >> height;
+
+    //calculate area
+    double area = 0.5 * base * height;
+    
+    //print area
+    cout << "area : " << area;
 }
 ```
 
