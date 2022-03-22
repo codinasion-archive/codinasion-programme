@@ -9,7 +9,7 @@ area : 3
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, Java, C" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C, C++" />
 
 #### Python
 
@@ -89,5 +89,28 @@ void test(void)
 ```
 
 
+#### C++
 
+```cpp
+#include <iostream>
+using namespace std;
 
+int main()
+{
+    double base, height;
+
+    // input base
+    cout << "base : ";
+    cin >> base;
+
+    // input height
+    cout << "height : ";
+    cin >> height;
+
+    // calculate area
+    double area = 0.5 * base * height;
+
+    // print area
+    cout << "\narea : " << area << endl;
+}
+```
