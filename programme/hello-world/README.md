@@ -1,12 +1,12 @@
-## Write a program to print hello world
+## Write a program to print Hello World
 
 ```
-Output : Hello World !!!
+Hello World !!!
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C, C++" />
+<CodeBlock slots="heading, code" repeat="1" languages="C" />
 
 #### C
 
@@ -14,10 +14,9 @@ Output : Hello World !!!
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(void){
-    //the print statement prints hello world
+int main(void)
+{
     printf("Hello World !!!\n");
     return 0;
-
 }
 ```
