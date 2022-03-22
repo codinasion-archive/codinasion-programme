@@ -10,7 +10,7 @@ Ouput : 101
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="C, Python, Java, C++" />
+<CodeBlock slots="heading, code" repeat="5" languages="C, Python, Java, C++, C#" />
 
 #### C
 
@@ -117,5 +117,29 @@ int main()
     convert(a);
     cout << endl;
     return 0;
+}
+```
+
+#### C#
+
+```cs
+using System;
+
+public class Binary
+{
+    static void Main(string[] args)
+    {
+        string Binary(int input)
+        {
+            return Convert.ToString(input, 2);
+        }
+
+        // Input number
+        Console.Write("Enter decimal number : ");
+        int input = int.Parse(Console.ReadLine());
+
+        // bianry output 
+        Console.WriteLine("\nBinary : " + Binary(input));
+    }
 }
 ```
