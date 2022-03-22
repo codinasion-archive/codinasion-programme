@@ -91,29 +91,27 @@ void test(void)
 
 #### C++
 
-```c++
-#include<iostream>
+```cpp
+// Write a program to compute the area of a right angle triangle
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     double base, height;
 
-    //input base
-    cout << "Base  : ";
+    // input base
+    cout << "base : ";
     cin >> base;
 
-    //input height
+    // input height
     cout << "height : ";
     cin >> height;
 
-    //calculate area
+    // calculate area
     double area = 0.5 * base * height;
-    
-    //print area
-    cout << "area : " << area;
+
+    // print area
+    cout << "\narea : " << area << endl;
 }
 ```
-
-
-
-
