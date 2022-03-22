@@ -2,19 +2,24 @@
 #include <stdio.h>
 #include <limits.h>
 
-int main () {
+int main()
+{
     // Initializes the min variable as the maximum integer possible
-    int min= INT_MAX,n,test;
-    printf ("Enter amount of numbers: \n");
-    scanf ("%i",&n);
-    printf ("Enter numbers: \n");
+    int min = INT_MAX, n, test;
+    printf("Enter amount of numbers : ");
+    scanf("%i", &n);
+    printf("\n");
+
     // Input one number at a time
-    while (n > 0) {     
-        scanf ("%i",&test); 
-        if (test < min) min = test;
+    while (n > 0)
+    {
+        printf("Enter number : ");
+        scanf("%i", &test);
+        if (test < min)
+            min = test;
         n--;
-    }; 
+    };
     // Output
-    printf ("The minimum is: %i\n",min); 
+    printf("\nThe minimum is : %i\n", min);
     return 0;
 }
