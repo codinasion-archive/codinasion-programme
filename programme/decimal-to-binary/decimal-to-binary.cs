@@ -1,5 +1,6 @@
 // Write a programme to add two numbers
 using System;
+
 public class Binary
 {
     static void Main(string[] args)
@@ -10,10 +11,10 @@ public class Binary
         }
 
         // Input number
-        Console.Write("Enter number : ");
-        int input =  int.Parse(Console.ReadLine());
+        Console.Write("Enter decimal number : ");
+        int input = int.Parse(Console.ReadLine());
 
         // bianry output 
-        Console.WriteLine("Binary : " + Binary(input));
+        Console.WriteLine("\nBinary : " + Binary(input));
     }
 }
