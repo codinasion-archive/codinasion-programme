@@ -1,26 +1,26 @@
+// Write a programme to find area of triangle
 #include <iostream>
-#include<cmath>
+#include <cmath>
 using namespace std;
 
 int main()
 {
-    int a,b,c;
-    cout << "Enter a: ";
-    cin>>a;
-    
-    cout<<"Enter b: ";
-    cin>>b;
-    
-    cout<<"Enter c: ";
-    cin>>c;
+    int a, b, c;
+    cout << "Enter a : ";
+    cin >> a;
 
-    float s=(float)(a+b+c)/2;
+    cout << "Enter b : ";
+    cin >> b;
 
-    float area=sqrt(s*(s-a)*(s-b)*(s-c));
-    
-    cout<<"s: "<<s;
-    cout<<endl<<"Area: "<<area; //printing the area
+    cout << "Enter c : ";
+    cin >> c;
+
+    float s = (float)(a + b + c) / 2;
+
+    float area = sqrt(s * (s - a) * (s - b) * (s - c));
+
+    cout << "\ns : " << s << endl;
+    cout << "\nArea : " << area << endl;
 
     return 0;
-
 }
