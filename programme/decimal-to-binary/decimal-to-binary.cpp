@@ -1,23 +1,31 @@
-#include<iostream>
-#include<string>
+// Write a programme to convert decimal number to binary
+#include <iostream>
+#include <string>
 using namespace std;
-void convert(int a){
-    int k =0;
+
+void convert(int a)
+{
+    int k = 0;
     string s = "";
-    while(a>0){
-        k = (a%2);
+    while (a > 0)
+    {
+        k = (a % 2);
         s.append(to_string(k));
-        a=a/2;
+        a = a / 2;
     }
-    for(int i = s.length()-1 ; i>=0 ; i--){
-        cout<<s.at(i);
+    for (int i = s.length() - 1; i >= 0; i--)
+    {
+        cout << s.at(i);
     }
 }
-int main(){
+
+int main()
+{
     int a;
-    cout<<"Input: ";
-    cin>>a;
-    cout<<"Output: ";
+    cout << "Input  : ";
+    cin >> a;
+    cout << "Output : ";
     convert(a);
+    cout << endl;
     return 0;
 }
