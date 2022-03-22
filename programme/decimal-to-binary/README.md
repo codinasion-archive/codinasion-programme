@@ -17,11 +17,13 @@ Ouput : 101
 ```c
 #include <stdio.h>
 
-int decimal_to_binary(int n) {
+int decimal_to_binary(int n)
+{
     int bin = 0;
     int rem, i = 1;
 
-    while (n != 0) {
+    while (n != 0)
+    {
         rem = n % 2;
         n /= 2; // Same as n = n / 2
         bin += rem * i;
@@ -30,9 +32,10 @@ int decimal_to_binary(int n) {
     return bin;
 }
 
-int main() {
+int main()
+{
     int decimal;
-    printf("Input : ");
+    printf("Input  : ");
     scanf("%d", &decimal);
     printf("Output : %d\n", decimal_to_binary(decimal));
     return 0;
@@ -43,6 +46,9 @@ int main() {
 
 ```python
 decimal = int(input("Input : "))
-binary = bin(decimal).replace("0b", "") # 0b is the prefix created by the 'bin' function, so that, we need to replace it with a blank character
-print(f"Ouput : {binary}")
+
+# 0b is the prefix created by the 'bin' function
+binary = bin(decimal).replace("0b", "")
+
+print(f"Output : {binary}")
 ```
