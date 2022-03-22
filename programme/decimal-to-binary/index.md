@@ -1,7 +1,8 @@
 ---
-title: Decimal to Binary.
-description: Write a program to convert decimal number to binary.
+title: Decimal to binary
+description: Write a programme to convert decimal number to binary.
 contributors:
+  - RuiL1904
   - NeelPatel31
 ---
 
