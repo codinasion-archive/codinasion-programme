@@ -92,7 +92,6 @@ void test(void)
 #### C++
 
 ```cpp
-// Write a program to compute the area of a right angle triangle
 #include <iostream>
 using namespace std;
 
