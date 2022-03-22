@@ -55,7 +55,7 @@ print(f"Output : {binary}")
 
 #### Java
 
-```Java
+```java
 import java.util.Scanner;
 
 public class decimal_to_binary {
@@ -87,7 +87,7 @@ public class decimal_to_binary {
 
 #### C++
 
-```C++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
