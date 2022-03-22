@@ -1,5 +1,6 @@
 // Computes the area of a square
 using System;
+
 public class SquareArea
 {
     static void Main(string[] args)
@@ -10,10 +11,10 @@ public class SquareArea
         }
 
         // Input numbers
-        Console.Write("Enter numbers : ");
+        Console.Write("Enter side : ");
         string input = Console.ReadLine();
 
         // output sum of numbers
-        Console.WriteLine("Area of square : " + SquareArea(input));
+        Console.WriteLine("\nArea of square : " + SquareArea(input));
     }
 }
