@@ -8,7 +8,7 @@ area : 16
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Java, C, Python" />
+<CodeBlock slots="heading, code" repeat="4" languages="Java, C, Python, C#" />
 
 #### Java
 
@@ -85,4 +85,28 @@ x = int(input('side : '))
 
 # output srea
 print('area :', x**2)
+```
+
+#### C#
+
+```cs
+using System;
+
+public class SquareArea
+{
+    static void Main(string[] args)
+    {
+        double SquareArea(string input)
+        {
+            return Math.Pow(double.Parse(input), 2);
+        }
+
+        // Input numbers
+        Console.Write("Enter side : ");
+        string input = Console.ReadLine();
+
+        // output sum of numbers
+        Console.WriteLine("\nArea of square : " + SquareArea(input));
+    }
+}
 ```
