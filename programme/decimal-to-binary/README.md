@@ -58,26 +58,28 @@ print(f"Output : {binary}")
 ```Java
 import java.util.Scanner;
 
-public class decimal_to_binary{
-    public static void convert(int a){
+public class decimal_to_binary {
+    public static void convert(int a) {
         int k = 0;
         String s = "";
-        while(a>0){
-            k = (a%2);
-            s = s+k;
-            a=a/2;
+        while (a > 0) {
+            k = (a % 2);
+            s = s + k;
+            a = a / 2;
         }
-        for(int i = s.length()-1 ; i>=0; i--){
+        for (int i = s.length() - 1; i >= 0; i--) {
             System.out.print(s.charAt(i));
         }
-    } 
+    }
+
     public static void main(String[] args) {
         int a = 0;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input: ");
+        System.out.print("Input  : ");
         a = sc.nextInt();
-        System.out.print("Output: ");
+        System.out.print("Output : ");
         convert(a);
+        System.out.println("");
         sc.close();
     }
 }
@@ -86,27 +88,34 @@ public class decimal_to_binary{
 #### C++
 
 ```C++
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 using namespace std;
-void convert(int a){
-    int k =0;
+
+void convert(int a)
+{
+    int k = 0;
     string s = "";
-    while(a>0){
-        k = (a%2);
+    while (a > 0)
+    {
+        k = (a % 2);
         s.append(to_string(k));
-        a=a/2;
+        a = a / 2;
     }
-    for(int i = s.length()-1 ; i>=0 ; i--){
-        cout<<s.at(i);
+    for (int i = s.length() - 1; i >= 0; i--)
+    {
+        cout << s.at(i);
     }
 }
-int main(){
+
+int main()
+{
     int a;
-    cout<<"Input: ";
-    cin>>a;
-    cout<<"Output: ";
+    cout << "Input  : ";
+    cin >> a;
+    cout << "Output : ";
     convert(a);
+    cout << endl;
     return 0;
 }
 ```
