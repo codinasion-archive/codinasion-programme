@@ -5,6 +5,7 @@ contributors:
   - harshi1122
   - Mrczarny
   - KikiManjaro
+  - luiscff
 ---
 
 import README from "./README.md"
