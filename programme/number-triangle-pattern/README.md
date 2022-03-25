@@ -90,7 +90,7 @@ int main(){
 }
 ```
 
-####Python
+#### Python
 
 ```python
 def pattern(a):
@@ -112,7 +112,7 @@ a = int(input("Input: "))
 pattern(a)
 ```
 
-####Java
+#### Java
 
 ```java
 import java.util.Scanner;
