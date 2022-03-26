@@ -7,7 +7,7 @@ Output : 9
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C#" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, C#, C++" />
 
 #### Python
 
@@ -40,5 +40,30 @@ public class AddTwo
         // output sum of numbers
         Console.WriteLine("Sum : " + AddTwo(input));
     }
+}
+```
+
+#### C++
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+  int a, b;
+
+  // input
+  cout << "Enter numbers : ";
+  cin >> a >> b;
+
+  // calculate
+  int sum = a + b;
+
+  // output area
+  cout << endl;
+  cout << "Sum of numbers: " << sum << endl;
+
+  return 0;
 }
 ```
