@@ -11,13 +11,13 @@ public class Subtraction
         }
 
         // Input a
-        Console.Write("Enter a: ");
+        Console.Write("Enter a : ");
         int a = int.Parse(Console.ReadLine());
         // Input b
-        Console.Write("Enter b: ");
+        Console.Write("Enter b : ");
         int b = int.Parse(Console.ReadLine()); ;
 
         // Difference of numbers 
-        Console.WriteLine("Difference of numbers: " + Subtract(a, b));
+        Console.WriteLine("\nDifference of numbers: " + Subtract(a, b));
     }
 }
