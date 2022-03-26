@@ -1,13 +1,13 @@
 ## Write a program to print the Fibonacci series for 'n' numbers
 
 ```
-Input: 10
-Output: 0 1 1 2 3 5 8 13 21 34
+Input  : 10
+Output : 0 1 1 2 3 5 8 13 21 34
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, C, Java" />
 
 #### Python
 
@@ -57,5 +57,32 @@ int fibonacci(int i)
         return 1;
     else
         return (fibonacci(i - 1) + fibonacci(i - 2));
+}
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+class Fiborecursion {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number : ");
+        int num = sc.nextInt();
+
+        System.out.print("Fibonacci Series :");
+        for (int i = 0; i <= num; i++) {
+            System.out.print(" " + fibo(i));
+        }
+        System.out.println();
+    }
+
+    static int fibo(int num) {
+        if (num < 2) {
+            return num;
+        }
+        return fibo(num - 1) + fibo(num - 2);
+    }
 }
 ```
