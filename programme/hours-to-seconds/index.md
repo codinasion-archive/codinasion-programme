@@ -1,6 +1,6 @@
 ---
 title: Hours to Seconds
-description: Write a Python programme to convert hours to seconds
+description: Write a programme to convert hours to seconds
 contributors:
   - GodKimba
 ---
