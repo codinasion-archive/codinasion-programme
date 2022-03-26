@@ -11,7 +11,7 @@ Output : -2
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
+<CodeBlock slots="heading, code" repeat="5" languages="Python, C, C++, Java, C#" />
 
 #### Python
 
@@ -79,6 +79,33 @@ public class solution {
         // Print difference
         System.out.println("Output : " + (a - b));
         sc.close();
+    }
+}
+```
+
+#### C#
+
+```cs
+using System;
+
+public class Subtraction
+{
+    static void Main(string[] args)
+    {
+        int Subtract(int a, int b)
+        {
+            return a - b;
+        }
+
+        // Input a
+        Console.Write("Enter a : ");
+        int a = int.Parse(Console.ReadLine());
+        // Input b
+        Console.Write("Enter b : ");
+        int b = int.Parse(Console.ReadLine()); ;
+
+        // Difference of numbers 
+        Console.WriteLine("\nDifference of numbers: " + Subtract(a, b));
     }
 }
 ```
