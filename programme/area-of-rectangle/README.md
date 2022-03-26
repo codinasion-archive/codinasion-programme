@@ -9,7 +9,7 @@ area : 6
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, C, C++" />
 
 #### Python
 
@@ -60,5 +60,30 @@ double area_of_rectangle(double length, double breadth)
 void test(void)
 {
     assert(area_of_rectangle(2, 3) == 6);
+}
+```
+
+#### C++
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+  double length, width;
+
+  // input sides
+  cout << "Enter length : ";
+  cin >> length;
+
+  cout << "Enter breadth : ";
+  cin >> width;
+
+  double result = length * width;
+  // output area
+  cout << "\nArea of rectangle : " << result << endl;
+
+  return 0;
 }
 ```
