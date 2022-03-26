@@ -8,7 +8,7 @@ area : 16
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Java, C, Python, C#" />
+<CodeBlock slots="heading, code" repeat="5" languages="Java, C, Python, C#, C++" />
 
 #### Java
 
@@ -108,5 +108,28 @@ public class SquareArea
         // output sum of numbers
         Console.WriteLine("\nArea of square : " + SquareArea(input));
     }
+}
+```
+
+#### C++
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+  double side;
+
+  // input
+  cout << "Enter side length : ";
+  cin >> side;
+
+  double area = side * side;
+
+  // output area
+  cout << "Area of Square : " << area << endl;
+
+  return 0;
 }
 ```
