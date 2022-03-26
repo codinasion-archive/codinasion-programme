@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-    double length, width;
-    
-    // input radius
-    cout << "Enter length: ";
-    cin >> length;
-  
-    cout << "Enter breadth: ";
-    cin >> width;
+  double length, width;
 
-  double result = length* width;
-    // output area
-    cout << "Area: " << result;
-  
+  // input sides
+  cout << "Enter length : ";
+  cin >> length;
+
+  cout << "Enter breadth : ";
+  cin >> width;
+
+  double result = length * width;
+  // output area
+  cout << "\nArea of rectangle : " << result << endl;
+
   return 0;
 }
