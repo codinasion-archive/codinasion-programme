@@ -1,4 +1,3 @@
-# codeowners
 * @harshraj8843
 
 *.c @codinasion/review-c
