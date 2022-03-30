@@ -41,4 +41,4 @@
 39. ### [Write a program to swap two numbers](./swap-two-numbers/)
 40. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-varible/)
 41. ### [Write a program to find X power Y](x-power-y/index.md)
-42. ### [Write a programme to convert minutes to seconds](/minutes-to-seconds/)
+42. ### [Write a programme to convert minutes to seconds](./minutes-to-seconds/)
