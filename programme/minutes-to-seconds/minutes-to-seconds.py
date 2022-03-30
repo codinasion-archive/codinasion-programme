@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 created: 2022-03-25 20:50:18
-@author: seraphLXXVI
+@author: seraph776
 """
 
 
