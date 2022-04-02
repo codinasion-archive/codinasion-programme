@@ -1,5 +1,6 @@
+# Write a program to print alphabet triangle pattern
 def pattern(a):
-    print("Output:")
+    print("Output :")
     for i in range(1, a + 1):
         c = 65
         for k in range(a, i, -1):
@@ -14,5 +15,5 @@ def pattern(a):
         print()
 
 
-a = int(input("Input: "))
+a = int(input("Input  : "))
 pattern(a)
