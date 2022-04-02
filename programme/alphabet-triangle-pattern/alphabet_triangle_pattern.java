@@ -1,8 +1,9 @@
+// Write a program to print alphabet triangle pattern
 import java.util.Scanner;
 
 public class alphabet_triangle_pattern {
     private static void pattern(int a) {
-        System.out.print("Output:\n");
+        System.out.print("Output :\n");
         for (int i = 1; i <= a; i++) {
             int c = 65;
             for (int k = a; k > i; k--) {
@@ -24,7 +25,7 @@ public class alphabet_triangle_pattern {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input : ");
+        System.out.print("Input  : ");
         int a = sc.nextInt();
         pattern(a);
         sc.close();
