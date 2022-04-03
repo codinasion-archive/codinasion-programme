@@ -1,11 +1,11 @@
-# Minutes to Seconds
-
-Write a Python programme to convert minutes to seconds.
+## Write a Python programme to convert minutes to seconds.
 
 ```
 Input  : 1
 Output : 60
 ```
+
+---
 
 <CodeBlock slots="heading, code" repeat="1" languages="Python" />
 
