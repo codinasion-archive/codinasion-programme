@@ -1,4 +1,4 @@
-## Write a Python programme to convert minutes to seconds.
+## Write a programme to convert minutes to seconds.
 
 ```
 Input  : 1
