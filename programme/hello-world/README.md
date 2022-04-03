@@ -6,7 +6,13 @@ Hello World !!!
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="2" languages="Python, C" />
+
+#### Python
+
+```python
+print("Hello World!")
+```
 
 #### C
 
