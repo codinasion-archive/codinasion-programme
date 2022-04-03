@@ -11,7 +11,7 @@ newIssueWelcomeComment: |
 newPRWelcomeComment: |
   💖 Thanks for opening this pull request! 💖
 
-  A Codinasion team member should be by to give feedback soon. In the meantime, please check out the [contributing guidelines](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md).
+  This PR will be reviewed and merged shortly. In the meantime, please check out the [contributing guidelines](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md).
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >

@@ -1,6 +1,6 @@
 ### Why:
 
-Closes [issue link]
+Closes #ISSUE_NUMBER
 
 ### What's being changed:
 
