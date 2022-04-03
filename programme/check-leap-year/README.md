@@ -12,7 +12,7 @@ Output : Not a Leap Year
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, C, C++" />
 
 #### Python
 
@@ -71,5 +71,24 @@ int main()
         }
     }
 }
+```
 
+#### C++
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+  cout << "Input  : ";
+  int year;
+  cin >> year;
+  cout << "Output : ";
+  if (year % 4 == 0 && (year % 400 == 0 || year % 100 != 0))
+    cout << "Leap Year\n";
+  else
+    cout << "Not a Leap Year\n";
+}
 ```
