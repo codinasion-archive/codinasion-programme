@@ -1,6 +1,6 @@
 # Print Square Pattern
 
-Write a Python programme to print the given square pattern.
+Write a Python programme to print the given pattern.
 
 ```
 Input: 3
