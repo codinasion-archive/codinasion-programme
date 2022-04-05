@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 def print_pattern(n: int) -> None:
     """Prints a nxn box outline pattern"""
     for col in range(n):
@@ -8,5 +6,4 @@ def print_pattern(n: int) -> None:
                 print(' * ', end='')
             else:
                 print('   ', end='')
-        print()
-        
+        print()        
