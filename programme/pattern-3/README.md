@@ -31,7 +31,6 @@ x x x x x
 ## Python
 
 ```python
-#!/usr/bin/env python3
 
 def print_pattern(n: int) -> None:
     """Prints a square outline pattern"""
