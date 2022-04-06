@@ -11,7 +11,7 @@ def divide_two_numbers(n1: int, n2: int) -> None:
 
 
 if __name__ == '__main__':
-    ht = {1: 'st', 2: 'nd'}
+    ht = {1: 'dividend', 2: 'divisor'}
 
-    n1, n2 = [int(input(f'Enter {i}{ht.get(i)} digit:\n> ')) for i in range(1, 3)]
+    n1, n2 = [int(input(f'Input the {ht.get(i)}:\n> ')) for i in range(1, 3)]
     divide_two_numbers(n1, n2)
