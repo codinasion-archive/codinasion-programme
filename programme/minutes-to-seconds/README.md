@@ -7,7 +7,7 @@ Output : 60
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
+<CodeBlock slots="heading, code" repeat="2" languages="Python, Java" />
 
 #### Python
 
@@ -22,6 +22,7 @@ if __name__ == '__main__':
     print(minutes_to_second(5))  # 60
     print(minutes_to_second(10))  # 60
 ```
+
 #### Java
 
 ```java
