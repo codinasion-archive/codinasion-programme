@@ -1,17 +1,5 @@
-# Print Square Pattern
+## Write a Python programme to print the given pattern.
 
-Write a Python programme to print the given pattern.
-
-```
-Input: 3
-```
-
-```
-x x x
-x   x
-x x x
-
-```
 ```
 Input: 5
 ```
@@ -25,15 +13,13 @@ x x x x x
 
 ```
 
+<CodeBlock slots="heading, code" repeat="1" languages="Python" />
 
-
-
-## Python
+#### Python
 
 ```python
-
 def print_pattern(n: int) -> None:
-    """Prints a square outline pattern"""
+    print("Output : \n")
     for col in range(n):
         for row in range(n):
             if col == 0 or col == n - 1 or row == 0 or row == n - 1:
@@ -41,4 +27,8 @@ def print_pattern(n: int) -> None:
             else:
                 print('   ', end='')
         print()
+
+
+n = int(input("input  : "))
+print_pattern(n)
 ```
