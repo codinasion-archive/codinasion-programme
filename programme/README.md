@@ -43,4 +43,5 @@
 41. ### [Write a program to find the sum of square of first 'n' numbers](./sum-of-square/)
 42. ### [Write a program to swap two numbers](./swap-two-numbers/)
 43. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-varible/)
-44. ### [Write a program to find X power Y](x-power-y/index.md)
+44. ### [Write a program to find X power Y](./x-power-y/)
+45. ### [Write a programme to convert years to days](./years-to-days/)
