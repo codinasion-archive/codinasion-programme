@@ -7,7 +7,7 @@ Output: 0 1 1 2 3 5 8 13 21 34
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="C, Java, Python, C++" />
+<CodeBlock slots="heading, code" repeat="5" languages="C, Java, Python, C++, C#" />
 
 #### C
 
@@ -99,5 +99,33 @@ int main()
     }
     cout << endl;
     return 0;
+}
+```
+
+#### C#
+
+```cs
+using System;
+
+public class Fibonaci
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Input : ");
+        int n = int.Parse(Console.ReadLine());
+
+        int a = 0, b = 1, i = 0, temp = 0;
+
+        Console.Write("Output : ");
+
+        while (i != n)
+        {
+            Console.Write(a + " ");
+            temp = a;
+            a = b;
+            b = temp + b;
+            i++;
+        }
+    }
 }
 ```
