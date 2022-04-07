@@ -7,7 +7,7 @@ Output : 365
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C#" />
+<CodeBlock slots="heading, code" repeat="2" languages="C#, Python" />
 
 #### C#
 
@@ -31,4 +31,11 @@ public class YearsToDays
         Console.WriteLine("Days  : " + YearsToDays(years));
     }
 }
+```
+
+#### Python
+
+```python
+years = int(input("years : "))
+print(f"\ndays  : {years * 365}")
 ```
