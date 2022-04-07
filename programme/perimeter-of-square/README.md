@@ -8,7 +8,7 @@ side : 4
 perimeter : 16
 ```
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="2" languages="C, Python" />
 
 #### C
 
@@ -38,5 +38,11 @@ int main()
   printf("Perimeter : %g\n", perimeter);
   return 0;
 }
+```
 
+#### Python
+
+```python
+side = int(input("side : "))
+print(f"\nperimeter : {side * 4}")
 ```
