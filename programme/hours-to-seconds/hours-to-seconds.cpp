@@ -5,11 +5,11 @@ using namespace std;
 
 int main()
 {
-	double input;
-	cout << "Hours: ";
-	cin >> input;
-	double seconds = input * 3600;
+  double input;
+  cout << "Hours   : ";
+  cin >> input;
+  double seconds = input * 3600;
 
-	cout << "Seconds: " << seconds << endl;
-    return 0;
-} 
+  cout << "Seconds : " << seconds << endl;
+  return 0;
+}
