@@ -4,11 +4,11 @@
 
 int main()
 {
-	double input;
-	printf("Hours: ");
-	scanf("%lf", &input); 
-	int seconds = input * 3600; // seconds conversion
+  double input;
+  printf("Hours   : ");
+  scanf("%lf", &input);
+  int seconds = input * 3600; // seconds conversion
 
-    printf("Seconds: %d\n", seconds);
-    return 0;
-} 
+  printf("Seconds : %d\n", seconds);
+  return 0;
+}
