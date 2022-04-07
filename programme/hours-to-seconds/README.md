@@ -1,4 +1,4 @@
-## Write a Python programme to convert hours to seconds
+## Write a programme to convert hours to seconds
 
 ```
 Hrs : 1
@@ -7,7 +7,7 @@ Sec : 3600
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, C, C++" />
 
 #### Python
 
@@ -25,4 +25,39 @@ if hours <= 1:
     print(f"{hours} hour is equal to {seconds} seconds!")
 else:
     print(f"{hours} hours is equal to {seconds} seconds!")
+```
+
+#### C
+
+```c
+#include <stdio.h>
+
+int main()
+{
+  double input;
+  printf("Hours   : ");
+  scanf("%lf", &input);
+  int seconds = input * 3600;
+
+  printf("Seconds : %d\n", seconds);
+  return 0;
+}
+```
+
+#### C++
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  double input;
+  cout << "Hours   : ";
+  cin >> input;
+  double seconds = input * 3600;
+
+  cout << "Seconds : " << seconds << endl;
+  return 0;
+}
 ```
