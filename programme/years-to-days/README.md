@@ -3,9 +3,6 @@
 ```
 Input : 1
 Output : 365
-
-Input : 2
-Ouput : 730
 ```
 
 ---
@@ -27,11 +24,11 @@ public class YearsToDays
         }
 
         // Input number of years
-        Console.Write("Years: ");
+        Console.Write("Years : ");
         int years = int.Parse(Console.ReadLine());
 
         // Days output
-        Console.WriteLine("Days: " + YearsToDays(years));
+        Console.WriteLine("Days  : " + YearsToDays(years));
     }
 }
 ```
