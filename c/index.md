@@ -11,12 +11,6 @@ C is one of the most popular programming language because it is structured, high
 
 <DiscoverBlock slots="link, text"/>
 
-[Introduction](./introduction/)
-
-Introduction to C Programming
-
-<DiscoverBlock slots="link, text"/>
-
 [Programmes](../programme/)
 
 List of programmes
