@@ -1,4 +1,4 @@
-// Write a C# programme to convert years to days
+// Write a programme to convert years to days
 using System;
 
 public class YearsToDays
@@ -11,10 +11,10 @@ public class YearsToDays
         }
 
         // Input number of years
-        Console.Write("Years: ");
+        Console.Write("Years : ");
         int years = int.Parse(Console.ReadLine());
 
         // Days output
-        Console.WriteLine("Days: " + YearsToDays(years));
+        Console.WriteLine("Days  : " + YearsToDays(years));
     }
 }
