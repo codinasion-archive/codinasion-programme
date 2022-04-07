@@ -1,4 +1,4 @@
 # Computes the perimeter of a square
 
-side = int(input("side  : "))
+side = int(input("side : "))
 print(f"\nperimeter : {side * 4}")
