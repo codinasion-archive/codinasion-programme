@@ -1,13 +1,15 @@
 ﻿// Write a program to swap two numbers without using third variable.
 #include <iostream>
 
-void swap(int &x, int &y) {
+void swap(int &x, int &y)
+{
   x = x + y;
   y = x - y;
   x = x - y;
 }
 
-int main() {
+int main()
+{
   int a, b;
   std::cout << "a:";
   std::cin >> a;
