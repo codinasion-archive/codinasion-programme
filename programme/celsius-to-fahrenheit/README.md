@@ -53,15 +53,17 @@ void main()
 
 ### Python
 
-```
+```python
+
 def celsius_to_fahrenheit(celsius) -> float:
     """Converts celsius to fahrenheit """
     fahrenheit = (celsius * 9 / 5) + 32
     return fahrenheit
 
 
-while user_input := input('Enter celsius:\n> '):
-    print(f'{celsius_to_fahrenheit(int(user_input))}\n')
+if __name__ == '__main__':
+    while user_input := input('Enter celsius:\n> '):
+        print(f'{celsius_to_fahrenheit(int(user_input))}\n')
 
 ```
 
