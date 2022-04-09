@@ -1,4 +1,4 @@
-## Write a program to get the factorial of a number.
+## Write a program to find the factorial of a number.
 
 ```
 Input:  5
@@ -48,7 +48,6 @@ class Factorial {
 #### C
 
 ```c
-// Write a program to print factorial of a number
 #include <stdio.h>
 #include <stdlib.h> /* for atoi and atof function */
 
