@@ -20,30 +20,31 @@ Input:  121
 Output: not a armstrong number
 ```
 
+---
+
 <CodeBlock slots="heading, code" repeat="1" languages="C" />
 
 #### C
 
 ```c
-// Write a program to check armstrong number
-
 #include <stdio.h>
 #include <stdlib.h> /* for atoi function */
-#include <ctype.h> /* for isdigit and isspace functions */
+#include <ctype.h>  /* for isdigit and isspace functions */
 
 #define LIMIT 32
 
 int isarmstrong(int);
 int cube(int);
-int validinput(char []);
+int validinput(char[]);
 
 int main()
 {
   char numstr[LIMIT];
   int num;
 
-  printf("Input:  ");
-  for (;;) {
+  printf("Input  : ");
+  for (;;)
+  {
     scanf("%s", numstr);
     if (validinput(numstr))
       break;
@@ -52,9 +53,9 @@ int main()
   }
   num = atoi(numstr);
   if (isarmstrong(num))
-    printf("Output: armstrong number\n");
+    printf("Output : armstrong number\n");
   else
-    printf("Output: not a armstrong number\n");
+    printf("Output : not a armstrong number\n");
   return 0;
 }
 
