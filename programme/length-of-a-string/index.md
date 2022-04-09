@@ -1,6 +1,6 @@
 ---
-title: Length of string.
-description: Write a Python programme to find the length of string.
+title: Length of string
+description: Write a programme to find the length of string
 contributors:
   - manny-uncharted
 ---
