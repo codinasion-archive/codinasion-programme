@@ -111,7 +111,7 @@ public class Fibonaci
 {
     static void Main(string[] args)
     {
-        Console.Write("Input : ");
+        Console.Write("Input  : ");
         int n = int.Parse(Console.ReadLine());
 
         int a = 0, b = 1, i = 0, temp = 0;
@@ -126,6 +126,9 @@ public class Fibonaci
             b = temp + b;
             i++;
         }
+
+        Console.Write("\n");
     }
 }
+
 ```
