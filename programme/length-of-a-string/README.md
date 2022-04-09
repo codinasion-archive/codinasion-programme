@@ -5,6 +5,8 @@ Input: abcd
 Output: 4
 ```
 
+---
+
 <CodeBlock slots="heading, code" repeat="1" languages="Python"/>
 
 #### Python
