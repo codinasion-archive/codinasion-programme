@@ -7,7 +7,7 @@ Output : 1
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C#, Java, C" />
+<CodeBlock slots="heading, code" repeat="5" languages="Python, C#, Java, C, C++" />
 
 #### Python
 
@@ -89,9 +89,42 @@ int main()
             min = test;
         n--;
     };
-    
+
     // Output
     printf("\nThe minimum is : %i\n", min);
     return 0;
+}
+```
+
+#### C++
+
+```cpp
+#include <iostream>
+#include <limits>
+
+int main()
+{
+  int min = std::numeric_limits<int>::max(); // Initializes as maximum value of int.
+  unsigned int count = 0;
+  std::cout << "Enter amount of numbers: ";
+  std::cin >> count;
+
+  while (count > 0)
+  {
+    int n = 0;
+    std::cout << "Enter number: ";
+    std::cin >> n;
+
+    if (n < min)
+    {
+      min = n;
+    }
+
+    --count;
+  }
+
+  std::cout << "Minimum: " << min << "\n";
+
+  return 0;
 }
 ```
