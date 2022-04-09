@@ -52,7 +52,6 @@ int main()
 #### C++
 
 ```cpp
-// Write a program to swap two numbers without using third variable.
 #include <iostream>
 
 void swap(int &x, int &y)
@@ -65,14 +64,14 @@ void swap(int &x, int &y)
 int main()
 {
   int a, b;
-  std::cout << "a:";
+  std::cout << "a : ";
   std::cin >> a;
-  std::cout << "b:";
+  std::cout << "b : ";
   std::cin >> b;
 
   swap(a, b);
 
-  std::cout << "a=" << a << " b=" << b << "\n";
+  std::cout << "\na = " << a << "\nb = " << b << "\n";
 
   return 0;
 }
