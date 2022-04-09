@@ -1,8 +1,13 @@
 ## Write a program to convert the temperature from Celsius to Fahrenheit
 
+```
+Input ( C )  : -40
+Output ( F ) : -40
+```
+
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="2" languages="C, Python" />
 
 #### C
 
@@ -19,23 +24,16 @@ void main()
 }
 ```
 
-
-### Python
+#### Python
 
 ```python
-
-def celsius_to_fahrenheit(celsius) -> float:
-    """Converts celsius to fahrenheit """
+def celsius_to_fahrenheit(celsius: int) -> float:
+    """Converts celsius to farenheit"""
     fahrenheit = (celsius * 9 / 5) + 32
     return fahrenheit
 
 
 if __name__ == '__main__':
-    while user_input := input('Enter celsius:\n> '):
-        print(f'{celsius_to_fahrenheit(int(user_input))}\n')
-
+    user_input = input('Enter celsius : ')
+    print(f"\nFahrenheit : {celsius_to_fahrenheit(int(user_input))}")
 ```
-
-
-
-
