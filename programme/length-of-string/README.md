@@ -7,7 +7,7 @@ Output : 4
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C#" />
+<CodeBlock slots="heading, code" repeat="2" languages="C#, C" />
 
 #### C#
 
@@ -25,5 +25,26 @@ public class LengthOfString
         // Output length of string
         Console.WriteLine("Output : " + input.Length);
     }
+}
+```
+
+#### C
+
+```c
+#include <stdio.h>
+
+#define LIMIT 32
+
+int main()
+{
+  int length;
+  char inputstr[LIMIT];
+
+  printf("Input  : ");
+  scanf("%s", inputstr);
+  for (length = 0; inputstr[length] != '\0'; length++)
+    ;
+  printf("Output : %d\n", length);
+  return 0;
 }
 ```
