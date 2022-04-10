@@ -7,26 +7,7 @@ Output : 4
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="C#, C" />
-
-#### C#
-
-```cs
-using System;
-
-public class LengthOfString
-{
-    static void Main(string[] args)
-    {
-        // Input string
-        Console.Write("Input  : ");
-        string input = Console.ReadLine();
-
-        // Output length of string
-        Console.WriteLine("Output : " + input.Length);
-    }
-}
-```
+<CodeBlock slots="heading, code" repeat="4" languages="C, C++, C#, Python" />
 
 #### C
 
@@ -47,4 +28,54 @@ int main()
   printf("Output : %d\n", length);
   return 0;
 }
+```
+
+#### C++
+
+```cpp
+#include <iostream>
+#include <string.h>
+using namespace std;
+
+int main()
+{
+  // string variable
+  string str;
+
+  // input
+  cout << "Please enter a string : ";
+  getline(cin, str);
+
+  // output
+  cout << "Length of string is : " << str.size() << endl;
+
+  return 0;
+}
+```
+
+#### C#
+
+```cs
+using System;
+
+public class LengthOfString
+{
+    static void Main(string[] args)
+    {
+        // Input string
+        Console.Write("Input  : ");
+        string input = Console.ReadLine();
+
+        // Output length of string
+        Console.WriteLine("Output : " + input.Length);
+    }
+}
+```
+
+#### Python
+
+```python
+n = input("Input Enter a text : ")
+
+print(f"\nLength of the string is {len(n)}")
 ```
