@@ -7,13 +7,13 @@ int main()
 {
   int min = std::numeric_limits<int>::max(); // Initializes as maximum value of int.
   unsigned int count = 0;
-  std::cout << "Enter amount of numbers: ";
+  std::cout << "Enter amount of numbers : ";
   std::cin >> count;
 
   while (count > 0)
   {
     int n = 0;
-    std::cout << "Enter number: ";
+    std::cout << "Enter number : ";
     std::cin >> n;
 
     if (n < min)
@@ -24,7 +24,7 @@ int main()
     --count;
   }
 
-  std::cout << "Minimum: " << min << "\n";
+  std::cout << "\nMinimum : " << min << "\n";
 
   return 0;
 }
