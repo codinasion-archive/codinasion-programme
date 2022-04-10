@@ -7,7 +7,7 @@ Output ( F ) : -40
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="C, Python, C++" />
+<CodeBlock slots="heading, code" repeat="4" languages="C, Python, C++, Java" />
 
 #### C
 
@@ -58,5 +58,25 @@ int main()
 
   cout << "\nThe temperature in Celsius is: " << Celsius << endl;
   cout << "The temperature in Fahrenheit is: " << Fahrenheit << endl;
+}
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+class Celsius_to_Fahrenheit {
+    public static void main(String[] args) {
+        float cel, far;
+
+        Scanner s = new Scanner(System.in);
+        System.out.print("Input ( C )  : ");
+        cel = s.nextInt();
+
+        far = cel * 9 / 5 + 32;
+
+        System.out.println("Output ( F ) : " + far);
+    }
 }
 ```
