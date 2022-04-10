@@ -7,7 +7,7 @@ Output: 4
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python"/>
+<CodeBlock slots="heading, code" repeat="2" languages="Python, C++"/>
 
 #### Python
 
@@ -27,17 +27,17 @@ print(f"\nLength of the string is {len(n)}")
 using namespace std;
 
 int main()
-{   
-    // string variable
-    string str;
+{
+  // string variable
+  string str;
 
-    // input
-    cout << "Please enter a string : ";
-    getline(cin, str);
+  // input
+  cout << "Please enter a string : ";
+  getline(cin, str);
 
-    // output
-    cout << "Length of string is : " << str.size();
+  // output
+  cout << "Length of string is : " << str.size() << endl;
 
-    return 0;
+  return 0;
 }
 ```
