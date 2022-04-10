@@ -10,7 +10,7 @@
 8. ### [Write a program to check armstrong number](./armstrong-number/)
 9. ### [Write a programme to print ASCII Value of a character](./ascii-value/)
 10. ### [Write a program to find average of numbers](./average-of-numbers/)
-11. ### [Write a program to convert the temperature from Celsius to Fahrenheit and from Fahrenheit to Celsius](./celsius-to-fahrenheit/)
+11. ### [Write a program to convert the temperature from Celsius to Fahrenheit](./celsius-to-fahrenheit/)
 12. ### [Write a programme to check leap year](./check-leap-year/)
 13. ### [Write a program to check prime number](./check-prime-number/)
 14. ### [Write a programme to calculate compound interest](./compound-interest-calculator/)
