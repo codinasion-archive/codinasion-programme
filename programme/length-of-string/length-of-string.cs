@@ -6,7 +6,7 @@ public class LengthOfString
     static void Main(string[] args)
     {
         // Input string
-        Console.Write("Input : ");
+        Console.Write("Input  : ");
         string input = Console.ReadLine();
 
         // Output length of string
