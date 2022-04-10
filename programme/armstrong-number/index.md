@@ -1,6 +1,6 @@
 ---
 title: Check armstrong number
-description: Write a c program to check armstrong number
+description: Write a program to check armstrong number
 contributors:
   - Badboy-16
 ---
