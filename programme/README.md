@@ -20,7 +20,7 @@
 18. ### [Write a program to print the Fibonacci series for 'n' numbers without using recursion](./fibonaci-series-without-using-recursion/)
 19. ### [Write a programme to print Hello World](./hello-world/)
 20. ### [Write a programme to convert hours to seconds](./hours-to-seconds/)
-21. ### [Write a programme to find the length of string](./length-of-a-string/)
+21. ### [Write a programme to find the length of string](./length-of-string/)
 22. ### [Write a program to print the Fibonacci series for 'n' numbers using recursion](./fibonnaci-series-using-recursion/)
 23. ### [Write a program to print the maximum of given numbers](./maximum-of-numbers/)
 24. ### [Write a program to print the minimum of given numbers](./minimum-of-numbers/)
