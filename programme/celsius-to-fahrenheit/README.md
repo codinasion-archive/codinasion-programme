@@ -7,7 +7,7 @@ Output ( F ) : -40
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="C, Python" />
+<CodeBlock slots="heading, code" repeat="3" languages="C, Python, C++" />
 
 #### C
 
@@ -40,25 +40,23 @@ if __name__ == '__main__':
 
 #### C++
 
-```C++
-
+```cpp
 #include <iostream>
 
 using namespace std;
 
-int main() {
+int main()
+{
 
-    float Fahrenheit;//initialize Fahrenheit
-    float Celsius;//initlialize Celcius
+  float Fahrenheit; // initialize Fahrenheit
+  float Celsius;    // initialize Celsius
 
-    cout << "Enter the temperature in Celcius: ";
-    cin >> Celsius;
+  cout << "Enter the temperature in Celsius: ";
+  cin >> Celsius;
 
-    Fahrenheit = ((Celsius * 9.0) / 5.0) + 32;
+  Fahrenheit = ((Celsius * 9.0) / 5.0) + 32;
 
-    cout << "The temperature in Celsius is: " << Celsius << endl;
-    cout << "The temperature in Fahrenheit is: " << Fahrenheit << endl;
-
+  cout << "\nThe temperature in Celsius is: " << Celsius << endl;
+  cout << "The temperature in Fahrenheit is: " << Fahrenheit << endl;
 }
-
 ```
