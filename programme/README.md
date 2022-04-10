@@ -45,6 +45,6 @@
 43. ### [Write a program to print sum of digits](./sum-of-digits/)
 44. ### [Write a program to find the sum of square of first 'n' numbers](./sum-of-square/)
 45. ### [Write a program to swap two numbers](./swap-two-numbers/)
-46. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-varible/)
+46. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-variable/)
 47. ### [Write a program to find X power Y](./x-power-y/)
 48. ### [Write a programme to convert years to days](./years-to-days/)
