@@ -1,4 +1,4 @@
-## Write a program to get the factorial of a number.
+## Write a program to find the factorial of a number.
 
 ```
 Input:  5
@@ -7,7 +7,7 @@ Output: 120
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, Java" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, Java, C" />
 
 #### Python
 
@@ -42,5 +42,48 @@ class Factorial {
         }
         System.out.println("Output: " + fact);
     }
+}
+```
+
+#### C
+
+```c
+#include <stdio.h>
+#include <stdlib.h> /* for atoi and atof function */
+
+#define LIMIT 32 /* longest input allowed */
+
+int factorial(int);
+
+int main()
+{
+  int input;
+  double inputdouble;
+  char inputstr[LIMIT];
+
+  printf("Input  : ");
+  for (;;)
+  {
+    scanf("%s", inputstr);
+    input = atoi(inputstr);
+    inputdouble = atof(inputstr);
+    if (input == inputdouble && input >= 1)
+      break;
+    else
+    {
+      printf("\nInvalid input.\nInput  : ");
+      continue;
+    }
+  }
+  printf("\nOutput : %d\n", factorial(input));
+  return 0;
+}
+
+int factorial(int n)
+{
+  int result = 1;
+  for (int i = n; i > 0; i--)
+    result *= i;
+  return result;
 }
 ```
