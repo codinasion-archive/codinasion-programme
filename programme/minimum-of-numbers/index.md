@@ -6,6 +6,7 @@ contributors:
   - Mrczarny
   - KikiManjaro
   - luiscff
+  - wkktoria
 ---
 
 import README from "./README.md"
