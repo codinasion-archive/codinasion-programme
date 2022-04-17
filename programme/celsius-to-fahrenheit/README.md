@@ -7,7 +7,7 @@ Output ( F ) : -40
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="C, Python" />
+<CodeBlock slots="heading, code" repeat="3" languages="C, Python, C#" />
 
 #### C
 
@@ -36,4 +36,28 @@ def celsius_to_fahrenheit(celsius: int) -> float:
 if __name__ == '__main__':
     user_input = input('Enter celsius : ')
     print(f"\nFahrenheit : {celsius_to_fahrenheit(int(user_input))}")
+```
+
+#### C#
+
+```cs
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace codinasion
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter temp. (in C) : ");
+            float temperature = float.Parse(Console.ReadLine());
+            temperature = ((9 * temperature) / 5) + 32;
+            Console.Write("Temp. in F : " + temperature + "\n");
+        }
+    }
+}
 ```
