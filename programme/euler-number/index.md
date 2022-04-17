@@ -2,7 +2,7 @@
 title: Euler's Number
 description: Write a programme to compute the value of Euler's Number
 contributors:
-  - lkb335
+  - LevBernstein
 ---
 
 import README from "./README.md"
