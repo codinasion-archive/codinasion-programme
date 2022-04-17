@@ -4,6 +4,8 @@ description: Write a program to convert the temperature from Celsius to Fahrenhe
 contributors:
   - seraph776
   - yslDevelop
+  - Khushi369
+  - andrew9078
 ---
 
 import README from "./README.md"
