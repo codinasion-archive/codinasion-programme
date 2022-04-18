@@ -5,6 +5,7 @@ contributors:
   - giftcup
   - udit6023
   - Divyanshpatel18
+  - seraph776
 ---
 
 import README from "./README.md"

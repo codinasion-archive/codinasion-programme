@@ -1,51 +1,82 @@
-## Write a program to convert the temperature from Celsius to Fahrenheit and from Fahrenheit to Celsius.
+## Write a program to convert the temperature from Celsius to Fahrenheit
+
+```
+Input ( C )  : -40
+Output ( F ) : -40
+```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="4" languages="C, Python, C++, Java" />
 
 #### C
 
 ```c
 #include <stdio.h>
 
-void CtoF()
-{
-    float c;
-    printf("Enter temp. (in C) : ");
-    scanf("%f", &c);
-    float f = ((9 * c) / 5) + 32;
-    printf("Temp. in F : %f F\n", f);
-}
-
-void FtoC()
-{
-    float f;
-    printf("Enter temp. (in F) : ");
-    scanf("%f", &f);
-    float c = ((f - 32) * 5) / 9;
-    printf("Temp. in C : %f C\n", c);
-}
-
 void main()
 {
-    int n;
-    printf("1. C to F\n");
-    printf("2. F to C\n");
-    printf("Enter choice : ");
-    scanf("%d", &n);
-    switch (n)
-    {
-    case 1:
-        CtoF();
-        break;
+  float c;
+  printf("Enter temp. (in C) : ");
+  scanf("%f", &c);
+  float f = ((9 * c) / 5) + 32;
+  printf("Temp. in F : %f\n", f);
+}
+```
 
-    case 2:
-        FtoC();
-        break;
+#### Python
 
-    default:
-        break;
+```python
+def celsius_to_fahrenheit(celsius: int) -> float:
+    """Converts celsius to farenheit"""
+    fahrenheit = (celsius * 9 / 5) + 32
+    return fahrenheit
+
+
+if __name__ == '__main__':
+    user_input = input('Enter celsius : ')
+    print(f"\nFahrenheit : {celsius_to_fahrenheit(int(user_input))}")
+```
+
+#### C++
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+  float Fahrenheit; // initialize Fahrenheit
+  float Celsius;    // initialize Celsius
+
+  cout << "Enter the temperature in Celsius: ";
+  cin >> Celsius;
+
+  Fahrenheit = ((Celsius * 9.0) / 5.0) + 32;
+
+  cout << "\nThe temperature in Celsius is: " << Celsius << endl;
+  cout << "The temperature in Fahrenheit is: " << Fahrenheit << endl;
+}
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+class Celsius_to_Fahrenheit {
+    public static void main(String[] args) {
+        float cel, far;
+
+        Scanner s = new Scanner(System.in);
+        System.out.print("Input ( C )  : ");
+        cel = s.nextInt();
+
+        far = cel * 9 / 5 + 32;
+
+        System.out.println("Output ( F ) : " + far);
     }
 }
 ```

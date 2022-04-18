@@ -6,7 +6,7 @@ Hello World !!!
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, C, C++" />
 
 #### Python
 
@@ -25,4 +25,17 @@ int main(void)
     printf("Hello World !!!\n");
     return 0;
 }
+```
+
+#### C++
+
+```cpp
+#include <iostream>
+
+int main()
+{
+  std::cout << "Hello World !!!\n";
+  return 0;
+}
+
 ```
