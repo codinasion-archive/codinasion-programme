@@ -7,7 +7,7 @@ Output : 4
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="C, C++, C#, Python" />
+<CodeBlock slots="heading, code" repeat="5" languages="C, C++, C#, Python, Java" />
 
 #### C
 
@@ -78,4 +78,20 @@ public class LengthOfString
 n = input("Input Enter a text : ")
 
 print(f"\nLength of the string is {len(n)}")
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+public class StringLength {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter string : ");
+        String input = scanner.next();
+        System.out.println("\nLength of string : " + input.length());
+        scanner.close();
+    }
+}
 ```
