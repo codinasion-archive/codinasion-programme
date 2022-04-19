@@ -11,7 +11,7 @@ perimeter : 28
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
+<CodeBlock slots="heading, code" repeat="2" languages="Python, Java" />
 
 #### Python
 
@@ -20,4 +20,24 @@ length = int(input("length  : "))
 breadth = int(input("breadth : "))
 
 print(f"\nperimeter : {2*(length + breadth)}")
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+class PerimeterOfRectangle {
+    public static void main(String[] args) {
+        double length, breadth = 0.0;
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter a length: ");
+            length = sc.nextDouble();
+            System.out.print("Enter a breadth: ");
+            breadth = sc.nextDouble();
+        }
+        double perimeter = 2 * (length + breadth);
+        System.out.println("Perimeter: " + perimeter);
+    }
+}
 ```
