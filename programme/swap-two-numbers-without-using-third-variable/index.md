@@ -5,6 +5,7 @@ contributors:
   - Satyapriyo
   - aryangupta701
   - wkktoria
+  - kzhang01
 ---
 
 import README from "./README.md"

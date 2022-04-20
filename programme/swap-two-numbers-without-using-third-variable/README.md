@@ -7,7 +7,7 @@ Output: a=20 b=10
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, C, C++" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
 
 #### Python
 
@@ -74,5 +74,29 @@ int main()
   std::cout << "\na = " << a << "\nb = " << b << "\n";
 
   return 0;
+}
+```
+#### Java
+```java
+import java.util.Scanner;
+
+public class Swap {
+    private static void swap(int a, int b) {
+        System.out.println("Numbers before swap: " + a + " and " + b);
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        System.out.println("Numbers after swap: " + a + " and " + b);
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int a = sc.nextInt();
+        System.out.print("Enter another number: ");
+        int b = sc.nextInt();
+
+        swap(a, b);
+        sc.close();
+    }
 }
 ```
