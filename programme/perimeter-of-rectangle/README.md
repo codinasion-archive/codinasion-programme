@@ -11,7 +11,7 @@ perimeter : 28
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, Java" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, Java, C" />
 
 #### Python
 
@@ -39,5 +39,25 @@ class PerimeterOfRectangle {
         double perimeter = 2 * (length + breadth);
         System.out.println("\nPerimeter : " + perimeter);
     }
+}
+```
+
+#### C
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    double length, breadth, perimeter;
+
+    printf("length  : ");
+    scanf("%lf", &length);
+    printf("breadth : ");
+    scanf("%lf", &breadth);
+
+    perimeter = 2 * (length + breadth);
+    printf("\nperimeter : %g\n", perimeter);
+    return 0;
 }
 ```
