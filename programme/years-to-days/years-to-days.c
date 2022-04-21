@@ -4,11 +4,11 @@
 
 int main()
 {
-  int years, days;
+    int years, days;
 
-  printf("Years : ");
-  scanf("%d", &years);
-  days = years * 365;
-  printf("Days  : %d", days);
-  return 0;
+    printf("Years : ");
+    scanf("%d", &years);
+    days = years * 365;
+    printf("Days  : %d\n", days);
+    return 0;
 }
