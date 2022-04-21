@@ -1,4 +1,4 @@
-## Write a Python programme to find perimeter of rectangle
+## Write a programme to find perimeter of rectangle
 
 Perimeter of rectangle = 2 * ( ` length ` + ` breadth ` )
 
@@ -31,13 +31,13 @@ class PerimeterOfRectangle {
     public static void main(String[] args) {
         double length, breadth = 0.0;
         try (Scanner sc = new Scanner(System.in)) {
-            System.out.print("Enter a length: ");
+            System.out.print("Enter length  : ");
             length = sc.nextDouble();
-            System.out.print("Enter a breadth: ");
+            System.out.print("Enter breadth : ");
             breadth = sc.nextDouble();
         }
         double perimeter = 2 * (length + breadth);
-        System.out.println("Perimeter: " + perimeter);
+        System.out.println("\nPerimeter : " + perimeter);
     }
 }
 ```
