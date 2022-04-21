@@ -4,14 +4,14 @@
 
 int main()
 {
-  double length, breadth, perimeter;
+    double length, breadth, perimeter;
 
-  printf("length: ");
-  scanf("%lf", &length);
-  printf("breadth: ");
-  scanf("%lf", &breadth);
+    printf("length  : ");
+    scanf("%lf", &length);
+    printf("breadth : ");
+    scanf("%lf", &breadth);
 
-  perimeter = 2 * (length + breadth);
-  printf("perimeter: %g", perimeter);
-  return 0;
+    perimeter = 2 * (length + breadth);
+    printf("\nperimeter : %g\n", perimeter);
+    return 0;
 }
