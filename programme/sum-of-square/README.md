@@ -7,7 +7,7 @@ Output : 14
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, Java, C++" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C++, C" />
 
 #### Python
 
@@ -64,6 +64,29 @@ int main()
         total += (i * i);
     }
     cout << "Output : " << total << endl;
+    return 0;
+}
+```
+
+#### C
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    int result = 0;
+
+    printf("n: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++)
+    {
+        result += i * i;
+    }
+
+    printf("%d", result);
     return 0;
 }
 ```
