@@ -4,6 +4,7 @@ description: Write a program to find the sum of square of first 'n' numbers
 contributors:
   - NeelPatel31
   - KikiManjaro
+  - Badboy-16
 ---
 
 import README from "./README.md"
