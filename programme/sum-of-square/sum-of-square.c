@@ -7,7 +7,7 @@ int main()
     int n;
     int result = 0;
 
-    printf("n: ");
+    printf("n : ");
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++)
@@ -15,6 +15,6 @@ int main()
         result += i * i;
     }
 
-    printf("%d", result);
+    printf("\nsum : %d\n", result);
     return 0;
 }
