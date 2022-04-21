@@ -7,7 +7,7 @@ Output : 365
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="C#, Python" />
+<CodeBlock slots="heading, code" repeat="3" languages="C#, Python, C" />
 
 #### C#
 
@@ -38,4 +38,21 @@ public class YearsToDays
 ```python
 years = int(input("years : "))
 print(f"\ndays  : {years * 365}")
+```
+
+#### C
+
+```c
+#include <stdio.h>
+
+int main()
+{
+  int years, days;
+
+  printf("Years : ");
+  scanf("%d", &years);
+  days = years * 365;
+  printf("Days  : %d", days);
+  return 0;
+}
 ```
