@@ -8,7 +8,7 @@ side : 4
 perimeter : 16
 ```
 
-<CodeBlock slots="heading, code" repeat="3" languages="C, Python, C++" />
+<CodeBlock slots="heading, code" repeat="4" languages="C, Python, C++, Java" />
 
 #### C
 
@@ -75,17 +75,18 @@ int main()
 
 #### Java
 
-```Java
+```java
 import java.util.Scanner;
+
 class perimiterofsquare {
-	public static void main(String args[]) {
-		// Your code goes here
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("side: ");
-		int s = Integer.parseInt(sc.nextLine());
-    s = s*s;
-		System.out.println(s); 
-		sc.close();
-	}
-}```
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("side : ");
+        int s = Integer.parseInt(sc.nextLine());
+        s = 4 * s;
+        System.out.println("\nPerimeter : " + s);
+        sc.close();
+    }
+}
+```
