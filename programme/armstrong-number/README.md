@@ -22,7 +22,7 @@ Output: not a armstrong number
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="2" languages="C, Java" />
 
 #### C
 
@@ -92,5 +92,27 @@ int validinput(char a[])
   while (isspace(a[i]))
     i++;
   return (a[i] == '\0') ? 1 : 0;
+}
+```
+
+#### Java
+```java
+import java.util.Scanner;
+
+public class Armstrong {
+    private static String isArmstrong(int num) {
+        int sum = 0;
+        for (int currNum = num; currNum != 0; currNum /= 10) {
+            sum += Math.pow(currNum % 10, 3);
+        }
+        return sum == num ? "armstrong number" : "not armstrong number";
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter an integer: ");
+        int num = sc.nextInt();
+        System.out.println(isArmstrong(num));
+        sc.close();
+    }
 }
 ```
