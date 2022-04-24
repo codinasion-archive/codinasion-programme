@@ -96,6 +96,7 @@ int validinput(char a[])
 ```
 
 #### Java
+
 ```java
 import java.util.Scanner;
 
@@ -107,11 +108,12 @@ public class Armstrong {
         }
         return sum == num ? "armstrong number" : "not armstrong number";
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter an integer: ");
+        System.out.print("Enter an integer : ");
         int num = sc.nextInt();
-        System.out.println(isArmstrong(num));
+        System.out.println("\nOutput : " + isArmstrong(num));
         sc.close();
     }
 }
