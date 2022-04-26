@@ -8,7 +8,9 @@ side : 4
 perimeter : 16
 ```
 
-<CodeBlock slots="heading, code" repeat="4" languages="C, Python, C++, Java" />
+---
+
+<CodeBlock slots="heading, code" repeat="5" languages="C, Python, C++, Java, C#" />
 
 #### C
 
@@ -92,6 +94,7 @@ class perimiterofsquare {
 ```
 
 #### C#
+
 ```cs
 using System;
 
@@ -102,14 +105,14 @@ public class PerimeterOfSquare
         Console.Write("Side : ");
         string input = Console.ReadLine();
         int side = 0;
-        //verifies valid # input and passes converted int to side variable
+        // verifies valid input and passes converted int to side variable
         if (int.TryParse(input, out side))
         {
             Console.WriteLine("Perimeter : " + (side * 4));
         }
         else
         {
-            Console.WriteLine("Invalid input.");
+            Console.WriteLine("\n*** Invalid input !!! ***");
         }
     }
 }
