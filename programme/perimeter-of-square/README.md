@@ -8,7 +8,9 @@ side : 4
 perimeter : 16
 ```
 
-<CodeBlock slots="heading, code" repeat="3" languages="C, Python, C++" />
+---
+
+<CodeBlock slots="heading, code" repeat="5" languages="C, Python, C++, Java, C#" />
 
 #### C
 
@@ -70,5 +72,48 @@ int main()
 
     // printing out the result
     cout << "Perimeter : " << perimeter << endl;
+}
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+class perimiterofsquare {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("side : ");
+        int s = Integer.parseInt(sc.nextLine());
+        s = 4 * s;
+        System.out.println("\nPerimeter : " + s);
+        sc.close();
+    }
+}
+```
+
+#### C#
+
+```cs
+using System;
+
+public class PerimeterOfSquare
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Side : ");
+        string input = Console.ReadLine();
+        int side = 0;
+        // verifies valid input and passes converted int to side variable
+        if (int.TryParse(input, out side))
+        {
+            Console.WriteLine("Perimeter : " + (side * 4));
+        }
+        else
+        {
+            Console.WriteLine("\n*** Invalid input !!! ***");
+        }
+    }
 }
 ```

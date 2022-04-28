@@ -1,4 +1,4 @@
-## Write a Python programme to find perimeter of rectangle
+## Write a programme to find perimeter of rectangle
 
 Perimeter of rectangle = 2 * ( ` length ` + ` breadth ` )
 
@@ -11,7 +11,7 @@ perimeter : 28
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C, C#" />
 
 #### Python
 
@@ -20,4 +20,73 @@ length = int(input("length  : "))
 breadth = int(input("breadth : "))
 
 print(f"\nperimeter : {2*(length + breadth)}")
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+class PerimeterOfRectangle {
+    public static void main(String[] args) {
+        double length, breadth = 0.0;
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter length  : ");
+            length = sc.nextDouble();
+            System.out.print("Enter breadth : ");
+            breadth = sc.nextDouble();
+        }
+        double perimeter = 2 * (length + breadth);
+        System.out.println("\nPerimeter : " + perimeter);
+    }
+}
+```
+
+#### C
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    double length, breadth, perimeter;
+
+    printf("length  : ");
+    scanf("%lf", &length);
+    printf("breadth : ");
+    scanf("%lf", &breadth);
+
+    perimeter = 2 * (length + breadth);
+    printf("\nperimeter : %g\n", perimeter);
+    return 0;
+}
+```
+
+#### C#
+
+```cs
+using System;
+
+public class PerimeterOfRectangle
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Length    : ");
+        string input = Console.ReadLine();
+        int length, breadth;
+        // verifies valid input and passes converted int to length variable
+        if (int.TryParse(input, out length))
+        {
+            Console.Write("Breadth   : ");
+            input = Console.ReadLine();
+            // gets 2nd user input and passes converted int to breadth variable
+            if (int.TryParse(input, out breadth))
+            {
+                Console.WriteLine("\nPerimeter : " + (2 * (length + breadth)));
+                return;
+            }
+        }
+        Console.WriteLine("\n*** Invalid input !!! ***");
+    }
+}
 ```

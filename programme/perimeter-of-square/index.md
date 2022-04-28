@@ -5,6 +5,8 @@ contributors:
   - Badboy-16
   - JDev64
   - AlfredoR-CSUF
+  - HaveACookie
+  - whtann
 ---
 
 import README from "./README.md"

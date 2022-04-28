@@ -5,6 +5,7 @@ contributors:
   - GodKimba
   - Glogius95
   - rishav-karanjit
+  - Badboy-16
 ---
 
 import README from "./README.md"

@@ -12,7 +12,7 @@ area : 84
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, C++, Java" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, C++, Java, C" />
 
 #### Python
 
@@ -94,5 +94,30 @@ public class Main {
         return area;
 
     }
+}
+```
+
+#### C
+
+```c
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    double a, b, c, s, area;
+
+    printf("a : ");
+    scanf("%lf", &a);
+    printf("b : ");
+    scanf("%lf", &b);
+    printf("c : ");
+    scanf("%lf", &c);
+    s = (a + b + c) / 2;
+    area = sqrt(s * (s - a) * (s - b) * (s - c));
+    printf("\ns : %.2lf\n", s);
+    printf("\narea : %.2lf\n", area);
+
+    return 0;
 }
 ```
