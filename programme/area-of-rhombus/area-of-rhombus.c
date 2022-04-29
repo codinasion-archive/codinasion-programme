@@ -1,8 +1,7 @@
-
 #include <stdio.h>
 
-int getD1();
-int getD2();
+float getD1();
+float getD2();
 
 int main() {
     float d1 = getD1();
@@ -11,15 +10,14 @@ int main() {
     printf("Area of rhombus: %f", ans);
     return 0;
 }
-
-int getD1() {
+float getD1() {
     float x;
     printf("Diagonal 1: ");
     scanf("%f", &x);
     return x;
 }
 
-int getD2() {
+float getD2() {
     float y;
     printf("Diagonal 2: ");
     scanf("%f", &y);
