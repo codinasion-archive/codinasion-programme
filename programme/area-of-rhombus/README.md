@@ -1,21 +1,22 @@
 ## Write a program to compute the area of a rhombus
 
 ```
-Diagonal 1: 4
-Diagonal 2: 8
-Area: 16
+Diagonal 1 : 6
+Diagonal 2 : 8
+
+Area : 24
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, Java, C, C++" />
+<CodeBlock slots="heading, code" repeat="1" languages="Python" />
 
 #### Python
 
 ```python
-# Computes the area of a rhombus
-diagonal1 = int(input('Diagonal 1: '))
-diagonal2 = int(input('Diagonal 2: '))
-area = diagonal1 * diagonal 2 * 0.5
-print('\nArea:',area)
+diagonal1 = int(input('Diagonal 1 : '))
+diagonal2 = int(input('Diagonal 2 : '))
+
+area = diagonal1 * diagonal2 * 0.5
+print('\nArea : ', area)
 ```
