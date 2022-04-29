@@ -8,7 +8,7 @@
 
 	printf("Enter Base 1: ");
 	scanf("%f",&b1);
-	printf("Enter Base 1: ");
+	printf("Enter Base 2: ");
 	scanf("%f",&b2);
 	printf("Enter Height: ");
 	scanf("%f",&h);
