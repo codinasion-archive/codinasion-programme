@@ -1,0 +1,20 @@
+#include <stdio.h>
+	int main()
+	{
+	float b1;
+	float b2;
+	float h;
+	float area;
+
+	printf("Enter Base 1: ");
+	scanf("%f",&b1);
+	printf("Enter Base 1: ");
+	scanf("%f",&b2);
+	printf("Enter Height: ");
+	scanf("%f",&h);
+
+	area=(b1+b2)*h/2;
+
+	printf("The area of a trapezoid with Base 1 as %.1f, Base 2 as %.1f, and Height as %.1f, is: %.1f",b1,b2,h,area);
+	return 0;
+}
