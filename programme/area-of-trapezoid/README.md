@@ -10,7 +10,7 @@ Area : 52.5
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C#" />
+<CodeBlock slots="heading, code" repeat="2" languages="C#, Python" />
 
 #### C#
 
@@ -35,4 +35,15 @@ class MainClass
 
     }
 }
+```
+
+#### Python
+
+```python
+base1 = int(input('Base 1 : '))
+base2 = int(input('Base 2 : '))
+height = int(input('Height : '))
+
+area = (base1 + base2) * height * 0.5
+print('\nArea:', area)
 ```
