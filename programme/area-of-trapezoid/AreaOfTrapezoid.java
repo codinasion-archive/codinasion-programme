@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class TrapezoidArea {
+public class AreaOfTrapezoid {
 
     public static double area(double base1, double base2, double height) {
         return ((base1 + base2) / 2) * height;
