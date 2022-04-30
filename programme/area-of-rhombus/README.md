@@ -9,7 +9,7 @@ Area : 24
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C" />
+<CodeBlock slots="heading, code" repeat="3" languages="Python, C, Java" />
 
 #### Python
 
@@ -51,5 +51,27 @@ float getD2()
     printf("Diagonal 2 : ");
     scanf("%f", &y);
     return y;
+}
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+public class AreaOfRhombus {
+    public static void main(String[] args) {
+        float diag1, diag2, area;
+        Scanner diag = new Scanner(System.in);
+        System.out.print("Diagonal 1 : ");
+        diag1 = diag.nextInt();
+
+        System.out.print("Diagonal 2 : ");
+        diag2 = diag.nextInt();
+
+        area = diag1 * diag2 / 2;
+        System.out.println("");
+        System.out.println("Area : " + area);
+    }
 }
 ```
