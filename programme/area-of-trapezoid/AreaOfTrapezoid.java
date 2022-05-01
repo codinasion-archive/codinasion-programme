@@ -1,4 +1,4 @@
-/* Java program to calculate area of trapezoid */
+/* program to calculate area of trapezoid */
 
 import java.util.Scanner;
 
@@ -16,6 +16,7 @@ public class AreaOfTrapezoid {
         double base2 = sc.nextDouble();
         System.out.print("Height : ");
         double height = sc.nextDouble();
-        System.out.println("Area : " + area(base1, base2, height));
+        System.out.println("\nArea : " + area(base1, base2, height));
+        sc.close();
     }
 }
