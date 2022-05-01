@@ -9,7 +9,7 @@ Area : 24
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, C, Java" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, C, Java, C#" />
 
 #### Python
 
@@ -72,6 +72,27 @@ public class AreaOfRhombus {
         area = diag1 * diag2 / 2;
         System.out.println("");
         System.out.println("Area : " + area);
+    }
+}
+```
+
+#### C#
+
+```cs
+using System;
+
+public class AreaOfRhombus
+{
+    static void Main()
+    {
+        float d1, d2, area;
+        Console.Write("Diagonal 1 : ");
+        d1 = Single.Parse(Console.ReadLine());
+        Console.Write("Diagonal 2 : ");
+        d2 = Single.Parse(Console.ReadLine());
+        area = d1 * d2 / 2;
+
+        Console.WriteLine("\nArea : " + area);
     }
 }
 ```
