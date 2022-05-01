@@ -10,7 +10,7 @@ Area : 52.5
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="C#, Python, Java" />
+<CodeBlock slots="heading, code" repeat="3" languages="C#, Python, Java" />
 
 #### C#
 
