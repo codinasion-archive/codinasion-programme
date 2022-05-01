@@ -22,7 +22,7 @@ Output: not a armstrong number
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="C, Java" />
+<CodeBlock slots="heading, code" repeat="3" languages="C, Java, Python" />
 
 #### C
 
@@ -117,4 +117,21 @@ public class Armstrong {
         sc.close();
     }
 }
+```
+
+#### Python
+
+```python
+number = int(input("Input  : "))
+
+sum = 0
+
+temp = number
+while temp > 0:
+    digit = temp % 10
+    sum += digit ** 3
+    temp //= 10
+
+output = "armstrong number" if number == sum else "not a armstrong number"
+print("Output :", output)
 ```
