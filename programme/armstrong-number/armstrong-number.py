@@ -1,7 +1,7 @@
 # Write a program to check if the number is an Armstrong number or not
 
 # Get input
-number = int(input("Input: "))
+number = int(input("Input  : "))
 
 sum = 0
 
@@ -13,4 +13,4 @@ while temp > 0:
 
 # Display the output
 output = "armstrong number" if number == sum else "not a armstrong number"
-print("Output: ", output)
+print("Output :", output)
