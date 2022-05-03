@@ -9,7 +9,7 @@ area : 6
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, C, C++" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C,java++" />
 
 #### Python
 
@@ -85,5 +85,38 @@ int main()
   cout << "\nArea of rectangle : " << result << endl;
 
   return 0;
+}
+```
+
+### java
+```java
+import java.util.Scanner;
+
+public class area {
+
+	public static void main(String[] args) {
+   		    Scanner sc = new Scanner(System.in);
+	        System.out.print("Enter the length : ");
+
+	        // taking length input
+	        int length = sc.nextInt();
+
+	        System.out.print("\nEnter the breadth : ");
+
+	        //taking breadth input
+	        int breadth = sc.nextInt();
+
+	        // calculating area of a rectangle
+	        int area =  length * breadth;
+
+
+	        // printing the final answer
+	        System.out.println("Area of rectangle : " + area);
+
+	        sc.close();
+
+
+	}
+
 }
 ```
