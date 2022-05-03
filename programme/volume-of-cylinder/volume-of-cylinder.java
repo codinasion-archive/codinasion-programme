@@ -21,7 +21,7 @@ public class cylinder {
         double answer = (double) Math.round(volume * 100) / 100;
 
         // printing the final answer
-        System.out.println("Area of circle : " + answer);
+        System.out.println("Volume of cylinder : " + answer);
 
         sc.close();
 
