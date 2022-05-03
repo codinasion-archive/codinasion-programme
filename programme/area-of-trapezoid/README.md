@@ -10,7 +10,7 @@ Area : 52.5
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="C#, Python, Java" />
+<CodeBlock slots="heading, code" repeat="4" languages="C#, Python, Java, C" />
 
 #### C#
 
@@ -70,5 +70,31 @@ public class AreaOfTrapezoid {
         System.out.println("\nArea : " + area(base1, base2, height));
         sc.close();
     }
+}
+```
+
+#### C
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    float base1, base2, height;
+    float area;
+
+    printf("Base 1 : ");
+    scanf("%f", &base1);
+
+    printf("Base 2 : ");
+    scanf("%f", &base2);
+
+    printf("Height : ");
+    scanf("%f", &height);
+
+    area = (base1 + base2) * height / 2;
+
+    printf("\nArea: %.2f\n", area);
+    return 0;
 }
 ```
