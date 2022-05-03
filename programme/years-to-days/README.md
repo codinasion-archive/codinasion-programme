@@ -1,4 +1,4 @@
-## Write a programme to convert years to days.
+## Write a programme to convert years to days
 
 ```
 Input : 1
@@ -7,7 +7,7 @@ Output : 365
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="C#, Python, C" />
+<CodeBlock slots="heading, code" repeat="4" languages="C#, Python, C, Java" />
 
 #### C#
 
@@ -54,5 +54,27 @@ int main()
     days = years * 365;
     printf("Days  : %d\n", days);
     return 0;
+}
+```
+
+#### Java
+
+```java
+import java.util.Scanner;
+
+public class YearsToDays {
+
+	public static int yearToDays(int year) {
+		return year * 365;
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Years : ");
+		int years = sc.nextInt();
+		System.out.println("Days  : " + yearToDays(years));
+		sc.close();
+	}
+
 }
 ```
