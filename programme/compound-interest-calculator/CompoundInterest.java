@@ -1,7 +1,7 @@
 // Write a programme to calculate compound interest.
 import java.util.Scanner;
 
-public class solution {
+public class CompoundInterest {
     public static void main(String args[]) {
         try (
                 Scanner sc = new Scanner(System.in)) {
