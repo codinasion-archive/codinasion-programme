@@ -1,7 +1,7 @@
 // Write a programme to find perimeter of square
 import java.util.Scanner;
 
-class perimiterofsquare {
+class PerimeterOfSquare {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
