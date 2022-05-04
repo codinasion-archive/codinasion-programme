@@ -2,7 +2,7 @@
 // Write a program to convert rupee to paise
 import java.util.Scanner;
 
-public class rs_to_p {
+public class RupeeToPaise {
     public static void main(String args[]) {
         double paise;
         Scanner in = new Scanner(System.in); // will create a new Scanner instance which points to the input stream

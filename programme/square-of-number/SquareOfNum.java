@@ -1,7 +1,7 @@
 // Write a programme to print square of a number
 import java.util.*;
 
-public class Square {
+public class SquareOfNum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // scanner class to take input
         System.out.print("Input  : ");

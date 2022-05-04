@@ -1,20 +1,20 @@
-// Write a program to print alphabet triangle pattern
+// Write a program to print the pattern
 import java.util.Scanner;
 
-public class alphabet_triangle_pattern {
+public class NumTrianglePattern {
     private static void pattern(int a) {
         System.out.print("Output :\n");
         for (int i = 1; i <= a; i++) {
-            int c = 65;
+            int c = 1;
             for (int k = a; k > i; k--) {
                 System.out.print(" ");
             }
             for (int j = 1; j <= 2 * i - 1; j++) {
                 if (j < i) {
-                    System.out.printf("%c", c);
+                    System.out.print(c);
                     c++;
                 } else {
-                    System.out.printf("%c", c);
+                    System.out.print(c);
                     c--;
                 }
 
