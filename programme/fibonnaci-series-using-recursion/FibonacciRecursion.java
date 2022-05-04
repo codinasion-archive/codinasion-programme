@@ -1,7 +1,7 @@
 // Write a program to print the Fibonacci series for 'n' numbers
 import java.util.Scanner;
 
-class Fiborecursion {
+class FibonacciRecursion {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number : ");
