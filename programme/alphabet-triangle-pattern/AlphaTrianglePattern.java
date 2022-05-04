@@ -1,7 +1,7 @@
 // Write a program to print alphabet triangle pattern
 import java.util.Scanner;
 
-public class alphabet_triangle_pattern {
+public class AlphaTrianglePattern {
     private static void pattern(int a) {
         System.out.print("Output :\n");
         for (int i = 1; i <= a; i++) {
