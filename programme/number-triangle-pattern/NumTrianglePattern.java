@@ -1,7 +1,7 @@
 // Write a program to print the pattern
 import java.util.Scanner;
 
-public class number_triangle_pattern {
+public class NumTrianglePattern {
     private static void pattern(int a) {
         System.out.print("Output :\n");
         for (int i = 1; i <= a; i++) {
