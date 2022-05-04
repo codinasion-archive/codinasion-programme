@@ -1,7 +1,7 @@
 // Write a programme to find area of square
 import java.util.*;
 
-class Solution {
+class AreaOfSquare {
     public static void main(String[] arg) {
         int side = input();
         int area = computeArea(side);
