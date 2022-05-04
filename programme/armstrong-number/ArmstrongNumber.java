@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Armstrong {
+public class ArmstrongNumber {
     private static String isArmstrong(int num) {
         int sum = 0;
         for (int currNum = num; currNum != 0; currNum /= 10) {
