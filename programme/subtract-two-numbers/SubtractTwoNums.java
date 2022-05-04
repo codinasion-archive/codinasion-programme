@@ -1,7 +1,7 @@
 // Write a programme to subtract two numbers
 import java.util.*;
 
-public class solution {
+public class SubtractTwoNums {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input  : ");

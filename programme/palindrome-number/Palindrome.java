@@ -1,7 +1,7 @@
 // Write a program to check palindrome number
 import java.util.*;
 
-public class solution {
+public class Palindrome {
     public static String checkPalindrome(int a) {
         int pal = 0, n;
         int original = a;

@@ -1,8 +1,8 @@
 // Write a programme to print the given pattern
 import java.util.Scanner;
 
-public class solution {
-    public static void pattern(int n) {
+public class Pattern2 {
+    public static void pattern2(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = n - 1; j > i; j--) {
                 System.out.print(" ");
@@ -27,7 +27,7 @@ public class solution {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input : ");
         int a = sc.nextInt();
-        pattern(a);
+        pattern2(a);
         sc.close();
     }
 }

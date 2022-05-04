@@ -1,7 +1,7 @@
 // Write a program to convert number to strings
 import java.util.Scanner;
 
-public class numbers_to_string {
+public class NumberToString {
     public static void main(String[] args) {
         String[] word = { "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" };
         Scanner sc = new Scanner(System.in);

@@ -1,7 +1,7 @@
 // Write a program to print fibonacci series without using recursion
 import java.util.Scanner;
 
-public class solution {
+public class Fibonacci {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

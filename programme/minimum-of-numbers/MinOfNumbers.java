@@ -2,7 +2,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-class MinNumber {
+class MinOfNumbers {
     public static void main(String[] args) {
         // Input numbers
         Scanner sc = new Scanner(System.in);

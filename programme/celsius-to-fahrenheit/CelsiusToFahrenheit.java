@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-class Celsius_to_Fahrenheit {
+class CelsiusToFahrenheit {
     public static void main(String[] args) {
         float cel, far;
 
