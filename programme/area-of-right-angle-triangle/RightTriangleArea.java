@@ -1,7 +1,7 @@
 // Write a programme to find area of right angle triangle
 import java.util.*;
 
-class area {
+class RightTriangleArea {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // input base
