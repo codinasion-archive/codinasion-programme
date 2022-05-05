@@ -11,7 +11,7 @@ Volume : 2010.62
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
+<CodeBlock slots="heading, code" repeat="2" languages="C, Python" />
 
 #### C
 
@@ -36,4 +36,20 @@ int main()
     printf("\nVolume : %.2f\n", volume);
     return 0;
 }
+```
+
+#### Python
+
+```python
+import math
+
+# Get radius and height from user
+enter_radius = int(input('Radius : '))
+enter_height = int(input('Height : '))
+
+# Calculate volume
+volume = enter_radius * enter_radius * enter_height * math.pi
+
+# Print result
+print("\nVolume : {:0.2f}".format((volume)))
 ```
