@@ -7,7 +7,7 @@ Sec : 3600
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, C, C++" />
+<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
 
 #### Python
 
@@ -59,5 +59,26 @@ int main()
 
   cout << "Seconds : " << seconds << endl;
   return 0;
+}
+```
+
+### Java
+
+```Java
+import java.util.Scanner;
+
+class hoursToSeconds {
+    public static void main(String args[]) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Hours   : ");
+        int s = Integer.parseInt(sc.nextLine());
+        
+        s = s * 60 * 60;
+        System.out.println("Seconds : " + s);
+        
+        sc.close();
+    }
 }
 ```
