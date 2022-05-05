@@ -4,7 +4,7 @@ description: Write a programme to convert hours to seconds
 contributors:
   - GodKimba
   - williamye51
-  - Have-A-Cookie
+  - HaveACookie
 ---
 
 import README from "./README.md"
