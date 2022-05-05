@@ -5,6 +5,7 @@ contributors:
   - yougottawork
   - dylan-power
   - gilazani
+  - javithegreat35
 ---
 
 import README from "./README.md"
