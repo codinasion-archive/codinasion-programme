@@ -1,35 +1,76 @@
-﻿
-Write a programme to compute the volume of the Cylinder
+## Write a program to compute the volume of a Cylinder
+
+Volume of a cylinder = ` radius ` * ` radius ` * ` height ` * ` π `
 
 ```
-radius = 8, height = 10
+Radius : 8
+Height : 10
 
-Volume of a cylinder = 8 * 8 * 10 * π = 2010.62 (round to 2 decimal places)
+Volume : 2010.62
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Java" />
+<CodeBlock slots="heading, code" repeat="3" languages="C, Python, Java" />
+
+#### C
+
+```c
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float radius;
+    float height;
+    float volume;
+
+    printf("Radius : ");
+    scanf("%f", &radius);
+
+    printf("Height : ");
+    scanf("%f", &height);
+
+    volume = (radius * radius) * height * M_PI;
+
+    printf("\nVolume : %.2f\n", volume);
+    return 0;
+}
+```
+
+#### Python
+
+```python
+import math
+
+# Get radius and height from user
+enter_radius = int(input('Radius : '))
+enter_height = int(input('Height : '))
+
+# Calculate volume
+volume = enter_radius * enter_radius * enter_height * math.pi
+
+# Print result
+print("\nVolume : {:0.2f}".format((volume)))
+```
 
 #### Java
 
 ```java
-package com.company;
-
 import java.util.Scanner;
 
-public class cylinder {
+public class volumeOfCylinder {
 
-	public static void main(String[] args) {
-	    Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the radius : ");
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
 
         // taking radius input
+        System.out.print("Enter the radius : ");
         int r = sc.nextInt();
-        
-        System.out.print("\nEnter the height : ");
-        
-        //taking height input
+
+        // taking height input
+        System.out.print("Enter the height : ");
         int h = sc.nextInt();
 
         // calculating Volume of cylinder
@@ -39,11 +80,10 @@ public class cylinder {
         double answer = (double) Math.round(volume * 100) / 100;
 
         // printing the final answer
-        System.out.println("Volume of cylinder : " + answer);
+        System.out.println("\nVolume of cylinder : " + answer);
 
         sc.close();
 
-	}
-
+    }
 }
 ```
