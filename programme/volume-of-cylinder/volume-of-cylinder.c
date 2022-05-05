@@ -15,8 +15,8 @@ int main()
     printf("Height : ");
     scanf("%f", &height);
 
-    volume = (radius*radius) * height * M_PI;
+    volume = (radius * radius) * height * M_PI;
 
-    printf("\nVolume: %.2f\n", volume);
+    printf("\nVolume : %.2f\n", volume);
     return 0;
 }
