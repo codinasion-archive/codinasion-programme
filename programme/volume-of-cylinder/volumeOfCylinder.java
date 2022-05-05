@@ -1,17 +1,19 @@
+// Write a program to compute the volume of a Cylinder
+
 import java.util.Scanner;
 
-public class cylinder {
+public class volumeOfCylinder {
 
-	public static void main(String[] args) {
-	    Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the radius : ");
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
 
         // taking radius input
+        System.out.print("Enter the radius : ");
         int r = sc.nextInt();
-        
-        System.out.print("\nEnter the height : ");
-        
-        //taking height input
+
+        // taking height input
+        System.out.print("Enter the height : ");
         int h = sc.nextInt();
 
         // calculating Volume of cylinder
@@ -21,10 +23,9 @@ public class cylinder {
         double answer = (double) Math.round(volume * 100) / 100;
 
         // printing the final answer
-        System.out.println("Volume of cylinder : " + answer);
+        System.out.println("\nVolume of cylinder : " + answer);
 
         sc.close();
 
-	}
-
+    }
 }
