@@ -1,7 +1,9 @@
-﻿---
-title: volume-of-cylinder
-description: Write a programme to find volume of cylinder
+---
+title: Volume of a cylinder
+description: Write a program to compute the volume of a Cylinder
 contributors:
+  - yougottawork
+  - dylan-power
   - gilazani
 ---
 
