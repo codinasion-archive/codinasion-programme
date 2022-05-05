@@ -1,7 +1,7 @@
 // Write a program to print the reverse of a number
 import java.util.Scanner;
 
-public class reverse_of_number {
+public class ReverseOfNumber {
     public static void main(String[] args) {
         int a, n;
         Scanner sc = new Scanner(System.in);

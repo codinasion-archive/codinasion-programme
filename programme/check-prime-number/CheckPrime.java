@@ -1,7 +1,7 @@
 // Write a program to check prime number
 import java.util.*;
 
-public class solution {
+public class CheckPrime {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
