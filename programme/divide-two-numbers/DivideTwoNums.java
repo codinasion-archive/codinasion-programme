@@ -1,9 +1,9 @@
 // Write a programme to divide two numbers
 import java.util.Scanner;
 
-public class Divide_two_numbers {
+public class DivideTwoNums {
 
-    public static double Divide(int num1, int num2) {
+    public static double divide(int num1, int num2) {
         // if divisor is 0
         if (num2 == 0) {
             System.out.println("Division by 0 is not allowed");
@@ -20,7 +20,7 @@ public class Divide_two_numbers {
         int num2 = sc.nextInt();
 
         // divide two numbers
-        double result = Divide(num1, num2);
+        double result = divide(num1, num2);
 
         System.out.printf("\nOutput : %.1f\n", result);
 
