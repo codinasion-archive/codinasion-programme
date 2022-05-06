@@ -1,3 +1,4 @@
+// Write a program to find average of numbers
 
 import java.util.Scanner;
 
@@ -14,7 +15,7 @@ public class AverageOfNumbers {
 
     public String getUserNums() {
         in = new Scanner(System.in);
-        System.out.print("Input: ");
+        System.out.print("Input  : ");
         return in.nextLine();
     }
 
@@ -34,7 +35,7 @@ public class AverageOfNumbers {
     }
 
     public static void printAverage(double average, String userNumInput) {
-        System.out.println("Output: " + average);
+        System.out.println("Output : " + average);
 
     }
 
