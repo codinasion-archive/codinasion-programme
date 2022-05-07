@@ -4,6 +4,7 @@ description: Write a program to print the maximum of given numbers
 contributors:
   - harshi1122
   - Mrczarny
+  - Have-A-Cookie
 ---
 
 import README from "./README.md"
