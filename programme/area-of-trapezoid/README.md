@@ -1,4 +1,19 @@
-## Write a  program to compute area of trapezoid
+---
+title: Area of a trapezoid
+description: Write a program to compute area of trapezoid
+tags:
+  - cs
+  - python
+  - java
+  - c
+contributors:
+  - lt77777
+  - jongwon254
+  - Anzo52
+  - yougottawork
+---
+
+## Write a program to compute area of trapezoid
 
 ```
 Base 1 : 5
@@ -10,9 +25,7 @@ Area : 52.5
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="C#, Python, Java, C" />
-
-#### C#
+<CodeBlock>
 
 ```cs
 using System;
@@ -37,8 +50,6 @@ class MainClass
 }
 ```
 
-#### Python
-
 ```python
 base1 = int(input('Base 1 : '))
 base2 = int(input('Base 2 : '))
@@ -47,8 +58,6 @@ height = int(input('Height : '))
 area = (base1 + base2) * height * 0.5
 print('\nArea:', area)
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -73,8 +82,6 @@ public class AreaOfTrapezoid {
 }
 ```
 
-#### C
-
 ```c
 #include <stdio.h>
 
@@ -98,3 +105,5 @@ int main()
     return 0;
 }
 ```
+
+</CodeBlock>

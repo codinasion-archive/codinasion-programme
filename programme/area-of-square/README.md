@@ -1,3 +1,20 @@
+---
+title: Area of square
+description: Write a programme to find area of square
+tags:
+  - java
+  - c
+  - python
+  - cs
+  - cpp
+contributors:
+  - giftcup
+  - jessicant
+  - harshi1122
+  - Mrczarny
+  - ramanand-rv
+---
+
 ## Write a program to find the area of a square.
 
 ```
@@ -8,9 +25,7 @@ area : 16
 
 ---
 
-<CodeBlock slots="heading, code" repeat="5" languages="Java, C, Python, C#, C++" />
-
-#### Java
+<CodeBlock>
 
 ```java
 import java.util.*;
@@ -40,8 +55,6 @@ class Solution {
 }
 ```
 
-#### C
-
 ```c
 #include <stdio.h>
 #include <assert.h> // for the assert function
@@ -57,7 +70,7 @@ int main(void)
 
     printf("side : ");
     scanf("%lf", &side);
-    
+
     area = area_of_square(side);
     printf("\narea : %.1lf\n", area);
 
@@ -77,8 +90,6 @@ void test(void)
 }
 ```
 
-#### Python
-
 ```python
 # input side
 x = int(input('side : '))
@@ -86,8 +97,6 @@ x = int(input('side : '))
 # output srea
 print('area :', x**2)
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -111,8 +120,6 @@ public class SquareArea
 }
 ```
 
-#### C++
-
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -133,3 +140,5 @@ int main()
   return 0;
 }
 ```
+
+</CodeBlock>

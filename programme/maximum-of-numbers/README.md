@@ -1,3 +1,14 @@
+---
+title: Maximum of Numbers
+description: Write a program to print the maximum of given numbers
+tags:
+  - python
+  - cs
+contributors:
+  - harshi1122
+  - Mrczarny
+---
+
 ## Write a program to print the maximum of given numbers
 
 ```
@@ -7,9 +18,7 @@ Output: 16
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C#" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # Taking input and making a list
@@ -18,8 +27,6 @@ n = list(map(int, input("Input: ").split()))
 # Printing the maximum value
 print(max(n))
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -43,3 +50,5 @@ public class MaxNumber
     }
 }
 ```
+
+</CodeBlock>

@@ -1,3 +1,18 @@
+---
+title: Years to days
+description: Write a programme to convert years to days
+tags:
+  - cs
+  - python
+  - c
+  - java
+contributors:
+  - jojo4441
+  - JDev64
+  - Badboy-16
+  - Anzo52
+---
+
 ## Write a programme to convert years to days
 
 ```
@@ -7,9 +22,7 @@ Output : 365
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="C#, Python, C, Java" />
-
-#### C#
+<CodeBlock>
 
 ```cs
 using System;
@@ -33,14 +46,10 @@ public class YearsToDays
 }
 ```
 
-#### Python
-
 ```python
 years = int(input("years : "))
 print(f"\ndays  : {years * 365}")
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -56,8 +65,6 @@ int main()
     return 0;
 }
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -78,3 +85,5 @@ public class YearsToDays {
 
 }
 ```
+
+</CodeBlock>

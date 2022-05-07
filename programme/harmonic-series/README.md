@@ -1,3 +1,12 @@
+---
+title: Harmonic Series
+description: Write a programme to calculate the sum of following harmonic series for a given value of n
+tags:
+  - c
+contributors:
+  - Badboy-16
+---
+
 ## Write a programme to calculate the sum of following harmonic series for a given value of n.
 
 ```
@@ -6,9 +15,7 @@
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -72,3 +79,5 @@ int ispositiveint(char a[])
         return 0;
 }
 ```
+
+</CodeBlock>

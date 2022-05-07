@@ -1,3 +1,18 @@
+---
+title: Area of Triangle
+description: Write a programme to find area of triangle
+tags:
+  - python
+  - cpp
+  - java
+  - c
+contributors:
+  - GodKimba
+  - Glogius95
+  - rishav-karanjit
+  - Badboy-16
+---
+
 ## Write a programme to find area of triangle
 
 ```
@@ -12,9 +27,7 @@ area : 84
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C++, Java, C" />
-
-#### Python
+<CodeBlock>
 
 ```python
 a = float(input('Enter the length of first side  : '))
@@ -27,8 +40,6 @@ s = (a + b + c) / 2
 area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
 print('\nThe area of the triangle is %0.2f' % area)
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -57,8 +68,6 @@ int main()
     return 0;
 }
 ```
-
-#### Java
 
 ```java
 package com.company;
@@ -97,8 +106,6 @@ public class Main {
 }
 ```
 
-#### C
-
 ```c
 #include <stdio.h>
 #include <math.h>
@@ -121,3 +128,5 @@ int main()
     return 0;
 }
 ```
+
+</CodeBlock>

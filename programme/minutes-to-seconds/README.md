@@ -1,3 +1,14 @@
+---
+title: Minutes to Seconds
+description: Write a programme to convert minutes to seconds
+tags:
+  - python
+  - java
+contributors:
+  - seraph776
+  - MananKarnik
+---
+
 ## Write a programme to convert minutes to seconds.
 
 ```
@@ -7,9 +18,7 @@ Output : 60
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, Java" />
-
-#### Python
+<CodeBlock>
 
 ```python
 def minutes_to_second(minutes: int) -> int:
@@ -22,8 +31,6 @@ if __name__ == '__main__':
     print(minutes_to_second(5))  # 60
     print(minutes_to_second(10))  # 60
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -47,3 +54,5 @@ public class MinutesToSeconds {
     }
 }
 ```
+
+</CodeBlock>

@@ -1,3 +1,16 @@
+---
+title: Factorial of a number
+description: Write a program to get the factorial of a number
+tags:
+  - python
+  - java
+  - c
+contributors:
+  - harshi1122
+  - KikiManjaro
+  - Badboy-16
+---
+
 ## Write a program to find the factorial of a number.
 
 ```
@@ -7,9 +20,7 @@ Output: 120
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, Java, C" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # recursive factorial function
@@ -22,8 +33,6 @@ def factorial(n):
 n = int(input("Input:"))
 print("Output: ", factorial(n))
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -44,8 +53,6 @@ class Factorial {
     }
 }
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -87,3 +94,5 @@ int factorial(int n)
   return result;
 }
 ```
+
+</CodeBlock>

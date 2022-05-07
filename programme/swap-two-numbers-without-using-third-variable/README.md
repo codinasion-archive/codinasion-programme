@@ -1,3 +1,18 @@
+---
+title: Swap two numbers without using third variable
+description: Write a program to swap two numbers without using third variable
+tags:
+  - python
+  - c
+  - cpp
+  - java
+contributors:
+  - Satyapriyo
+  - aryangupta701
+  - wkktoria
+  - kzhang01
+---
+
 ## Write a program to swap two numbers without using third variable.
 
 ```
@@ -7,9 +22,7 @@ Output: a=20 b=10
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # define variables
@@ -22,8 +35,6 @@ a, b = b, a
 # print result
 print(a, b)
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -48,8 +59,6 @@ int main()
   return 0;
 }
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -77,8 +86,6 @@ int main()
 }
 ```
 
-#### Java
-
 ```java
 import java.util.Scanner;
 
@@ -103,3 +110,5 @@ public class Swap {
     }
 }
 ```
+
+</CodeBlock>

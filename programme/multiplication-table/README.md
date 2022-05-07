@@ -1,3 +1,11 @@
+---
+title: Multiplication Table
+description: Write a program to output the multiplication table
+tags:
+  - c
+contributors:
+---
+
 ## Write a program to output the following multiplication table.
 
 ```
@@ -11,9 +19,7 @@
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -26,3 +32,5 @@ void main()
     }
 }
 ```
+
+</CodeBlock>

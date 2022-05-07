@@ -1,6 +1,21 @@
+---
+title: Perimeter of rectangle
+description: Write a programme to find perimeter of rectangle
+tags:
+  - python
+  - java
+  - c
+  - cs
+contributors:
+  - JDev64
+  - Badboy-16
+  - KikiManjaro
+  - whtann
+---
+
 ## Write a programme to find perimeter of rectangle
 
-Perimeter of rectangle = 2 * ( ` length ` + ` breadth ` )
+Perimeter of rectangle = 2 \* ( `length` + `breadth` )
 
 ```
 length  : 12
@@ -11,9 +26,7 @@ perimeter : 28
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C, C#" />
-
-#### Python
+<CodeBlock>
 
 ```python
 length = int(input("length  : "))
@@ -21,8 +34,6 @@ breadth = int(input("breadth : "))
 
 print(f"\nperimeter : {2*(length + breadth)}")
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -42,8 +53,6 @@ class PerimeterOfRectangle {
 }
 ```
 
-#### C
-
 ```c
 #include <stdio.h>
 
@@ -61,8 +70,6 @@ int main()
     return 0;
 }
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -90,3 +97,5 @@ public class PerimeterOfRectangle
     }
 }
 ```
+
+</CodeBlock>

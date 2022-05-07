@@ -1,3 +1,20 @@
+---
+title: Minimum of Numbers
+description: Write a program to print the minimum of given numbers
+tags:
+  - python
+  - cs
+  - java
+  - c
+  - cpp
+contributors:
+  - harshi1122
+  - Mrczarny
+  - KikiManjaro
+  - luiscff
+  - wkktoria
+---
+
 ## Write a program to print the minimum of given numbers
 
 ```
@@ -7,9 +24,7 @@ Output : 1
 
 ---
 
-<CodeBlock slots="heading, code" repeat="5" languages="Python, C#, Java, C, C++" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # Taking input and making a list
@@ -18,8 +33,6 @@ n = list(map(int, input("Input: ").split()))
 # Printing the minimum value
 print(min(n))
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -44,8 +57,6 @@ public class MinNumber
 }
 ```
 
-#### Java
-
 ```java
 import java.util.*;
 import java.util.stream.Collectors;
@@ -65,8 +76,6 @@ class MinNumber {
     }
 }
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -95,8 +104,6 @@ int main()
     return 0;
 }
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -128,3 +135,5 @@ int main()
   return 0;
 }
 ```
+
+</CodeBlock>

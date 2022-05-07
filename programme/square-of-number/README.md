@@ -1,3 +1,14 @@
+---
+title: Square of a number
+description: Write a program to find the square of a number
+tags:
+  - python
+  - java
+contributors:
+  - harshi1122
+  - SpadeQ22
+---
+
 ## Write a programme to find the square of a number
 
 ```
@@ -7,9 +18,7 @@ Output : 25
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, Java" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # input
@@ -18,8 +27,6 @@ n=int(input('Input: '))
 # output
 print('Output: ',n**2)
 ```
-
-#### Java
 
 ```java
 import java.util.*;
@@ -41,3 +48,5 @@ public class Square {
     }
 }
 ```
+
+</CodeBlock>

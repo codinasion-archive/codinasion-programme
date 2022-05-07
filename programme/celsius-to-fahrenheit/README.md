@@ -1,15 +1,29 @@
+---
+title: Celsius to Fahrenheit
+description: Write a program to convert the temperature from Celsius to Fahrenheit
+tags:
+  - c
+  - python
+  - cpp
+  - java
+  - cs
+contributors:
+  - seraph776
+  - yslDevelop
+  - Khushi369
+  - andrew9078
+---
+
 ## Write a program to convert the temperature from Celsius to Fahrenheit
 
 ```
-Input ( C )  : -40
+Input ( c )  : -40
 Output ( F ) : -40
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="5" languages="C, Python, C++, Java, C#" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -17,14 +31,12 @@ Output ( F ) : -40
 void main()
 {
   float c;
-  printf("Enter temp. (in C) : ");
+  printf("Enter temp. (in c) : ");
   scanf("%f", &c);
   float f = ((9 * c) / 5) + 32;
   printf("Temp. in F : %f\n", f);
 }
 ```
-
-#### Python
 
 ```python
 def celsius_to_fahrenheit(celsius: int) -> float:
@@ -37,8 +49,6 @@ if __name__ == '__main__':
     user_input = input('Enter celsius : ')
     print(f"\nFahrenheit : {celsius_to_fahrenheit(int(user_input))}")
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -61,8 +71,6 @@ int main()
 }
 ```
 
-#### Java
-
 ```java
 import java.util.Scanner;
 
@@ -71,7 +79,7 @@ class Celsius_to_Fahrenheit {
         float cel, far;
 
         Scanner s = new Scanner(System.in);
-        System.out.print("Input ( C )  : ");
+        System.out.print("Input ( c )  : ");
         cel = s.nextInt();
 
         far = cel * 9 / 5 + 32;
@@ -80,8 +88,6 @@ class Celsius_to_Fahrenheit {
     }
 }
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -96,7 +102,7 @@ namespace codinasion
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter temp. (in C) : ");
+            Console.Write("Enter temp. (in c) : ");
             float temperature = float.Parse(Console.ReadLine());
             temperature = ((9 * temperature) / 5) + 32;
             Console.Write("Temp. in F : " + temperature + "\n");
@@ -104,3 +110,5 @@ namespace codinasion
     }
 }
 ```
+
+</CodeBlock>

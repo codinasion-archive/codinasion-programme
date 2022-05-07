@@ -1,3 +1,12 @@
+---
+title: Swap two numbers
+description: Write a program to swap two numbers
+tags:
+  - python
+contributors:
+  - johnelbacani
+---
+
 ## Write a program to swap two numbers.
 
 ```
@@ -7,9 +16,7 @@ Output: a=20 b=10
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # define variables
@@ -24,3 +31,5 @@ b = c
 # print result
 print(a, b)
 ```
+
+</CodeBlock>
