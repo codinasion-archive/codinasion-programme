@@ -13,7 +13,7 @@ contributors:
 
 ## Write a program to check palindrome number.
 
-```
+```txt
 Input  : 121
 Output : Palindrome number
 ```

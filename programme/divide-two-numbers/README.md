@@ -14,7 +14,7 @@ contributors:
 
 ## Write a program to divide two numbers
 
-```
+```txt
 Input the Dividend : 4
 Input the Divisor  : 2
 

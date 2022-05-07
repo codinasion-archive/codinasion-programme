@@ -15,7 +15,7 @@ contributors:
 
 ## Write a programme to convert years to days
 
-```
+```txt
 Input : 1
 Output : 365
 ```

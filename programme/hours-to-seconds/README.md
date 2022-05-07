@@ -14,7 +14,7 @@ contributors:
 
 ## Write a programme to convert hours to seconds
 
-```
+```txt
 Hrs : 1
 Sec : 3600
 ```

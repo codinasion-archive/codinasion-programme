@@ -13,7 +13,7 @@ contributors:
 
 ## Write a program to add two numbers
 
-```
+```txt
 Input  : 5 4
 Output : 9
 ```

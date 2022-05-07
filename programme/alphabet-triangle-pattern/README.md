@@ -12,7 +12,7 @@ contributors:
 
 ## Write a program to print alphabet triangle pattern.
 
-```
+```txt
 Input : 5
 Output:
     A

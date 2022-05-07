@@ -15,7 +15,7 @@ contributors:
 
 ## Write a program to compute the area of a rectangle
 
-```
+```txt
 length  : 2
 breadth : 3
 

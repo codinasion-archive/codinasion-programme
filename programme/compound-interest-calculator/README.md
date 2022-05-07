@@ -11,7 +11,7 @@ contributors:
 
 ## Write a programme to calculate compound interest.
 
-```
+```txt
 Enter P : 100
 Enter T : 10
 Enter R : 10

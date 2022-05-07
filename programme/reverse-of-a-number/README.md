@@ -15,7 +15,7 @@ contributors:
 
 ## Write a program to print the reverse of a number
 
-```
+```txt
 Input  : 1234
 Output : 4321
 ```

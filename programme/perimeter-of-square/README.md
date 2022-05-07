@@ -17,9 +17,9 @@ contributors:
 
 ## Write a programme to find perimeter of square
 
-Perimeter of square = 4 \* `side`
+Perimeter of square = 4 \* side
 
-```
+```txt
 side : 4
 
 perimeter : 16

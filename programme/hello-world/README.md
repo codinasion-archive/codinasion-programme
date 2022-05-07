@@ -13,7 +13,7 @@ contributors:
 
 ## Write a program to print Hello World
 
-```
+```txt
 Hello World !!!
 ```
 

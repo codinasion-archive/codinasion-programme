@@ -14,7 +14,7 @@ contributors:
 
 ## Write a program to convert rupee to paise
 
-```
+```txt
 Input:  15.95
 Output: 1595
 ```

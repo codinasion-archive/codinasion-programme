@@ -9,11 +9,10 @@ contributors:
 
 ## Write a python programme to print the given pattern.
 
-```
-Input: 5
-```
+```txt
+Input  : 5
+Output :
 
-```
 x x x x x
 x       x
 x       x

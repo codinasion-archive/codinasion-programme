@@ -14,7 +14,7 @@ contributors:
 
 ## Write a program to check prime number
 
-```
+```txt
 Input  : 7
 Output : Prime number
 ```

@@ -13,7 +13,7 @@ contributors:
 
 ## Write a program to find the factorial of a number.
 
-```
+```txt
 Input:  5
 Output: 120
 ```

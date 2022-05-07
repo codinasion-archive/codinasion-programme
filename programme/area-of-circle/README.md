@@ -13,7 +13,7 @@ contributors:
 
 ## Write a programme to find the area of circle.
 
-```
+```txt
 r : 3
 Area : 28.27
 ```

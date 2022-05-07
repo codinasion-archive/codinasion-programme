@@ -11,7 +11,7 @@ contributors:
 
 ## Write a program to print the maximum of given numbers
 
-```
+```txt
 Input: 2 4 1 16 6
 Output: 16
 ```

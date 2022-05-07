@@ -13,12 +13,12 @@ contributors:
 
 ## Write a programme to check leap year
 
-```
+```txt
 Input  : 2020
 Output : Leap Year
 ```
 
-```
+```txt
 Input  : 2021
 Output : Not a Leap Year
 ```

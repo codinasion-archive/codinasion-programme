@@ -15,7 +15,7 @@ contributors:
 
 ## Write a programme to find area of triangle
 
-```
+```txt
 a : 10
 b : 17
 c : 21

@@ -15,7 +15,7 @@ contributors:
 
 ## Write a program to compute the area of a rhombus
 
-```
+```txt
 Diagonal 1 : 6
 Diagonal 2 : 8
 

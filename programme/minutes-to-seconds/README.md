@@ -11,7 +11,7 @@ contributors:
 
 ## Write a programme to convert minutes to seconds.
 
-```
+```txt
 Input  : 1
 Output : 60
 ```

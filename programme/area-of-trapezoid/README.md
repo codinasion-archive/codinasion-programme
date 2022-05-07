@@ -15,7 +15,7 @@ contributors:
 
 ## Write a program to compute area of trapezoid
 
-```
+```txt
 Base 1 : 5
 Base 2 : 10
 Height : 7

@@ -17,7 +17,7 @@ contributors:
 
 ## Write a programme to print ASCII Value of a character.
 
-```
+```txt
 Input  : A
 Output : 65
 ```
