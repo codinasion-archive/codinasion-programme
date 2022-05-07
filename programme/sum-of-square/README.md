@@ -1,3 +1,17 @@
+---
+title: Sum of square
+description: Write a program to find the sum of square of first 'n' numbers
+tags:
+  - python
+  - java
+  - cpp
+  - c
+contributors:
+  - NeelPatel31
+  - KikiManjaro
+  - Badboy-16
+---
+
 ## Write a program to print sum of square of n natural number
 
 ```
@@ -7,9 +21,7 @@ Output : 14
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C++, C" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # Input
@@ -21,8 +33,6 @@ total = [x**2 for x in range(1,n+1)]
 # Output
 print('Output: ',sum(total))
 ```
-
-#### Java
 
 ```java
 import java.io.*;
@@ -48,8 +58,6 @@ class SumOfSquare {
 }
 ```
 
-#### C++
-
 ```cpp
 #include <iostream>
 using namespace std;
@@ -67,8 +75,6 @@ int main()
     return 0;
 }
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -90,3 +96,5 @@ int main()
     return 0;
 }
 ```
+
+</CodeBlock>

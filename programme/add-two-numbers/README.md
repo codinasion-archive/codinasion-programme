@@ -1,3 +1,16 @@
+---
+title: Add two numbers
+description: Write a program to add two numbers
+tags:
+  - python
+  - cs
+  - cpp
+contributors:
+  - harshi1122
+  - Mrczarny
+  - ramanand-rv
+---
+
 ## Write a program to add two numbers
 
 ```
@@ -7,9 +20,7 @@ Output : 9
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, C#, C++" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # input two numbers
@@ -18,8 +29,6 @@ x, y = input("Enter two numbers: ").split()
 # print sum
 print("Sum of numbers : ", int(x)+int(y))
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -43,8 +52,6 @@ public class AddTwo
 }
 ```
 
-#### C++
-
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -67,3 +74,5 @@ int main()
   return 0;
 }
 ```
+
+</CodeBlock>

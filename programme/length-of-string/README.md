@@ -1,3 +1,20 @@
+---
+title: Length of string
+description: Write a program to print the length of a string
+tags:
+  - c
+  - cpp
+  - cs
+  - python
+  - java
+contributors:
+  - jojo4441
+  - Badboy-16
+  - manny-uncharted
+  - superpthegreat
+  - srabhishekh
+---
+
 ## Write a program to print the length of a string
 
 ```
@@ -7,9 +24,7 @@ Output : 4
 
 ---
 
-<CodeBlock slots="heading, code" repeat="5" languages="C, C++, C#, Python, Java" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -29,8 +44,6 @@ int main()
   return 0;
 }
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -53,8 +66,6 @@ int main()
 }
 ```
 
-#### C#
-
 ```cs
 using System;
 
@@ -72,15 +83,11 @@ public class LengthOfString
 }
 ```
 
-#### Python
-
 ```python
 n = input("Input Enter a text : ")
 
 print(f"\nLength of the string is {len(n)}")
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -95,3 +102,5 @@ public class StringLength {
     }
 }
 ```
+
+</CodeBlock>

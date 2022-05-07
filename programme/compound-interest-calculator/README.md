@@ -1,3 +1,14 @@
+---
+title: Compound Interest Calculator
+description: Write a programme to calculate compound interest
+tags:
+  - python
+  - java
+contributors:
+  - theanorak
+  - KikiManjaro
+---
+
 ## Write a programme to calculate compound interest.
 
 ```
@@ -11,9 +22,7 @@ Compound Interest : 159.37
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, Java" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # Input from User
@@ -25,8 +34,6 @@ r = int(input("Enter Rate of Interest : "))
 print('Amount : ', (round((p*((1+(r/100))**t)), 2)))
 print('Compound Interest : ', (round((p*((1+(r/100))**t)) - p, 2)))
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -52,3 +59,5 @@ public class solution {
     }
 }
 ```
+
+</CodeBlock>

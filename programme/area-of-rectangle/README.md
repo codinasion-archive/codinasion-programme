@@ -1,3 +1,18 @@
+---
+title: Area of rectangle
+description: Write a programme to find area of rectangle
+tags:
+  - python
+  - c
+  - cpp
+  - java
+contributors:
+  - giftcup
+  - harshi1122
+  - ramanand-rv
+  - gilazani
+---
+
 ## Write a program to compute the area of a rectangle
 
 ```
@@ -9,9 +24,7 @@ area : 6
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # input length
@@ -23,8 +36,6 @@ y = int(input('breadth : '))
 # output area
 print('\narea : ', x*y)
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -43,7 +54,7 @@ int main(void)
     scanf("%lf", &length);
     printf("breadth : ");
     scanf("%lf", &breadth);
-    
+
     area = area_of_rectangle(length, breadth);
     printf("area : %.1lf\n", area);
 
@@ -62,8 +73,6 @@ void test(void)
     assert(area_of_rectangle(2, 3) == 6);
 }
 ```
-
-#### C++
 
 ```cpp
 #include <bits/stdc++.h>
@@ -117,3 +126,5 @@ public class areaOfRectangle {
 	}
 }
 ```
+
+</CodeBlock>

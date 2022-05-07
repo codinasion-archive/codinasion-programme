@@ -1,3 +1,18 @@
+---
+title: Fibonacci Series using recursion
+description: Write a program to print the Fibonacci series for 'n' numbers using recursion
+tags:
+  - python
+  - c
+  - java
+  - cpp
+contributors:
+  - harshi1122
+  - Shivam-Shrivastav
+  - Prabs09
+  - rgodoy86
+---
+
 ## Write a program to print the Fibonacci series for 'n' numbers
 
 ```
@@ -7,9 +22,7 @@ Output : 0 1 1 2 3 5 8 13 21 34
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C, Java, C++" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # Function to print the Fibonacci series
@@ -29,8 +42,6 @@ print('Output: ',end ='')
 for i in range(n):
     print(Fib(i),end =' ')
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -60,8 +71,6 @@ int fibonacci(int i)
 }
 ```
 
-#### Java
-
 ```java
 import java.util.Scanner;
 
@@ -86,8 +95,6 @@ class Fiborecursion {
     }
 }
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -134,3 +141,5 @@ int main()
   return 0;
 }
 ```
+
+</CodeBlock>

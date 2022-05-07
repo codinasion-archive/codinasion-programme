@@ -1,3 +1,16 @@
+---
+title: Hello World
+description: Write a programme to print Hello World
+tags:
+  - python
+  - c
+  - cpp
+contributors:
+  - zikpefu
+  - GodKimba
+  - wkktoria
+---
+
 ## Write a program to print Hello World
 
 ```
@@ -6,15 +19,11 @@ Hello World !!!
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, C, C++" />
-
-#### Python
+<CodeBlock>
 
 ```python
 print("Hello World!")
 ```
-
-#### C
 
 ```c
 #include <stdlib.h>
@@ -27,8 +36,6 @@ int main(void)
 }
 ```
 
-#### C++
-
 ```cpp
 #include <iostream>
 
@@ -39,3 +46,5 @@ int main()
 }
 
 ```
+
+</CodeBlock>

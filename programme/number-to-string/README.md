@@ -1,3 +1,17 @@
+---
+title: Number to Strings
+description: Write a program to convert number to strings
+tags:
+  - python
+  - c
+  - cpp
+  - java
+contributors:
+  - aryangupta701
+  - NeelPatel31
+  - seraph776
+---
+
 ## Write a program to convert number to strings.
 
 ```
@@ -7,9 +21,7 @@ Output : five one
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
-
-#### Python
+<CodeBlock>
 
 ```python
 def numbers_to_strings(n: int) -> str:
@@ -25,8 +37,6 @@ def numbers_to_strings(n: int) -> str:
 if __name__ == '__main__':
     print(numbers_to_strings(776))  # seven seven six
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -95,8 +105,6 @@ int main()
 }
 ```
 
-#### C++
-
 ```cpp
 #include <iostream>
 #include <string>
@@ -120,8 +128,6 @@ int main()
 }
 ```
 
-#### Java
-
 ```java
 import java.util.Scanner;
 
@@ -140,3 +146,5 @@ public class numbers_to_string {
     }
 }
 ```
+
+</CodeBlock>

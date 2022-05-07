@@ -1,3 +1,17 @@
+---
+title: Check Prime Number
+description: Write a program to check prime number
+tags:
+  - python
+  - java
+  - c
+  - cpp
+contributors:
+  - dylan-power
+  - karthiksbh
+  - NeelPatel31
+---
+
 ## Write a program to check prime number
 
 ```
@@ -7,9 +21,7 @@ Output : Prime number
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C, C++" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # check prime number function
@@ -25,8 +37,6 @@ def check_prime(num):
 n = int(input("Input : "))
 print("Output :", check_prime(n))
 ```
-
-#### Java
 
 ```java
 import java.util.*;
@@ -60,8 +70,6 @@ public class solution {
 }
 ```
 
-#### C
-
 ```c
 #include <stdio.h>
 int main()
@@ -89,8 +97,6 @@ int main()
     return 0;
 }
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -127,3 +133,5 @@ int main()
     return 0;
 }
 ```
+
+</CodeBlock>

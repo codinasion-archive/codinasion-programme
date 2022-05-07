@@ -1,3 +1,12 @@
+---
+title: Multiply two numbers
+description: Write a programme to multiply two numbers
+tags:
+  - python
+contributors:
+  - Shahzeb-A
+---
+
 ## Write a programme to multiply two numbers.
 
 ```
@@ -7,9 +16,7 @@ Output: 20
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # input first number
@@ -21,3 +28,5 @@ b = int(input('Write the second number'))
 # output
 print('The output is ', a*b)
 ```
+
+</CodeBlock>

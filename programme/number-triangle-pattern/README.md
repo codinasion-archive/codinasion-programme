@@ -1,8 +1,20 @@
+---
+title: Number triangle pattern
+description: Write a program to print number triangle pattern
+tags:
+  - c
+  - cpp
+  - python
+  - java
+contributors:
+  - NeelPatel31
+---
+
 ## Write a program to print number triangle pattern.
 
 ```
 Input  : 5
-Output : 
+Output :
     1
    121
   12321
@@ -12,9 +24,7 @@ Output :
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="C, C++, Python, Java" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -54,8 +64,6 @@ int main()
     return 0;
 }
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -98,8 +106,6 @@ int main()
 }
 ```
 
-#### Python
-
 ```python
 def pattern(a):
     print("Output :")
@@ -120,8 +126,6 @@ def pattern(a):
 a = int(input("Input  : "))
 pattern(a)
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -158,3 +162,5 @@ public class number_triangle_pattern {
 
 }
 ```
+
+</CodeBlock>
