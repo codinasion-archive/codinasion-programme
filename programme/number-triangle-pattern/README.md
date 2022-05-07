@@ -12,7 +12,7 @@ contributors:
 
 ## Write a program to print number triangle pattern.
 
-```
+```txt
 Input  : 5
 Output :
     1

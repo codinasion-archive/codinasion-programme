@@ -14,7 +14,7 @@ contributors:
 
 ## Write a program to convert number to strings.
 
-```
+```txt
 Input  : 51
 Output : five one
 ```

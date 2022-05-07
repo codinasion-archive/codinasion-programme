@@ -9,11 +9,10 @@ contributors:
 
 ## Write a program to print Fibonacci pattern
 
-`Input` : `5`
+```txt
+Input  : 5
+Output :
 
-`Output` :
-
-```
 1
 1 1
 1 1 2

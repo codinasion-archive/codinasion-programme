@@ -17,19 +17,19 @@ Armstrong number is a number that is equal to the sum of cubes of its digits.
 
 ### Examples
 
-- `0` = `0^3`
-- `1` = `1^3`
-- `153` = `1^3 + 5^3 + 3^3`
-- `370` = `3^3 + 7^3 + 0^3`
+- 0 = 0^3
+- 1 = 1^3
+- 153 = 1^3 + 5^3 + 3^3
+- 370 = 3^3 + 7^3 + 0^3
 
 ### Programme
 
-```
+```txt
 Input:  153
 Output: armstrong number
 ```
 
-```
+```txt
 Input:  121
 Output: not a armstrong number
 ```

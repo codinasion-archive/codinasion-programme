@@ -9,7 +9,7 @@ contributors:
 
 ## Write a program to find X power Y
 
-```
+```txt
 Input:  2 4
 Output: 16
 ```

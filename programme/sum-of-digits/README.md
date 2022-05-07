@@ -13,7 +13,7 @@ contributors:
 
 ## Write a program to print sum of digits.
 
-```
+```txt
 Input:  2332
 Output: 10
 ```

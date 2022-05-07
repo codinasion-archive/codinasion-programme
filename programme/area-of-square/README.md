@@ -17,7 +17,7 @@ contributors:
 
 ## Write a program to find the area of a square.
 
-```
+```txt
 side : 4
 
 area : 16

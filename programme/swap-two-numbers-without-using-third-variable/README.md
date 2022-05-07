@@ -15,7 +15,7 @@ contributors:
 
 ## Write a program to swap two numbers without using third variable.
 
-```
+```txt
 Input:  a=10 b=20
 Output: a=20 b=10
 ```

@@ -15,7 +15,7 @@ contributors:
 
 ## Write a programme to convert decimal number to binary.
 
-```
+```txt
 Input : 8
 Output : 1000
 

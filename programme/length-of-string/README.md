@@ -17,7 +17,7 @@ contributors:
 
 ## Write a program to print the length of a string
 
-```
+```txt
 Input  : abcd
 Output : 4
 ```

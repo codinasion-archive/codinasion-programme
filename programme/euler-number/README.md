@@ -9,7 +9,7 @@ contributors:
 
 ## Write a programme to compute the value of Euler's Number
 
-```
+```txt
 1 + 1/1! + 1/2! + 1/3! + ... + 1/n!
 ```
 

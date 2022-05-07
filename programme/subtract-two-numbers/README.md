@@ -15,12 +15,12 @@ contributors:
 
 ## Write a program to subtract two numbers
 
-```
+```txt
 Input  : 5 3
 Output : 2
 ```
 
-```
+```txt
 Input  : 3 5
 Output : -2
 ```

@@ -14,7 +14,7 @@ contributors:
 
 ## Write a program to print sum of square of n natural number
 
-```
+```txt
 Input  : 3
 Output : 14
 ```

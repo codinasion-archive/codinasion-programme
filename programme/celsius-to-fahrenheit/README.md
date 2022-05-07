@@ -16,7 +16,7 @@ contributors:
 
 ## Write a program to convert the temperature from Celsius to Fahrenheit
 
-```
+```txt
 Input ( c )  : -40
 Output ( F ) : -40
 ```

@@ -15,9 +15,9 @@ contributors:
 
 ## Write a program to compute the volume of a Cylinder
 
-Volume of a cylinder = `radius` _ `radius` _ `height` \* `π`
+Volume of a cylinder = radius \* radius \* height \* π
 
-```
+```txt
 Radius : 8
 Height : 10
 

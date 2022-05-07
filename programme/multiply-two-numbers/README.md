@@ -9,7 +9,7 @@ contributors:
 
 ## Write a programme to multiply two numbers.
 
-```
+```txt
 Input:  5 4
 Output: 20
 ```

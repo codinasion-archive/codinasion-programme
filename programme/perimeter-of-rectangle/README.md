@@ -15,9 +15,9 @@ contributors:
 
 ## Write a programme to find perimeter of rectangle
 
-Perimeter of rectangle = 2 \* ( `length` + `breadth` )
+Perimeter of rectangle = 2 \* ( length + breadth )
 
-```
+```txt
 length  : 12
 breadth : 2
 

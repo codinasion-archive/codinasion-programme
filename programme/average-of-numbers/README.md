@@ -11,7 +11,7 @@ contributors:
 
 ## Write a program to find average of numbers
 
-```
+```txt
 Input:  2 3 4
 Output: 3
 ```

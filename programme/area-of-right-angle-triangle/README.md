@@ -14,7 +14,7 @@ contributors:
 
 ## Write a program to compute the area of a right angle triangle
 
-```
+```txt
 base  : 2
 height : 3
 

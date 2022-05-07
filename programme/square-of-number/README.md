@@ -11,7 +11,7 @@ contributors:
 
 ## Write a programme to find the square of a number
 
-```
+```txt
 Input  : 5
 Output : 25
 ```
