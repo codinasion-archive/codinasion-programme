@@ -2,9 +2,9 @@
 title: Area of Circle
 description: Write a programme to find the area of circle
 tags:
-	- python
-	- java
-	- cpp
+  - python
+  - java
+  - cpp
 contributors:
   - theanorak
   - NeelPatel31
