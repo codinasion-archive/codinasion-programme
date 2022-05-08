@@ -1,6 +1,6 @@
 ## Write a program to compute the volume of a Sphere
 
-Volume of a cylinder = ` radius ` * ` radius ` * ` radius ` * ` 4/3 ` * ` π `
+Volume of a sphere = ` radius ` * ` radius ` * ` radius ` * ` 4/3 ` * ` π `
 
 ```
 Radius : 8
