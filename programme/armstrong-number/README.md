@@ -1,30 +1,42 @@
+---
+title: Check armstrong number
+description: Write a program to check armstrong number
+tags:
+  - c
+  - java
+  - python
+contributors:
+  - Badboy-16
+  - kzhang01
+  - vaishnavikumar8
+---
+
 ## Write a program to check armstrong number
 
 Armstrong number is a number that is equal to the sum of cubes of its digits.
 
 ### Examples
 
-- `0` = `0^3`
-- `1` = `1^3`
-- `153` = `1^3 + 5^3 + 3^3`
-- `370` = `3^3 + 7^3 + 0^3`
+- 0 = 0^3
+- 1 = 1^3
+- 153 = 1^3 + 5^3 + 3^3
+- 370 = 3^3 + 7^3 + 0^3
 
 ### Programme
 
-```
+```txt
 Input:  153
 Output: armstrong number
 ```
-```
+
+```txt
 Input:  121
 Output: not a armstrong number
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="C, Java, Python" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -95,8 +107,6 @@ int validinput(char a[])
 }
 ```
 
-#### Java
-
 ```java
 import java.util.Scanner;
 
@@ -119,8 +129,6 @@ public class Armstrong {
 }
 ```
 
-#### Python
-
 ```python
 number = int(input("Input  : "))
 
@@ -135,3 +143,5 @@ while temp > 0:
 output = "armstrong number" if number == sum else "not a armstrong number"
 print("Output :", output)
 ```
+
+</CodeBlock>

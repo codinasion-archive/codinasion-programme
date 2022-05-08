@@ -1,15 +1,26 @@
+---
+title: Check palindrome number
+description: Write a program to check palindrome number
+tags:
+  - python
+  - java
+  - cpp
+  - c
+contributors:
+  - NeelPatel31
+  - seraph776
+---
+
 ## Write a program to check palindrome number.
 
-```
+```txt
 Input  : 121
 Output : Palindrome number
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C++, C" />
-
-#### Python
+<CodeBlock>
 
 ```python
 def check_palindrome(n: int) -> str:
@@ -22,8 +33,6 @@ def check_palindrome(n: int) -> str:
 num = int(input('Input  : '))
 print('\nOutput :', check_palindrome(num))
 ```
-
-#### Java
 
 ```java
 import java.util.*;
@@ -52,8 +61,6 @@ public class solution {
     }
 }
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -86,8 +93,6 @@ int main()
 }
 ```
 
-#### C
-
 ```c
 #include <stdio.h>
 char *checkPalindrome(int a)
@@ -115,3 +120,5 @@ int main()
     return 0;
 }
 ```
+
+</CodeBlock>

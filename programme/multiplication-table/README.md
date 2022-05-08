@@ -1,6 +1,14 @@
+---
+title: Multiplication Table
+description: Write a program to output the multiplication table
+tags:
+  - c
+contributors:
+---
+
 ## Write a program to output the following multiplication table.
 
-```
+```txt
 5 x 1 = 5
 5 x 2 = 10
 5 x 3 = 15
@@ -11,9 +19,7 @@
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="C" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -26,3 +32,5 @@ void main()
     }
 }
 ```
+
+</CodeBlock>
