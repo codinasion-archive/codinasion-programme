@@ -1,15 +1,27 @@
+---
+title: Hours to Seconds
+description: Write a programme to convert hours to seconds
+tags:
+  - python
+  - c
+  - cpp
+  - java
+contributors:
+  - GodKimba
+  - williamye51
+  - HaveACookie
+---
+
 ## Write a programme to convert hours to seconds
 
-```
+```txt
 Hrs : 1
 Sec : 3600
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # Input the hours from the user
@@ -27,8 +39,6 @@ else:
     print(f"{hours} hours is equal to {seconds} seconds!")
 ```
 
-#### C
-
 ```c
 #include <stdio.h>
 
@@ -43,8 +53,6 @@ int main()
   return 0;
 }
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -62,9 +70,9 @@ int main()
 }
 ```
 
-### Java
+### java
 
-```Java
+```java
 import java.util.Scanner;
 
 class hoursToSeconds {
@@ -74,11 +82,13 @@ class hoursToSeconds {
 
         System.out.print("Hours   : ");
         int s = Integer.parseInt(sc.nextLine());
-        
+
         s = s * 60 * 60;
         System.out.println("Seconds : " + s);
-        
+
         sc.close();
     }
 }
 ```
+
+</CodeBlock>
