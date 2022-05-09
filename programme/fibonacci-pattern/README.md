@@ -1,22 +1,28 @@
+---
+title: Fibonacci Pattern
+description: Write a program to print Fibonacci pattern
+tags:
+  - java
+contributors:
+  - Anzo52
+---
+
 ## Write a program to print Fibonacci pattern
 
-`Input` : ` 5 `
+```txt
+Input  : 5
+Output :
 
-`Output` : 
-
-```
 1
-1 1	
-1 1 2	
-1 1 2 3	
+1 1
+1 1 2
+1 1 2 3
 1 1 2 3 5
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Java" />
-
-#### Java
+<CodeBlock>
 
 ```java
 import java.util.Scanner;
@@ -42,3 +48,5 @@ public class FibonacciPattern {
     }
 }
 ```
+
+</CodeBlock>

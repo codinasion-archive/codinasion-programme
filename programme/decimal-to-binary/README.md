@@ -1,6 +1,21 @@
+---
+title: Decimal to binary
+description: Write a programme to convert decimal number to binary
+tags:
+  - c
+  - python
+  - java
+  - cpp
+  - cs
+contributors:
+  - RuiL1904
+  - NeelPatel31
+  - Mrczarny
+---
+
 ## Write a programme to convert decimal number to binary.
 
-```
+```txt
 Input : 8
 Output : 1000
 
@@ -10,9 +25,7 @@ Ouput : 101
 
 ---
 
-<CodeBlock slots="heading, code" repeat="5" languages="C, Python, Java, C++, C#" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -42,8 +55,6 @@ int main()
 }
 ```
 
-#### Python
-
 ```python
 decimal = int(input("Input : "))
 
@@ -52,8 +63,6 @@ binary = bin(decimal).replace("0b", "")
 
 print(f"Output : {binary}")
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -84,8 +93,6 @@ public class decimal_to_binary {
     }
 }
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -120,8 +127,6 @@ int main()
 }
 ```
 
-#### C#
-
 ```cs
 using System;
 
@@ -138,8 +143,10 @@ public class Binary
         Console.Write("Enter decimal number : ");
         int input = int.Parse(Console.ReadLine());
 
-        // bianry output 
+        // bianry output
         Console.WriteLine("\nBinary : " + Binary(input));
     }
 }
 ```
+
+</CodeBlock>
