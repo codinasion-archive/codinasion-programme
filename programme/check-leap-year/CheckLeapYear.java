@@ -1,3 +1,5 @@
+// issue #334
+
 import java.util.Scanner;
 
 public class CheckLeapYear {
