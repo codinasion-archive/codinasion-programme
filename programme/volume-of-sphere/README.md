@@ -37,8 +37,6 @@ print("\nVolume : {:0.2f}".format((volume)))
 ```
 
 ```java
-// Write a program to compute the volume of a Sphere
-
 import java.util.Scanner;
 
 public class VolumeOfSphere {
