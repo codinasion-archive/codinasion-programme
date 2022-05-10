@@ -1,6 +1,15 @@
+---
+title: Volume of Sphere
+description: Write a program to compute the volume of a Sphere
+tags:
+  - python
+contributors:
+  - aashish-khub
+---
+
 ## Write a program to compute the volume of a Sphere
 
-Volume of a sphere = ` radius ` * ` radius ` * ` radius ` * ` 4/3 ` * ` π `
+Volume of a sphere = radius \* radius \* radius \* 4/3 \* π
 
 ```
 Radius : 8
@@ -10,9 +19,7 @@ Volume : 2144.66
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
-
-#### Python
+<CodeBlock>
 
 ```python
 import math
@@ -27,3 +34,4 @@ volume = enter_radius * enter_radius * enter_radius * 4/3 * math.pi
 print("\nVolume : {:0.2f}".format((volume)))
 ```
 
+</CodeBlock>
