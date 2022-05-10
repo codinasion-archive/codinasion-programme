@@ -1,6 +1,20 @@
+---
+title: Divide two numbers
+description: Write a programme to divide two numbers
+tags:
+  - c
+  - java
+  - python
+contributors:
+  - giftcup
+  - udit6023
+  - Divyanshpatel18
+  - seraph776
+---
+
 ## Write a program to divide two numbers
 
-```
+```txt
 Input the Dividend : 4
 Input the Divisor  : 2
 
@@ -9,9 +23,7 @@ Output : 2.0
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="C, Java, Python" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -59,8 +71,6 @@ void test(void)
 }
 ```
 
-#### Java
-
 ```java
 import java.util.Scanner;
 
@@ -91,7 +101,7 @@ public class Divide_two_numbers {
 }
 ```
 
-### Python
+### python
 
 ```python
 import sys
@@ -112,3 +122,5 @@ if __name__ == '__main__':
     n1, n2 = [int(input(f'Input the {ht.get(i)} : ')) for i in range(1, 3)]
     divide_two_numbers(n1, n2)
 ```
+
+</CodeBlock>

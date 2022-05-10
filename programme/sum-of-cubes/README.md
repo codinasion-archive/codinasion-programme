@@ -1,15 +1,26 @@
+---
+title: Sum of Cubes
+description: Write a programme to find sum of cubes of first n natural numbers
+tags:
+  - python
+  - java
+  - c
+  - cpp
+contributors:
+  - johnelbacani
+  - NeelPatel31
+---
+
 ## Write a programme to find sum of cubes of first n natural numbers.
 
-```
+```txt
 Input  : 4
 Output : 100
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C, C++" />
-
-#### Python
+<CodeBlock>
 
 ```python
 #Input
@@ -21,8 +32,6 @@ sumofcubes = sum([x*x*x for x in [*range(1, n+1)]])
 #Output
 print('Output: ', sumofcubes)
 ```
-
-#### Java
 
 ```java
 import java.util.*;
@@ -42,8 +51,6 @@ public class solution
 }
 ```
 
-#### C
-
 ```c
 #include <stdio.h>
 
@@ -62,8 +69,6 @@ int main()
 }
 ```
 
-#### C++
-
 ```cpp
 #include <iostream>
 using namespace std;
@@ -81,3 +86,5 @@ int main()
     return 0;
 }
 ```
+
+</CodeBlock>

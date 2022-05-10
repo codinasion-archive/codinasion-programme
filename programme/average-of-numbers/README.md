@@ -1,15 +1,24 @@
+---
+title: Average of numbers
+description: Write a program to find the average of numbers
+tags:
+  - python
+  - java
+contributors:
+  - harshi1122
+  - Anzo52
+---
+
 ## Write a program to find average of numbers
 
-```
+```txt
 Input:  2 3 4
 Output: 3
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, Java" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # importing statistics module
@@ -21,8 +30,6 @@ n = list(map(int, input("Input: ").split()))
 # printing output
 print('Output:', statistics.mean(n))
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -70,3 +77,5 @@ public class AverageOfNumbers {
     }
 }
 ```
+
+</CodeBlock>
