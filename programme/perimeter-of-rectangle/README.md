@@ -1,8 +1,25 @@
+---
+title: Perimeter of rectangle
+description: Write a programme to find perimeter of rectangle
+tags:
+  - python
+  - java
+  - c
+  - cs
+  - cpp
+contributors:
+  - JDev64
+  - Badboy-16
+  - KikiManjaro
+  - whtann
+  - VSen910
+---
+
 ## Write a programme to find perimeter of rectangle
 
-Perimeter of rectangle = 2 * ( ` length ` + ` breadth ` )
+Perimeter of rectangle = 2 \* ( length + breadth )
 
-```
+```txt
 length  : 12
 breadth : 2
 
@@ -11,9 +28,7 @@ perimeter : 28
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, Java, C, C#" />
-
-#### Python
+<CodeBlock>
 
 ```python
 length = int(input("length  : "))
@@ -21,8 +36,6 @@ breadth = int(input("breadth : "))
 
 print(f"\nperimeter : {2*(length + breadth)}")
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -42,8 +55,6 @@ class PerimeterOfRectangle {
 }
 ```
 
-#### C
-
 ```c
 #include <stdio.h>
 
@@ -61,8 +72,6 @@ int main()
     return 0;
 }
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -90,3 +99,24 @@ public class PerimeterOfRectangle
     }
 }
 ```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double len, wid;
+
+    cout << "Enter the length : ";
+    cin >> len;
+    cout << "Enter the width  : ";
+    cin >> wid;
+
+    double perimeter = 2 * (len + wid);
+    cout << "\nPerimeter of the rectangle: " << perimeter << endl;
+    return 0;
+}
+```
+
+</CodeBlock>
