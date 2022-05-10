@@ -1,19 +1,33 @@
+---
+title: Subtract two numbers
+description: Write a programme to subtract two numbers
+tags:
+  - python
+  - c
+  - cpp
+  - java
+  - cs
+contributors:
+  - DarkMatter-999
+  - NeelPatel31
+  - Mrczarny
+---
+
 ## Write a program to subtract two numbers
 
-```
+```txt
 Input  : 5 3
 Output : 2
 ```
-```
+
+```txt
 Input  : 3 5
 Output : -2
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="5" languages="Python, C, C++, Java, C#" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # input two numbers
@@ -22,8 +36,6 @@ x, y = input("Enter two numbers: ").split()
 # print difference
 print("Difference of numbers : ", int(x)-int(y))
 ```
-
-#### C
 
 ```c
 #include<stdio.h>
@@ -43,8 +55,6 @@ int main() {
 }
 ```
 
-#### C++
-
 ```cpp
 #include<iostream>
 
@@ -59,12 +69,10 @@ int main() {
 
     //print difference
     std::cout << "Difference of numbers : " << (x-y) << std::endl;
-    
+
     return 0;
 }
 ```
-
-#### Java
 
 ```java
 import java.util.*;
@@ -82,8 +90,6 @@ public class solution {
     }
 }
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -104,8 +110,10 @@ public class Subtraction
         Console.Write("Enter b : ");
         int b = int.Parse(Console.ReadLine()); ;
 
-        // Difference of numbers 
+        // Difference of numbers
         Console.WriteLine("\nDifference of numbers: " + Subtract(a, b));
     }
 }
 ```
+
+</CodeBlock>

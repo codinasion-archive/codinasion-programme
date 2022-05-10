@@ -1,20 +1,31 @@
+---
+title: Check Leap Year
+description: Write a programme to check leap year
+tags:
+  - python
+  - c
+  - cpp
+contributors:
+  - saikatg347
+  - RuiL1904
+  - rootzer00
+---
+
 ## Write a programme to check leap year
 
-```
+```txt
 Input  : 2020
 Output : Leap Year
 ```
 
-```
+```txt
 Input  : 2021
 Output : Not a Leap Year
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, C, C++" />
-
-#### Python
+<CodeBlock>
 
 ```python
 year = int(input("Input  : "))
@@ -32,8 +43,6 @@ else:
     else:
         print("Not a Leap Year")
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -73,8 +82,6 @@ int main()
 }
 ```
 
-#### C++
-
 ```cpp
 #include <bits/stdc++.h>
 
@@ -92,3 +99,5 @@ int main()
     cout << "Not a Leap Year\n";
 }
 ```
+
+</CodeBlock>

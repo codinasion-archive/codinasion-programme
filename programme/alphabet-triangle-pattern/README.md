@@ -1,8 +1,20 @@
+---
+title: Number triangle pattern
+description: Write a program to print number triangle pattern
+tags:
+  - c
+  - cpp
+  - python
+  - java
+contributors:
+  - NeelPatel31
+---
+
 ## Write a program to print alphabet triangle pattern.
 
-```
+```txt
 Input : 5
-Output: 
+Output:
     A
    ABA
   ABCBA
@@ -12,9 +24,7 @@ ABCDEDCBA
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="C, C++, Python, Java" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -54,8 +64,6 @@ int main()
   return 0;
 }
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -97,8 +105,6 @@ int main()
 }
 ```
 
-#### Python
-
 ```python
 def pattern(a):
     print("Output :")
@@ -119,8 +125,6 @@ def pattern(a):
 a = int(input("Input  : "))
 pattern(a)
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -157,3 +161,5 @@ public class alphabet_triangle_pattern {
 
 }
 ```
+
+</CodeBlock>

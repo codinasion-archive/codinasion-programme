@@ -1,15 +1,26 @@
+---
+title: Sum of Digits
+description: Write a program to print sum of digits
+tags:
+  - python
+  - c
+  - cpp
+  - java
+contributors:
+  - PA11TEDDU
+  - debaghosh
+---
+
 ## Write a program to print sum of digits.
 
-```
+```txt
 Input:  2332
 Output: 10
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # Input number
@@ -24,8 +35,6 @@ while n > 0:
 
 print("Sum of digits : ", sum_digits)
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -48,8 +57,6 @@ int main()
 }
 ```
 
-#### C++
-
 ```cpp
 #include <iostream>
 using namespace std;
@@ -71,8 +78,6 @@ int main()
 }
 ```
 
-#### Java
-
 ```java
 import java.util.Scanner;
 
@@ -93,3 +98,5 @@ class SumOfDigits {
 }
 
 ```
+
+</CodeBlock>
