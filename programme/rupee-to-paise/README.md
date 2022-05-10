@@ -1,15 +1,27 @@
+---
+title: Rupee to Paise
+description: Write a program to convert Rupee to Paise
+tags:
+  - python
+  - c
+  - cpp
+  - java
+contributors:
+  - harshi1122
+  - luiscff
+  - nurhaliza
+---
+
 ## Write a program to convert rupee to paise
 
-```
+```txt
 Input:  15.95
 Output: 1595
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # input in rupee ( can be both decimal or integer value)
@@ -18,8 +30,6 @@ x=float(input('Input: '))
 # output in paise
 print('Output: ',int(x*100))
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -38,8 +48,6 @@ int main()
 }
 ```
 
-#### C++
-
 ```cpp
 #include <iostream>
 using namespace std;
@@ -55,8 +63,6 @@ int main()
     return 0;
 }
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -74,3 +80,5 @@ public class rs_to_p {
     }
 }
 ```
+
+</CodeBlock>

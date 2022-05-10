@@ -1,6 +1,19 @@
+---
+title: Print pattern
+description: Write a programme to print the given pattern
+tags:
+  - python
+  - c
+  - cpp
+  - java
+contributors:
+  - yacine-zitouni
+  - NeelPatel31
+---
+
 ## Write a program to print the given pattern
 
-```
+```txt
     *
    * *
   * * *
@@ -14,9 +27,7 @@
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C, C++, Java" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # print pattern function
@@ -31,8 +42,6 @@ def printPattern(n):
 # test
 printPattern(5)
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -74,8 +83,6 @@ int main()
     return 0;
 }
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -119,8 +126,6 @@ int main()
 }
 ```
 
-#### Java
-
 ```java
 import java.util.Scanner;
 
@@ -155,3 +160,5 @@ public class solution {
     }
 }
 ```
+
+</CodeBlock>
