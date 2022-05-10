@@ -1,15 +1,30 @@
+---
+title: ASCII Value
+description: Write a programme to print ASCII Value of a character
+tags:
+  - python
+  - cs
+  - java
+  - cpp
+  - c
+contributors:
+  - Mrczarny
+  - PA11TEDDU
+  - KikiManjaro
+  - NeelPatel31
+  - RuiL1904
+---
+
 ## Write a programme to print ASCII Value of a character.
 
-```
+```txt
 Input  : A
 Output : 65
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="5" languages="Python, C#, Java, C++, C" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # input character
@@ -18,8 +33,6 @@ character = input("Enter the Character : ")
 # output ASCII value
 print("ASCII Value is : ", ord(character))
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -44,8 +57,6 @@ public class ASCIIValue
 }
 ```
 
-#### Java
-
 ```java
 import java.util.Scanner;
 
@@ -63,8 +74,6 @@ public class ASCIIValue {
 }
 ```
 
-#### C++
-
 ```cpp
 #include<iostream>
 using namespace std;
@@ -78,9 +87,6 @@ int main(){
 }
 ```
 
-
-#### C
-
 ```c
 #include <stdio.h>
 
@@ -93,3 +99,5 @@ int main()
     return 0;
 }
 ```
+
+</CodeBlock>

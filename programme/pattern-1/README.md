@@ -1,6 +1,15 @@
+---
+title: Print pattern
+description: Write a programme to print given pattern
+tags:
+  - python
+contributors:
+  - yacine-zitouni
+---
+
 ## Write a program to print the given pattern
 
-```
+```txt
 * * * * *
   * * * *
     * * *
@@ -10,9 +19,7 @@
 
 ---
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # print pattern function
@@ -23,3 +30,5 @@ def printPattern(n):
 # test
 printPattern(5)
 ```
+
+</CodeBlock>

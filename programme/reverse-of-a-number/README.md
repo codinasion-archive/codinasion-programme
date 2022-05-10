@@ -1,15 +1,28 @@
+---
+title: Reverse of a Number
+description: Write a program to print the reverse of a number
+tags:
+  - python
+  - cs
+  - c
+  - java
+  - cpp
+contributors:
+  - harshi1122
+  - Mrczarny
+  - NeelPatel31
+---
+
 ## Write a program to print the reverse of a number
 
-```
+```txt
 Input  : 1234
 Output : 4321
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="5" languages="Python, C#, C, Java, C++" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # Input
@@ -21,8 +34,6 @@ reversed = int(str(n)[::-1])
 # Output
 print('Output: ',reversed)
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -51,8 +62,6 @@ public class Reverse
 }
 ```
 
-#### C
-
 ```c
 #include <stdio.h>
 
@@ -72,8 +81,6 @@ int main()
     return 0;
 }
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -96,8 +103,6 @@ public class reverse_of_number {
 }
 ```
 
-#### C++
-
 ```cpp
 #include <iostream>
 using namespace std;
@@ -118,3 +123,5 @@ int main()
     return 0;
 }
 ```
+
+</CodeBlock>
