@@ -1,15 +1,28 @@
+---
+title: Print Fibonacci series without recursion.
+description: Write a program to print Fibonacci series of n numbers without using recursion.
+tags:
+  - c
+  - java
+  - python
+  - cpp
+  - cs
+contributors:
+  - NeelPatel31
+  - karthiksbh
+  - jojo4441
+---
+
 ## Write a program to print Fibonacci series without using recursion.
 
-```
+```txt
 Input: 10
 Output: 0 1 1 2 3 5 8 13 21 34
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="5" languages="C, Java, Python, C++, C#" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -32,8 +45,6 @@ int main()
     return 0;
 }
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -60,8 +71,6 @@ public class solution {
 }
 ```
 
-#### Python
-
 ```python
 a = 0
 b = 1
@@ -76,8 +85,6 @@ while (i != n):
     i += 1
 print()
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -101,8 +108,6 @@ int main()
     return 0;
 }
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -132,3 +137,5 @@ public class Fibonaci
 }
 
 ```
+
+</CodeBlock>

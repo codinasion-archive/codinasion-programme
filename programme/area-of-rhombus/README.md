@@ -1,6 +1,23 @@
+---
+title: Area of a rhombus
+description: Write a program to compute area of Rhombus
+tags:
+  - python
+  - c
+  - java
+  - cs
+  - cpp
+contributors:
+  - lt77777
+  - jspoh
+  - 20emigdal
+  - amitSahu9
+  - VSen910
+---
+
 ## Write a program to compute the area of a rhombus
 
-```
+```txt
 Diagonal 1 : 6
 Diagonal 2 : 8
 
@@ -9,9 +26,7 @@ Area : 24
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="Python, C, Java, C#" />
-
-#### Python
+<CodeBlock>
 
 ```python
 diagonal1 = int(input('Diagonal 1 : '))
@@ -20,8 +35,6 @@ diagonal2 = int(input('Diagonal 2 : '))
 area = diagonal1 * diagonal2 * 0.5
 print('\nArea : ', area)
 ```
-
-#### C
 
 ```c
 #include <stdio.h>
@@ -54,8 +67,6 @@ float getD2()
 }
 ```
 
-#### Java
-
 ```java
 import java.util.Scanner;
 
@@ -76,8 +87,6 @@ public class AreaOfRhombus {
 }
 ```
 
-#### C#
-
 ```cs
 using System;
 
@@ -96,3 +105,24 @@ public class AreaOfRhombus
     }
 }
 ```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double d1, d2;
+
+    cout << "Enter the length of diagonal 1 : ";
+    cin >> d1;
+    cout << "Enter the length of diagonal 2 : ";
+    cin >> d2;
+
+    double area = (d1 * d2) / 2;
+    cout << "\nThe area of the rhombus : " << area << endl;
+    return 0;
+}
+```
+
+</CodeBlock>
