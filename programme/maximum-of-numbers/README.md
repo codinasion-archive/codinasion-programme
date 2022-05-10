@@ -1,15 +1,26 @@
+---
+title: Maximum of Numbers
+description: Write a program to print the maximum of given numbers
+tags:
+  - python
+  - cs
+  - java
+contributors:
+  - harshi1122
+  - Mrczarny
+  - HaveACookie
+---
+
 ## Write a program to print the maximum of given numbers
 
-```
-Input: 2 4 1 16 6
-Output: 16
+```txt
+Input  : 2 4 1 16 6
+Output : 16
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="2" languages="Python, C#" />
-
-#### Python
+<CodeBlock>
 
 ```python
 # Taking input and making a list
@@ -18,8 +29,6 @@ n = list(map(int, input("Input: ").split()))
 # Printing the maximum value
 print(max(n))
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -43,29 +52,31 @@ public class MaxNumber
     }
 }
 ```
-#### Java
 
-```Java
-
-import java.io.IOException;
+```java
 import java.util.Scanner;
 import java.util.*;
-public class MaximumOfNumbers {
-    
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-         String input = sc.nextLine();
-         String[] inputArr = input.split(" ");
-         Integer[] numbers = new Integer[inputArr.length];
-         for(int i = 0; i < numbers.length; i++)
-         {
-             numbers[i] = Integer.parseInt(inputArr[i]);
-         }
-         List<Integer> list = Arrays.asList(numbers);
-         list.stream().reduce((x, y) -> x > y ? x : y).ifPresent(System.out::println);
-         
-    }
-    
-}
 
+public class MaximumOfNumbers {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter numbers : ");
+        String input = sc.nextLine();
+
+        String[] inputArr = input.split(" ");
+        Integer[] numbers = new Integer[inputArr.length];
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = Integer.parseInt(inputArr[i]);
+        }
+        List<Integer> list = Arrays.asList(numbers);
+
+        System.out.print("\nMaximum Number : ");
+        list.stream().reduce((x, y) -> x > y ? x : y).ifPresent(System.out::println);
+        sc.close();
+    }
+
+}
 ```
+
+</CodeBlock>
