@@ -1,8 +1,25 @@
+---
+title: Perimeter of square
+description: Write a programme to find perimeter of square
+tags:
+  - c
+  - python
+  - cpp
+  - java
+  - cs
+contributors:
+  - Badboy-16
+  - JDev64
+  - AlfredoR-CSUF
+  - HaveACookie
+  - whtann
+---
+
 ## Write a programme to find perimeter of square
 
-Perimeter of square = 4 * `side`
+Perimeter of square = 4 \* side
 
-```
+```txt
 side : 4
 
 perimeter : 16
@@ -10,9 +27,7 @@ perimeter : 16
 
 ---
 
-<CodeBlock slots="heading, code" repeat="5" languages="C, Python, C++, Java, C#" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -42,14 +57,10 @@ int main()
 }
 ```
 
-#### Python
-
 ```python
 side = int(input("side : "))
 print(f"\nperimeter : {side * 4}")
 ```
-
-#### C++
 
 ```cpp
 #include <iostream>
@@ -75,8 +86,6 @@ int main()
 }
 ```
 
-#### Java
-
 ```java
 import java.util.Scanner;
 
@@ -92,8 +101,6 @@ class perimiterofsquare {
     }
 }
 ```
-
-#### C#
 
 ```cs
 using System;
@@ -117,3 +124,5 @@ public class PerimeterOfSquare
     }
 }
 ```
+
+</CodeBlock>
