@@ -12,7 +12,7 @@ public class VolumeOfSphere {
 		System.out.print("Radius : ");
 		double r = sc.nextDouble();
 		double vol = computeSphereVolume(r);
-		System.out.printf("\nVolume : %.2f", vol);
+		System.out.printf("\nVolume : %.2f\n", vol);
 		sc.close();
 	}
 }
