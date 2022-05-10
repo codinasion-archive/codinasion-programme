@@ -1,10 +1,18 @@
-## Write a Python programme to print the given pattern.
+---
+title: Print Pattern 3
+description: Write a programme to print the given pattern
+tags:
+  - python
+contributors:
+  - seraph776
+---
 
-```
-Input: 5
-```
+## Write a python programme to print the given pattern.
 
-```
+```txt
+Input  : 5
+Output :
+
 x x x x x
 x       x
 x       x
@@ -13,9 +21,7 @@ x x x x x
 
 ```
 
-<CodeBlock slots="heading, code" repeat="1" languages="Python" />
-
-#### Python
+<CodeBlock>
 
 ```python
 def print_pattern(n: int) -> None:
@@ -32,3 +38,5 @@ def print_pattern(n: int) -> None:
 n = int(input("input  : "))
 print_pattern(n)
 ```
+
+</CodeBlock>

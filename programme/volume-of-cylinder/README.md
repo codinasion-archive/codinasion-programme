@@ -1,8 +1,23 @@
+---
+title: Volume of a cylinder
+description: Write a program to compute the volume of a Cylinder
+tags:
+  - c
+  - python
+  - java
+  - cpp
+contributors:
+  - yougottawork
+  - dylan-power
+  - gilazani
+  - javithegreat35
+---
+
 ## Write a program to compute the volume of a Cylinder
 
-Volume of a cylinder = ` radius ` * ` radius ` * ` height ` * ` π `
+Volume of a cylinder = radius \* radius \* height \* π
 
-```
+```txt
 Radius : 8
 Height : 10
 
@@ -11,9 +26,7 @@ Volume : 2010.62
 
 ---
 
-<CodeBlock slots="heading, code" repeat="4" languages="C, Python, Java, C++" />
-
-#### C
+<CodeBlock>
 
 ```c
 #include <stdio.h>
@@ -38,8 +51,6 @@ int main()
 }
 ```
 
-#### Python
-
 ```python
 import math
 
@@ -53,8 +64,6 @@ volume = enter_radius * enter_radius * enter_height * math.pi
 # Print result
 print("\nVolume : {:0.2f}".format((volume)))
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -88,8 +97,6 @@ public class volumeOfCylinder {
 }
 ```
 
-#### C++
-
 ```cpp
 #include <iostream>
 #include <math.h>
@@ -114,3 +121,5 @@ int main()
     return 0;
 }
 ```
+
+</CodeBlock>

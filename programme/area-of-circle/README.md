@@ -1,15 +1,26 @@
+---
+title: Area of Circle
+description: Write a programme to find the area of circle
+tags:
+  - python
+  - java
+  - cpp
+contributors:
+  - theanorak
+  - NeelPatel31
+  - karthiksbh
+---
+
 ## Write a programme to find the area of circle.
 
-```
+```txt
 r : 3
 Area : 28.27
 ```
 
 ---
 
-<CodeBlock slots="heading, code" repeat="3" languages="Python, Java, C++" />
-
-#### Python
+<CodeBlock>
 
 ```python
 import math
@@ -20,8 +31,6 @@ r = int(input("Enter radius: "))
 # output
 print('Area: ', round((math.pi*(r**2)),2))
 ```
-
-#### Java
 
 ```java
 import java.util.Scanner;
@@ -49,8 +58,6 @@ public class solution {
 }
 ```
 
-#### C++
-
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -59,7 +66,7 @@ using namespace std;
 int main()
 {
     int r;
-    
+
     // input radius
     cout << "Enter radius: ";
     cin >> r;
@@ -68,3 +75,5 @@ int main()
     cout << "Area: " << floor((pi * r * r) * 100) / 100;
 }
 ```
+
+</CodeBlock>
