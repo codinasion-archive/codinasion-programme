@@ -3,8 +3,10 @@ title: Euler's Number
 description: Write a programme to compute the value of Euler's Number
 tags:
   - python
+  - java
 contributors:
   - LevBernstein
+  - Anzo52
 ---
 
 ## Write a programme to compute the value of Euler's Number
@@ -22,6 +24,26 @@ from math import factorial
 
 def e(n):
     return sum((1 / factorial(i) for i in range(1, n + 1)))
+```
+
+```java
+import java.util.Scanner;
+
+public class EulersNumber {
+
+    public static double eulersNumber(int n) {
+        return Math.exp(n);
+    }
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input  : ");
+        int n = input.nextInt();
+        System.out.println("Output : " + eulersNumber(n));
+        input.close();
+    }
+}
 ```
 
 </CodeBlock>
