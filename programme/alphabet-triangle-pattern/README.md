@@ -8,6 +8,7 @@ tags:
   - java
 contributors:
   - NeelPatel31
+  - shrionit
 ---
 
 ## Write a program to print alphabet triangle pattern.
