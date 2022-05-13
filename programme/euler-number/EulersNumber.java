@@ -6,19 +6,15 @@ public class EulersNumber {
 
     public static double eulersNumber(int n) {
 
-        /*
-         * double e = 1;
-         * double factorial = 1;
-         * 
-         * for (int i = 1; i <= n; i++) {
-         * factorial = factorial * i;
-         * e = e + 1 / factorial;
-         * }
-         * 
-         * return e;
-         */
+        double e = 1;
+        double factorial = 1;
 
-        return Math.exp(n);
+        for (int i = 1; i <= n; i++) {
+            factorial = factorial * i;
+            e = e + 1 / factorial;
+        }
+
+        return e;
     }
 
     public static void main(String[] args) {
