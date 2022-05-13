@@ -3,10 +3,11 @@ title: Volume of Sphere
 description: Write a program to compute the volume of a Sphere
 tags:
   - python
-  - java
+  - c
+  - cpp
 contributors:
   - aashish-khub
-  - zhixuanevelynwu
+  - VSen910
 ---
 
 ## Write a program to compute the volume of a Sphere
@@ -36,22 +37,35 @@ volume = enter_radius * enter_radius * enter_radius * 4/3 * math.pi
 print("\nVolume : {:0.2f}".format((volume)))
 ```
 
-```java
-import java.util.Scanner;
+```c
+#include <stdio.h>
+#include <math.h>
 
-public class VolumeOfSphere {
-	private static double computeSphereVolume(double r) {
-		return r * r * r * 4 / 3 * Math.PI;
-	}
+int main()
+{
+    double radius;
+    printf("Enter the radius : ");
+    scanf("%lf", &radius);
+    double area = (4 / 3.0) * M_PI * radius * radius * radius;
+    printf("\nThe volume of sphere : %.2lf\n", area);
+    return 0;
+}
+```
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.print("Radius : ");
-		double r = sc.nextDouble();
-		double vol = computeSphereVolume(r);
-		System.out.printf("\nVolume : %.2f\n", vol);
-		sc.close();
-	}
+```cpp
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    double radius;
+    cout << "Enter the radius : ";
+    cin >> radius;
+    double area = (4 / 3.0) * M_PI * radius * radius * radius;
+    cout << "\nThe volume of the sphere: " << area << endl;
+    return 0;
 }
 ```
 
