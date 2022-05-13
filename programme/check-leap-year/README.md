@@ -5,10 +5,12 @@ tags:
   - python
   - c
   - cpp
+  - java
 contributors:
   - saikatg347
   - RuiL1904
   - rootzer00
+  - Anzo52
 ---
 
 ## Write a programme to check leap year
@@ -97,6 +99,29 @@ int main()
     cout << "Leap Year\n";
   else
     cout << "Not a Leap Year\n";
+}
+```
+
+```java
+import java.util.Scanner;
+
+public class CheckLeapYear {
+
+    public static String checkLeapYear(int year) {
+
+        if (year % 4 == 0)
+            return "Leap year";
+        return "Not a leap year";
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Input  : ");
+        int year = scan.nextInt();
+        System.out.println("Output : " + checkLeapYear(year));
+        scan.close();
+    }
 }
 ```
 
