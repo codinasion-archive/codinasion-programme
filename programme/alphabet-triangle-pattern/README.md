@@ -1,6 +1,6 @@
 ---
-title: Number triangle pattern
-description: Write a program to print number triangle pattern
+title: Alphabet triangle pattern
+description: Write a program to print alphabet triangle pattern
 tags:
   - c
   - cpp
