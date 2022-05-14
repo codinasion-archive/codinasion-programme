@@ -5,7 +5,13 @@ import java.util.Scanner;
 public class EulersNumber {
 
     public static double eulersNumber(int n) {
-
+        
+        /* this can also be done using the Java Math library:
+        
+           e = Math.exp(n);
+        
+        */
+        
         double e = 1;
         double factorial = 1;
 
