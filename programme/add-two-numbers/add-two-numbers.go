@@ -16,13 +16,13 @@ func main() {
 	var sum int
 
 	// Scanln -> to get the input from user
-	fmt.Println("Enter the first number:")
+	fmt.Print("Enter the first number  : ")
 
 	// Here the & is a way to access the previous declared variable
 	// Simply speaking, it associate's the input value to the variable
 	fmt.Scanln(&x)
 
-	fmt.Println("Enter the second number:")
+	fmt.Print("Enter the second number : ")
 	fmt.Scanln(&y)
 
 	sum = AddTwoNumbers(x, y)
@@ -30,5 +30,5 @@ func main() {
 	// Here the Printf(ormat) is to format the string
 	// with the variables values
 	// %d is for formatting some types of ints
-	fmt.Printf("The sum of %d and %d, is: %d\n", x, y, sum)
+	fmt.Printf("\nThe sum of %d and %d is : %d\n", x, y, sum)
 }
