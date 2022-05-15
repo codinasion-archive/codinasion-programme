@@ -6,11 +6,13 @@ tags:
   - cs
   - cpp
   - java
+  - go
 contributors:
   - harshi1122
   - Mrczarny
   - ramanand-rv
   - VSen910
+  - GodKimba
 ---
 
 ## Write a program to add two numbers
@@ -94,6 +96,33 @@ public class AddTwoNumbers {
 
         sc.close();
     }
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+func AddTwoNumbers(x, y int) int {
+	return x + y
+}
+
+func main() {
+	var x int
+	var y int
+	var sum int
+
+	fmt.Print("Enter the first number  : ")
+
+	fmt.Scanln(&x)
+
+	fmt.Print("Enter the second number : ")
+	fmt.Scanln(&y)
+
+	sum = AddTwoNumbers(x, y)
+
+	fmt.Printf("\nThe sum of %d and %d is : %d\n", x, y, sum)
 }
 ```
 
