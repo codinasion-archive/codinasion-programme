@@ -6,11 +6,13 @@ tags:
   - python
   - java
   - c
+  - cpp
 contributors:
   - lt77777
   - jongwon254
   - Anzo52
   - yougottawork
+  - Dafodils
 ---
 
 ## Write a program to compute area of trapezoid
@@ -102,6 +104,31 @@ int main()
     area = (base1 + base2) * height / 2;
 
     printf("\nArea: %.2f\n", area);
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int base1, base2, height;
+
+    cout << "Enter base1 : ";
+    cin >> base1;
+
+    cout << "Enter base2 : ";
+    cin >> base2;
+
+    cout << "Enter height : ";
+    cin >> height;
+
+    float area = (float)(base1 + base2) * height / 2;
+    cout << "Area : " << area << endl;
+
     return 0;
 }
 ```
