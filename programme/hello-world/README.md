@@ -5,10 +5,12 @@ tags:
   - python
   - c
   - cpp
+  - java
 contributors:
   - zikpefu
   - GodKimba
   - wkktoria
+  - ppark3
 ---
 
 ## Write a program to print Hello World
@@ -43,6 +45,15 @@ int main()
 {
   std::cout << "Hello World !!!\n";
   return 0;
+}
+
+```
+
+```java
+public class hello_world{
+    public static void main(String args[]){
+        System.out.println("Hello World !!!");
+    }
 }
 
 ```
