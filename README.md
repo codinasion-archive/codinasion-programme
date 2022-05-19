@@ -1,6 +1,6 @@
 <h1 align="center">Codinasion</h1>
 
-<p align="center"> An open source codebase for sharing programming blogs and solutions.
+<p align="center"> An open source codebase for sharing programming solutions.
     <br/>
 </p>
 
