@@ -1,3 +1,5 @@
+// Write a programme to convert hours to seconds
+
 package main
 
 import "fmt"
@@ -7,6 +9,6 @@ func main() {
 	var hours int
 	fmt.Scan(&hours)
 	var seconds int = hours * 3600
-	fmt.Println("Hrs : ", hours)
-	fmt.Println("Sec : ", seconds)
+	fmt.Println("Hrs :", hours)
+	fmt.Println("Sec :", seconds)
 }
