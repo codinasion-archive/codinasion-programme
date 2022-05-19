@@ -1,1 +1,22 @@
 * @harshraj8843
+
+# c related topics
+*.c @codinasion/c
+
+# c++ related topics
+*.cpp @codinasion/cpp
+
+# c# related topics
+*.cs @codinasion/cs
+
+# java related topics
+*.java @codinasion/java
+
+# python related topics
+*.py @codinasion/python
+
+# go related topics
+*.go @codinasion/go
+
+# javascript related topics
+*.js @codinasion/javascript
