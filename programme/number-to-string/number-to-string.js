@@ -1,23 +1,32 @@
-const words = ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine'];
+// Write a program to convert number to strings
 
+const words = [
+  "Zero",
+  "One",
+  "Two",
+  "Three",
+  "Four",
+  "Five",
+  "Six",
+  "Seven",
+  "Eight",
+  "Nine",
+];
 
 convert(12223455);
 
-function convert(input){
+function convert(input) {
+  if (typeof input != "number") return console.error("Not a number");
+  console.log("Input  :", input);
 
+  var inp = input.toString();
 
-    if(typeof input != 'number') return console.error("Not a number");
-    console.log("Input:" , input)
+  let arr = [];
 
-    var inp = input.toString();
+  for (let i = 0; i < inp.length; i++) {
+    if (inp[i] === ".") arr.push("point");
+    else arr.push(words[inp[i]]);
+  }
 
-    let arr = [];
-
-    for(let i = 0; i < inp.length; i++){
-        if(inp[i] === '.') arr.push('point');
-        else arr.push(words[inp[i]]);
-        
-    }
-
-    console.log("Output: ",...arr);
+  console.log("Output :", ...arr);
 }
