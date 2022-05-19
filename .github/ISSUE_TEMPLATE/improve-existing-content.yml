@@ -7,9 +7,9 @@ body:
       value: |
         **Hubbers!!** This is an open source repo.
 
-        * For questions, ask in [Discussions](https://github.com/codinasion/codinasion/discussions).
-        * Before you file an issue read the [Contributing guide](https://github.com/codinasion/codinasion/blob/master/CONTRIBUTING.md).
-        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/codinasion/issues).
+        * For questions, ask in [Discussions](https://github.com/codinasion/codinasion-programme/discussions).
+        * Before you file an issue read the [Contributing guide](https://github.com/codinasion/codinasion-programme/blob/master/CONTRIBUTING.md).
+        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/codinasion-programme/issues).
 
   - type: textarea
     attributes:
@@ -41,5 +41,5 @@ body:
       label: Code of Conduct
       description: This project has a Code of Conduct that all participants are expected to understand and follow.
       options:
-        - label: I have read and agree to the Codinasion project's [Code of Conduct](https://github.com/codinasion/codinasion/blob/master/CODE_OF_CONDUCT.md)
+        - label: I have read and agree to the Codinasion project's [Code of Conduct](https://github.com/codinasion/codinasion-programme/blob/master/CODE_OF_CONDUCT.md)
           required: true
