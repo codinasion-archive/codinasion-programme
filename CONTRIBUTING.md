@@ -1,6 +1,6 @@
 # Welcome to Codinasion contributing guide
 
-Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [codinasion.web.app](https://codinasion.web.app/) :sparkles:.
+Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [codinasion.vercel.app](https://codinasion.vercel.app/) :sparkles:.
 
 Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
@@ -60,10 +60,6 @@ Click **Edit in GitHub** at the top of any Codinasion webpage to make small chan
 - Add Answer
   - Add or modify programme file (.py, .c, .cpp, etc) in corresponding folder.
 
-- Add Blog
-  - Add `README.md` file in corresponding folder
-  - [Learn Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-
 ### Commit your update
 
 Commit the changes once you are happy with them. See [Atom's contributing guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages) to know how to use emoji for commit messages.
@@ -85,6 +81,6 @@ Once you submit your PR, a Codinasion team member will review your proposal. We 
 
 Congratulations :tada::tada: The Codinasion team thanks you :sparkles:. 
 
-Once your PR is merged, your contributions will be publicly visible on the [Codinasion](https://codinasion.web.app). 
+Once your PR is merged, your contributions will be publicly visible on the [Codinasion](https://codinasion.vercel.app). 
 
 Now that you are part of the  Codinasion community, see how else you can [contribute to codinasion](/contributing/types-of-contributions.md).

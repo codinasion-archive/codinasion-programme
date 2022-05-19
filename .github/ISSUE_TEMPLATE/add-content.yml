@@ -1,5 +1,5 @@
 name: ✍️ Add content
-description: Add tutorial, question, answer.
+description: Add question, answer.
 labels: ["📝 content"]
 body:
   - type: markdown
@@ -13,8 +13,8 @@ body:
 
   - type: textarea
     attributes:
-      label: Title of article
-      description: Please enter the Title of the article.
+      label: Title of programme
+      description: Please enter the Title of the programme.
     validations:
       required: true
 
