@@ -6,7 +6,7 @@
 
 ---
 
-This repository contains the Markdown source files for [codinasion.web.app](https://codinasion.web.app/).
+This repository contains the Markdown source files for [codinasion.vercel.app/programme](https://codinasion.vercel.app/programme/).
 
 Codinasion team works on pre-production content in a private repo that regularly syncs with this public repo.
 
@@ -28,4 +28,4 @@ We use GitHub Discussions to talk about all sorts of topics related to documenta
 
 ## Thanks :purple_heart:
 
-Thanks for all your contributions and efforts. We thank you being part of our :sparkles: [community](https://codinasion.web.app/contributors/) :sparkles: !
+Thanks for all your contributions and efforts. We thank you being part of our :sparkles: community :sparkles: !
