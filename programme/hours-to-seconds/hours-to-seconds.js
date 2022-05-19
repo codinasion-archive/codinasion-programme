@@ -1,9 +1,11 @@
-'use strict'
+// Write a programme to convert hours to seconds
 
-let hoursInput = prompt('Hours: ');
+"use strict";
 
-console.log('Seconds: ', hoursToSeconds(+hoursInput));
+let hoursInput = prompt("Hours : ");
+
+console.log("Seconds :", hoursToSeconds(+hoursInput));
 
 function hoursToSeconds(hours) {
   return hours * 3600;
-};
+}
