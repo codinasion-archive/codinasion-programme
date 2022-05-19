@@ -6,11 +6,13 @@ tags:
   - c
   - cpp
   - java
+  - go
 contributors:
   - zikpefu
   - GodKimba
   - wkktoria
   - ppark3
+  - rossilor95
 ---
 
 ## Write a program to print Hello World
@@ -54,6 +56,16 @@ public class hello_world {
     public static void main(String args[]) {
         System.out.println("Hello World !!!");
     }
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello World !!!")
 }
 ```
 
