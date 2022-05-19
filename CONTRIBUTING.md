@@ -35,8 +35,6 @@ Scan through our [existing issues](https://github.com/codinasion/codinasion/issu
 
 Click **Edit in GitHub** at the top of any Codinasion webpage to make small changes such as a typo, sentence fix, or a broken link. This takes you to the `.md` file where you can make your changes and [create a pull request](#pull-request) for a review.
 
-> In many cases, you will be redirected to `index.md` which is linked to corresponding `README.md`. In that case, consider updating the corresponding `README.md` not `index.md`. Thanks :)
-
 #### Make changes locally
 
 1. [Install Git LFS](https://docs.github.com/en/github/managing-large-files/versioning-large-files/installing-git-large-file-storage).
