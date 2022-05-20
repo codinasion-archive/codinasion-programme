@@ -5,13 +5,15 @@ tags:
   - python
   - java
   - c
+  - js
 contributors:
   - harshi1122
   - KikiManjaro
   - Badboy-16
+  - michal-markiewicz
 ---
 
-## Write a program to find the factorial of a number.
+## Write a program to find the factorial of a number
 
 ```txt
 Input:  5
@@ -93,6 +95,20 @@ int factorial(int n)
     result *= i;
   return result;
 }
+```
+
+```javascript
+function factorial(num) {
+  if (num === 1) {
+    return 1;
+  } else {
+    return num * factorial(num - 1);
+  }
+}
+
+var num = 5;
+
+console.log(factorial(num));
 ```
 
 </CodeBlock>
