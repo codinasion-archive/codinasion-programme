@@ -1,10 +1,10 @@
-//Write a program to divide two given numbers
+// Write a program to divide two given numbers
 
-function divide(a,b){
-    return ((a/b).toFixed(2));
+function divide(a, b) {
+  return (a / b).toFixed(2);
 }
 
-let num1 = prompt("Enter First Number = ");
-let num2 = prompt("Enter Second Number = ");
+let num1 = prompt("Enter First Number : ");
+let num2 = prompt("Enter Second Number : ");
 
-console.log(divide(num1,num2));
+console.log("Output :", divide(num1, num2));
