@@ -1,13 +1,13 @@
-function factorial(num)
-{
-    if (num === 1)
-    {
-        return 1;
-    }
-    else 
-    {
-        return num * factorial(num - 1);
-    }
+// Write a program to find the factorial of a number
+
+function factorial(num) {
+  if (num === 1) {
+    return 1;
+  } else {
+    return num * factorial(num - 1);
+  }
 }
 
-alert(factorial(num));
+var num = 5;
+
+console.log(factorial(num));
