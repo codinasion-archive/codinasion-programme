@@ -3,8 +3,10 @@ title: Fibonacci Pattern
 description: Write a program to print Fibonacci pattern
 tags:
   - java
+  - go
 contributors:
   - Anzo52
+  - waleska404
 ---
 
 ## Write a program to print Fibonacci pattern
@@ -46,6 +48,35 @@ public class FibonacciPattern {
         }
         sc.close();
     }
+}
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func fibonacci(n int) int {
+	if n <= 1 {
+		return n
+	}
+	return fibonacci(n-1) + fibonacci(n-2)
+}
+
+func main() {
+	var n int
+	fmt.Print("Enter an integer : ")
+	fmt.Scan(&n)
+
+	for i := 1; i <= n; i++ {
+		for j := 1; j <= i; j++ {
+			fmt.Print(strconv.Itoa(fibonacci(j)) + " ")
+		}
+		fmt.Println()
+	}
 }
 ```
 
