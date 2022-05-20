@@ -14,7 +14,7 @@ double Divide(int num1, int num2)
 int main() {
     int num1, num2;
     cin>>num1>>num2;
-    int result = Divide(num1,num2);
+    double result = Divide(num1,num2);
     if(result==-1)
     {
         cout<<"Divide by Zero is not possible";
