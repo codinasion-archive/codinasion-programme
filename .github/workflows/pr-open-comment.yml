@@ -22,7 +22,7 @@ jobs:
             github.rest.issues.createComment({
               ...context.repo,
               issue_number: context.payload.pull_request.number,
-              body: `💖 Thanks for opening this issue. 💖 
-
-              A Codinasion team member should be by to give feedback soon. In the meantime, please check out the [contributing guidelines](https://github.com/codinasion/codinasion-programme/blob/master/CONTRIBUTING.md).`
+              body: `💖 Thanks for opening this pull request! 💖
+              
+              This PR will be reviewed and merged shortly. In the meantime, please check out the [contributing guidelines](https://github.com/codinasion/codinasion-programme/blob/master/CONTRIBUTING.md).`
             })
