@@ -7,4 +7,4 @@ def table_of(n):
 
 n = int(input("Enter number: "))
 
-table_of(n)
+table_of(n) 
