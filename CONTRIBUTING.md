@@ -23,7 +23,7 @@ Check to see what [types of contributions](/contributing/types-of-contributions.
 
 #### Create a new issue
 
-If you wanna add or modify Codinasion content, [search if an issue already exists](https://github.com/codinasion/codinasion-programme/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/codinasion/codinasion-programme/issues/new/choose). 
+If you want to add or modify Codinasion content, [search if an issue already exists](https://github.com/codinasion/codinasion-programme/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/codinasion/codinasion-programme/issues/new/choose). 
 
 #### Solve an issue
 
