@@ -13,7 +13,7 @@ If you'd like to answer any question asked in [Issues](https://github.com/codina
 ### :mega: Discussions
 Discussions are where we have conversations.
 
-If you'd like help troubleshooting a PR you're working on, have a great new idea, or want to share something amazing, join us in [discussions](https://github.com/codinasion/codinasion-programme/discussions).
+If you'd like help troubleshooting a PR you're working on, have a great new idea, or want to share something amazing, join us in [discussions](https://github.com/codinasion/codinasion/discussions).
 
 ### :lady_beetle: Issues
 [Issues](https://github.com/codinasion/codinasion-programme/issues) are used to track tasks that contributors can help with.
