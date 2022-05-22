@@ -7,7 +7,7 @@ tags:
   - java
 contributors:
   - Tosin-dotcom
-  - prajwalborkar
+  - PrajwalBorkar
 ---
 
 ## Write a program to output the following multiplication table
