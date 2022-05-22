@@ -9,6 +9,7 @@ tags:
 contributors:
   - Tosin-dotcom
   - PrajwalBorkar
+  - Enoch02
 ---
 
 ## Write a program to output the following multiplication table
@@ -37,7 +38,7 @@ void main()
     }
 }
 ```
-                       
+              
 ```cpp
 #include <iostream>
 
@@ -50,7 +51,7 @@ int main()
         cout << n << " * " << i << " = " << n * i << endl;
     return 0;
 }          
-```                       
+```
 
 ```python
 def table_of(n):
@@ -63,7 +64,7 @@ n = int(input("Enter number: "))
 table_of(n)
 ```
 
-                       
+
 ```java
 public class MultiplicationTable {
 
@@ -75,5 +76,6 @@ public class MultiplicationTable {
         }
     }
 }
-```  
+```
+
 </CodeBlock>
