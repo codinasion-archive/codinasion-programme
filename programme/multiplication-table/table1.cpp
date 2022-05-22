@@ -1,10 +1,11 @@
 // Write a program to output the following multiplication table
+
 #include <iostream>
 
 int main()
 {
     int n;
-    std::cout << "Enter number to find its table: ";
+    std::cout << "Enter number to find its table : ";
     std::cin >> n;
     for (int i = 1; i < 11; i++)
     {
