@@ -6,11 +6,13 @@ tags:
   - java
   - c
   - js
+  - cpp
 contributors:
   - harshi1122
   - KikiManjaro
   - Badboy-16
   - michal-markiewicz
+  - akhil484
 ---
 
 ## Write a program to find the factorial of a number
@@ -109,6 +111,24 @@ function factorial(num) {
 var num = 5;
 
 console.log(factorial(num));
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int number;
+    cin>>number;
+    int factorial_of_number = 1;
+    for(int i=1;i<=number;i++)
+    {
+        factorial_of_number = factorial_of_number*i;
+    }
+    cout<<"Factorial of "<<number<<" is "<<factorial_of_number;
+    return 0;
+}
 ```
 
 </CodeBlock>
