@@ -13,7 +13,7 @@ contributors:
   - ClasherKasten
 ---
 
-## Write a programme to find the area of circle.
+## Write a programme to find the area of circle
 
 ```txt
 r : 3
@@ -83,14 +83,15 @@ int main()
 
 #define PI 3.141f
 
-int main(void) {
+int main(void)
+{
     float r;
-    printf("Enter r: ");
+    printf("Enter r : ");
     scanf("%f", &r);
 
     float area = PI * r * r;
 
-    printf("Area: %.2f\n", area);
+    printf("\nArea : %.2f\n", area);
 }
 ```
 
