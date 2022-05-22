@@ -4,8 +4,10 @@ description: Write a program to output the multiplication table
 tags:
   - c
   - python
+  - java
 contributors:
   - Tosin-dotcom
+  - prajwalborkar
 ---
 
 ## Write a program to output the following multiplication table
@@ -46,4 +48,18 @@ n = int(input("Enter number: "))
 table_of(n)
 ```
 
+                       
+```java
+public class MultiplicationTable {
+
+    public static void main(String[] args) {
+
+        int num = 5;
+        for(int i = 1; i <= 10; ++i)
+        {
+            System.out.printf("%d * %d = %d \n", num, i, num * i);
+        }
+    }
+}
+```  
 </CodeBlock>
