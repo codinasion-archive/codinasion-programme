@@ -3,9 +3,10 @@ public class MultiplicationTable
 {
     public static void Main(String[] args) {
 
-        int num = 5;
+        Console.WriteLine("Enter Number:");
+        int num = int.Parse(Console.ReadLine());
         for (int i = 1; i < 11; i++) {
-            Console.WriteLine("{0} * {1} = {2}", i, num, i * num);
+            Console.WriteLine("{0} * {1} = {2}", num, i, num * i);
         }
     }
 }
