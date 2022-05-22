@@ -39,17 +39,17 @@ void main()
 ```
                        
 ```cpp
-
 #include <iostream>
 
 using namespace std;
-
-int main() {
-   int n = 5, i;
-   for (i = 1; i <= 10; i++)
-   cout << n << " * " << i << " = " << n * i << endl;
-   return 0;
-}           
+int main()
+{
+    int n = 5, i;
+    cout << "The multiplication table for " << n << " is as follows:" << endl;
+    for (i = 1; i <= 10; i++)
+        cout << n << " * " << i << " = " << n * i << endl;
+    return 0;
+}          
 ```                       
 
 ```python
@@ -70,8 +70,7 @@ public class MultiplicationTable {
     public static void main(String[] args) {
 
         int num = 5;
-        for(int i = 1; i <= 10; ++i)
-        {
+        for (int i = 1; i <= 10; ++i) {
             System.out.printf("%d * %d = %d \n", num, i, num * i);
         }
     }
