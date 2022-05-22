@@ -3,9 +3,13 @@ title: Multiplication Table
 description: Write a program to output the multiplication table
 tags:
   - c
+  - c++
   - python
+  - java
 contributors:
   - Tosin-dotcom
+  - PrajwalBorkar
+  - Enoch02
 ---
 
 ## Write a program to output the following multiplication table
@@ -34,6 +38,20 @@ void main()
     }
 }
 ```
+              
+```cpp
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int n = 5, i;
+    cout << "The multiplication table for " << n << " is as follows:" << endl;
+    for (i = 1; i <= 10; i++)
+        cout << n << " * " << i << " = " << n * i << endl;
+    return 0;
+}          
+```
 
 ```python
 def table_of(n):
@@ -44,6 +62,20 @@ def table_of(n):
 n = int(input("Enter number: "))
 
 table_of(n)
+```
+
+
+```java
+public class MultiplicationTable {
+
+    public static void main(String[] args) {
+
+        int num = 5;
+        for (int i = 1; i <= 10; ++i) {
+            System.out.printf("%d * %d = %d \n", num, i, num * i);
+        }
+    }
+}
 ```
 
 </CodeBlock>
