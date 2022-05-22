@@ -7,12 +7,14 @@ tags:
   - cpp
   - java
   - go
+  - c
 contributors:
   - harshi1122
   - Mrczarny
   - ramanand-rv
   - VSen910
   - GodKimba
+  - ClasherKasten
 ---
 
 ## Write a program to add two numbers
@@ -124,6 +126,22 @@ func main() {
 
 	fmt.Printf("\nThe sum of %d and %d is : %d\n", x, y, sum)
 }
+```
+
+```c
+#include <stdio.h>
+
+int main(void) {
+    int a, b;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    int sum = a + b;
+
+    printf("%d + %d = %d\n", a, b, sum);
+    return 0;
+}
+
 ```
 
 </CodeBlock>
