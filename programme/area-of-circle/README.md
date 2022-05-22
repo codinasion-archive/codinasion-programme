@@ -5,10 +5,12 @@ tags:
   - python
   - java
   - cpp
+  - c
 contributors:
   - theanorak
   - NeelPatel31
   - karthiksbh
+  - ClasherKasten
 ---
 
 ## Write a programme to find the area of circle.
@@ -73,6 +75,22 @@ int main()
 
     // output area
     cout << "Area: " << floor((pi * r * r) * 100) / 100;
+}
+```
+
+```c
+#include <stdio.h>
+
+#define PI 3.141f
+
+int main(void) {
+    float r;
+    printf("Enter r: ");
+    scanf("%f", &r);
+
+    float area = PI * r * r;
+
+    printf("Area: %.2f\n", area);
 }
 ```
 
