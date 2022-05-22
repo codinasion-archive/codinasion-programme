@@ -3,6 +3,7 @@ title: Multiplication Table
 description: Write a program to output the multiplication table
 tags:
   - c
+  - c++
   - python
   - java
 contributors:
@@ -36,6 +37,20 @@ void main()
     }
 }
 ```
+                       
+```cpp
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+   int n = 5, i;
+   for (i = 1; i <= 10; i++)
+   cout << n << " * " << i << " = " << n * i << endl;
+   return 0;
+}           
+```                       
 
 ```python
 def table_of(n):
