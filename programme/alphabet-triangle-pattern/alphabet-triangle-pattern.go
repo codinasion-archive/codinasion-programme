@@ -1,3 +1,5 @@
+// Write a program to print alphabet triangle pattern
+
 package main
 
 import (
@@ -12,9 +14,17 @@ func createTrianglePattern() {
 
 	for i := 0; i < rows; i++ {
 		asciiLetter := 65
-		for j := 0; j < i+1; j++ {
-			fmt.Printf("%c ", asciiLetter)
-			asciiLetter += 1
+		for k := rows; k > i; k-- {
+			fmt.Print(" ")
+		}
+		for j := 0; j < 2*i+1; j++ {
+			if j <= i {
+				fmt.Printf("%c", asciiLetter)
+				asciiLetter += 1
+			} else {
+				asciiLetter -= 1
+				fmt.Printf("%c", asciiLetter-1)
+			}
 		}
 		fmt.Println()
 	}
