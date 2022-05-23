@@ -3,8 +3,10 @@ title: Swap two numbers
 description: Write a program to swap two numbers
 tags:
   - python
+  - c
 contributors:
   - johnelbacani
+  - NeelPatel31
 ---
 
 ## Write a program to swap two numbers.
@@ -16,7 +18,7 @@ Output: a=20 b=10
 
 ---
 
-<CodeBlock>
+### Python
 
 ```python
 # define variables
@@ -32,4 +34,21 @@ b = c
 print(a, b)
 ```
 
-</CodeBlock>
+### C
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a, b;
+    printf("Enter the value of a: ");
+    scanf("%d", &a);
+    printf("Enter the value of b: ");
+    scanf("%d", &b);
+    int temp = a;
+    a = b;
+    b = temp;
+    printf("Output: a = %d , b = %d", a, b);
+    return 0;
+}
+```
