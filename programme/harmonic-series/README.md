@@ -3,18 +3,19 @@ title: Harmonic Series
 description: Write a programme to calculate the sum of following harmonic series for a given value of n
 tags:
   - c
+  - javascript
 contributors:
   - Badboy-16
+  - mathcodes
 ---
 
-## Write a programme to calculate the sum of following harmonic series for a given value of n.
+## Write a programme to calculate the sum of following harmonic series for a given value of n
 
 ```txt
 1 + 1/2 + 1/3 + 1/4 + ... + 1/n
 ```
 
 ---
-## Solution in C:
 
 <CodeBlock>
 
@@ -81,21 +82,17 @@ int ispositiveint(char a[])
 }
 ```
 
-</CodeBlock>
-  
-
-
-
-## Solution in Javascript, [issue #600](https://github.com/codinasion/codinasion-programme/issues/600):
-  
-<CodeBlock>
-
-```js
+```javascript
 function sum(n) {
-  var i, s = 0.0;
-  for (i = 1; i <= n; i++)
-    s = s + 1 / i;
-  return s;
+  var i,
+    s = 0.0;
+
+  for (i = 1; i <= n; i++) s = s + 1 / i;
+
+  return s.toFixed(2);
 }
+
+sum(6);
 ```
-                    
+
+</CodeBlock>
