@@ -6,10 +6,12 @@ tags:
   - c++
   - python
   - java
+  - cs
 contributors:
   - Tosin-dotcom
   - PrajwalBorkar
   - Enoch02
+  - Dentyr
 ---
 
 ## Write a program to output the following multiplication table
@@ -73,6 +75,23 @@ public class MultiplicationTable {
         int num = 5;
         for (int i = 1; i <= 10; ++i) {
             System.out.printf("%d * %d = %d \n", num, i, num * i);
+        }
+    }
+}
+```
+
+```cs
+using System;
+public class MultiplicationTable
+{
+    public static void Main(String[] args)
+    {
+
+        Console.Write("Enter Number : ");
+        int num = int.Parse(Console.ReadLine());
+        for (int i = 1; i < 11; i++)
+        {
+            Console.WriteLine("{0} * {1} = {2}", num, i, num * i);
         }
     }
 }
