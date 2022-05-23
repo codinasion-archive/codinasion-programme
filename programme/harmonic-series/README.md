@@ -14,6 +14,7 @@ contributors:
 ```
 
 ---
+## Solution in C:
 
 <CodeBlock>
 
@@ -81,3 +82,20 @@ int ispositiveint(char a[])
 ```
 
 </CodeBlock>
+  
+
+
+
+## Solution in Javascript, [issue #600](https://github.com/codinasion/codinasion-programme/issues/600):
+  
+<CodeBlock>
+
+```js
+function sum(n) {
+  var i, s = 0.0;
+  for (i = 1; i <= n; i++)
+    s = s + 1 / i;
+  return s;
+}
+```
+                    
