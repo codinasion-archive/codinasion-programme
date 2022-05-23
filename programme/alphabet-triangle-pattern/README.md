@@ -13,7 +13,7 @@ contributors:
   - Dentyr
 ---
 
-## Write a program to print alphabet triangle pattern.
+## Write a program to print alphabet triangle pattern
 
 ```txt
 Input : 5
