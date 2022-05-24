@@ -3,7 +3,7 @@ title: Harmonic Series
 description: Write a programme to calculate the sum of following harmonic series for a given value of n
 tags:
   - c
-  - javascript
+  - js
 contributors:
   - Badboy-16
   - mathcodes
