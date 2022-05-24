@@ -55,4 +55,20 @@ public class MinutesToSeconds {
 }
 ```
 
+```C++
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int n;
+    cout << "Enter Input Minutes : " << "\n";
+    cin >> n;
+    cout << "Sec : " << n * 60 << "\n";
+
+    return 0;
+}
+
+```
+
 </CodeBlock>
