@@ -3,7 +3,7 @@ title: Multiplication Table
 description: Write a program to output the multiplication table
 tags:
   - c
-  - c++
+  - cpp
   - python
   - java
   - cs
