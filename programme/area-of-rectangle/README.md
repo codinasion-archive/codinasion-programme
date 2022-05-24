@@ -6,11 +6,13 @@ tags:
   - c
   - cpp
   - java
+  - js
 contributors:
   - giftcup
   - harshi1122
   - ramanand-rv
   - gilazani
+  - mathcodes
 ---
 
 ## Write a program to compute the area of a rectangle
@@ -97,8 +99,6 @@ int main()
 }
 ```
 
-### java
-
 ```java
 import java.util.Scanner;
 
@@ -125,6 +125,18 @@ public class areaOfRectangle {
 		sc.close();
 	}
 }
+```
+
+```js
+const rectangleArea = (length, breadth) => {
+  let area = length * breadth;
+
+  return area;
+};
+
+console.log("length  : 2");
+console.log("breadth : 3");
+console.log("\narea : ", rectangleArea(2, 3));
 ```
 
 </CodeBlock>

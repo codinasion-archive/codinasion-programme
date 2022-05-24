@@ -4,9 +4,11 @@ description: Write a programme to compute the value of Euler's Number
 tags:
   - python
   - java
+  - js
 contributors:
   - LevBernstein
   - Anzo52
+  - mathcodes
 ---
 
 ## Write a programme to compute the value of Euler's Number
@@ -53,7 +55,23 @@ public class EulersNumber {
         input.close();
     }
 }
+```
+               
+```js
+const factorial = (n) => {
+  let r = 1;
+  for (let i = 2; i <= n; i++) r *= i;
+  return r;
+};
 
+const sum = (n) => {
+  let s = 0;
+  for (let i = 1; i <= n; i++) s += 1.0 / factorial(i);
+  return s;
+};
+
+console.log("n : 3");
+console.log("\nsum : ", sum(3).toFixed(2));
 ```
 
 </CodeBlock>
