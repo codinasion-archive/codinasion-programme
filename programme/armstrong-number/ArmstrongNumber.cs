@@ -6,15 +6,14 @@ public class ArmstrongNumber
         int sum = 0; 
         for (int temp = num; temp > 0; temp /= 10)
         {
-            sum += ((int)Math.Pow(temp % 10, num.size));
-            Console.Out.WriteLine(temp + "  " + sum);
+            sum += ((int)Math.Pow(temp % 10, numDigits(num)));
         }
         if (num == sum) return true; return false;
     }
     public static int numDigits(int num)
     {
         if (num == 0) return 1;
-        return Math.Floor(Math.Log10(num)) + 1;
+        return ((int)Math.Floor(Math.Log10(num))) + 1;
     }
     public static void Main(string[] args)
     {
