@@ -5,11 +5,15 @@ tags:
   - c
   - java
   - python
+  - js
+  - cpp
 contributors:
   - giftcup
   - udit6023
   - Divyanshpatel18
   - seraph776
+  - arch0nline
+  - akhil484
 ---
 
 ## Write a program to divide two numbers
@@ -101,8 +105,6 @@ public class Divide_two_numbers {
 }
 ```
 
-### python
-
 ```python
 import sys
 
@@ -121,6 +123,52 @@ if __name__ == '__main__':
 
     n1, n2 = [int(input(f'Input the {ht.get(i)} : ')) for i in range(1, 3)]
     divide_two_numbers(n1, n2)
+```
+
+```javascript
+function divide(a, b) {
+  return (a / b).toFixed(2);
+}
+
+let num1 = prompt("Enter First Number : ");
+let num2 = prompt("Enter Second Number : ");
+
+console.log("Output :", divide(num1, num2));
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+double Divide(int num1, int num2)
+{
+    if (num2 == 0)
+    {
+        return -1;
+    }
+    double result = (double)num1 / (double)num2;
+    return result;
+}
+
+int main()
+{
+    int num1, num2;
+    cout << "Input the Dividend : ";
+    cin >> num1;
+    cout << "Input the Divisor  : ";
+    cin >> num2;
+    double result = Divide(num1, num2);
+    if (result == -1)
+    {
+        cout << "\n!!!  Divide by Zero is not possible  !!!\n";
+    }
+    else
+    {
+        cout << "\nOutput : " << result << endl;
+    }
+
+    return 0;
+}
 ```
 
 </CodeBlock>

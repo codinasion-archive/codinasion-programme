@@ -7,11 +7,13 @@ tags:
   - cpp
   - java
   - go
+  - js
 contributors:
   - GodKimba
   - williamye51
   - HaveACookie
   - rossilor95
+  - Micha-L-Davis
 ---
 
 ## Write a programme to convert hours to seconds
@@ -72,8 +74,6 @@ int main()
 }
 ```
 
-### java
-
 ```java
 import java.util.Scanner;
 
@@ -105,6 +105,18 @@ func main() {
 	var seconds int = hours * 3600
 	fmt.Println("Hrs :", hours)
 	fmt.Println("Sec :", seconds)
+}
+```
+
+```javascript
+"use strict";
+
+let hoursInput = prompt("Hours : ");
+
+console.log("Seconds :", hoursToSeconds(+hoursInput));
+
+function hoursToSeconds(hours) {
+  return hours * 3600;
 }
 ```
 
