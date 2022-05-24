@@ -1,14 +1,17 @@
 # Write a program to check if the number is an Armstrong number or not
 
 # Get input
-number = int(input("Input  : "))
+num = input("Input  : ")
+
+length = len(num)
+number = int(num)
 
 sum = 0
 
 temp = number
 while temp > 0:
     digit = temp % 10
-    sum += digit ** 3
+    sum += digit ** length
     temp //= 10
 
 # Display the output
