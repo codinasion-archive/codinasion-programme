@@ -5,10 +5,12 @@ tags:
   - c
   - java
   - python
+  - cs
 contributors:
   - Badboy-16
   - kzhang01
   - vaishnavikumar8
+  - Dentyr
 ---
 
 ## Write a program to check armstrong number
@@ -17,11 +19,11 @@ Armstrong number is a number that is equal to the sum of cubes of length of its 
 
 ### Examples
 
-- `0` = `0^1`
-- `1` = `1^1`
-- `153` = `1^3` + `5^3` + `3^3`
-- `370` = `3^3` + `7^3` + `0^3`
-- `9474` = `9^4` + `4^4` + `7^4` + `4^4`
+- 0 = 0^1
+- 1 = 1^1
+- 153 = 1^3 + 5^3 + 3^3
+- 370 = 3^3 + 7^3 + 0^3
+- 9474 = 9^4 + 4^4 + 7^4 + 4^4
 
 ### Programme
 
@@ -143,6 +145,36 @@ while temp > 0:
 
 output = "armstrong number" if number == sum else "not a armstrong number"
 print("Output :", output)
+```
+
+```cs
+using System;
+
+public class ArmstrongNumber
+{
+    public static bool IsArmstrongNumber(int num)
+    {
+        int sum = 0;
+        for (int temp = num; temp > 0; temp /= 10)
+        {
+            sum += ((int)Math.Pow(temp % 10, numDigits(num)));
+        }
+        if (num == sum) return true; return false;
+    }
+    public static int numDigits(int num)
+    {
+        if (num == 0) return 1;
+        return ((int)Math.Floor(Math.Log10(num))) + 1;
+    }
+    public static void Main(string[] args)
+    {
+        Console.Write("Input  : ");
+        Console.WriteLine(
+            IsArmstrongNumber(int.Parse(Console.ReadLine())) ?
+            "Output : Is an Armstrong number" : "Output : Not an Armstrong number"
+        );
+    }
+}
 ```
 
 </CodeBlock>
