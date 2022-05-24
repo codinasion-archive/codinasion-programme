@@ -3,8 +3,10 @@ title: Fibonacci Pattern
 description: Write a program to print Fibonacci pattern
 tags:
   - java
+  - python
 contributors:
   - Anzo52
+  - rossilor95
 ---
 
 ## Write a program to print Fibonacci pattern
@@ -47,6 +49,23 @@ public class FibonacciPattern {
         sc.close();
     }
 }
+```
+
+```python
+def fibonacci_pattern(n: int) -> int:
+    assert n > 0
+    a, b = 0, 1
+    for i in range(n):
+        print(f"{b} ", end="")
+        a, b = b, a + b
+    print(end="\n")
+
+
+if __name__ == "__main__":
+    pattern_lenght = int(input(
+        "Enter the lenght of the Fibonacci pattern to generate : "))
+    for number in range(1, pattern_lenght + 1):
+        fibonacci_pattern(number)
 ```
 
 </CodeBlock>
