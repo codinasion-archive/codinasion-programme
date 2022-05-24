@@ -13,14 +13,15 @@ contributors:
 
 ## Write a program to check armstrong number
 
-Armstrong number is a number that is equal to the sum of cubes of its digits.
+Armstrong number is a number that is equal to the sum of cubes of length of its digits.
 
 ### Examples
 
-- 0 = 0^3
-- 1 = 1^3
-- 153 = 1^3 + 5^3 + 3^3
-- 370 = 3^3 + 7^3 + 0^3
+- `0` = `0^1`
+- `1` = `1^1`
+- `153` = `1^3` + `5^3` + `3^3`
+- `370` = `3^3` + `7^3` + `0^3`
+- `9474` = `9^4` + `4^4` + `7^4` + `4^4`
 
 ### Programme
 
@@ -42,11 +43,12 @@ Output: not a armstrong number
 #include <stdio.h>
 #include <stdlib.h> /* for atoi function */
 #include <ctype.h>  /* for isdigit and isspace functions */
+#include <string.h>
+#include <math.h>
 
 #define LIMIT 32
 
-int isarmstrong(int);
-int cube(int);
+int isarmstrong(int, int);
 int validinput(char[]);
 
 int main()
@@ -63,28 +65,23 @@ int main()
     else
       printf("\nInvalid input.\nInput:  ");
   }
+  int len = strlen(numstr);
   num = atoi(numstr);
-  if (isarmstrong(num))
+  if (isarmstrong(num, len))
     printf("Output : armstrong number\n");
   else
     printf("Output : not a armstrong number\n");
   return 0;
 }
 
-int isarmstrong(int i)
+int isarmstrong(int i, int len)
 /* check if int is armstrong number */
 {
   int num = i;
   int sum;
   for (sum = 0; num != 0; num /= 10)
-    sum += cube(num % 10);
+    sum += pow(num % 10, len);
   return (sum == i) ? 1 : 0;
-}
-
-int cube(int i)
-/* return the cubed int */
-{
-  return i * i * i;
 }
 
 int validinput(char a[])
@@ -110,11 +107,11 @@ int validinput(char a[])
 ```java
 import java.util.Scanner;
 
-public class Armstrong {
-    private static String isArmstrong(int num) {
+public class ArmstrongNumber {
+    private static String isArmstrong(int num, int length) {
         int sum = 0;
         for (int currNum = num; currNum != 0; currNum /= 10) {
-            sum += Math.pow(currNum % 10, 3);
+            sum += Math.pow(currNum % 10, length);
         }
         return sum == num ? "armstrong number" : "not armstrong number";
     }
@@ -123,21 +120,25 @@ public class Armstrong {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter an integer : ");
         int num = sc.nextInt();
-        System.out.println("\nOutput : " + isArmstrong(num));
+        int length = String.valueOf(num).length();
+        System.out.println("\nOutput : " + isArmstrong(num, length));
         sc.close();
     }
 }
 ```
 
 ```python
-number = int(input("Input  : "))
+num = input("Input  : ")
+
+length = len(num)
+number = int(num)
 
 sum = 0
 
 temp = number
 while temp > 0:
     digit = temp % 10
-    sum += digit ** 3
+    sum += digit ** length
     temp //= 10
 
 output = "armstrong number" if number == sum else "not a armstrong number"
