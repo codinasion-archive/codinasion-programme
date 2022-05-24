@@ -6,12 +6,16 @@ tags:
   - cpp
   - python
   - java
+  - go
+  - cs
 contributors:
   - NeelPatel31
   - shrionit
+  - GodKimba
+  - Dentyr
 ---
 
-## Write a program to print alphabet triangle pattern.
+## Write a program to print alphabet triangle pattern
 
 ```txt
 Input : 5
@@ -160,6 +164,76 @@ public class alphabet_triangle_pattern {
         sc.close();
     }
 
+}
+```
+
+```go
+package main
+import (
+	"fmt"
+)
+func createTrianglePattern() {
+	var rows int
+	fmt.Print("Enter the number of rows: ")
+	fmt.Scan(&rows)
+	for i := 0; i < rows; i++ {
+		asciiLetter := 65
+		for k := rows; k > i; k-- {
+			fmt.Print(" ")
+		}
+		for j := 0; j < 2*i+1; j++ {
+			if j <= i {
+				fmt.Printf("%c", asciiLetter)
+				asciiLetter += 1
+			} else {
+				asciiLetter -= 1
+				fmt.Printf("%c", asciiLetter-1)
+			}
+		}
+		fmt.Println()
+	}
+}
+func main() {
+	createTrianglePattern()
+}
+```
+
+```cs
+using System;
+
+public class AlphabetTrianglePattern
+{
+    private static void pattern(int n)
+    {
+        Console.WriteLine("Output :");
+        for (int i = 1; i <= n; i++)
+        {
+            int c = (int)('A');
+            for (int k = n; k > i; k--)
+            {
+                Console.Write(" ");
+            }
+            for (int j = 1; j < 2 * i; j++)
+            {
+                Console.Write(((char)c));
+                if (j < i)
+                {
+                    c++;
+                }
+                else
+                {
+                    c--;
+                }
+            }
+            Console.WriteLine();
+        }
+    }
+    public static void Main(String[] args)
+    {
+        Console.Write("Input  : ");
+        int n = int.Parse(Console.ReadLine());
+        pattern(n);
+    }
 }
 ```
 

@@ -3,10 +3,18 @@ title: Multiplication Table
 description: Write a program to output the multiplication table
 tags:
   - c
+  - cpp
+  - python
+  - java
+  - cs
 contributors:
+  - Tosin-dotcom
+  - PrajwalBorkar
+  - Enoch02
+  - Dentyr
 ---
 
-## Write a program to output the following multiplication table.
+## Write a program to output the following multiplication table
 
 ```txt
 5 x 1 = 5
@@ -29,6 +37,62 @@ void main()
     int n = 5;
     for(int i=1; i<=10; i++) {
         printf("%d x %d = %d\n", n, i, n*i);
+    }
+}
+```
+              
+```cpp
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int n = 5, i;
+    cout << "The multiplication table for " << n << " is as follows:" << endl;
+    for (i = 1; i <= 10; i++)
+        cout << n << " * " << i << " = " << n * i << endl;
+    return 0;
+}          
+```
+
+```python
+def table_of(n):
+    for i in range(1, 11):
+        print(f"{n} x {i} = {n*i}")
+
+
+n = int(input("Enter number: "))
+
+table_of(n)
+```
+
+
+```java
+public class MultiplicationTable {
+
+    public static void main(String[] args) {
+
+        int num = 5;
+        for (int i = 1; i <= 10; ++i) {
+            System.out.printf("%d * %d = %d \n", num, i, num * i);
+        }
+    }
+}
+```
+
+```cs
+using System;
+public class MultiplicationTable
+{
+    public static void Main(String[] args)
+    {
+
+        Console.Write("Enter Number : ");
+        int num = int.Parse(Console.ReadLine());
+        for (int i = 1; i < 11; i++)
+        {
+            Console.WriteLine("{0} * {1} = {2}", num, i, num * i);
+        }
     }
 }
 ```

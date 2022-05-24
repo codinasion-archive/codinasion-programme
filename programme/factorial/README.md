@@ -5,13 +5,17 @@ tags:
   - python
   - java
   - c
+  - js
+  - cpp
 contributors:
   - harshi1122
   - KikiManjaro
   - Badboy-16
+  - michal-markiewicz
+  - akhil484
 ---
 
-## Write a program to find the factorial of a number.
+## Write a program to find the factorial of a number
 
 ```txt
 Input:  5
@@ -92,6 +96,39 @@ int factorial(int n)
   for (int i = n; i > 0; i--)
     result *= i;
   return result;
+}
+```
+
+```javascript
+function factorial(num) {
+  if (num === 1) {
+    return 1;
+  } else {
+    return num * factorial(num - 1);
+  }
+}
+
+var num = 5;
+
+console.log(factorial(num));
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int number;
+    cout << "Input : ";
+    cin >> number;
+    int factorial_of_number = 1;
+    for (int i = 1; i <= number; i++)
+    {
+        factorial_of_number = factorial_of_number * i;
+    }
+    cout << "\nFactorial of " << number << " is " << factorial_of_number << endl;
+    return 0;
 }
 ```
 

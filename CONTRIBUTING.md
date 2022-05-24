@@ -23,11 +23,11 @@ Check to see what [types of contributions](/contributing/types-of-contributions.
 
 #### Create a new issue
 
-If you wanna add or modify Codinasion content, [search if an issue already exists](https://github.com/codinasion/codinasion/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/codinasion/codinasion/issues/new/choose). 
+If you want to add or modify Codinasion content, [search if an issue already exists](https://github.com/codinasion/codinasion-programme/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/codinasion/codinasion-programme/issues/new/choose). 
 
 #### Solve an issue
 
-Scan through our [existing issues](https://github.com/codinasion/codinasion/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](/contributing/how-to-use-labels.md) for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+Scan through our [existing issues](https://github.com/codinasion/codinasion-programme/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](/contributing/how-to-use-labels.md) for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
 
 ### Make Changes
 
