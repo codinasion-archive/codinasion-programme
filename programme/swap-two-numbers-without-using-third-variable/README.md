@@ -6,14 +6,16 @@ tags:
   - c
   - cpp
   - java
+  - js
 contributors:
   - Satyapriyo
   - aryangupta701
   - wkktoria
   - kzhang01
+  - rossilor95
 ---
 
-## Write a program to swap two numbers without using third variable.
+## Write a program to swap two numbers without using third variable
 
 ```txt
 Input:  a=10 b=20
@@ -109,6 +111,17 @@ public class Swap {
         sc.close();
     }
 }
+```
+
+```javascript
+let a = 10;
+let b = 20;
+
+console.log(`Input  : a = ${a}, b = ${b}`);
+
+[a, b] = [b, a];
+
+console.log(`Output : a = ${a}, b = ${b}`);
 ```
 
 </CodeBlock>
