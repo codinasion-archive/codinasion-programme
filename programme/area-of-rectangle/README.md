@@ -6,7 +6,7 @@ tags:
   - c
   - cpp
   - java
-  - javascript
+  - js
 contributors:
   - giftcup
   - harshi1122
@@ -26,8 +26,6 @@ area : 6
 
 ---
 
-### Python
-
 <CodeBlock>
 
 ```python
@@ -40,8 +38,6 @@ y = int(input('breadth : '))
 # output area
 print('\narea : ', x*y)
 ```
-
-### C
 
 ```c
 #include <stdio.h>
@@ -79,7 +75,6 @@ void test(void)
     assert(area_of_rectangle(2, 3) == 6);
 }
 ```
-### C++
 
 ```cpp
 #include <bits/stdc++.h>
@@ -103,8 +98,6 @@ int main()
   return 0;
 }
 ```
-
-### java
 
 ```java
 import java.util.Scanner;
@@ -134,16 +127,16 @@ public class areaOfRectangle {
 }
 ```
 
-### Javascript
 ```js
-// Write a programme to find the area of Rectangular given the length and the breadth.
-
 const rectangleArea = (length, breadth) => {
-  let area = length*breadth
-  
-  return area
-}
+  let area = length * breadth;
 
+  return area;
+};
+
+console.log("length  : 2");
+console.log("breadth : 3");
+console.log("\narea : ", rectangleArea(2, 3));
 ```
 
 </CodeBlock>
