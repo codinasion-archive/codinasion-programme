@@ -1,85 +1,94 @@
 ---
-
-Title: Digital Root
-Description: Write a programme to compute Digital Root of number. It will sum of digit in given number until it become single digit.
-
+title: Digital Root
+description: Write a programme for Digital Root of a number
 tags:
-
-- Python
-- C++
-- C
-
+  - c
+  - cpp
+  - python
 contributors:
-
-- arth2002
-
+  - arth2002
 ---
 
-## Write a programme to compute Digital Root of number
+## Write a programme for Digital Root of a number
+
+`Digital Root` is the single number obtained by adding the number successively.
 
 ```txt
-
-345 => 3+4+5=> 12 => 1+3=>4
-45 => 4 + 5 => 9
-
+347 = 3 + 4 + 7 = 14
+14 = 1 + 4 = 5
 ```
----
 
-  
+Thus, 5 is a single digit number, which is the digital root/ seed number of 347.
+
+```txt
+Input  : 347
+Output : 5
+```
+
+---
 
 <CodeBlock>
 
-  
-**Python**
-```
-def digital_root(n):
-    if n==0:
-        return 0
-    else:
-        return 1 + ((n-1)%9)
-n = int(input("Enter Number: "))
-print("Digital Root :",digital_root(n))
-
-```
-**C++**
-```
-#include <iostream>
-using namespace std;
-int digital_root(int n){
-    if (n==0)return 0;
-    else{
-        return 1 + ((n-1)%9);
-    }
-}
-int main() {
-    int n;
-    cout << "Enter Number: ";
-    cin >> n;
-    cout <<endl;
-    cout << "Digital Root Value :"  << digital_root(n);
-    return 0;
-}
-
-```
-**C**
-```
+```c
 #include <stdio.h>
-int digital_root(int n){
-    if (n==0)return 0;
-    else{
-        return 1 + ((n-1)%9);
+
+int digital_root(int n)
+{
+    if (n == 0)
+        return 0;
+    else
+    {
+        return 1 + ((n - 1) % 9);
     }
 }
-int main() {
+
+int main()
+{
     int n;
-    printf("Enter Number: ");
-    scanf("%d",&n);
+    printf("Enter Number : ");
+    scanf("%d", &n);
     int ans = digital_root(n);
     printf("\n");
-    printf("Digital Root Value : %d",ans);
-    printf("\n");
+    printf("Digital Root Value : %d\n", ans);
     return 0;
 }
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int digital_root(int n)
+{
+    if (n == 0)
+        return 0;
+    else
+    {
+        return 1 + ((n - 1) % 9);
+    }
+}
+
+int main()
+{
+    int n;
+    cout << "Enter Number : ";
+    cin >> n;
+    cout << endl;
+    cout << "Digital Root Value : " << digital_root(n) << endl;
+    return 0;
+}
+```
+
+```python
+def digital_root(n):
+    if n == 0:
+        return 0
+    else:
+        return 1 + ((n-1) % 9)
+
+
+n = int(input("Enter Number : "))
+print("Digital Root :", digital_root(n))
 ```
 
 </CodeBlock>
