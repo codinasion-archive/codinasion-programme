@@ -4,9 +4,11 @@ description: Write a program to print Fibonacci pattern
 tags:
   - java
   - go
+  - cpp
 contributors:
   - Anzo52
   - waleska404
+  - siddhantchimankar
 ---
 
 ## Write a program to print Fibonacci pattern
@@ -80,23 +82,28 @@ func main() {
 }
 ```
 
-```C++
+```cpp
 #include <iostream>
 using namespace std;
 
-int fib(int n) {
-    if(n <= 1) return n;
+int fib(int n)
+{
+    if (n <= 1)
+        return n;
     return fib(n - 1) + fib(n - 2);
 }
 
-int main() {
+int main()
+{
 
     int n;
     cout << "Enter an Integer : ";
     cin >> n;
 
-    for(int i = 1 ; i <= n ; i++) {
-        for(int j = 1 ; j <= i ; j++) {
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
             cout << fib(j) << " ";
         }
         cout << "\n";
@@ -104,8 +111,6 @@ int main() {
 
     return 0;
 }
-
-
 ```
 
 </CodeBlock>
