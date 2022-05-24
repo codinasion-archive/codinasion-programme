@@ -1,9 +1,11 @@
+// Write a program to check armstrong number
+
 using System;
 public class ArmstrongNumber
 {
     public static bool IsArmstrongNumber(int num)
     {
-        int sum = 0; 
+        int sum = 0;
         for (int temp = num; temp > 0; temp /= 10)
         {
             sum += ((int)Math.Pow(temp % 10, numDigits(num)));
@@ -17,10 +19,10 @@ public class ArmstrongNumber
     }
     public static void Main(string[] args)
     {
-        Console.WriteLine("Input  : ");
+        Console.Write("Input  : ");
         Console.WriteLine(
             IsArmstrongNumber(int.Parse(Console.ReadLine())) ?
-            "Is an Armstrong number" : "Not an Armstrong number"
+            "Output : Is an Armstrong number" : "Output : Not an Armstrong number"
         );
     }
 }
