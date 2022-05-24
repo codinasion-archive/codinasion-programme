@@ -4,9 +4,11 @@ description: Write a programme to convert minutes to seconds
 tags:
   - python
   - java
+  - cpp
 contributors:
   - seraph776
   - MananKarnik
+  - siddhantchimankar
 ---
 
 ## Write a programme to convert minutes to seconds.
@@ -55,20 +57,20 @@ public class MinutesToSeconds {
 }
 ```
 
-```C++
+```cpp
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 
     int n;
-    cout << "Enter Input Minutes : " << "\n";
+    cout << "Enter Minutes : ";
     cin >> n;
-    cout << "Sec : " << n * 60 << "\n";
+    cout << "\nSeconds : " << n * 60 << "\n";
 
     return 0;
 }
-
 ```
 
 </CodeBlock>
