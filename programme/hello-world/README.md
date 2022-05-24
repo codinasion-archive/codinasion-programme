@@ -7,6 +7,7 @@ tags:
   - cpp
   - java
   - go
+  - cs
 contributors:
   - zikpefu
   - GodKimba
@@ -66,6 +67,21 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello World !!!")
+}
+```
+
+```cs
+using System;
+
+namespace HelloConsoleApp
+{
+    class HelloWorld
+    {
+        public static void Main()
+        {
+            Console.WriteLine("Hello World !!!");
+        }
+    }
 }
 ```
 
