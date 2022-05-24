@@ -1,3 +1,7 @@
+// Write a program to print Hello World
+
+using System;
+
 namespace HelloConsoleApp
 {
     class HelloWorld
