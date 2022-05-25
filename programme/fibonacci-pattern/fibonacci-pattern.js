@@ -1,6 +1,6 @@
 // Write a program to print Fibonacci pattern
 
-const fibonacci_pattern = function (n) {
+const fibonacciPattern = function (n) {
     let a = 0;
     let b = 1;
     for (let i = 0; i < n; i++) {
@@ -18,7 +18,7 @@ const rl = readline.createInterface({
 
 rl.question("Enter the lenght of the Fibonacci pattern to generate : ", (patternLength) => {
     for (let number = 1; number <= patternLength; number++) {
-        fibonacci_pattern(number)
+        fibonacciPattern(number)
     }
     rl.close();
 });
