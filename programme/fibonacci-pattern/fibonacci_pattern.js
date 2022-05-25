@@ -1,3 +1,15 @@
+/* Write a JavaScript program to print the Fibonacci pattern
+
+Example:
+Input: n = 5
+Output:
+1
+1 1
+1 1 2
+1 1 2 3
+1 1 2 3 5
+*/
+
 const printFibs = (n) => {
   let str = '';
   let a = 1;
