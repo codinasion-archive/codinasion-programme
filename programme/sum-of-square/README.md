@@ -97,7 +97,7 @@ int main()
 }
 ```
 
-```
+```javascript
 // Check it here : https://onecompiler.com/javascript/3y5c8z56m
 
 var readline = require('readline');    // Process to read standard input
