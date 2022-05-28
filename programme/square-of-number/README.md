@@ -49,4 +49,30 @@ public class Square {
 }
 ```
 
+```c
+#include <stdio.h>             // Header File
+
+int main()
+{
+    int N;
+    scanf("%d", &N);          // Taking N as input
+    printf("%d\n", N*N);      // Printing N^2 as output
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>           // Including Header file
+
+using namespace std;          // Used stadnard namespace
+
+int main()
+{
+    int N;
+    cin>>N;                  // Input N
+    printf("%d\n", N*N);     // Output N^2 as value
+    return 0;
+}
+```
+
 </CodeBlock>
