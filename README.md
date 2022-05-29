@@ -1,4 +1,4 @@
-<h1 align="center">Codinasion</h1>
+<h1 align="center">Codinasion Programme</h1>
 
 <p align="center"> An open source codebase for sharing programming solutions.
     <br/>
