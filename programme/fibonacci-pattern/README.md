@@ -5,11 +5,14 @@ tags:
   - java
   - go
   - python
+  - cpp
   - js
 contributors:
   - Anzo52
   - waleska404
   - rossilor95
+  - siddhantchimankar
+  - rutterjt
 ---
 
 ## Write a program to print Fibonacci pattern
@@ -100,33 +103,50 @@ if __name__ == "__main__":
         fibonacci_pattern(number)
 ```
 
-```javascript
-const readline = require("readline");
+```cpp
+#include <iostream>
+using namespace std;
 
-const fibonacciPattern = function (n) {
-  let a = 0;
+int fib(int n)
+{
+    if (n <= 1)
+        return n;
+    return fib(n - 1) + fib(n - 2);
+}
+
+int main()
+{
+
+    int n;
+    cout << "Enter an Integer : ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << fib(j) << " ";
+        }
+        cout << "\n";
+    }
+
+    return 0;
+}
+```
+
+```javascript
+const printFibs = (n) => {
+  let str = "";
+  let a = 1;
   let b = 1;
   for (let i = 0; i < n; i++) {
-    process.stdout.write(`${b} `);
+    str += `${a} `;
+    console.log(str);
     [a, b] = [b, a + b];
   }
-  process.stdout.write("\n");
 };
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-
-rl.question(
-  "Enter the lenght of the Fibonacci pattern to generate : ",
-  (patternLength) => {
-    for (let number = 1; number <= patternLength; number++) {
-      fibonacciPattern(number);
-    }
-    rl.close();
-  }
-);
+printFibs(8);
 ```
 
 </CodeBlock>
