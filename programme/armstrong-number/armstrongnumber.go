@@ -43,12 +43,12 @@ func isArmstrong(number int) bool {
 
 func main() {
 	var num int
-	fmt.Println("Enter an integer: ")
+	fmt.Print("Enter an integer: ")
 	fmt.Scan(&num)
-	fmt.Println("Input: ", num)
+	fmt.Println("\nInput  :", num)
 	if isArmstrong(num) {
-		fmt.Println("Output: armstrong number")
+		fmt.Println("Output : armstrong number")
 	} else {
-		fmt.Println("Output: not an armstrong number")
+		fmt.Println("Output : not an armstrong number")
 	}
 }
