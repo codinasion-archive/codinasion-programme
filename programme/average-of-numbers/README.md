@@ -4,9 +4,12 @@ description: Write a program to find the average of numbers
 tags:
   - python
   - java
+  - c
+  - cpp
 contributors:
   - harshi1122
   - Anzo52
+  - ssavi-ict
 ---
 
 ## Write a program to find average of numbers
@@ -81,16 +84,20 @@ public class AverageOfNumbers {
 ```c
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int N, num;
+    printf("Numbers count : ");
     scanf("%d", &N);
-    printf("Enter %d Numbers\n", N);
+    printf("\nEnter %d Numbers\n", N);
     int sum = 0;
-    for(int i=0; i<N; i++){
+    for (int i = 0; i < N; i++)
+    {
+        printf("Enter : ");
         scanf("%d", &num);
         sum += num;
     }
-    printf("Average is : %f\n", (sum * 1.0)/N);
+    printf("\nAverage is : %.2f\n", (sum * 1.0) / N);
 }
 ```
 
@@ -99,16 +106,21 @@ int main(){
 
 using namespace std;
 
-int main(){
+int main()
+{
     int N, num;
+    cout << "Numbers count : ";
     cin >> N;
-    cout<<"Enter "<<N<<" Numbers" <<endl;
+    cout << "\nEnter " << N << " Numbers" << endl;
     int sum = 0;
-    for(int i=0; i<N; i++){
-        cin>>num;
+    for (int i = 0; i < N; i++)
+    {
+        cout << "Enter : ";
+        cin >> num;
         sum += num;
     }
-    cout<<"Average is "<< (sum * 1.0)/N<<endl;;
+    cout << "\nAverage is " << (sum * 1.0) / N << endl;
+    ;
 }
 ```
 
