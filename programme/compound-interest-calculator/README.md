@@ -5,10 +5,13 @@ tags:
   - python
   - java
   - js
+  - c
+  - cpp
 contributors:
   - theanorak
   - KikiManjaro
   - michal-markiewicz
+  - ssavi-ict
 ---
 
 ## Write a programme to calculate compound interest
@@ -79,6 +82,52 @@ console.log(
   "Compound Interest :",
   calculateCompoundInterest(amount, time, rate)
 );
+```
+
+```c
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int P, T, R;
+    printf("Enter P : ");
+    scanf("%d", &P);
+    printf("Enter T : ");
+    scanf("%d", &T);
+    printf("Enter R : ");
+    scanf("%d", &R);
+
+    float A = pow((1.0 + (R * 1.0) / 100), (T * 1.0)) * P;
+    printf("\nAmount : %.2f\n", A);
+    float C = A - P;
+    printf("Compound Interest : %.2f\n", C);
+
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    int P, T, R;
+    cout << "Enter P : ";
+    cin >> P;
+    cout << "Enter T : ";
+    cin >> T;
+    cout << "Enter R : ";
+    cin >> R;
+
+    float A = pow((1.0 + (R * 1.0) / 100), (T * 1.0)) * P;
+    cout << "\nAmount : " << A << endl;
+    float C = A - P;
+    cout << "Compound Interest : " << C << endl;
+}
 ```
 
 </CodeBlock>
