@@ -5,6 +5,8 @@ tags:
   - python
   - java
   - js
+  - C
+  - C++
 contributors:
   - LevBernstein
   - Anzo52
@@ -72,6 +74,40 @@ const sum = (n) => {
 
 console.log("n : 3");
 console.log("\nsum : ", sum(3).toFixed(2));
+```
+
+```c
+#include <stdio.h>
+
+int main(){
+    int N;
+    printf("Enter N: ");
+    scanf("%d", &N);
+    float eNumber = 1, fact = 1;
+    for(int i=1; i<=N; i++){
+        fact = fact * i;
+        eNumber += (1.0 / fact);
+    }
+    printf("Euler Number of %d: %f\n", N, eNumber);
+}
+```
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int N;
+    cout <<"Enter N: ";
+    cin >> N;
+    float eNumber = 1, fact = 1;
+    for(int i=1; i<=N; i++){
+        fact = fact * i;
+        eNumber += (1.0 / fact);
+    }
+    cout <<"Euler Number of "<<N<<": "<<eNumber<<endl;
+}
 ```
 
 </CodeBlock>
