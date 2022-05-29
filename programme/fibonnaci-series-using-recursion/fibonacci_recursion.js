@@ -1,5 +1,5 @@
 /*
-Write a JavaScript program to print Fibonacci series using recursion.
+Write a program to print Fibonacci series using recursion.
 
 Example:
 Input: n = 10.
@@ -13,7 +13,7 @@ const fib = (n) => {
 };
 
 const printFibs = (n) => {
-  let str = '';
+  let str = "";
   for (let i = 0; i < n; i++) {
     str += `${fib(i)} `;
   }
