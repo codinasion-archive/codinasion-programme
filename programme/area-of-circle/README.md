@@ -6,11 +6,13 @@ tags:
   - java
   - cpp
   - c
+  - cs
 contributors:
   - theanorak
   - NeelPatel31
   - karthiksbh
   - ClasherKasten
+  - Dentyr
 ---
 
 ## Write a programme to find the area of circle
@@ -92,6 +94,23 @@ int main(void)
     float area = PI * r * r;
 
     printf("\nArea : %.2f\n", area);
+}
+```
+
+```cs
+using System;
+
+public class AreaOfCircle
+{
+    public static void Main(String[] args)
+    {
+        Console.Write("Enter the radius : ");
+        int r = int.Parse(Console.ReadLine());
+        double area = Math.PI * r * r;
+        double answer = Math.Round(area, 2);
+
+        Console.WriteLine("Area of circle   : " + answer);
+    }
 }
 ```
 
