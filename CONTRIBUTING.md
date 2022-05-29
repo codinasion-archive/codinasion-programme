@@ -42,7 +42,7 @@ Click **Edit in GitHub** at the top of any Codinasion webpage to make small chan
 2. Clone the forked repository.
 
   ```
-  git clone https://github.com/<your_username>/codinasion
+  git clone https://github.com/your_username/codinasion
   ```
 
 3. Create a working branch and start with your changes!
