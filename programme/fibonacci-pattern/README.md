@@ -5,6 +5,7 @@ tags:
   - java
   - go
   - python
+  - js
 contributors:
   - Anzo52
   - waleska404
@@ -97,6 +98,35 @@ if __name__ == "__main__":
         "Enter the lenght of the Fibonacci pattern to generate : "))
     for number in range(1, pattern_lenght + 1):
         fibonacci_pattern(number)
+```
+
+```javascript
+const readline = require("readline");
+
+const fibonacciPattern = function (n) {
+  let a = 0;
+  let b = 1;
+  for (let i = 0; i < n; i++) {
+    process.stdout.write(`${b} `);
+    [a, b] = [b, a + b];
+  }
+  process.stdout.write("\n");
+};
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question(
+  "Enter the lenght of the Fibonacci pattern to generate : ",
+  (patternLength) => {
+    for (let number = 1; number <= patternLength; number++) {
+      fibonacciPattern(number);
+    }
+    rl.close();
+  }
+);
 ```
 
 </CodeBlock>
