@@ -1,11 +1,13 @@
-#include <iostream>           // Including Header file
+// Write a programme to find the square of a number
+#include <iostream> // Including Header file
 
-using namespace std;          // Used stadnard namespace
+using namespace std; // Used stadnard namespace
 
 int main()
 {
     int N;
-    cin>>N;                  // Input N
-    printf("%d\n", N*N);     // Output N^2 as value
+    cout << "Input  : ";
+    cin >> N;                             // Input N
+    cout << "Output : " << N * N << endl; // Output N^2 as value
     return 0;
 }
