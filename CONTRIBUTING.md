@@ -42,7 +42,7 @@ Click **Edit in GitHub** at the top of any Codinasion webpage to make small chan
 2. Clone the forked repository.
 
   ```
-  git clone https://github.com/your_username/codinasion
+  git clone https://github.com/your_username/codinasion-programme
   ```
 
 3. Create a working branch and start with your changes!
@@ -78,6 +78,6 @@ When you're finished with the changes, create a pull request, also known as a PR
 
 Congratulations :tada::tada: The Codinasion team thanks you :sparkles:
 
-Once your PR is merged, your contributions will be publicly visible on the [Codinasion](https://codinasion.vercel.app)
+Once your PR is merged, your contributions will be publicly visible on the [codinasion.vercel.app](https://codinasion.vercel.app)
 
 Now that you are part of the Codinasion community, see how else you can [contribute to codinasion](/contributing/types-of-contributions.md)
