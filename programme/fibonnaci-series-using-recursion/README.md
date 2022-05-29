@@ -6,11 +6,13 @@ tags:
   - c
   - java
   - cpp
+  - js
 contributors:
   - harshi1122
   - Shivam-Shrivastav
   - Prabs09
   - rgodoy86
+  - rutterjt
 ---
 
 ## Write a program to print the Fibonacci series for 'n' numbers
@@ -140,6 +142,24 @@ int main()
   std::cout << std::endl;
   return 0;
 }
+```
+
+```javascript
+const fib = (n) => {
+  if (n === 0) return 0;
+  if (n <= 2) return 1;
+  return fib(n - 1) + fib(n - 2);
+};
+
+const printFibs = (n) => {
+  let str = "";
+  for (let i = 0; i < n; i++) {
+    str += `${fib(i)} `;
+  }
+  console.log(str);
+};
+
+printFibs(10);
 ```
 
 </CodeBlock>
