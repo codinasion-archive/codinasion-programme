@@ -8,6 +8,7 @@ tags:
   - java
   - go
   - cs
+  - js
 contributors:
   - zikpefu
   - GodKimba
@@ -83,6 +84,10 @@ namespace HelloConsoleApp
         }
     }
 }
+```
+
+```javascript
+console.log("Hello World !!!");
 ```
 
 </CodeBlock>
