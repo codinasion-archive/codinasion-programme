@@ -4,9 +4,12 @@ description: Write a program to find the square of a number
 tags:
   - python
   - java
+  - c
+  - cpp
 contributors:
   - harshi1122
   - SpadeQ22
+  - ssavi-ict
 ---
 
 ## Write a programme to find the square of a number
@@ -50,27 +53,29 @@ public class Square {
 ```
 
 ```c
-#include <stdio.h>             // Header File
+#include <stdio.h>
 
 int main()
 {
     int N;
-    scanf("%d", &N);          // Taking N as input
-    printf("%d\n", N*N);      // Printing N^2 as output
+    printf("Input  : ");
+    scanf("%d", &N);
+    printf("Output : %d\n", N * N);
     return 0;
 }
 ```
 
 ```cpp
-#include <iostream>           // Including Header file
+#include <iostream>
 
-using namespace std;          // Used stadnard namespace
+using namespace std;
 
 int main()
 {
     int N;
-    cin>>N;                  // Input N
-    printf("%d\n", N*N);     // Output N^2 as value
+    cout << "Input  : ";
+    cin >> N;
+    cout << "Output : " << N * N << endl;
     return 0;
 }
 ```
