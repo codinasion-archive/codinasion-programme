@@ -13,6 +13,7 @@ contributors:
   - 20emigdal
   - amitSahu9
   - VSen910
+  - Dentyr
 ---
 
 ## Write a program to compute the area of a rhombus
