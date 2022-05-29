@@ -5,12 +5,13 @@ tags:
   - python
   - java
   - js
-  - C
-  - C++
+  - c
+  - cpp
 contributors:
   - theanorak
   - KikiManjaro
   - michal-markiewicz
+  - ssavi-ict
 ---
 
 ## Write a programme to calculate compound interest
@@ -87,20 +88,22 @@ console.log(
 #include <stdio.h>
 #include <math.h>
 
-int main(){
+int main()
+{
     int P, T, R;
-    printf("Enter P: ");
+    printf("Enter P : ");
     scanf("%d", &P);
-    printf("Enter T: ");
+    printf("Enter T : ");
     scanf("%d", &T);
-    printf("Enter R: ");
+    printf("Enter R : ");
     scanf("%d", &R);
 
-    float A = pow((1.0 + (R * 1.0)/100), (T*1.0)) * P;
-    printf("Amount: %f\n", A);
+    float A = pow((1.0 + (R * 1.0) / 100), (T * 1.0)) * P;
+    printf("\nAmount : %.2f\n", A);
     float C = A - P;
-    printf("Compound Interest: %f\n", C);
+    printf("Compound Interest : %.2f\n", C);
 
+    return 0;
 }
 ```
 
@@ -110,20 +113,20 @@ int main(){
 
 using namespace std;
 
-int main(){
+int main()
+{
     int P, T, R;
-    cout<<"Enter P: ";
-    cin>> P;
-    cout<<"Enter T: ";
-    cin>> T;
-    cout<< "Enter R: ";
-    cin>> R;
+    cout << "Enter P : ";
+    cin >> P;
+    cout << "Enter T : ";
+    cin >> T;
+    cout << "Enter R : ";
+    cin >> R;
 
-    float A = pow((1.0 + (R * 1.0)/100), (T*1.0)) * P;
-    cout<< "Amount: " << A <<endl;;
+    float A = pow((1.0 + (R * 1.0) / 100), (T * 1.0)) * P;
+    cout << "\nAmount : " << A << endl;
     float C = A - P;
-    cout <<"Compound Interest: "<< C;
-
+    cout << "Compound Interest : " << C << endl;
 }
 ```
 
