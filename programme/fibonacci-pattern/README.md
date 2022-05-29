@@ -5,10 +5,14 @@ tags:
   - java
   - go
   - python
+  - cpp
+  - js
 contributors:
   - Anzo52
   - waleska404
   - rossilor95
+  - siddhantchimankar
+  - rutterjt
 ---
 
 ## Write a program to print Fibonacci pattern
@@ -97,6 +101,52 @@ if __name__ == "__main__":
         "Enter the lenght of the Fibonacci pattern to generate : "))
     for number in range(1, pattern_lenght + 1):
         fibonacci_pattern(number)
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int fib(int n)
+{
+    if (n <= 1)
+        return n;
+    return fib(n - 1) + fib(n - 2);
+}
+
+int main()
+{
+
+    int n;
+    cout << "Enter an Integer : ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << fib(j) << " ";
+        }
+        cout << "\n";
+    }
+
+    return 0;
+}
+```
+
+```javascript
+const printFibs = (n) => {
+  let str = "";
+  let a = 1;
+  let b = 1;
+  for (let i = 0; i < n; i++) {
+    str += `${a} `;
+    console.log(str);
+    [a, b] = [b, a + b];
+  }
+};
+
+printFibs(8);
 ```
 
 </CodeBlock>
