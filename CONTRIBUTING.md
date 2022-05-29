@@ -27,7 +27,7 @@ If you want to add or modify Codinasion content, [search if an issue already exi
 
 #### Solve an issue
 
-Scan through our [existing issues](https://github.com/codinasion/codinasion-programme/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](/contributing/how-to-use-labels.md) for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+Scan through our [existing issues](https://github.com/search?q=is:open+user:codinasion&type=Issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](https://github.com/codinasion/codinasion/blob/master/contributing/how-to-use-labels.md) for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
 
 ### Make Changes
 
@@ -60,7 +60,7 @@ Click **Edit in GitHub** at the top of any Codinasion webpage to make small chan
 
 Commit the changes once you are happy with them.
 
-Once your changes are ready, don't forget to [self-review](/contributing/self-review.md) to speed up the review process:zap:.
+Once your changes are ready, don't forget to [self-review](https://github.com/codinasion/codinasion/blob/master/contributing/self-review.md) to speed up the review process:zap:.
 
 ### Pull Request
 

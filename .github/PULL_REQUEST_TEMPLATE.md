@@ -7,4 +7,4 @@ Closes #ISSUE_NUMBER
 ### Check off the following:
 
 - [ ] I have reviewed my changes in staging (look for "Automatically generated comment" and click **Modified** to view your latest changes).
-- [ ] For content changes, I have completed the [self-review checklist](https://github.com/codinasion/codinasion-programme/blob/master/contributing/self-review.md).
+- [ ] For content changes, I have completed the [self-review checklist](https://github.com/codinasion/codinasion/blob/master/contributing/self-review.md).
