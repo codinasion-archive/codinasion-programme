@@ -1,4 +1,4 @@
-/* Write a JavaScript program to print the Fibonacci pattern
+/* Write a program to print the Fibonacci pattern
 
 Example:
 Input: n = 5
@@ -11,7 +11,7 @@ Output:
 */
 
 const printFibs = (n) => {
-  let str = '';
+  let str = "";
   let a = 1;
   let b = 1;
   for (let i = 0; i < n; i++) {
