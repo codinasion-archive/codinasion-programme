@@ -1,5 +1,5 @@
 /*
-Write a JavaScript program to check if a number is a prime
+Write a program to check if a number is a prime
 
 Example:
 Input: n = 8
@@ -22,8 +22,7 @@ const isPrime = (n) => {
 };
 
 const printIsPrime = (n) => {
-  console.log(isPrime(n) ? 'Prime number' : 'Not a prime number');
+  console.log(isPrime(n) ? "Prime number" : "Not a prime number");
 };
 
-printIsPrime(8);
 printIsPrime(7);
