@@ -6,10 +6,12 @@ tags:
   - java
   - cpp
   - c
+  - js
 contributors:
   - NeelPatel31
   - KikiManjaro
   - Badboy-16
+  - ssavi-ict
 ---
 
 ## Write a program to print sum of square of n natural number
