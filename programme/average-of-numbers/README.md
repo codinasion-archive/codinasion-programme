@@ -78,4 +78,38 @@ public class AverageOfNumbers {
 }
 ```
 
+```c
+#include <stdio.h>
+
+int main(){
+    int N, num;
+    scanf("%d", &N);
+    printf("Enter %d Numbers\n", N);
+    int sum = 0;
+    for(int i=0; i<N; i++){
+        scanf("%d", &num);
+        sum += num;
+    }
+    printf("Average is : %f\n", (sum * 1.0)/N);
+}
+```
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int N, num;
+    cin >> N;
+    cout<<"Enter "<<N<<" Numbers" <<endl;
+    int sum = 0;
+    for(int i=0; i<N; i++){
+        cin>>num;
+        sum += num;
+    }
+    cout<<"Average is "<< (sum * 1.0)/N<<endl;;
+}
+```
+
 </CodeBlock>

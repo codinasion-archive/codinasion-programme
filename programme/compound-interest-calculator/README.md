@@ -5,6 +5,8 @@ tags:
   - python
   - java
   - js
+  - C
+  - C++
 contributors:
   - theanorak
   - KikiManjaro
@@ -79,6 +81,50 @@ console.log(
   "Compound Interest :",
   calculateCompoundInterest(amount, time, rate)
 );
+```
+
+```c
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    int P, T, R;
+    printf("Enter P: ");
+    scanf("%d", &P);
+    printf("Enter T: ");
+    scanf("%d", &T);
+    printf("Enter R: ");
+    scanf("%d", &R);
+
+    float A = pow((1.0 + (R * 1.0)/100), (T*1.0)) * P;
+    printf("Amount: %f\n", A);
+    float C = A - P;
+    printf("Compound Interest: %f\n", C);
+
+}
+```
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main(){
+    int P, T, R;
+    cout<<"Enter P: ";
+    cin>> P;
+    cout<<"Enter T: ";
+    cin>> T;
+    cout<< "Enter R: ";
+    cin>> R;
+
+    float A = pow((1.0 + (R * 1.0)/100), (T*1.0)) * P;
+    cout<< "Amount: " << A <<endl;;
+    float C = A - P;
+    cout <<"Compound Interest: "<< C;
+
+}
 ```
 
 </CodeBlock>
