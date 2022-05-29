@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   stale:
-    if: github.repository == 'codinasion/codinasion'
+    if: github.repository == 'codinasion/codinasion-programme'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/stale@v5
@@ -22,5 +22,5 @@ jobs:
           days-before-close: -1
           stale-issue-label: 'stale'
           stale-pr-label: 'stale'
-          exempt-pr-labels: '📝 content,good first issue'
+          exempt-pr-labels: '📝 content'
           exempt-issue-labels: '📝 content,good first issue,track'
