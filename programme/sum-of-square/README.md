@@ -98,19 +98,18 @@ int main()
 ```
 
 ```javascript
-
-var readline = require('readline');    // Process to read standard input
+var readline = require("readline");
 
 var rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
-
+  output: process.stdout,
 });
 
-rl.question("", function(N) {         // Read N 
-  N = parseInt(N);                    // Convert the input into integer
-  N = (N* (N + 1) * (2*N + 1))/6;     // Appy the equation
-  console.log(N);                     // Printing the result
+rl.question("Input  : ", function (N) {
+  // Read N
+  N = parseInt(N);
+  N = (N * (N + 1) * (2 * N + 1)) / 6;
+  console.log("Output :", N);
   rl.close();
 });
 
