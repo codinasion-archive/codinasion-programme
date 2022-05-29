@@ -6,11 +6,13 @@ tags:
   - go
   - python
   - cpp
+  - js
 contributors:
   - Anzo52
   - waleska404
   - rossilor95
   - siddhantchimankar
+  - rutterjt
 ---
 
 ## Write a program to print Fibonacci pattern
@@ -130,6 +132,21 @@ int main()
 
     return 0;
 }
+```
+
+```javascript
+const printFibs = (n) => {
+  let str = "";
+  let a = 1;
+  let b = 1;
+  for (let i = 0; i < n; i++) {
+    str += `${a} `;
+    console.log(str);
+    [a, b] = [b, a + b];
+  }
+};
+
+printFibs(8);
 ```
 
 </CodeBlock>
