@@ -5,9 +5,11 @@ tags:
   - c
   - cpp
   - python
+  - java
   - js
 contributors:
   - arth2002
+  - ConorJEM
   - ferruhcihan
 ---
 
@@ -91,6 +93,26 @@ def digital_root(n):
 
 n = int(input("Enter Number : "))
 print("Digital Root :", digital_root(n))
+```
+
+```java
+import java.util.Scanner;
+
+public class digital_root {
+    public static void convert(int a) {
+        System.out.println(1 + (a - 1) % 9);
+    }
+
+    public static void main(String[] args) {
+        int a = 0;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input  : ");
+        a = sc.nextInt();
+        System.out.print("\nThe digital root is : ");
+        convert(a);
+        sc.close();
+    }
+}
 ```
 
 ```js
