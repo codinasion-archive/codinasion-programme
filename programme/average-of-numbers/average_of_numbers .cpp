@@ -1,15 +1,22 @@
+// Write a program to find average of numbers
+
 #include <iostream>
 
 using namespace std;
 
-int main(){
+int main()
+{
     int N, num;
+    cout << "Numbers count : ";
     cin >> N;
-    cout<<"Enter "<<N<<" Numbers" <<endl;
+    cout << "\nEnter " << N << " Numbers" << endl;
     int sum = 0;
-    for(int i=0; i<N; i++){
-        cin>>num;
+    for (int i = 0; i < N; i++)
+    {
+        cout << "Enter : ";
+        cin >> num;
         sum += num;
     }
-    cout<<"Average is "<< (sum * 1.0)/N<<endl;;
+    cout << "\nAverage is " << (sum * 1.0) / N << endl;
+    ;
 }
