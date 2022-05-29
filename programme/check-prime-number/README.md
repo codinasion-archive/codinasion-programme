@@ -6,10 +6,12 @@ tags:
   - java
   - c
   - cpp
+  - js
 contributors:
   - dylan-power
   - karthiksbh
   - NeelPatel31
+  - rutterjt
 ---
 
 ## Write a program to check prime number
@@ -132,6 +134,22 @@ int main()
     }
     return 0;
 }
+```
+
+```javascript
+const isPrime = (n) => {
+  if (n <= 1) return false;
+  for (let i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) return false;
+  }
+  return true;
+};
+
+const printIsPrime = (n) => {
+  console.log(isPrime(n) ? "Prime number" : "Not a prime number");
+};
+
+printIsPrime(7);
 ```
 
 </CodeBlock>
