@@ -5,12 +5,13 @@ tags:
   - python
   - java
   - js
-  - C
-  - C++
+  - c
+  - cpp
 contributors:
   - LevBernstein
   - Anzo52
   - mathcodes
+  - ssavi-ict
 ---
 
 ## Write a programme to compute the value of Euler's Number
@@ -79,16 +80,18 @@ console.log("\nsum : ", sum(3).toFixed(2));
 ```c
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int N;
-    printf("Enter N: ");
+    printf("Enter N : ");
     scanf("%d", &N);
     float eNumber = 1, fact = 1;
-    for(int i=1; i<=N; i++){
+    for (int i = 1; i <= N; i++)
+    {
         fact = fact * i;
         eNumber += (1.0 / fact);
     }
-    printf("Euler Number of %d: %f\n", N, eNumber);
+    printf("Euler Number of %d : %f\n", N, eNumber);
 }
 ```
 
@@ -97,16 +100,18 @@ int main(){
 
 using namespace std;
 
-int main(){
+int main()
+{
     int N;
-    cout <<"Enter N: ";
+    cout << "Enter N : ";
     cin >> N;
     float eNumber = 1, fact = 1;
-    for(int i=1; i<=N; i++){
+    for (int i = 1; i <= N; i++)
+    {
         fact = fact * i;
         eNumber += (1.0 / fact);
     }
-    cout <<"Euler Number of "<<N<<": "<<eNumber<<endl;
+    cout << "Euler Number of " << N << " : " << eNumber << endl;
 }
 ```
 
