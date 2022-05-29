@@ -14,7 +14,7 @@ Codinasion team works on pre-production content in a private repo that regularly
 
 See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.
 
-We accept different [types of contributions](https://github.com/codinasion/codinasion-programme/blob/master/contributing/types-of-contributions.md), including some that don't require you to write a single line of code.
+We accept different [types of contributions](/contributing/types-of-contributions.md), including some that don't require you to write a single line of code.
 
 On the Codinasion site, you can click the `Edit in GitHub` button to open a pull request for quick fixes like typos, updates, or link fixes.
 
