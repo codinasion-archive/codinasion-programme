@@ -6,11 +6,14 @@ tags:
   - java
   - python
   - cs
+  - js
+  - go
 contributors:
   - Badboy-16
   - kzhang01
   - vaishnavikumar8
   - Dentyr
+  - rossilor95
 ---
 
 ## Write a program to check armstrong number
@@ -175,6 +178,106 @@ public class ArmstrongNumber
         );
     }
 }
+```
+
+```javascript
+const countDigits = function (number) {
+  let numberOfDigits = 0;
+  while (number > 0) {
+    number = Math.floor(number / 10);
+    numberOfDigits++;
+  }
+  return numberOfDigits;
+};
+
+const requiredSum = function (number) {
+  const numberOfDigits = countDigits(number);
+  let sum = 0;
+  while (number > 0) {
+    digit = number % 10;
+    number = Math.floor(number / 10);
+    sum += Math.pow(digit, numberOfDigits);
+  }
+  return sum;
+};
+
+const isArmstrong = function (number) {
+  const sum = requiredSum(number);
+  return number === sum;
+};
+
+const readline = require("readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Enter an integer : ", (userInput) => {
+  console.log(`\nInput  : ${userInput}`);
+  const num = Number.parseInt(userInput);
+  if (!isNaN(num)) {
+    answer = isArmstrong(num)
+      ? "Output : armstrong number"
+      : "Output : not an armstrong number";
+    console.log(answer);
+    rl.close();
+  } else {
+    console.log("Invalid input: the input is not a number.");
+    rl.close();
+  }
+});
+```
+
+```go
+package main
+
+import "fmt"
+
+func countDigits(number int) int {
+	var numberOfDigits int = 0
+	for number > 0 {
+		number /= 10
+		numberOfDigits++
+	}
+	return numberOfDigits
+}
+
+func intPow(base, exponent int) int {
+	if exponent == 0 {
+		return 1
+	}
+	var result int = base
+	for i := 2; i <= exponent; i++ {
+		result *= base
+	}
+	return result
+}
+
+func requiredSum(number int) int {
+	var numberOfDigits int = countDigits(number)
+	var sum int = 0
+	for number > 0 {
+		var digit int = number % 10
+		number /= 10
+		sum += intPow(digit, numberOfDigits)
+	}
+	return sum
+}
+
+func isArmstrong(number int) bool {
+	return number == requiredSum(number)
+}
+
+func main() {
+	var num int
+	fmt.Print("Enter an integer: ")
+	fmt.Scan(&num)
+	fmt.Println("\nInput  :", num)
+	if isArmstrong(num) {
+		fmt.Println("Output : armstrong number")
+	} else {
+		fmt.Println("Output : not an armstrong number")
+	}
 ```
 
 </CodeBlock>
