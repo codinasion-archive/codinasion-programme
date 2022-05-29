@@ -4,9 +4,12 @@ description: Write a program to find the square of a number
 tags:
   - python
   - java
+  - c
+  - cpp
 contributors:
   - harshi1122
   - SpadeQ22
+  - ssavi-ict
 ---
 
 ## Write a programme to find the square of a number
@@ -46,6 +49,34 @@ public class Square {
         // printing output
         System.out.println("Output : " + squareOfn);
     }
+}
+```
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int N;
+    printf("Input  : ");
+    scanf("%d", &N);
+    printf("Output : %d\n", N * N);
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int N;
+    cout << "Input  : ";
+    cin >> N;
+    cout << "Output : " << N * N << endl;
+    return 0;
 }
 ```
 
