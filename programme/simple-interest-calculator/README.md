@@ -3,8 +3,10 @@ title: Simple Interest Calculator
 description: Write a programme to calculate simple interest
 tags:
   - java
+  - python
 contributors:
   - Anzo52
+  - Zuquim
 ---
 
 ## Write a programme to calculate simple interest
@@ -44,6 +46,14 @@ public class SimpleInterestCalculator {
         sc.close();
     }
 }
+```
+
+```python
+p = int(input("Enter P : "))
+t = int(input("Enter T : "))
+r = int(input("Enter R : "))
+
+print(f"\nSimple Interest : {p * t * r / 100}")
 ```
 
 </CodeBlock>
