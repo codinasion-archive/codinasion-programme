@@ -98,7 +98,6 @@ int main()
 ```
 
 ```javascript
-// Check it here : https://onecompiler.com/javascript/3y5c8z56m
 
 var readline = require('readline');    // Process to read standard input
 
@@ -114,6 +113,8 @@ rl.question("", function(N) {         // Read N
   console.log(N);                     // Printing the result
   rl.close();
 });
+
+// Check it here : https://onecompiler.com/javascript/3y5c8z56m
 ```
 
 </CodeBlock>
