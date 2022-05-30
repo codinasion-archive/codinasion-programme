@@ -1,6 +1,6 @@
 ---
 title: Pangram Checker
-description: Write a programme to check Pangram sentence.
+description: Write a programme to check Pangram sentence
 tags:
   - c
   - cpp
