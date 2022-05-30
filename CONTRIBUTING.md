@@ -1,6 +1,6 @@
 # Welcome to Codinasion contributing guide
 
-Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [codinasion.vercel.app](https://codinasion.vercel.app/) :sparkles:.
+Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [codinasion.vercel.app/programme](https://codinasion.vercel.app/programme/) :sparkles:.
 
 Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
@@ -78,6 +78,6 @@ When you're finished with the changes, create a pull request, also known as a PR
 
 Congratulations :tada::tada: The Codinasion team thanks you :sparkles:
 
-Once your PR is merged, your contributions will be publicly visible on the [codinasion.vercel.app](https://codinasion.vercel.app)
+Once your PR is merged, your contributions will be publicly visible on the [codinasion.vercel.app/programme](https://codinasion.vercel.app/programme/)
 
 Now that you are part of the Codinasion community, see how else you can [contribute to codinasion](/contributing/types-of-contributions.md)
