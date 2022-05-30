@@ -2,10 +2,10 @@
 title: Pangram Checker
 description: Write a programme to check Pangram sentence.
 tags:
-  - c
-  - cpp
+  - C
+  - C++
 contributors:
-  - ssavi-ict
+  - 
 ---
 
 ## Write a programme to check Pangram sentence.
