@@ -1,6 +1,6 @@
 # Types of contributions
 
-You can contribute to the Codinasion content in several ways. This repo is a place to discuss and collaborate on codinasion.vercel.app Our small, but mighty :muscle: codinasion team is maintaining this repo, to preserve our bandwidth. Off topic conversations will be closed.
+You can contribute to the Codinasion content in several ways. This repo is a place to discuss and collaborate on codinasion.vercel.app/programme Our small, but mighty :muscle: codinasion team is maintaining this repo, to preserve our bandwidth. Off topic conversations will be closed.
 
 ### :question: Questions
 
