@@ -8,11 +8,13 @@ tags:
   - java
   - go
   - cs
+  - js
 contributors:
   - NeelPatel31
   - shrionit
   - GodKimba
   - Dentyr
+  - rutterjt
 ---
 
 ## Write a program to print alphabet triangle pattern
@@ -235,6 +237,23 @@ public class AlphabetTrianglePattern
         pattern(n);
     }
 }
+```
+
+```javascript
+const alphabetTriangle = (length) => {
+  for (let l = 0; l < length; l++) {
+    let char = 65 + l,
+      str = String.fromCodePoint(char);
+    for (let c = 0; c < length - 1; c++) {
+      char--;
+      let newChar = char < 65 ? " " : String.fromCodePoint(char);
+      str = newChar + str + newChar;
+    }
+    console.log(str);
+  }
+};
+
+alphabetTriangle(5);
 ```
 
 </CodeBlock>
