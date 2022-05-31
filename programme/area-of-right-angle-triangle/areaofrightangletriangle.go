@@ -26,5 +26,5 @@ func main() {
 	fmt.Scan(&height)
 
 	area = areaOfRightAngleTriangle(base, height)
-	fmt.Print("\narea : ", roundFloat(area, 2))
+	fmt.Println("\narea : ", roundFloat(area, 2))
 }
