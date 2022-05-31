@@ -98,7 +98,7 @@ print("Digital Root :", digital_root(n))
 ```java
 import java.util.Scanner;
 
-public class digital_root {
+public class DigitalRoot {
     public static void convert(int a) {
         System.out.println(1 + (a - 1) % 9);
     }
