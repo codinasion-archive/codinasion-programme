@@ -26,5 +26,5 @@ func main() {
 	fmt.Scan(&breadth)
 
 	area = areaOfRectangle(length, breadth)
-	fmt.Print("\narea : ", roundFloat(area, 2))
+	fmt.Println("\narea : ", roundFloat(area, 2))
 }
