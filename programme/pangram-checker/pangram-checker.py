@@ -13,7 +13,7 @@ def isPangram(_input):
     #iterate for each character in alphabet
     #and checks if each one is in letters
     for c in alphabet:
-        #if not in letters then pangram is set to 0 (false)
+        #if not in letters then set pangram to 0 (false)
         if c not in letters:
             pangram = 0
     
