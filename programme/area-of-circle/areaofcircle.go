@@ -19,10 +19,10 @@ func roundFloat(val float64, precision uint) float64 {
 func main() {
 	var r, area float64
 
-	fmt.Print("Enter r : ")
+	fmt.Print("Enter radius : ")
 	fmt.Scan(&r)
 
 	area = areaOfCircle(r)
 
-	fmt.Print("\nArea : ", roundFloat(area, 2))
+	fmt.Println("\nArea : ", roundFloat(area, 2))
 }
