@@ -32,5 +32,5 @@ func main() {
 	fmt.Print("\ns : ", s)
 
 	area = areaOfTriangle(a, b, c, s)
-	fmt.Print("\n\narea : ", roundFloat(area, 2))
+	fmt.Println("\n\narea : ", roundFloat(area, 2))
 }
