@@ -4,11 +4,12 @@ description: Write a programme to check Pangram sentence
 tags:
   - c
   - cpp
+  - python
   - java
   - js
-  - python
 contributors:
   - ssavi-ict
+  - Regis-Caelum
   - julyvjo
 ---
 
@@ -119,6 +120,23 @@ int main()
 }
 ```
 
+```python
+input_string = input('Input  : ')
+
+input_string = str.lower(input_string)
+
+alphabets = set({})
+
+for i in input_string:
+    if 'a' <= i <= 'z':
+        alphabets.add(i)
+
+if len(alphabets) == 26:
+    print('Output : Pangram Sentence')
+else:
+    print('Output : Not a pangram sentence')
+```
+
 ```java
 import java.util.HashMap;
 import java.util.Scanner;
@@ -189,38 +207,6 @@ console.log(
   "Output :",
   isPangram(input) ? "Pangram Sentence" : "Not a pangram sentence"
 );
-```
-
-```python
-def isPangram(_input):
-    alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
-                'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-    pangram = 1
-    letters = {}
-    # convert _input to lower case
-    _input = _input.lower()
-
-    # iterate for each character in input
-    for c in _input:
-        letters[c] = 1
-
-    # iterate for each character in alphabet
-    # and checks if each one is in letters
-    for c in alphabet:
-        # if not in letters then set pangram to 0 (false)
-        if c not in letters:
-            pangram = 0
-
-    return pangram
-
-
-# ask for input
-_input = input('Input  : ')
-print("Output : ", end="")
-if isPangram(_input):
-    print('Pangram Sentence')
-else:
-    print('Not a pangram sentence')
 ```
 
 </CodeBlock>
