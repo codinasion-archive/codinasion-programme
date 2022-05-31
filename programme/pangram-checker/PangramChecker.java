@@ -18,14 +18,14 @@ public class PangramChecker {
         //convert string to lower case
         input = input.toLowerCase();
 		
-        //iterate for each character of input
+        //iterate for each character in input
 		for(int i=0; i<input.length(); i++) {
 			letters.put(input.charAt(i), true);
 		}
 		
 		//iterate to check if every alphabet character is in the hashmap
 		for(int i=0; i<alphabet.length(); i++) {
-			//if an alphabet character is missing we set pangam to false
+			//if an alphabet character is missing then set pangam to false
 			if(letters.get(alphabet.charAt(i)) == null) {
 				pangram = false;
 			}

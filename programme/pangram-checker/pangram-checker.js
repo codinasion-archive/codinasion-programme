@@ -5,16 +5,16 @@ function isPangram(input){
     const letters = {}
     let pangram = true
 
-    //we add an entry on "letters" object for every character in input
+    //add an entry on "letters" object for every character in input
     for(let i=0; i<input.length; i++){
-        //the read character is converted to lowercase
+        //convert the read character to lowercase
         char = input.charAt(i).toLowerCase()
         letters[char] = true
     }
 
-    //we iterate through the object for every letter in alphabet
+    //iterate through the object for every letter in alphabet
     alphabet.forEach( letter => {
-        //if the letter is not inside of the "letters" object we set pangram to false
+        //if the letter is not inside of the "letters" object then set pangram to false
         if(!letters[letter]){
             pangram = false
         }
