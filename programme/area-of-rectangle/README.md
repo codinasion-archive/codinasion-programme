@@ -106,7 +106,7 @@ int main()
 ```java
 import java.util.Scanner;
 
-public class areaOfRectangle {
+public class AreaOfRectangle {
 
 	public static void main(String[] args) {
 
