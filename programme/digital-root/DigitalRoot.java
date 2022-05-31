@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class digital_root {
+public class DigitalRoot {
     public static void convert(int a) {
         // Ramans formula for calcuating the digital root
         System.out.println(1 + (a - 1) % 9);
