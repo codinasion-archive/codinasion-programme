@@ -5,10 +5,13 @@ tags:
   - python
   - cs
   - java
+  - c
+  - cpp
 contributors:
   - harshi1122
   - Mrczarny
   - HaveACookie
+  - ssavi-ict
 ---
 
 ## Write a program to print the maximum of given numbers
@@ -77,6 +80,67 @@ public class MaximumOfNumbers {
     }
 
 }
+```
+
+```c
+#include <stdio.h>
+#include <limits.h>
+
+int main()
+{
+    // Initializes the max variable as the minimum integer possible
+    int max = INT_MIN, n, test;
+    printf("Enter amount of numbers : ");
+    scanf("%i", &n);
+    printf("\n");
+
+    // Input one number at a time
+    while (n > 0)
+    {
+        printf("Enter number : ");
+        scanf("%i", &test);
+        if (test > max)
+            max = test;
+        n--;
+    };
+  
+    // Output
+    printf("\nThe maximum is : %i\n", max);
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+#include <limits>
+
+int main()
+{
+    // Initializes as minimum value of int
+    int max = std::numeric_limits<int>::min();
+    unsigned int count = 0;
+    std::cout << "Enter amount of numbers : ";
+    std::cin >> count;
+
+    while (count > 0)
+    {
+        int n = 0;
+        std::cout << "Enter number : ";
+        std::cin >> n;
+
+        if (n > max)
+        {
+            max = n;
+        }
+
+        --count;
+    }
+
+    std::cout << "\nMaximum : " << max << "\n";
+
+    return 0;
+}
+
 ```
 
 </CodeBlock>
