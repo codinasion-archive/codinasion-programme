@@ -8,6 +8,7 @@ tags:
   - c
   - cs
   - go
+  - js
 contributors:
   - theanorak
   - NeelPatel31
@@ -143,6 +144,30 @@ func main() {
 
 	fmt.Println("\nArea : ", roundFloat(area, 2))
 }
+```
+
+```javascript
+const areaOfCircle = function areaOfCircle(r) {
+  return Math.PI * r * r;
+};
+
+const readline = require("readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Enter radius : ", (userInput) => {
+  const r = Number.parseFloat(userInput);
+  if (!isNaN(r)) {
+    area = areaOfCircle(r);
+    console.log("\nArea : ", area.toPrecision(4));
+    rl.close();
+  } else {
+    console.log("Invalid input: the input is not a number.");
+    rl.close();
+  }
+});
 ```
 
 </CodeBlock>
