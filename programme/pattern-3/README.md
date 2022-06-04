@@ -3,8 +3,10 @@ title: Print Pattern 3
 description: Write a programme to print the given pattern
 tags:
   - python
+  - c
 contributors:
   - seraph776
+  - ClasherKasten
 ---
 
 ## Write a python programme to print the given pattern.
@@ -37,6 +39,44 @@ def print_pattern(n: int) -> None:
 
 n = int(input("input  : "))
 print_pattern(n)
+```
+
+```c
+#include <stdio.h>
+
+#define BOUNDARY_STR ("x")
+
+void pattern(int n)
+{
+    for (int i = 0; i < n - 1; i++)
+    {
+        printf("%s ", BOUNDARY_STR);
+    }
+    printf("%s\n", BOUNDARY_STR);
+    for (int i = 0; i < n-2; i++)
+    {
+        printf(BOUNDARY_STR);
+        for (int i = 0; i < n - 2; i++)
+        {
+            printf("  ");
+        }
+        printf(" %s\n", BOUNDARY_STR);
+    }
+    for (int i = 0; i < n - 1; i++)
+    {
+        printf("%s ", BOUNDARY_STR);
+    }
+    printf("%s\n", BOUNDARY_STR);
+}
+
+int main(void)
+{
+    int n;
+    printf("Input : ");
+    scanf("%d", &n);
+    pattern(n);
+    return 0;
+}
 ```
 
 </CodeBlock>
