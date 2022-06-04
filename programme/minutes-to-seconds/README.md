@@ -5,13 +5,15 @@ tags:
   - python
   - java
   - cpp
+  - c
 contributors:
   - seraph776
   - MananKarnik
   - siddhantchimankar
+  - ClasherKasten
 ---
 
-## Write a programme to convert minutes to seconds.
+## Write a programme to convert minutes to seconds
 
 ```txt
 Input  : 1
@@ -69,6 +71,20 @@ int main()
     cin >> n;
     cout << "\nSeconds : " << n * 60 << "\n";
 
+    return 0;
+}
+```
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    double minutes;
+    printf("Min : ");
+    scanf("%lf", &minutes);
+    int seconds = minutes * 60;
+    printf("Sec : %d\n", seconds);
     return 0;
 }
 ```
