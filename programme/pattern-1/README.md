@@ -60,7 +60,7 @@ void pattern(int n)
 int main(void)
 {
     int n;
-    printf("Input: ");
+    printf("Input : ");
     scanf("%d", &n);
     pattern(n);
     return 0;
