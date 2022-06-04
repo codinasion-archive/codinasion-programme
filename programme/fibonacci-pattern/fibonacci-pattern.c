@@ -1,3 +1,5 @@
+// Write a program to print Fibonacci pattern
+
 #include <stdio.h>
 #include <math.h>
 
@@ -13,9 +15,9 @@ long long fib(long long n)
 int main(void)
 {
     int n;
-    printf("Input: ");
+    printf("Input  : ");
     scanf("%d", &n);
-    printf("Output:\n");
+    printf("Output :\n");
     for (int i = 1; i <= n; i++)
     {
         for (int j = 1; j <= i - 1; j++)
