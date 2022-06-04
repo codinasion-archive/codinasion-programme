@@ -1,39 +1,3 @@
----
-title: Print pattern
-description: Write a programme to print given pattern
-tags:
-  - python
-  - c
-contributors:
-  - yacine-zitouni
-  - ClasherKasten
----
-
-## Write a program to print the given pattern
-
-```txt
-* * * * *
-  * * * *
-    * * *
-      * *
-        *
-```
-
----
-
-<CodeBlock>
-
-```python
-# print pattern function
-def printPattern(n):
-    for i in reversed(range(1,n+1)):
-        print((i*" *").rjust(2*n))
-
-# test
-printPattern(5)
-```
-
-```c
 #include <stdio.h>
 
 #define PATTERN_STR ("*")
@@ -65,6 +29,3 @@ int main(void)
     pattern(n);
     return 0;
 }
-```
-
-</CodeBlock>
