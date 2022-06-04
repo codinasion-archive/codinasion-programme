@@ -1,3 +1,5 @@
+// Write a python programme to print the given pattern
+
 #include <stdio.h>
 
 #define BOUNDARY_STR ("x")
@@ -9,7 +11,7 @@ void pattern(int n)
         printf("%s ", BOUNDARY_STR);
     }
     printf("%s\n", BOUNDARY_STR);
-    for (int i = 0; i < n-2; i++)
+    for (int i = 0; i < n - 2; i++)
     {
         printf(BOUNDARY_STR);
         for (int i = 0; i < n - 2; i++)
@@ -18,11 +20,14 @@ void pattern(int n)
         }
         printf(" %s\n", BOUNDARY_STR);
     }
-    for (int i = 0; i < n - 1; i++)
+    if (n != 1)
     {
-        printf("%s ", BOUNDARY_STR);
+        for (int i = 0; i < n - 1; i++)
+        {
+            printf("%s ", BOUNDARY_STR);
+        }
+        printf("%s\n", BOUNDARY_STR);
     }
-    printf("%s\n", BOUNDARY_STR);
 }
 
 int main(void)
