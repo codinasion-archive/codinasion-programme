@@ -10,10 +10,10 @@ contributors:
   - seraph776
   - MananKarnik
   - siddhantchimankar
-  - Clasherkasten
+  - ClasherKasten
 ---
 
-## Write a programme to convert minutes to seconds.
+## Write a programme to convert minutes to seconds
 
 ```txt
 Input  : 1
@@ -78,14 +78,14 @@ int main()
 ```c
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-  double minutes;
-  printf("Min : ");
-  scanf("%lf", &minutes);
-  int seconds = minutes * 3600; // seconds conversion
-  printf("Sec : %d\n", seconds);
-  return 0;
+    double minutes;
+    printf("Min : ");
+    scanf("%lf", &minutes);
+    int seconds = minutes * 60;
+    printf("Sec : %d\n", seconds);
+    return 0;
 }
 ```
 
