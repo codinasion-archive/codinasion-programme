@@ -4,9 +4,11 @@ description: Write a programme to calculate the sum of following harmonic series
 tags:
   - c
   - js
+  - python
 contributors:
   - Badboy-16
   - mathcodes
+  - ClasherKasten
 ---
 
 ## Write a programme to calculate the sum of following harmonic series for a given value of n
@@ -93,6 +95,11 @@ function sum(n) {
 }
 
 sum(6);
+```
+
+```py
+n = int(input('Input  : '))
+print(f'Output : {sum(1/i for i in range(1, n+1)):.5f}')
 ```
 
 </CodeBlock>
