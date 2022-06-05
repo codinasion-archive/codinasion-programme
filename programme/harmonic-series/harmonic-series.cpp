@@ -1,3 +1,6 @@
+// Write a programme to calculate the sum of following
+// harmonic series for a given value of n
+
 #include <iostream>
 
 int main(void)
