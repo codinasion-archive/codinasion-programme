@@ -5,6 +5,7 @@ tags:
   - python
   - java
   - c
+  - cpp
 contributors:
   - PA11TEDDU
   - Anzo52
@@ -72,6 +73,24 @@ int main(void)
         printf("%d ", 2 * i);
     }
     printf("%d\n", 2 * (n - 1));
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+
+int main(void)
+{
+    int n;
+    std::cout << "Input  : ";
+    std::cin >> n;
+    std::cout << "Output : ";
+    for (int i = 0; i < n - 1; i++)
+    {
+        std::cout << 2 * i << " ";
+    }
+    std::cout << 2 * (n - 1) << std::endl;
     return 0;
 }
 ```
