@@ -1,3 +1,5 @@
+// Write a program to print sum of square of n natural number
+
 package main
 
 import (
@@ -9,7 +11,7 @@ import (
 func main() {
 	var numberInput int
 
-	fmt.Println("Enter the number: ")
+	fmt.Print("Enter the number : ")
 	fmt.Scanln(&numberInput)
 
 	squareOfNumberInput, err := sumOfSquares(numberInput)
@@ -17,7 +19,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Fprintf(os.Stdout, "The sum of the squares of %d is: %d\n", numberInput, squareOfNumberInput)
+	fmt.Fprintf(os.Stdout, "\nThe sum of the squares of %d is: %d\n", numberInput, squareOfNumberInput)
 }
 
 func sumOfSquares(number int) (int, error) {
