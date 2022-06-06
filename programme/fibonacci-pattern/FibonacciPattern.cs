@@ -1,4 +1,5 @@
-﻿// Write a program to print Fibonacci pattern
+// Write a program to print Fibonacci pattern
+using System;
 
 namespace SimpleNumbers
 {
@@ -24,25 +25,26 @@ namespace SimpleNumbers
         {
             for (int n = 1; n <= patternLength; n++)
             {
-                Fibonacci(n);
+                Fibonacci (n);
             }
         }
 
         public static void Main()
         {
-            
             int patternLength;
             bool isInputValid;
 
             do
             {
                 Console.Write("Enter an integer >= 2 : ");
-                isInputValid = int.TryParse(Console.ReadLine(), out patternLength);
-            } while(!isInputValid || patternLength < 2);
+                isInputValid =
+                    int.TryParse(Console.ReadLine(), out patternLength);
+            }
+            while (!isInputValid || patternLength < 2);
 
             Console.WriteLine("\nInput  : " + patternLength);
             Console.WriteLine("Output : ");
-            PrintFibonacciPattern(5);
+            PrintFibonacciPattern (patternLength);
         }
     }
-} 
+}
