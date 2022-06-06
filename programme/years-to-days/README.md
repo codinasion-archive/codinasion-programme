@@ -89,8 +89,6 @@ public class YearsToDays {
 ```
 
 ```cpp
-// Write a programme to convert years to days
-
 #include <iostream>
 
 int main(void)
