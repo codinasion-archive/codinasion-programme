@@ -6,11 +6,13 @@ tags:
   - python
   - c
   - java
+  - cpp
 contributors:
   - jojo4441
   - JDev64
   - Badboy-16
   - Anzo52
+  - ClasherKasten
 ---
 
 ## Write a programme to convert years to days
@@ -83,6 +85,19 @@ public class YearsToDays {
 		sc.close();
 	}
 
+}
+```
+
+```cpp
+#include <iostream>
+
+int main(void)
+{
+    double years;
+    std::cout << "Years : ";
+    std::cin >> years;
+    std::cout << "Days  : " << (int)(years * 365) << std::endl;
+    return 0;
 }
 ```
 
