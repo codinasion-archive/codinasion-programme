@@ -10,7 +10,6 @@ contributors:
   - PA11TEDDU
   - Anzo52
   - ClasherKasten
-  - ClasherKasten
 ---
 
 ## Write a programme to print first n even numbers
