@@ -19,15 +19,15 @@ bool isArmstrongNumber(int n)
 int main(void)
 {
     int n;
-    std::cout << "Input:  ";
+    std::cout << "Input  : ";
     std::cin >> n;
     if (isArmstrongNumber(n))
     {
-        std::cout << "Output: amstrong number" << std::endl;
+        std::cout << "Output : Amstrong number" << std::endl;
     }
     else
     {
-        std::cout << "Output: not a armstrong number" << std::endl;
+        std::cout << "Output : Not a armstrong number" << std::endl;
     }
     return 0;
 }
