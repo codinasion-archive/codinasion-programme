@@ -6,10 +6,12 @@ tags:
   - java
   - c
   - cpp
+  - js
 contributors:
   - harshi1122
   - SpadeQ22
   - ssavi-ict
+  - victoriacheng15
 ---
 
 ## Write a programme to find the square of a number
@@ -77,6 +79,13 @@ int main()
     cin >> N;
     cout << "Output : " << N * N << endl;
     return 0;
+}
+```
+
+
+```js
+function squareNum(num) {
+  return num * num
 }
 ```
 
