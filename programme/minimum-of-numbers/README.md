@@ -1,6 +1,7 @@
 ---
 title: Minimum of Numbers
 description: Write a program to print the minimum of given numbers
+image: hero.png
 tags:
   - python
   - cs

@@ -1,6 +1,7 @@
 ---
 title: Sum of square
 description: Write a program to find the sum of square of first 'n' numbers
+image: hero.png
 tags:
   - python
   - java

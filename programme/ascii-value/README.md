@@ -1,6 +1,7 @@
 ---
 title: ASCII Value
 description: Write a programme to print ASCII Value of a character
+image: hero.png
 tags:
   - python
   - cs

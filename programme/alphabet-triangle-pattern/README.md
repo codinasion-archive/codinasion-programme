@@ -1,6 +1,7 @@
 ---
 title: Alphabet triangle pattern
 description: Write a program to print alphabet triangle pattern
+image: hero.png
 tags:
   - c
   - cpp

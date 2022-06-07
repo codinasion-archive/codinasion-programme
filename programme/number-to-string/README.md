@@ -1,6 +1,7 @@
 ---
 title: Number to Strings
 description: Write a program to convert number to strings
+image: hero.png
 tags:
   - python
   - c

@@ -1,6 +1,7 @@
 ---
 title: Digital Root
 description: Write a programme for Digital Root of a number
+image: hero.png
 tags:
   - c
   - cpp

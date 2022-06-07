@@ -1,6 +1,7 @@
 ---
 title: Multiplication Table
 description: Write a program to output the multiplication table
+image: hero.png
 tags:
   - c
   - cpp

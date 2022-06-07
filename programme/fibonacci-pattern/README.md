@@ -1,6 +1,7 @@
 ---
 title: Fibonacci Pattern
 description: Write a program to print Fibonacci pattern
+image: hero.png
 tags:
   - java
   - go

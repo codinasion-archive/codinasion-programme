@@ -1,6 +1,7 @@
 ---
 title: Reverse of a Number
 description: Write a program to print the reverse of a number
+image: hero.png
 tags:
   - python
   - cs

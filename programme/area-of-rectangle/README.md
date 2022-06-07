@@ -1,6 +1,7 @@
 ---
 title: Area of rectangle
 description: Write a programme to find area of rectangle
+image: hero.png
 tags:
   - python
   - c

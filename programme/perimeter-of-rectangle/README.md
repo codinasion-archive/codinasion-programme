@@ -1,6 +1,7 @@
 ---
 title: Perimeter of rectangle
 description: Write a programme to find perimeter of rectangle
+image: hero.png
 tags:
   - python
   - java

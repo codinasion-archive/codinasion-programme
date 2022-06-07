@@ -1,6 +1,7 @@
 ---
 title: Divide two numbers
 description: Write a programme to divide two numbers
+image: hero.png
 tags:
   - c
   - java

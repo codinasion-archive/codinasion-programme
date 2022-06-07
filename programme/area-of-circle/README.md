@@ -1,6 +1,7 @@
 ---
 title: Area of Circle
 description: Write a programme to find the area of circle
+image: hero.png
 tags:
   - python
   - java
