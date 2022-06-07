@@ -1,6 +1,7 @@
 ---
 title: Decimal to binary
 description: Write a programme to convert decimal number to binary
+image: hero.png
 tags:
   - c
   - python

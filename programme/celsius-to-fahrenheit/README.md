@@ -1,6 +1,7 @@
 ---
 title: Celsius to Fahrenheit
 description: Write a program to convert the temperature from Celsius to Fahrenheit
+image: hero.png
 tags:
   - c
   - python

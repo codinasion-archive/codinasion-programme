@@ -1,6 +1,7 @@
 ---
 title: Perimeter of square
 description: Write a programme to find perimeter of square
+image: hero.png
 tags:
   - c
   - python

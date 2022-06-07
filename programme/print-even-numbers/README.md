@@ -1,6 +1,7 @@
 ---
 title: Print Even Numbers
 description: Write a programme to print first n even numbers
+image: hero.png
 tags:
   - python
   - java

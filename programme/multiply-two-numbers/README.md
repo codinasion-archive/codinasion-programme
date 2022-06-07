@@ -1,6 +1,7 @@
 ---
 title: Multiply two numbers
 description: Write a programme to multiply two numbers
+image: hero.png
 tags:
   - python
   - c

@@ -1,6 +1,7 @@
 ---
 title: Check armstrong number
 description: Write a program to check armstrong number
+image: hero.png
 tags:
   - c
   - java

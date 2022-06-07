@@ -1,6 +1,7 @@
 ---
 title: Euler's Number
 description: Write a programme to compute the value of Euler's Number
+image: hero.png
 tags:
   - python
   - java

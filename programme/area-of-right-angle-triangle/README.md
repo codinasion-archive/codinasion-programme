@@ -1,6 +1,7 @@
 ---
 title: Area of Right Angle Triangle
 description: Write a programme to find area of right angle triangle
+image: hero.png
 tags:
   - python
   - java

@@ -1,6 +1,7 @@
 ---
 title: Subtract two numbers
 description: Write a programme to subtract two numbers
+image: hero.png
 tags:
   - python
   - c

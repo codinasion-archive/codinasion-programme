@@ -1,6 +1,7 @@
 ---
 title: X power Y
 description: Write a program to find X power Y
+image: hero.png
 tags:
   - python
   - c

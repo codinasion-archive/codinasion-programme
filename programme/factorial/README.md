@@ -1,6 +1,7 @@
 ---
 title: Factorial of a number
 description: Write a program to get the factorial of a number
+image: hero.png
 tags:
   - python
   - java

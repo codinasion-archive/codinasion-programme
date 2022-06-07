@@ -1,6 +1,7 @@
 ---
 title: Volume of a cylinder
 description: Write a program to compute the volume of a Cylinder
+image: hero.png
 tags:
   - c
   - python

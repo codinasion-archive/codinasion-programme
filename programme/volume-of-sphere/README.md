@@ -1,6 +1,7 @@
 ---
 title: Volume of Sphere
 description: Write a program to compute the volume of a Sphere
+image: hero.png
 tags:
   - python
   - c

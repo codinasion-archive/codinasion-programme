@@ -1,6 +1,7 @@
 ---
 title: Fibonacci Series using recursion
 description: Write a program to print the Fibonacci series for 'n' numbers using recursion
+image: hero.png
 tags:
   - python
   - c

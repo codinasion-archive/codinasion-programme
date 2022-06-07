@@ -1,6 +1,7 @@
 ---
 title: Print Fibonacci series without recursion.
 description: Write a program to print Fibonacci series of n numbers without using recursion.
+image: hero.png
 tags:
   - c
   - java

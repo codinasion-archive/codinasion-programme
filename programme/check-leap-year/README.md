@@ -1,6 +1,7 @@
 ---
 title: Check Leap Year
 description: Write a programme to check leap year
+image: hero.png
 tags:
   - python
   - c

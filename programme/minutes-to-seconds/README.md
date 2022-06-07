@@ -1,6 +1,7 @@
 ---
 title: Minutes to Seconds
 description: Write a programme to convert minutes to seconds
+image: hero.png
 tags:
   - python
   - java
