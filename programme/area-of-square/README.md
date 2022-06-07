@@ -8,15 +8,17 @@ tags:
   - python
   - cs
   - cpp
+  - go
 contributors:
   - giftcup
   - jessicant
   - harshi1122
   - Mrczarny
   - ramanand-rv
+  - MadhuS-1605
 ---
 
-## Write a program to find the area of a square.
+## Write a program to find the area of a square
 
 ```txt
 side : 4
@@ -139,6 +141,19 @@ int main()
   cout << "Area of Square : " << area << endl;
 
   return 0;
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var a float64
+	fmt.Print("Enter the value of a : ")
+	fmt.Scan(&a)
+	fmt.Println("\nThe area of the square is :", a*a)
 }
 ```
 
