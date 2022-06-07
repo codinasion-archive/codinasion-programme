@@ -1,6 +1,7 @@
 ---
 title: Swap two numbers
 description: Write a program to swap two numbers
+image: hero.png
 tags:
   - python
   - c

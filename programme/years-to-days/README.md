@@ -1,6 +1,7 @@
 ---
 title: Years to days
 description: Write a programme to convert years to days
+image: hero.png
 tags:
   - cs
   - python

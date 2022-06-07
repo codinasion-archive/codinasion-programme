@@ -1,6 +1,7 @@
 ---
 title: Print Pattern 3
 description: Write a programme to print the given pattern
+image: hero.png
 tags:
   - python
   - c

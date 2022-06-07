@@ -1,6 +1,7 @@
 ---
 title: Number triangle pattern
 description: Write a program to print number triangle pattern
+image: hero.png
 tags:
   - c
   - cpp

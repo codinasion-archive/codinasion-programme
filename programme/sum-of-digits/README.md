@@ -1,6 +1,7 @@
 ---
 title: Sum of Digits
 description: Write a program to print sum of digits
+image: hero.png
 tags:
   - python
   - c

@@ -1,6 +1,7 @@
 ---
 title: Area of a rhombus
 description: Write a program to compute area of Rhombus
+image: hero.png
 tags:
   - python
   - c

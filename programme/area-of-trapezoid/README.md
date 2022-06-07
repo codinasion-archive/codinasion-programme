@@ -1,6 +1,7 @@
 ---
 title: Area of a trapezoid
 description: Write a program to compute area of trapezoid
+image: hero.png
 tags:
   - cs
   - python

@@ -1,6 +1,7 @@
 ---
 title: Simple Interest Calculator
 description: Write a programme to calculate simple interest
+image: hero.png
 tags:
   - java
   - python

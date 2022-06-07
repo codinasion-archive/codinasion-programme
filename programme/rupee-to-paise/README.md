@@ -1,6 +1,7 @@
 ---
 title: Rupee to Paise
 description: Write a program to convert Rupee to Paise
+image: hero.png
 tags:
   - python
   - c

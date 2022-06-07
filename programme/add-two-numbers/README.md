@@ -1,6 +1,7 @@
 ---
 title: Add two numbers
 description: Write a program to add two numbers
+image: hero.png
 tags:
   - python
   - cs

@@ -1,6 +1,7 @@
 ---
 title: Average of numbers
 description: Write a program to find the average of numbers
+image: hero.png
 tags:
   - python
   - java
