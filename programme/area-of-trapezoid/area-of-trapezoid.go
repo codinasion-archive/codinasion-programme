@@ -1,15 +1,16 @@
+// Write a program to compute area of trapezoid
+
 package main
 
 import "fmt"
 
-//area of `trapezoid`
 func main() {
 	var a, b, h float64
-	fmt.Print("Enter the value of a: ")
+	fmt.Print("Enter the value of a : ")
 	fmt.Scan(&a)
-	fmt.Print("Enter the value of b: ")
+	fmt.Print("Enter the value of b : ")
 	fmt.Scan(&b)
-	fmt.Print("Enter the value of h: ")
+	fmt.Print("Enter the value of h : ")
 	fmt.Scan(&h)
-	fmt.Println("The area of the trapezoid is: ", (a+b)*h/2)
+	fmt.Println("\nThe area of the trapezoid is :", (a+b)*h/2)
 }
