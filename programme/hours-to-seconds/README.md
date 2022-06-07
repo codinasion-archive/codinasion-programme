@@ -1,6 +1,7 @@
 ---
 title: Hours to Seconds
 description: Write a programme to convert hours to seconds
+image: hero.png
 tags:
   - python
   - c

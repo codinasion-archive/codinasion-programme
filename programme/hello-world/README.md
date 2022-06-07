@@ -1,6 +1,7 @@
 ---
 title: Hello World
 description: Write a programme to print Hello World
+image: hero.png
 tags:
   - python
   - c

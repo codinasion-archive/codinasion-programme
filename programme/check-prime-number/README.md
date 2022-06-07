@@ -1,6 +1,7 @@
 ---
 title: Check Prime Number
 description: Write a program to check prime number
+image: hero.png
 tags:
   - python
   - java

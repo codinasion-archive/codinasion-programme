@@ -1,6 +1,7 @@
 ---
 title: Area of Triangle
 description: Write a programme to find area of triangle
+image: hero.png
 tags:
   - python
   - cpp

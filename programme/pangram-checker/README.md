@@ -1,6 +1,7 @@
 ---
 title: Pangram Checker
 description: Write a programme to check Pangram sentence
+image: hero.png
 tags:
   - c
   - cpp

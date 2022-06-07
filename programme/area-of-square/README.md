@@ -1,6 +1,7 @@
 ---
 title: Area of square
 description: Write a programme to find area of square
+image: hero.png
 tags:
   - java
   - c

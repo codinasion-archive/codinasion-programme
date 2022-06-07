@@ -1,6 +1,7 @@
 ---
 title: Compound Interest Calculator
 description: Write a programme to calculate compound interest
+image: hero.png
 tags:
   - python
   - java

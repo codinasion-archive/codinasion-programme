@@ -1,6 +1,7 @@
 ---
 title: Check palindrome number
 description: Write a program to check palindrome number
+image: hero.png
 tags:
   - python
   - java

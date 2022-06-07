@@ -1,6 +1,7 @@
 ---
 title: Length of string
 description: Write a program to print the length of a string
+image: hero.png
 tags:
   - c
   - cpp

@@ -1,6 +1,7 @@
 ---
 title: Matrix Multiplication
 description: Write a program to print multiplication of 2 matrices
+image: hero.png
 tags:
   - python
   - c

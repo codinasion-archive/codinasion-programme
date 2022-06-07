@@ -1,6 +1,7 @@
 ---
 title: Square of a number
 description: Write a program to find the square of a number
+image: hero.png
 tags:
   - python
   - java
