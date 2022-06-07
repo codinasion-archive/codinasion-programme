@@ -8,12 +8,14 @@ tags:
   - java
   - c
   - cpp
+  - go
 contributors:
   - lt77777
   - jongwon254
   - Anzo52
   - yougottawork
   - Dafodils
+  - MadhuS-1605
 ---
 
 ## Write a program to compute area of trapezoid
@@ -132,6 +134,23 @@ int main()
     cout << "\nArea of trapezoid : " << area << endl;
 
     return 0;
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var a, b, h float64
+	fmt.Print("Enter the value of a : ")
+	fmt.Scan(&a)
+	fmt.Print("Enter the value of b : ")
+	fmt.Scan(&b)
+	fmt.Print("Enter the value of h : ")
+	fmt.Scan(&h)
+	fmt.Println("\nThe area of the trapezoid is :", (a+b)*h/2)
 }
 ```
 
