@@ -82,11 +82,14 @@ int main()
 }
 ```
 
-
-```js
+```javascript
 function squareNum(num) {
-  return num * num
+  return num * num;
 }
+
+const input = 5;
+console.log("Input  :", input);
+console.log("output :", squareNum(input));
 ```
 
 </CodeBlock>
