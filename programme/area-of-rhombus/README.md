@@ -8,6 +8,7 @@ tags:
   - java
   - cs
   - cpp
+  - go
 contributors:
   - lt77777
   - jspoh
@@ -15,6 +16,7 @@ contributors:
   - amitSahu9
   - VSen910
   - Dentyr
+  - MadhuS-1605
 ---
 
 ## Write a program to compute the area of a rhombus
@@ -124,6 +126,23 @@ int main()
     double area = (d1 * d2) / 2;
     cout << "\nThe area of the rhombus : " << area << endl;
     return 0;
+}
+```
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var a, b float64
+	fmt.Print("Enter the value of a : ")
+	fmt.Scan(&a)
+	fmt.Print("Enter the value of b : ")
+	fmt.Scan(&b)
+	fmt.Println("\nThe area of the rhombus is :", a*b/2)
 }
 ```
 
