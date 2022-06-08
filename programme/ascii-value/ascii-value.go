@@ -1,3 +1,5 @@
+// Write a programme to print ASCII Value of a character
+
 package main
 
 import (
@@ -8,7 +10,7 @@ import (
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter Any Character to find ASCII = ")
+	fmt.Print("Enter Any Character to find ASCII : ")
 	ch, _ := reader.ReadByte()
-	fmt.Printf("The ASCII value of %c = %d\n", ch, ch)
+	fmt.Printf("\nThe ASCII value of '%c' : %d\n", ch, ch)
 }
