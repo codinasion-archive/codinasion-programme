@@ -8,15 +8,17 @@ tags:
   - java
   - cpp
   - c
+  - go
 contributors:
   - Mrczarny
   - PA11TEDDU
   - KikiManjaro
   - NeelPatel31
   - RuiL1904
+  - MadhuS-1605
 ---
 
-## Write a programme to print ASCII Value of a character.
+## Write a programme to print ASCII Value of a character
 
 ```txt
 Input  : A
@@ -98,6 +100,23 @@ int main()
     scanf("%c", &a);
     printf("ASCII value is : %d\n", (int)(a));
     return 0;
+}
+```
+
+```go
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
+
+func main() {
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Print("Enter Any Character to find ASCII : ")
+	ch, _ := reader.ReadByte()
+	fmt.Printf("\nThe ASCII value of '%c' : %d\n", ch, ch)
 }
 ```
 
