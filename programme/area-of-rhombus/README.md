@@ -9,6 +9,7 @@ tags:
   - cs
   - cpp
   - go
+  - js
 contributors:
   - lt77777
   - jspoh
@@ -17,6 +18,7 @@ contributors:
   - VSen910
   - Dentyr
   - MadhuS-1605
+  - PhysicsMD
 ---
 
 ## Write a program to compute the area of a rhombus
@@ -144,6 +146,17 @@ func main() {
 	fmt.Scan(&b)
 	fmt.Println("\nThe area of the rhombus is :", a*b/2)
 }
+```
+
+```javascript
+const areaOfRhombus = (Diagonal1, Diagonal2) => {
+  let area = (Diagonal1 * Diagonal2) / 2;
+  return area;
+};
+
+console.log("Diagonal 1 : 6");
+console.log("Diagonal 2 : 8");
+console.log("\narea : ", areaOfRhombus(6, 8));
 ```
 
 </CodeBlock>
