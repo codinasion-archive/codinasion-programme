@@ -7,5 +7,5 @@ function sumOfCube(num) {
   return numsArr.reduce((acc, curr) => acc + curr ** 3, 0);
 }
 
-const num = 3
-console.log(`The sum of cube for ${num}: ${sumOfCube(num)}`)
+const num = 3;
+console.log(`The sum of cube for ${num} : ${sumOfCube(num)}`);
