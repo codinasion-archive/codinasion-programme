@@ -8,11 +8,13 @@ tags:
   - cpp
   - java
   - cs
+  - go
 contributors:
   - seraph776
   - yslDevelop
   - Khushi369
   - andrew9078
+  - MadhuS-1605
 ---
 
 ## Write a program to convert the temperature from Celsius to Fahrenheit
@@ -109,6 +111,22 @@ namespace codinasion
             Console.Write("Temp. in F : " + temperature + "\n");
         }
     }
+}
+```
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var celsius float64
+	fmt.Print("Enter a temperature in Celsius : ")
+	fmt.Scan(&celsius)
+	fahrenheit := celsius*9/5 + 32
+	fmt.Println("\nFahrenheit temparature is :", fahrenheit)
 }
 ```
 
