@@ -1,3 +1,4 @@
+// Write a programme to merge two strings
 
 const mergeStrings = (Str1, Str2) => {
   let result = Str1.concat(Str2);
