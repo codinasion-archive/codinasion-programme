@@ -7,11 +7,13 @@ tags:
   - c
   - cpp
   - java
+  - go
 contributors:
   - saikatg347
   - RuiL1904
   - rootzer00
   - Anzo52
+  - MadhuS-1605
 ---
 
 ## Write a programme to check leap year
@@ -123,6 +125,32 @@ public class CheckLeapYear {
         System.out.println("Output : " + checkLeapYear(year));
         scan.close();
     }
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var year int
+	fmt.Print("Enter a year : ")
+	fmt.Scan(&year)
+	fmt.Print("\nOutput : ")
+	if year%4 == 0 {
+		if year%100 == 0 {
+			if year%400 == 0 {
+				fmt.Println("The year is a leap year.")
+			} else {
+				fmt.Println("The year is not a leap year.")
+			}
+		} else {
+			fmt.Println("The year is a leap year.")
+		}
+	} else {
+		fmt.Println("The year is not a leap year.")
+	}
 }
 ```
 
