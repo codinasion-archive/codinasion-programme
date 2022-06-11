@@ -1,6 +1,7 @@
 ---
 title: Inches to Feet
 description: Write a programme to convert inches to feet
+image: hero.png
 tags:
   - c
 contributors:
