@@ -5,9 +5,11 @@ image: hero.png
 tags:
   - java
   - cs
+  - js
 contributors:
   - nikhilnarla
   - hansleykowlessur
+  - rutterjt
 ---
 
 ## Write a programme to check a number even or odd
@@ -91,6 +93,16 @@ class EvenOrOdd
         }
     }
 }
+```
+
+```javascript
+const evenOrOdd = (n) => {
+  return n % 2 === 0 ? "Even Number" : "Odd Number";
+};
+
+const input = 3;
+console.log("Input  :", input);
+console.log("Output :", evenOrOdd(input));
 ```
 
 </CodeBlock>

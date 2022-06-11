@@ -3,8 +3,11 @@ title: Negative of a number
 description: Write a programme to find negative of a number
 image: hero.png
 tags:
+  - cpp
+  - python
   - cs
 contributors:
+  - Enoch02
   - hansleykowlessur
 ---
 
@@ -18,6 +21,24 @@ Output : -10
 ---
 
 <CodeBlock>
+
+```cpp
+#include <iostream>
+
+int main()
+{
+    int input;
+    std::cout << "Input  : ";
+    std::cin >> input;
+    std::cout << "Output : " << -input << "\n";
+}
+```
+
+```python
+input_number = int(input("Input  : "))
+
+print(f"Output : {-input_number}")
+```
 
 ```cs
 using System;
