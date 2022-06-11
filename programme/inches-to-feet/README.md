@@ -4,6 +4,7 @@ description: Write a programme to convert inches to feet
 image: hero.png
 tags:
   - c
+  - python
 contributors:
   - ClasherKasten
 ---
@@ -30,6 +31,10 @@ int main(void)
     printf("Output : %f\n", inch / 12.0);
     return 0;
 }
+```
+
+```py
+print("Output :", int(input("Input  : ")) / 12)
 ```
 
 </CodeBlock>
