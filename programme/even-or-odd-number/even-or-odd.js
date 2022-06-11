@@ -7,7 +7,9 @@ Output : Odd Number
 */
 
 const evenOrOdd = (n) => {
-  return n % 2 === 0 ? 'Even Number' : 'Odd Number';
+  return n % 2 === 0 ? "Even Number" : "Odd Number";
 };
 
-console.log(evenOrOdd(3));
+const input = 3;
+console.log("Input  :", input);
+console.log("Output :", evenOrOdd(input));
