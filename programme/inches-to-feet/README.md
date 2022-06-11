@@ -5,6 +5,7 @@ image: hero.png
 tags:
   - c
   - python
+  - cpp
 contributors:
   - ClasherKasten
 ---
@@ -35,6 +36,19 @@ int main(void)
 
 ```py
 print("Output :", int(input("Input  : ")) / 12)
+```
+
+```cpp
+#include <iostream>
+
+int main(void)
+{
+    int inch;
+    std::cout << "Input  : ";
+    std::cin >> inch;
+    std::cout << "Output : " << inch / 12.0 << std::endl;
+    return 0;
+}
 ```
 
 </CodeBlock>
