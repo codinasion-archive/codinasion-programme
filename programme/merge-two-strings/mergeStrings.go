@@ -19,5 +19,5 @@ func main() {
 
 	mergedString := str1 + str2
 
-	fmt.Printf("Output: %s\n", mergedString)
+	fmt.Printf("\nOutput : %s\n", mergedString)
 }
