@@ -9,9 +9,11 @@ tags:
   - python
   - js
   - cs
+  - go
 contributors:
   - PhysicsMD
   - hansleykowlessur
+  - umaxyon
 ---
 
 ## Write a programme to merge two strings
@@ -137,6 +139,30 @@ class MergeTwoStrings
                 .WriteLine($"Errors => {ex.Message}{Environment.NewLine}{ex.StackTrace}");
         }
     }
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var str1, str2 string
+
+	fmt.Print("Enter String 1 : ")
+	if _, err := fmt.Scan(&str1); err != nil {
+		panic("Scan Error str1")
+	}
+
+	fmt.Print("Enter String 2 : ")
+	if _, err := fmt.Scan(&str2); err != nil {
+		panic("Scan Error str2")
+	}
+
+	mergedString := str1 + str2
+
+	fmt.Printf("\nOutput : %s\n", mergedString)
 }
 ```
 

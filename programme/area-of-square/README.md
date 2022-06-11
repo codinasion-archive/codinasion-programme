@@ -9,6 +9,7 @@ tags:
   - cs
   - cpp
   - go
+  - js
 contributors:
   - giftcup
   - jessicant
@@ -16,6 +17,7 @@ contributors:
   - Mrczarny
   - ramanand-rv
   - MadhuS-1605
+  - victoriacheng15
 ---
 
 ## Write a program to find the area of a square
@@ -155,6 +157,15 @@ func main() {
 	fmt.Scan(&a)
 	fmt.Println("\nThe area of the square is :", a*a)
 }
+```
+
+```js
+function areaSquare(num) {
+  return num ** 2;
+}
+
+const num = 4;
+console.log(`The area of square for ${num} is ${areaSquare(num)}`);
 ```
 
 </CodeBlock>
