@@ -15,6 +15,7 @@ contributors:
   - Khushi369
   - andrew9078
   - MadhuS-1605
+  - IrumiDesu7
 ---
 
 ## Write a program to convert the temperature from Celsius to Fahrenheit
@@ -128,6 +129,13 @@ func main() {
 	fahrenheit := celsius*9/5 + 32
 	fmt.Println("\nFahrenheit temparature is :", fahrenheit)
 }
+```
+
+```javascript
+const celc = Number(prompt('Input temperature in celsius : '));
+
+const fahrenheit = (celc * 9) / 5 + 32;
+console.log(fahrenheit);
 ```
 
 </CodeBlock>
