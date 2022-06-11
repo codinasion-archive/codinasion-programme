@@ -21,7 +21,7 @@ func main() {
 		return
 	}
 
-	fmt.Print("\nOutput: ")
+	fmt.Print("\nOutput : ")
 	for i := 0; i < len(str); i++ {
 		fmt.Printf("%s ", NumStrList[str[i]-48]) // ascii code 48 -> 0
 	}
