@@ -9,6 +9,7 @@ tags:
   - java
   - cs
   - go
+  - js
 contributors:
   - seraph776
   - yslDevelop
@@ -132,7 +133,7 @@ func main() {
 ```
 
 ```javascript
-const celc = Number(prompt('Input temperature in celsius : '));
+const celc = Number(prompt("Input temperature in celsius : "));
 
 const fahrenheit = (celc * 9) / 5 + 32;
 console.log(fahrenheit);
