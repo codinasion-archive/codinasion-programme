@@ -8,12 +8,14 @@ tags:
   - cpp
   - java
   - go
+  - js
 contributors:
   - saikatg347
   - RuiL1904
   - rootzer00
   - Anzo52
   - MadhuS-1605
+  - IrumiDesu7
 ---
 
 ## Write a programme to check leap year
@@ -152,6 +154,14 @@ func main() {
 		fmt.Println("The year is not a leap year.")
 	}
 }
+```
+
+```javascript
+const year = Number(prompt("Input year : "));
+
+year % 4 === 0 && (year % 400 === 0 || year % 100 !== 0)
+  ? console.log("leap year")
+  : console.log("not leap year");
 ```
 
 </CodeBlock>
