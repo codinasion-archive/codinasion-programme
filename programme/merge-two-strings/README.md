@@ -143,8 +143,6 @@ class MergeTwoStrings
 ```
 
 ```go
-// Write a programme to check leap year
-
 package main
 
 import "fmt"
@@ -164,7 +162,7 @@ func main() {
 
 	mergedString := str1 + str2
 
-	fmt.Println(mergedString)
+	fmt.Printf("\nOutput : %s\n", mergedString)
 }
 ```
 
