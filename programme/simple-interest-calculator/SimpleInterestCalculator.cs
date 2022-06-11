@@ -1,8 +1,16 @@
-﻿namespace Calculations
+// Write a programme to calculate simple interest
+using System;
+
+namespace Calculations
 {
     public class SimpleInterestCalculator
     {
-        public static decimal CalculateInterest(decimal principalAmount, int time, int percentageInterestRate)
+        public static decimal
+        CalculateInterest(
+            decimal principalAmount,
+            int time,
+            int percentageInterestRate
+        )
         {
             float decimalInterestRate = percentageInterestRate / 100f;
             return principalAmount * (decimal)(time * decimalInterestRate);
@@ -15,8 +23,9 @@
 
             do
             {
-                Console.Write(instructions);
-                isInputValid = decimal.TryParse(Console.ReadLine(), out inputValue);
+                Console.Write (instructions);
+                isInputValid =
+                    decimal.TryParse(Console.ReadLine(), out inputValue);
             }
             while (!isInputValid);
 
@@ -30,7 +39,7 @@
 
             do
             {
-                Console.Write(instructions);
+                Console.Write (instructions);
                 isInputValid = int.TryParse(Console.ReadLine(), out inputValue);
             }
             while (!isInputValid);
@@ -44,8 +53,13 @@
             int time = GetIntInput("Enter T : ");
             int percentageInterestRate = GetIntInput("Enter R : ");
 
-            decimal interestAmount = CalculateInterest(principalAmount, time, percentageInterestRate);
-            Console.WriteLine("\nSimple interest: " + Math.Round(interestAmount, 2));
+            decimal interestAmount =
+                CalculateInterest(principalAmount,
+                time,
+                percentageInterestRate);
+            Console
+                .WriteLine("\nSimple interest : " +
+                Math.Round(interestAmount, 2));
         }
     }
 }
