@@ -14,7 +14,6 @@ Input  : 1
 Output : 12
 ```
 
-
 ---
 
 <CodeBlock>
@@ -24,11 +23,11 @@ Output : 12
 
 int main(void)
 {
-  int feet;
-  printf("Input  : ");
-  scanf("%d", &feet);
-  printf("Output : %d\n", feet * 12);
-  return 0;
+    int feet;
+    printf("Input  : ");
+    scanf("%d", &feet);
+    printf("Output : %d\n", feet * 12);
+    return 0;
 }
 ```
 
