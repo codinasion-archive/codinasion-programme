@@ -5,6 +5,7 @@ image: hero.png
 tags:
   - c
   - python
+  - java
 contributors:
   - ClasherKasten
 ---
@@ -35,6 +36,21 @@ int main(void)
 
 ```py
 print("Output :", int(input("Input  : ")) * 12)
+```
+
+```java
+class FeetToInches {
+    public static void main(String[] args) {
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Input  : ");
+            int feet = sc.nextInt();
+            System.out.print("Output : ");
+            System.out.println(feet * 12);
+        } catch (Exception e) {
+            System.err.println("An Error occured");
+        }
+    }
+}
 ```
 
 </CodeBlock>
