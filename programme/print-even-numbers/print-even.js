@@ -1,5 +1,5 @@
 const isEven = function (number) {
-    return number % 2 == 0;
+    return number % 2 === 0;
 };
 
 const readline = require("readline");
