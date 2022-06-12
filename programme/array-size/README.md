@@ -60,7 +60,5 @@ class ArraySize
 		System.out.println(arrlength);
 	}
 }
-
-  
 ```  
 </CodeBlock>
