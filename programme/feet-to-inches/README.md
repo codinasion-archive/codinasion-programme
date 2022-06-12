@@ -6,6 +6,7 @@ tags:
   - c
   - python
   - java
+  - cpp
 contributors:
   - ClasherKasten
 ---
@@ -50,6 +51,19 @@ class FeetToInches {
             System.err.println("An Error occured");
         }
     }
+}
+```
+
+```cpp
+#include <iostream>
+
+int main(void)
+{
+    int feet;
+    std::cout << "Input  : ";
+    std::cin >> feet;
+    std::cout << "Output : " << feet * 12.0 << std::endl;
+    return 0;
 }
 ```
 
