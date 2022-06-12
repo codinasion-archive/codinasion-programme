@@ -7,6 +7,7 @@ tags:
   - python
   - java
   - cpp
+  - js
 contributors:
   - ClasherKasten
 ---
@@ -65,6 +66,27 @@ int main(void)
     std::cout << "Output : " << feet * 12.0 << std::endl;
     return 0;
 }
+```
+
+```js
+"use strict"
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Input  : ", (inches) => {
+	const result = parseInt(inches) * 12;
+	if (!isNaN(result)) {
+		console.log(`Output : ${result}`)
+	} else {
+		console.log("An Error occured");
+	}
+	rl.close();
+});
 ```
 
 </CodeBlock>
