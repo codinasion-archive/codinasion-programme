@@ -19,5 +19,5 @@ func main() {
 		return
 	}
 
-	fmt.Printf("\n%d seconds\n", min*60)
+	fmt.Printf("\nOutput : %d seconds\n", min*60)
 }
