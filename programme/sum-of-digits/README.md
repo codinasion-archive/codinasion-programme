@@ -8,10 +8,12 @@ tags:
   - cpp
   - java
   - cs
+  - js
 contributors:
   - PA11TEDDU
   - debaghosh
   - PrajwalBorkar
+  - victoriacheng15
 ---
 
 ## Write a program to print sum of digits.
@@ -123,4 +125,13 @@ public class SumExample
 }
 ```
 
+```js
+function sumDigits(nums) {
+  const arr = [...`${nums}`];
+  return arr.reduce((acc, curr) => acc + Number(curr), 0);
+}
+
+const digits = 2332
+console.log(`The sum of ${digits} is ${sumDigits(digits)}`);
+```
 </CodeBlock>
