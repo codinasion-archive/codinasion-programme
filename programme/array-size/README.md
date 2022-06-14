@@ -7,9 +7,11 @@ tags:
   - php
   - python
   - java
+  - cs
 contributors:
   - 0ME9A
   - PrajwalBorkar
+  - gauravagrwal
 ---
 
 ## Write a programme to find the length of an array
@@ -63,6 +65,35 @@ class ArraySize {
     int arrlength = arr.length;
     System.out.println("Output : " + arrlength);
   }
+}
+```
+
+```cs
+using System;
+
+public class ArraySize
+{
+    public static void Main()
+    {
+        int[] num = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        Console.Write("Array : [ ");
+        var numCount = 1;
+        foreach (var item in num)
+        {
+            if (numCount == num.Length)
+            {
+                Console.Write(item.ToString());
+            }
+            else
+            {
+                Console.Write(item.ToString() + ", ");
+            }
+
+            numCount = numCount + 1;
+        }
+        Console.Write(" ]\n");
+        Console.WriteLine($"Array Size : {num.Length}");
+    }
 }
 ```
 
