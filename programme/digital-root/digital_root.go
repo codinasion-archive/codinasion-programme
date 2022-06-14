@@ -1,4 +1,6 @@
-// digital root is the sum of the digits of a number.
+// Write a programme for Digital Root of a number
+// digital root is the sum of the digits of a number
+
 package main
 
 import "fmt"
