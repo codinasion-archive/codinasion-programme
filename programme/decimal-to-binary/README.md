@@ -8,13 +8,15 @@ tags:
   - java
   - cpp
   - cs
+  - go
 contributors:
   - RuiL1904
   - NeelPatel31
   - Mrczarny
+  - MadhuS-1605
 ---
 
-## Write a programme to convert decimal number to binary.
+## Write a programme to convert decimal number to binary
 
 ```txt
 Input : 8
@@ -147,6 +149,28 @@ public class Binary
         // bianry output
         Console.WriteLine("\nBinary : " + Binary(input));
     }
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var n int
+	fmt.Print("Enter the number : ")
+	fmt.Scan(&n)
+	fmt.Println("The binary representation of the number is :", decimalToBinary(n))
+}
+
+func decimalToBinary(n int) string {
+	var binary string
+	for n > 0 {
+		binary = fmt.Sprintf("%d%s", n%2, binary)
+		n /= 2 // Same as n = n / 2
+	}
+	return binary
 }
 ```
 
