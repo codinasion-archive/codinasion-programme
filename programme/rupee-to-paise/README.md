@@ -5,12 +5,14 @@ image: hero.png
 tags:
   - python
   - c
+  - cs
   - cpp
   - java
 contributors:
   - harshi1122
   - luiscff
   - nurhaliza
+  - umaxyon
 ---
 
 ## Write a program to convert rupee to paise
@@ -46,6 +48,30 @@ int main()
     // output in paise
     printf("Amount in Paise : %g\n", x * 100);
     return 0;
+}
+```
+
+```cs
+using System;
+
+namespace Study
+{
+    public class RupeeToPaise
+    {
+        public static void Main(string[] args)
+        {
+            Console.Write("Rupee : ");
+            double rupee;
+            if (double.TryParse(Console.ReadLine(), out rupee))
+            {
+                Console.WriteLine("Paise : {0}", rupee * 100);
+            } 
+            else
+            {
+                Console.WriteLine("Input Err");
+            }
+        }
+    }
 }
 ```
 
