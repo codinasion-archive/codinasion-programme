@@ -9,11 +9,13 @@ tags:
   - cpp
   - cs
   - go
+  - js
 contributors:
   - RuiL1904
   - NeelPatel31
   - Mrczarny
   - MadhuS-1605
+  - ntgong90
 ---
 
 ## Write a programme to convert decimal number to binary
@@ -172,6 +174,16 @@ func decimalToBinary(n int) string {
 	}
 	return binary
 }
+```
+
+```javascript
+function decimalToBinary(number) {
+  return +number.toString(2);
+}
+
+const dnum = 5;
+console.log("Input  :", dnum);
+console.log("Output :", decimalToBinary(dnum));
 ```
 
 </CodeBlock>
