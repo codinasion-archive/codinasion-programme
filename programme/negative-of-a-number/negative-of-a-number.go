@@ -18,7 +18,7 @@ func main() {
 		fmt.Printf("Input error: %s", str)
 		return
 	}
-	
+
 	if num > 0 {
 		num = -num
 	}
