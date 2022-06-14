@@ -1,3 +1,5 @@
+// Write a program to find the factorial of a number
+
 package main
 
 import (
@@ -7,9 +9,9 @@ import (
 
 func main() {
 	var n int
-	fmt.Println("Enter a number: ")
+	fmt.Print("Enter a number : ")
 	fmt.Scan(&n)
-	fmt.Println("Factorial of", n, "is", factorial(n))
+	fmt.Println("\nFactorial of", n, "is", factorial(n))
 }
 func factorial(n int) *big.Int {
 	var fact *big.Int = big.NewInt(1)
