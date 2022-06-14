@@ -10,7 +10,7 @@ public class RupeeToPaise
         if (double.TryParse(Console.ReadLine(), out rupee))
         {
             Console.WriteLine("Paise : {0}", rupee * 100);
-        } 
+        }
         else
         {
             Console.WriteLine("Input Err");
