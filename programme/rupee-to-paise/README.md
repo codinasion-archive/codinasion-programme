@@ -7,10 +7,12 @@ tags:
   - c
   - cpp
   - java
+  - cs
 contributors:
   - harshi1122
   - luiscff
   - nurhaliza
+  - umaxyon
 ---
 
 ## Write a program to convert rupee to paise
@@ -78,6 +80,27 @@ public class rs_to_p {
         paise = rupees * 100; // paise calculation
         System.out.println("\nTotal Rupees : " + rupees + " rupees \nTotal Paise  : " + (long) paise + " paise");
         in.close();
+    }
+}
+```
+
+```cs
+using System;
+
+public class RupeeToPaise
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Rupee : ");
+        double rupee;
+        if (double.TryParse(Console.ReadLine(), out rupee))
+        {
+            Console.WriteLine("Paise : {0}", rupee * 100);
+        }
+        else
+        {
+            Console.WriteLine("Input Err");
+        }
     }
 }
 ```
