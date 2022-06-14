@@ -9,12 +9,14 @@ tags:
   - cpp
   - cs
   - js
+  - go
 contributors:
   - PA11TEDDU
   - Anzo52
   - ClasherKasten
   - hansleykowlessur
   - rossilor95
+  - GodKimba
 ---
 
 ## Write a programme to print first n even numbers
@@ -164,6 +166,29 @@ rl.question("Input  : ", (answer) => {
   process.stdout.write("\n");
   rl.close();
 });
+```
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var n int
+	fmt.Print("Enter number : ")
+	fmt.Scanln(&n)
+	fmt.Print("\nOutput : ")
+	printEven(n)
+}
+
+func printEven(n int) {
+	for i := 0; i <= n-1; i++ {
+		fmt.Print(i*2, " ")
+	}
+	fmt.Println("")
+}
 ```
 
 </CodeBlock>
