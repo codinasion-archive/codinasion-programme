@@ -8,10 +8,12 @@ tags:
   - python
   - java
   - js
+  - go
 contributors:
   - arth2002
   - ConorJEM
   - ferruhcihan
+  - MadhuS-1605
 ---
 
 ## Write a programme for Digital Root of a number
@@ -127,6 +129,35 @@ function digital_root(n) {
 
 let num = prompt("Enter Number : ");
 console.log("Digital Root :", digital_root(num));
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var n int
+	fmt.Print("Enter the number : ")
+	fmt.Scan(&n)
+	fmt.Println("The digital root of the number is :", digitalRoot(n))
+}
+
+func digitalRoot(n int) int {
+	for n > 9 {
+		n = sumOfDigits(n)
+	}
+	return n
+}
+
+func sumOfDigits(n int) int {
+	var sum int
+	for n > 0 {
+		sum += n % 10
+		n /= 10
+	}
+	return sum
+}
 ```
 
 </CodeBlock>

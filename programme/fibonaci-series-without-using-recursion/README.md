@@ -8,13 +8,15 @@ tags:
   - python
   - cpp
   - cs
+  - go
 contributors:
   - NeelPatel31
   - karthiksbh
   - jojo4441
+  - MadhuS-1605
 ---
 
-## Write a program to print Fibonacci series without using recursion.
+## Write a program to print Fibonacci series without using recursion
 
 ```txt
 Input: 10
@@ -136,7 +138,40 @@ public class Fibonaci
         Console.Write("\n");
     }
 }
+```
 
+```go
+package main
+
+import (
+	"fmt"
+	"math/big"
+)
+
+func fibonacciSeriesWithoutRecusion(n int) *big.Int {
+	var a, b, c *big.Int
+	a = big.NewInt(0)
+	b = big.NewInt(1)
+	c = big.NewInt(0)
+	fmt.Print(a, " ")
+	fmt.Print(b, " ")
+	for i := 0; i < n-2; i++ {
+		c = a.Add(a, b)
+		a = b
+		b = c
+		fmt.Print(c, " ")
+	}
+	fmt.Println("")
+	return c
+}
+
+func main() {
+	var n int
+	fmt.Print("Enter a number : ")
+	fmt.Scan(&n)
+	fmt.Print("\nOutput : ")
+	fibonacciSeriesWithoutRecusion(n)
+}
 ```
 
 </CodeBlock>
