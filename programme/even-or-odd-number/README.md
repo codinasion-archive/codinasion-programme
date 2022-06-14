@@ -149,9 +149,8 @@ func main() {
 		evenOrOdd = "Odd"
 	}
 
-	fmt.Printf("\nOutput : %s Number", evenOrOdd)
+	fmt.Printf("\nOutput : %s Number\n", evenOrOdd)
 }
-
 ```
 
 </CodeBlock>
