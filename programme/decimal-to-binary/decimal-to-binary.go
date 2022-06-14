@@ -1,4 +1,6 @@
+// Write a programme to convert decimal number to binary
 // The function should take a decimal number as an argument and return the binary representation of that number.
+
 package main
 
 import "fmt"
