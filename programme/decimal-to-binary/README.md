@@ -8,13 +8,15 @@ tags:
   - java
   - cpp
   - cs
+  - js
 contributors:
   - RuiL1904
   - NeelPatel31
   - Mrczarny
+  - ntgong90
 ---
 
-## Write a programme to convert decimal number to binary.
+## Write a programme to convert decimal number to binary
 
 ```txt
 Input : 8
@@ -148,6 +150,16 @@ public class Binary
         Console.WriteLine("\nBinary : " + Binary(input));
     }
 }
+```
+
+```javascript
+function decimalToBinary(number) {
+  return +number.toString(2);
+}
+
+const dnum = 5;
+console.log("Input  :", dnum);
+console.log("Output :", decimalToBinary(dnum));
 ```
 
 </CodeBlock>
