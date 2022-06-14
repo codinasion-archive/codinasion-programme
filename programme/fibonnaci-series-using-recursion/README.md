@@ -194,9 +194,12 @@ func main() {
 		return
 	}
 
+	fmt.Print("\nOutput : ")
 	for i := 0; i < num; i++ {
 		fmt.Printf("%d ", fib(i))
 	}
+	fmt.Print("\n")
 }
 ```
+
 </CodeBlock>
