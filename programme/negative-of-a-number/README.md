@@ -97,13 +97,13 @@ func main() {
 		fmt.Printf("Input error: %s", str)
 		return
 	}
+
 	if num > 0 {
 		num = -num
 	}
 
 	fmt.Printf("\nOutput: %d\n", num)
 }
-
 ```
 
 </CodeBlock>
