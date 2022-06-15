@@ -1,25 +1,18 @@
 package main
 
-import (
-	"fmt"
-	"math/big"
-)
-
-func harmonicSeries(n int) *big.Int {
-	var harmonic *big.Int = big.NewInt(0)
-	var harmonic1 *big.Int = big.NewInt(1)
-	var harmonic2 *big.Int = big.NewInt(1)
-	for i := 0; i < n; i++ {
-		harmonic.Add(harmonic, harmonic1)
-		harmonic1.Add(harmonic1, harmonic2)
-		harmonic2.Set(harmonic1)
-	}
-	return harmonic
-}
+import "fmt"
 
 func main() {
 	var n int
-	fmt.Println("Enter a number: ")
+	fmt.Print("Enter the number : ")
 	fmt.Scan(&n)
-	fmt.Println("Harmonic series of", n, "is", harmonicSeries(n))
+	fmt.Println("The harmonic series is :", harmonicSeries(n))
+}
+
+func harmonicSeries(n int) float64 {
+	var sum float64
+	for i := 1; i <= n; i++ {
+		sum += float64(1) / float64(i)
+	}
+	return sum
 }
