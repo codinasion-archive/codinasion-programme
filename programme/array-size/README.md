@@ -8,6 +8,7 @@ tags:
   - python
   - java
   - cs
+  - cpp
 contributors:
   - 0ME9A
   - PrajwalBorkar
