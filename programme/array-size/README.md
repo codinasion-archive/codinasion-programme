@@ -8,6 +8,8 @@ tags:
   - python
   - java
   - cs
+  - c
+  - c++
 contributors:
   - 0ME9A
   - PrajwalBorkar
@@ -96,5 +98,35 @@ public class ArraySize
     }
 }
 ```
+```c
+#include<stdio.h>
+int main(){
 
+	int Length  =0;
+
+	int arr[] = {2,4,6,8,9,4};//6 elements
+
+	printf("Size of int array:%d \n",sizeof(arr));
+	printf("Size of 1 int value :%d \n",sizeof(int));
+
+	//Calculate length of the array ( Number of elements)
+	Length  = sizeof(arr)/sizeof(int);
+
+	//display array length
+
+	printf("So, array length is:%d",Length );
+
+	return 0;
+}
+```
+```cpp
+#include <iostream>
+using namespace std;
+int main() {
+   int arr[5] = {4, 1, 8, 2, 9};
+   int len = sizeof(arr)/sizeof(arr[0]);
+   cout << "The length of the array is: " << len;
+   return 0;
+}
+```
 </CodeBlock>
