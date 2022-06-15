@@ -3,12 +3,17 @@ package main
 import "fmt"
 
 func main() {
-	var number int
-	fmt.Println("Enter a number:")
-	fmt.Scan(&number)
-	if number%2 == 0 {
-		fmt.Println("The number is not a prime number.")
-	} else {
-		fmt.Println("The number is a prime number.")
+	var n int
+	fmt.Print("Enter the number : ")
+	fmt.Scan(&n)
+	fmt.Println("The number is prime :", isPrime(n))
+}
+
+func isPrime(n int) bool {
+	for i := 2; i < n; i++ {
+		if n%i == 0 {
+			return false
+		}
 	}
+	return true
 }
