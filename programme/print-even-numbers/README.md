@@ -8,11 +8,15 @@ tags:
   - c
   - cpp
   - cs
+  - js
+  - go
 contributors:
   - PA11TEDDU
   - Anzo52
   - ClasherKasten
   - hansleykowlessur
+  - rossilor95
+  - GodKimba
 ---
 
 ## Write a programme to print first n even numbers
@@ -133,6 +137,57 @@ class PrintEvenNumber
             Console.WriteLine($"Errors => {ex.Message}{Environment.NewLine}{ex.StackTrace}");
         }
     }
+}
+```
+
+```javascript
+const isEven = function (number) {
+  return number % 2 === 0;
+};
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Input  : ", (answer) => {
+  process.stdout.write("Output : ");
+  let counter = 0;
+  let number = 0;
+  while (counter < answer) {
+    if (isEven(number)) {
+      process.stdout.write(String(number) + " ");
+      counter++;
+    }
+    number++;
+  }
+  process.stdout.write("\n");
+  rl.close();
+});
+```
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var n int
+	fmt.Print("Enter number : ")
+	fmt.Scanln(&n)
+	fmt.Print("\nOutput : ")
+	printEven(n)
+}
+
+func printEven(n int) {
+	for i := 0; i <= n-1; i++ {
+		fmt.Print(i*2, " ")
+	}
+	fmt.Println("")
 }
 ```
 
