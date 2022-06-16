@@ -7,11 +7,13 @@ tags:
   - cs
   - js
   - c
+  - python
 contributors:
   - nikhilnarla
   - hansleykowlessur
   - rutterjt
   - ClasherKasten
+  - Yilmaz98
 ---
 
 ## Write a programme to check a number even or odd
@@ -118,6 +120,15 @@ int main(void)
     printf("Output : %s Number\n", number % 2 == 0 ? "Even" : "Odd");
     return 0;
 }
+```
+
+```python
+n = int(input("Input  : "))
+print("Output : ", end="")
+if n % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
 ```
 
 </CodeBlock>
