@@ -12,7 +12,7 @@ public class FibonaciRecursion
         {
             Console.Write("\nOutput : ");
             for (int i = 0; i < num; i++) {
-                Console.Write("{0} ", fib(i));
+                Console.Write("{0} ", Fibonaci(i));
             }
             Console.WriteLine();
         }
@@ -22,10 +22,10 @@ public class FibonaciRecursion
         }
     }
 
-    public static int fib(int n)
+    public static int Fibonaci(int n)
     {
         if (n == 0 || n == 1) return n;
 
-        return fib(n - 1) + fib(n - 2);
+        return Fibonaci(n - 1) + Fibonaci(n - 2);
     }
 }
