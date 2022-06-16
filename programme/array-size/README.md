@@ -6,8 +6,10 @@ tags:
   - js
   - php
   - python
+  - go
 contributors:
   - 0ME9A
+  - Yilmaz98
 ---
 
 ## Write a programme to find the length of an array
@@ -47,6 +49,21 @@ print(array_list)
 array_size = len(array_list)
 
 print("\nArray size : ", array_size)
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	array := []string{"element1", "element2", "element3"}
+
+	length := len(array)
+
+	fmt.Println("Array :", array)
+	fmt.Println("Array Length :", length)
+}
 ```
 
 </CodeBlock>
