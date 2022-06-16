@@ -7,11 +7,13 @@ tags:
   - java
   - cpp
   - c
+  - go
 contributors:
   - seraph776
   - MananKarnik
   - siddhantchimankar
   - ClasherKasten
+  - umaxyon
 ---
 
 ## Write a programme to convert minutes to seconds
@@ -87,6 +89,30 @@ int main(void)
     int seconds = minutes * 60;
     printf("Sec : %d\n", seconds);
     return 0;
+}
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var str string
+
+	fmt.Print("Input Minutes : ")
+	fmt.Scan(&str)
+
+	min, err := strconv.Atoi(str)
+	if err != nil || min < 0 {
+		fmt.Printf("Input error: %s", str)
+		return
+	}
+
+	fmt.Printf("\nOutput : %d seconds\n", min*60)
 }
 ```
 
