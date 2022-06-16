@@ -8,12 +8,14 @@ tags:
   - js
   - c
   - go
+  - python
 contributors:
   - nikhilnarla
   - hansleykowlessur
   - rutterjt
   - ClasherKasten
   - umaxyon
+  - Yilmaz98
 ---
 
 ## Write a programme to check a number even or odd
@@ -151,6 +153,15 @@ func main() {
 
 	fmt.Printf("\nOutput : %s Number\n", evenOrOdd)
 }
+```
+
+```python
+n = int(input("Input  : "))
+print("Output : ", end="")
+if n % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
 ```
 
 </CodeBlock>
