@@ -1,4 +1,4 @@
-console.log(ASCII value of a Character);
+console.log("ASCII value of a Character");
 
 function character_to_ascii( n )
 {
