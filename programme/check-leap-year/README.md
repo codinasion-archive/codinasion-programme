@@ -9,6 +9,7 @@ tags:
   - java
   - go
   - js
+  - cs
 contributors:
   - saikatg347
   - RuiL1904
@@ -16,6 +17,7 @@ contributors:
   - Anzo52
   - MadhuS-1605
   - IrumiDesu7
+  - umaxyon
 ---
 
 ## Write a programme to check leap year
@@ -170,6 +172,26 @@ const year = Number(prompt("Input year : "));
 year % 4 === 0 && (year % 400 === 0 || year % 100 !== 0)
   ? console.log("leap year")
   : console.log("not leap year");
+```
+
+```cs
+using System;
+
+public class CheckLeapYear
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Input  : ");
+        if (int.TryParse(Console.ReadLine(), out int num))
+        {
+            Console.WriteLine("Output :{0} Leap Year", DateTime.IsLeapYear(num) ? "" : " Not a");
+        }
+        else
+        {
+            Console.WriteLine("Input Err");
+        }
+    }
+}
 ```
 
 </CodeBlock>
