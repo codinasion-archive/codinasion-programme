@@ -10,6 +10,7 @@ tags:
   - js
   - cs
   - go
+  - jl
 contributors:
   - giftcup
   - harshi1122
@@ -18,6 +19,7 @@ contributors:
   - mathcodes
   - Dentyr
   - rossilor95
+  - SanjayShetty01
 ---
 
 ## Write a program to compute the area of a rectangle
@@ -191,6 +193,16 @@ func main() {
 	area = areaOfRectangle(length, breadth)
 	fmt.Println("\narea : ", roundFloat(area, 2))
 }
+```
+```julia
+
+print("Enter the radius: ")
+r = parse(Int32, readline())
+
+area = round(pi*r^2,digits = 2)
+
+println("Area :", area)
+
 ```
 
 </CodeBlock>

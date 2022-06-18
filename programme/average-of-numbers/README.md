@@ -9,12 +9,14 @@ tags:
   - cpp
   - go
   - cs
+  - jl
 contributors:
   - harshi1122
   - Anzo52
   - ssavi-ict
   - MadhuS-1605
   - hansleykowlessur
+  - SanjayShetty01
 ---
 
 ## Write a program to find average of numbers
@@ -189,6 +191,20 @@ namespace AverageOfANumber
         }
     }
 }
+```
+```julia
+
+using Statistics 
+using Printf
+
+print("Input : ")
+
+num = split(readline())
+
+nums = parse.(Int32, num)
+
+@printf("Output : %0.2f", mean(nums))
+
 ```
 
 </CodeBlock>

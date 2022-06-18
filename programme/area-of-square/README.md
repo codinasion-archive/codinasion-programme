@@ -10,6 +10,7 @@ tags:
   - cpp
   - go
   - js
+  - jl
 contributors:
   - giftcup
   - jessicant
@@ -18,6 +19,7 @@ contributors:
   - ramanand-rv
   - MadhuS-1605
   - victoriacheng15
+  - SanjayShetty01
 ---
 
 ## Write a program to find the area of a square
@@ -167,5 +169,11 @@ function areaSquare(num) {
 const num = 4;
 console.log(`The area of square for ${num} is ${areaSquare(num)}`);
 ```
+```julia
+print("side: ")
 
+s = parse(Int32,readline())
+
+print("area :", s^2)
+```
 </CodeBlock>

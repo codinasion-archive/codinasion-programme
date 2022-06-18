@@ -10,6 +10,7 @@ tags:
   - cs
   - go
   - js
+  - jl
 contributors:
   - theanorak
   - NeelPatel31
@@ -17,6 +18,7 @@ contributors:
   - ClasherKasten
   - Dentyr
   - rossilor95
+  - SanjayShetty01
 ---
 
 ## Write a programme to find the area of circle
@@ -169,6 +171,16 @@ rl.question("Enter radius : ", (userInput) => {
     rl.close();
   }
 });
+```
+```julia
+
+print("Enter the radius: ")
+r = parse(Int32, readline())
+
+area = round(pi*r^2,digits = 2)
+
+println("Area :", area)
+
 ```
 
 </CodeBlock>

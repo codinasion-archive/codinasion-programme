@@ -9,6 +9,7 @@ tags:
   - cpp
   - c
   - go
+  - jl
 contributors:
   - Mrczarny
   - PA11TEDDU
@@ -16,6 +17,7 @@ contributors:
   - NeelPatel31
   - RuiL1904
   - MadhuS-1605
+  - SanjayShetty01
 ---
 
 ## Write a programme to print ASCII Value of a character
@@ -118,6 +120,16 @@ func main() {
 	ch, _ := reader.ReadByte()
 	fmt.Printf("\nThe ASCII value of '%c' : %d\n", ch, ch)
 }
+```
+
+```julia
+
+print("Enter the Character : ")
+c = readline()
+
+char = only(c)
+
+println("ASCII Value is : ", Int(char))
 ```
 
 </CodeBlock>

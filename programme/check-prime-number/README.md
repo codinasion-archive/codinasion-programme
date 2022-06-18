@@ -9,12 +9,14 @@ tags:
   - cpp
   - js
   - go
+  - jl
 contributors:
   - dylan-power
   - karthiksbh
   - NeelPatel31
   - rutterjt
   - MadhuS-1605
+  - SanjayShetty01
 ---
 
 ## Write a program to check prime number
@@ -175,6 +177,17 @@ func isPrime(n int) bool {
 	}
 	return true
 }
+```
+```julia
+
+using Primes
+
+print("Input : ")
+num =  parse(Int32, readline())
+
+print("Output :" ,isprime(num) ? "Prime number" : "Not a Prime number")
+
+
 ```
 
 </CodeBlock>

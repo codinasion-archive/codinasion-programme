@@ -10,6 +10,7 @@ tags:
   - cs
   - go
   - js
+  - jl
 contributors:
   - seraph776
   - yslDevelop
@@ -17,6 +18,7 @@ contributors:
   - andrew9078
   - MadhuS-1605
   - IrumiDesu7
+  - SanjayShetty01
 ---
 
 ## Write a program to convert the temperature from Celsius to Fahrenheit
@@ -137,6 +139,17 @@ const celc = Number(prompt("Input temperature in celsius : "));
 
 const fahrenheit = (celc * 9) / 5 + 32;
 console.log(fahrenheit);
+```
+```julia
+
+using Printf
+
+print("Input : ")
+tempC =  parse(Float32, readline())
+tempF = (tempC * 1.8 ) + 32
+
+@printf("Output : %0.2f", tempF)
+
 ```
 
 </CodeBlock>

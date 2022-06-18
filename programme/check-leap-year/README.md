@@ -9,6 +9,7 @@ tags:
   - java
   - go
   - js
+  - jl
 contributors:
   - saikatg347
   - RuiL1904
@@ -16,6 +17,7 @@ contributors:
   - Anzo52
   - MadhuS-1605
   - IrumiDesu7
+  - SanjayShetty01
 ---
 
 ## Write a programme to check leap year
@@ -170,6 +172,31 @@ const year = Number(prompt("Input year : "));
 year % 4 === 0 && (year % 400 === 0 || year % 100 !== 0)
   ? console.log("leap year")
   : console.log("not leap year");
+```
+
+```julia
+
+print("Input : ")
+
+year =  parse(Float32, readline())
+
+if year % 100 == 0
+    if year % 400 == 0
+        print("Output : Leap Year")
+    else
+        print("Output : Not a Leap Year")
+
+    end
+
+else 
+    if year % 4 == 0
+        print("Output : Leap Year")
+
+    else 
+        print("Output : Not a Leap Year")
+
+    end
+end
 ```
 
 </CodeBlock>

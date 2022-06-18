@@ -10,6 +10,7 @@ tags:
   - go
   - c
   - js
+  - jl
 contributors:
   - harshi1122
   - Mrczarny
@@ -18,6 +19,7 @@ contributors:
   - GodKimba
   - ClasherKasten
   - kvaithin
+  - SanjayShetty01
 ---
 
 ## Write a program to add two numbers
@@ -168,6 +170,17 @@ rl.question("Please enter the first number   : ", (firstNumber) => {
     rl.close();
   });
 });
+```
+```julia
+
+print("Input: ")
+x,y = split(readline())
+
+x = parse(Int32, x)
+y = parse(Int32, y)
+
+println("Sum: ", x + y)
+
 ```
 
 </CodeBlock>

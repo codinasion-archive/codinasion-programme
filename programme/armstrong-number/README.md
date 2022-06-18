@@ -10,6 +10,7 @@ tags:
   - js
   - go
   - cpp
+  - jl
 contributors:
   - Badboy-16
   - kzhang01
@@ -17,6 +18,7 @@ contributors:
   - Dentyr
   - rossilor95
   - ClasherKasten
+  - SanjayShetty01
 ---
 
 ## Write a program to check armstrong number
@@ -315,6 +317,23 @@ int main(void)
     }
     return 0;
 }
+```
+```julia
+
+print("Input : ")
+num = parse(Int32,readline())
+
+exponent = length(num)
+temp = num
+val = 0
+
+while temp > 0
+    number = temp % 10
+    global val += number ^ exponent
+    global temp = fld(temp,10)
+end
+
+println("Output :", num == val ? "armstrong number" : "not an armstrong number" )
 ```
 
 </CodeBlock>

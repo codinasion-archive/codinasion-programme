@@ -10,12 +10,14 @@ tags:
   - cs
   - cpp
   - go
+  - jl
 contributors:
   - 0ME9A
   - PrajwalBorkar
   - gauravagrwal
   - KhalilThabet
   - Yilmaz98
+  - SanjayShetty01
 ---
 
 ## Write a programme to find the length of an array
@@ -164,6 +166,15 @@ func main() {
 	fmt.Println("Array :", array)
 	fmt.Println("Array Length :", length)
 }
+```
+
+```julia
+array = ["element1", "element2", "element3"]
+
+println("Input : ", array)
+
+print("Output : ", length(array))
+
 ```
 
 </CodeBlock>

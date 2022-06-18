@@ -8,11 +8,13 @@ tags:
   - c
   - cpp
   - go
+  - jl
 contributors:
   - SpadeQ22
   - GodKimba
   - giftcup
   - rossilor95
+  - SanjayShetty01
 ---
 
 ## Write a program to compute the area of a right angle triangle
@@ -153,5 +155,14 @@ func main() {
 	fmt.Println("\narea : ", roundFloat(area, 2))
 }
 ```
+```julia
+print("base : ")
+b = parse(Int32, readline())
 
+print("height : ")
+h = parse(Int32, readline())
+
+println("\nArea: ", 0.5 * b * h )
+
+```
 </CodeBlock>

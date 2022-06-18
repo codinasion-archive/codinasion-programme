@@ -9,6 +9,7 @@ tags:
   - c
   - cpp
   - go
+  - jl
 contributors:
   - lt77777
   - jongwon254
@@ -16,6 +17,7 @@ contributors:
   - yougottawork
   - Dafodils
   - MadhuS-1605
+  - SanjayShetty01
 ---
 
 ## Write a program to compute area of trapezoid
@@ -152,6 +154,23 @@ func main() {
 	fmt.Scan(&h)
 	fmt.Println("\nThe area of the trapezoid is :", (a+b)*h/2)
 }
+```
+
+```julia
+using Printf
+
+print("Base 1 :")
+b1 = parse(Int32,readline())
+
+print("Base 2 :")
+b2 = parse(Int32,readline())
+
+print("Height :")
+h = parse(Int32,readline())
+
+
+@printf("Area : %0.2f", (b1+b2)*h*0.5)
+
 ```
 
 </CodeBlock>

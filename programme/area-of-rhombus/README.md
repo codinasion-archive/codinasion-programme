@@ -10,6 +10,7 @@ tags:
   - cpp
   - go
   - js
+  - jl
 contributors:
   - lt77777
   - jspoh
@@ -19,6 +20,7 @@ contributors:
   - Dentyr
   - MadhuS-1605
   - PhysicsMD
+  - SanjayShetty01
 ---
 
 ## Write a program to compute the area of a rhombus
@@ -157,6 +159,18 @@ const areaOfRhombus = (Diagonal1, Diagonal2) => {
 console.log("Diagonal 1 : 6");
 console.log("Diagonal 2 : 8");
 console.log("\narea : ", areaOfRhombus(6, 8));
+```
+
+```julia
+
+print("Diagonal 1 : ")
+dia1 = parse(Int32, readline())
+
+print("Diagonal 2 : ")
+dia2 = parse(Int32, readline())
+
+println("\nArea: ", dia1 * dia2 * 0.5)
+
 ```
 
 </CodeBlock>

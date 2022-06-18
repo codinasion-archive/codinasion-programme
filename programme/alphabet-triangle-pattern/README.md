@@ -10,12 +10,14 @@ tags:
   - go
   - cs
   - js
+  - jl
 contributors:
   - NeelPatel31
   - shrionit
   - GodKimba
   - Dentyr
   - rutterjt
+  - SanjayShetty01
 ---
 
 ## Write a program to print alphabet triangle pattern
@@ -256,5 +258,41 @@ const alphabetTriangle = (length) => {
 
 alphabetTriangle(5);
 ```
+
+```julia
+
+function makePattern(num)
+    print("Output : ")
+
+    for i in 1:num
+       c= 65
+       
+       println("") 
+        for k in num-1:-1:i
+        print(" ") 
+    end
+        
+
+        for j in 1:(2*i - 1)
+            
+            if j < i
+                print(Char(c))
+                c += 1
+            else
+                print(Char(c))
+                c -= 1
+            end
+        end        
+    end        
+end
+
+print("Input : ")
+len = parse(Int32, readline())
+
+
+makePattern(len)
+
+```
+
 
 </CodeBlock>

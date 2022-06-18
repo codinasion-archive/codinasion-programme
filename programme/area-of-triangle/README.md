@@ -9,6 +9,7 @@ tags:
   - c
   - js
   - go
+  - jl
 contributors:
   - GodKimba
   - Glogius95
@@ -16,6 +17,7 @@ contributors:
   - Badboy-16
   - tiarabcodes1
   - rossilor95
+  - SanjayShetty01
 ---
 
 ## Write a programme to find area of triangle
@@ -189,6 +191,27 @@ func main() {
 	area = areaOfTriangle(a, b, c, s)
 	fmt.Println("\n\narea : ", roundFloat(area, 2))
 }
+```
+```julia
+
+using Printf
+
+print("Enter a :")
+a = parse(Int32,readline())
+
+print("Enter b :")
+b = parse(Int32,readline())
+
+print("Enter c :")
+c = parse(Int32,readline())
+
+s = (a+b+c)/2
+
+@printf("\ns : %0.2f \n \n", s)
+
+area = sqrt(s*(s-a)*(s-b)*(s-c))
+
+@printf("Area : %0.2f", area)
 ```
 
 </CodeBlock>
