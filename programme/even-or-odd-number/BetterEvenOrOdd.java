@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class EvenOrOdd {
+public class BetterEvenOrOdd{
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
