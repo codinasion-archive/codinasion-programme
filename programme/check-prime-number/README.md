@@ -8,11 +8,13 @@ tags:
   - c
   - cpp
   - js
+  - go
 contributors:
   - dylan-power
   - karthiksbh
   - NeelPatel31
   - rutterjt
+  - MadhuS-1605
 ---
 
 ## Write a program to check prime number
@@ -151,6 +153,28 @@ const printIsPrime = (n) => {
 };
 
 printIsPrime(7);
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var n int
+	fmt.Print("Enter the number : ")
+	fmt.Scan(&n)
+	fmt.Println("\nThe number is Prime :", isPrime(n))
+}
+
+func isPrime(n int) bool {
+	for i := 2; i <= n/2; i++ {
+		if n%i == 0 {
+			return false
+		}
+	}
+	return true
+}
 ```
 
 </CodeBlock>

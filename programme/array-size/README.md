@@ -9,11 +9,14 @@ tags:
   - java
   - cs
   - c
-  - c++
+  - cpp
+  - go
 contributors:
   - 0ME9A
   - PrajwalBorkar
   - gauravagrwal
+  - KhalilThabet
+  - Yilmaz98
 ---
 
 ## Write a programme to find the length of an array
@@ -101,8 +104,7 @@ public class ArraySize
 ```c
 #include<stdio.h>
 int main(){
-	int Length  =0;
-
+	int Length  = 0;
 	int arr[] = {2,4,6,8,9,4};//6 elements
 
 	printf("Size of int array:%d \n",sizeof(arr));
@@ -126,6 +128,20 @@ int main() {
    int len = sizeof(arr)/sizeof(arr[0]);
    cout << "The length of the array is: " << len;
    return 0;
+}
+```
+```go
+package main
+
+import "fmt"
+
+func main() {
+	array := []string{"element1", "element2", "element3"}
+
+	length := len(array)
+
+	fmt.Println("Array :", array)
+	fmt.Println("Array Length :", length)
 }
 ```
 </CodeBlock>
