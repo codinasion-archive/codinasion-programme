@@ -1,6 +1,6 @@
 "use strict";
 // Write a programme to convert minutes to seconds
-// node .\minutes-to-seconds.js
+// node minutes-to-seconds.js
 
 const readline = require("readline");
 const rl = readline.createInterface({
