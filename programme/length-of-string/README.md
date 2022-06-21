@@ -8,6 +8,7 @@ tags:
   - cs
   - python
   - java
+  - go
   - js
 contributors:
   - jojo4441
@@ -15,6 +16,7 @@ contributors:
   - manny-uncharted
   - superpthegreat
   - srabhishekh
+  - MadhuS-1605
   - rossilor95
 ---
 
@@ -103,6 +105,23 @@ public class StringLength {
         System.out.println("\nLength of string : " + input.length());
         scanner.close();
     }
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+func lengthOfString(s string) int {
+	return len(s)
+}
+
+func main() {
+	var s string
+	fmt.Print("Enter a string : ")
+	fmt.Scan(&s)
+	fmt.Println("\nLength of string is", lengthOfString(s))
 }
 ```
 
