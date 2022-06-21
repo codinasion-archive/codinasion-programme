@@ -117,7 +117,7 @@ public class SumOfCube
             double total =
                 Enumerable
                     .Range(1, Math.Abs(num))
-                    .Aggregate(0, (a, b) => a + (int)Math.Pow(b, 3));
+                    .Aggregate(0, (a, b) => a + (int) Math.Pow(b, 3));
 
             Console.WriteLine($"Output : {total}");
         }
@@ -128,4 +128,5 @@ public class SumOfCube
     }
 }
 ```
+
 </CodeBlock>
