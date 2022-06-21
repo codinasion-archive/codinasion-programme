@@ -1,4 +1,5 @@
-﻿// Write a programme to convert feet to inches
+// Write a programme to convert feet to inches
+using System;
 
 namespace UnitConversion
 {
