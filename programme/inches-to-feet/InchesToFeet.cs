@@ -1,10 +1,12 @@
-﻿// Write a programme to convert inches to feet
+// Write a programme to convert inches to feet
+using System;
 
 namespace UnitConversion
 {
     public class InchesToFeet
     {
-        public static double ConvertInchesToFeet(double inches) => inches / 12.0;
+        public static double ConvertInchesToFeet(double inches) =>
+            inches / 12.0;
 
         public static void Main()
         {
