@@ -8,8 +8,11 @@ tags:
   - cpp
   - java
   - js
+  - go
+  - cs
 contributors:
   - ClasherKasten
+  - rossilor95
 ---
 
 ## Write a programme to convert inches to feet
@@ -90,6 +93,54 @@ rl.question("Input  : ", (inches) => {
   }
   rl.close();
 });
+```
+
+```go
+package main
+
+import "fmt"
+
+func inchesToFeet(inches float32) float32 {
+	return inches / 12.0
+}
+
+func main() {
+	fmt.Print("Input  : ")
+
+	var inches float32
+	fmt.Scan(&inches)
+
+	fmt.Println("Output :", inchesToFeet(inches))
+}
+```
+
+```cs
+using System;
+
+namespace UnitConversion
+{
+    public class InchesToFeet
+    {
+        public static double ConvertInchesToFeet(double inches) =>
+            inches / 12.0;
+
+        public static void Main()
+        {
+            Console.Write("Input  : ");
+
+            double inches;
+            if (double.TryParse(Console.ReadLine(), out inches))
+            {
+                double feet = ConvertInchesToFeet(inches);
+                Console.WriteLine("Output : " + Math.Round(feet, 2));
+            }
+            else
+            {
+                Console.WriteLine("Invalid Input");
+            }
+        }
+    }
+}
 ```
 
 </CodeBlock>

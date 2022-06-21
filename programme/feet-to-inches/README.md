@@ -8,6 +8,7 @@ tags:
   - java
   - cpp
   - js
+  - go
   - cs
 contributors:
   - ClasherKasten
@@ -92,6 +93,25 @@ rl.question("Input  : ", (inches) => {
   }
   rl.close();
 });
+```
+
+```go
+package main
+
+import "fmt"
+
+func feetToInches(feet float32) float32 {
+	return feet * 12.0
+}
+
+func main() {
+	fmt.Print("Input  : ")
+
+	var feet float32
+	fmt.Scan(&feet)
+
+	fmt.Println("Output :", feetToInches(feet))
+}
 ```
 
 ```cs

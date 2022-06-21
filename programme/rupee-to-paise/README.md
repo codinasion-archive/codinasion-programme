@@ -8,6 +8,7 @@ tags:
   - cpp
   - java
   - cs
+  - go
 contributors:
   - harshi1122
   - luiscff
@@ -102,6 +103,30 @@ public class RupeeToPaise
             Console.WriteLine("Input Err");
         }
     }
+}
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var str string
+
+	fmt.Print("Rupee : ")
+	fmt.Scan(&str)
+
+	num, err := strconv.ParseFloat(str, 64)
+	if err != nil {
+		fmt.Printf("Input error: %s", str)
+		return
+	}
+
+	fmt.Printf("Paise : %s\n", strconv.FormatFloat(num*100, 'f', -1, 64))
 }
 ```
 

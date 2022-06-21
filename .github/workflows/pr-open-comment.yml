@@ -22,7 +22,30 @@ jobs:
             github.rest.issues.createComment({
               ...context.repo,
               issue_number: context.payload.pull_request.number,
-              body: `💖 Thanks for opening this pull request! 💖
-              
-              This PR will be reviewed and merged shortly. In the meantime, please check out the [contributing guidelines](https://github.com/codinasion/codinasion-programme/blob/master/CONTRIBUTING.md).`
+              body: `
+
+              👋 Hey @${{ github.event.pull_request.user.login }} 
+
+              <pre>
+                         _______________________________________________
+                        |                                               |
+                        |  👋 Hey ${{ github.event.pull_request.user.login }}                         
+                        |                                               |
+                        |  💖 Thanks for opening this Pull Request 💖   |
+                        |                                               |
+               _/*\\_    |  This PR will be reviewed and merged shortly  |
+              /__-__\\   |  _____________________________________________|
+             (|~o.o~|)  /_/
+               \\'-'/
+              _/-v-\\_
+             (   .   )
+            / /  .  \\ \\
+            \\ |  .  | /
+             \\|=====|/
+              |_.^._|       "The best error message is the one
+              | |"| |        that never shows up."
+              ( ) ( )       
+              |_| |_|                        - Scott Hanselman
+              </pre>
+              `
             })
