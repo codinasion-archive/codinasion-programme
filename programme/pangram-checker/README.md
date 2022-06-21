@@ -223,8 +223,9 @@ import (
 )
 
 func main() {
-	fmt.Print("Input : ")
-	sc := bufio.NewScanner(os.Stdin) // Scanner can read line with space.
+	fmt.Print("Input  : ")
+	// Scanner can read line with space
+	sc := bufio.NewScanner(os.Stdin)
 
 	if sc.Scan() {
 		str := strings.ToLower(sc.Text())
@@ -232,15 +233,16 @@ func main() {
 		charMap := make(map[string]struct{})
 
 		for i := 0; i < len(str); i++ {
-			if 97 <= str[i] && str[i] <= 122 { // 97 == 'a', 122 == 'z' (ascii code)
+			// 97 == 'a', 122 == 'z' (ascii code)
+			if 97 <= str[i] && str[i] <= 122 {
 				charMap[string(str[i])] = struct{}{}
 			}
 		}
 
 		if len(charMap) == 26 {
-			fmt.Println("Output: Pangram Sentence")
+			fmt.Println("Output : Pangram Sentence")
 		} else {
-			fmt.Println("Output: Not a Pangram Sentence")
+			fmt.Println("Output : Not a Pangram Sentence")
 		}
 	}
 }
