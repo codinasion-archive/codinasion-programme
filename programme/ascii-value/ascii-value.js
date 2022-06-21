@@ -1,9 +1,9 @@
-console.log("ASCII value of a Character");
+// Write a programme to print ASCII Value of a character
 
-function character_to_ascii( n )
-{
-    return n.charCodeAt(0);
+function character_to_ascii(n) {
+  return n.charCodeAt(0);
 }
 
-//  insert the character below
-console.log( character_to_ascii( Z)  );
+let char = "A";
+console.log("Input  : " + char);
+console.log("Output :", character_to_ascii(char));
