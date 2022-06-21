@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Print("Input : ")
+	fmt.Print("Input  : ")
 	sc := bufio.NewScanner(os.Stdin) // Scanner can read line with space.
 
 	if sc.Scan() {
@@ -24,9 +24,9 @@ func main() {
 		}
 
 		if len(charMap) == 26 {
-			fmt.Println("Output: Pangram Sentence")
+			fmt.Println("Output : Pangram Sentence")
 		} else {
-			fmt.Println("Output: Not a Pangram Sentence")
+			fmt.Println("Output : Not a Pangram Sentence")
 		}
 	}
 }
