@@ -16,6 +16,7 @@ contributors:
   - ClasherKasten
   - umaxyon
   - Yilmaz98
+  - d-coder111
 ---
 
 ## Write a programme to check a number even or odd
@@ -162,6 +163,34 @@ if n % 2 == 0:
     print("Even Number")
 else:
     print("Odd Number")
+```
+
+</CodeBlock>
+
+### Using bitwise AND operator
+
+<CodeBlock>
+
+```java
+import java.util.Scanner;
+
+public class BetterEvenOrOdd {
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int num;
+
+    System.out.print("Enter the number : ");
+    num = sc.nextInt();
+
+    if ((num & 1) == 1) {
+      System.out.println("\nOutput : Odd Number");
+    } else {
+      System.out.println("\nOutput : Even Number");
+    }
+    sc.close();
+  }
+}
 ```
 
 </CodeBlock>
