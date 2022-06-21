@@ -1,17 +1,17 @@
 // Write a program to print fibonacci series using recursion
-
 using System;
 
 public class FibonaciRecursion
 {
     public static void Main(string[] args)
     {
-        Console.Write("Input : ");
+        Console.Write("Input  : ");
         int num;
         if (int.TryParse(Console.ReadLine(), out num))
         {
             Console.Write("\nOutput : ");
-            for (int i = 0; i < num; i++) {
+            for (int i = 0; i < num; i++)
+            {
                 Console.Write("{0} ", Fibonaci(i));
             }
             Console.WriteLine();
