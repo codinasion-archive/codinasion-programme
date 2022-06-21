@@ -9,6 +9,7 @@ tags:
   - java
   - js
   - go
+  - cs
 contributors:
   - ClasherKasten
   - rossilor95
@@ -110,6 +111,35 @@ func main() {
 	fmt.Scan(&inches)
 
 	fmt.Println("Output :", inchesToFeet(inches))
+}
+```
+
+```cs
+using System;
+
+namespace UnitConversion
+{
+    public class InchesToFeet
+    {
+        public static double ConvertInchesToFeet(double inches) =>
+            inches / 12.0;
+
+        public static void Main()
+        {
+            Console.Write("Input  : ");
+
+            double inches;
+            if (double.TryParse(Console.ReadLine(), out inches))
+            {
+                double feet = ConvertInchesToFeet(inches);
+                Console.WriteLine("Output : " + Math.Round(feet, 2));
+            }
+            else
+            {
+                Console.WriteLine("Invalid Input");
+            }
+        }
+    }
 }
 ```
 
