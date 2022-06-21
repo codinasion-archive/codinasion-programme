@@ -9,7 +9,7 @@ tags:
   - c
   - cpp
   - go
-  - javascript
+  - js
 contributors:
   - lt77777
   - jongwon254
