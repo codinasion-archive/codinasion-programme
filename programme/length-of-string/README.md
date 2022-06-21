@@ -8,12 +8,14 @@ tags:
   - cs
   - python
   - java
+  - js
 contributors:
   - jojo4441
   - Badboy-16
   - manny-uncharted
   - superpthegreat
   - srabhishekh
+  - rossilor95
 ---
 
 ## Write a program to print the length of a string
@@ -102,6 +104,20 @@ public class StringLength {
         scanner.close();
     }
 }
+```
+
+```javascript
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Input  : ", (inputString) => {
+  console.log("Output :", inputString.length);
+  rl.close();
+});
 ```
 
 </CodeBlock>
