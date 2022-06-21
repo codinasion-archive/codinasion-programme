@@ -8,8 +8,9 @@ tags:
   - python
   - java
   - cs
-  - cpp
   - go
+  - c
+  - cpp
 contributors:
   - 0ME9A
   - PrajwalBorkar
@@ -101,6 +102,53 @@ public class ArraySize
 }
 ```
 
+```go
+package main
+
+import "fmt"
+
+func main() {
+	array := []string{"element1", "element2", "element3"}
+
+	length := len(array)
+
+	fmt.Println("Array :", array)
+	fmt.Println("Array Length :", length)
+}
+```
+
+```c
+#include <stdio.h>
+int main()
+{
+    int Length = 0;
+
+    int arr[] = {2, 4, 6, 8, 9, 4};
+
+    // Calculate length of the array ( Number of elements)
+    Length = sizeof(arr) / sizeof(int);
+
+    // display array
+    printf("Array : { ");
+    for (int i = 0; i < Length; i++)
+    {
+        if (i == Length - 1)
+        {
+            printf("%d }\n", arr[i]);
+        }
+        else
+        {
+            printf("%d, ", arr[i]);
+        }
+    }
+
+    // display array length
+    printf("\nArray length : %d\n", Length);
+
+    return 0;
+}
+```
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -148,21 +196,6 @@ int main()
     }
     cout << "]" << endl;
     cout << "Output : " << lenOfArray1 << endl;
-}
-```
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-	array := []string{"element1", "element2", "element3"}
-
-	length := len(array)
-
-	fmt.Println("Array :", array)
-	fmt.Println("Array Length :", length)
 }
 ```
 
