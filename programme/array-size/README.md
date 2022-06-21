@@ -8,9 +8,9 @@ tags:
   - python
   - java
   - cs
-  - c
   - cpp
   - go
+  - c
 contributors:
   - 0ME9A
   - PrajwalBorkar
@@ -101,35 +101,7 @@ public class ArraySize
     }
 }
 ```
-```c
-#include<stdio.h>
-int main(){
-	int Length  = 0;
-	int arr[] = {2,4,6,8,9,4};//6 elements
 
-	printf("Size of int array:%d \n",sizeof(arr));
-	printf("Size of 1 int value :%d \n",sizeof(int));
-
-	//Calculate length of the array ( Number of elements)
-	Length  = sizeof(arr)/sizeof(int);
-
-	//display array length
-
-	printf("So, array length is:%d",Length );
-
-	return 0;
-}
-```
-```cpp
-#include <iostream>
-using namespace std;
-int main() {
-   int arr[5] = {4, 1, 8, 2, 9};
-   int len = sizeof(arr)/sizeof(arr[0]);
-   cout << "The length of the array is: " << len;
-   return 0;
-}
-```
 ```go
 package main
 
@@ -144,4 +116,62 @@ func main() {
 	fmt.Println("Array Length :", length)
 }
 ```
+
+```c
+#include <stdio.h>
+int main()
+{
+    int Length = 0;
+
+    int arr[] = {2, 4, 6, 8, 9, 4};
+
+    // Calculate length of the array ( Number of elements)
+    Length = sizeof(arr) / sizeof(int);
+
+    // display array
+    printf("Array : { ");
+    for (int i = 0; i < Length; i++)
+    {
+        if (i == Length - 1)
+        {
+            printf("%d }\n", arr[i]);
+        }
+        else
+        {
+            printf("%d, ", arr[i]);
+        }
+    }
+
+    // display array length
+    printf("\nArray length : %d\n", Length);
+
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    int arr[5] = {4, 1, 8, 2, 9};
+    int len = sizeof(arr) / sizeof(arr[0]);
+    cout << "Array : { ";
+    for (int i = 0; i < len; i++)
+    {
+        if (i == len - 1)
+        {
+            cout << arr[i] << " }" << endl;
+        }
+        else
+        {
+            cout << arr[i] << ", ";
+        }
+    }
+
+    cout << "\nArray length : " << len << endl;
+    return 0;
+}
+```
+
 </CodeBlock>
