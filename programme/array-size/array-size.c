@@ -1,21 +1,31 @@
-// C program to get length of int array
+// write a program to get length of an array
 
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
+    int Length = 0;
 
-	int Length  =0;
+    int arr[] = {2, 4, 6, 8, 9, 4}; // 6 elements
 
-	int arr[] = {2,4,6,8,9,4};//6 elements
+    // Calculate length of the array ( Number of elements)
+    Length = sizeof(arr) / sizeof(int);
 
-	printf("Size of int array:%d \n",sizeof(arr));
-	printf("Size of 1 int value :%d \n",sizeof(int));
+    // display array
+    printf("Array : { ");
+    for (int i = 0; i < Length; i++)
+    {
+        if (i == Length - 1)
+        {
+            printf("%d }\n", arr[i]);
+        }
+        else
+        {
+            printf("%d, ", arr[i]);
+        }
+    }
 
-	//Calculate length of the array ( Number of elements)
-	Length  = sizeof(arr)/sizeof(int);
+    // display array length
+    printf("\nArray length : %d\n", Length);
 
-	//display array length
-
-	printf("So, array length is:%d",Length );
-
-	return 0;
+    return 0;
 }
