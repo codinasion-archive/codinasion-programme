@@ -9,12 +9,14 @@ tags:
   - c
   - go
   - cs
+  - js
 contributors:
   - seraph776
   - MananKarnik
   - siddhantchimankar
   - ClasherKasten
   - umaxyon
+  - msaadm
 ---
 
 ## Write a programme to convert minutes to seconds
@@ -136,6 +138,26 @@ public class MinutesToSeconds
         }
     }
 }
+```
+
+```javascript
+"use strict";
+
+const readline = require("readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Enter minutes : ", (minutes) => {
+  const seconds = minutes * 60;
+  if (!isNaN(seconds)) {
+    console.log(`\n${minutes} minute(s) is equal to ${seconds} second(s).`);
+  } else {
+    console.log("Invalid input: the input is not a number.");
+  }
+  rl.close();
+});
 ```
 
 </CodeBlock>
