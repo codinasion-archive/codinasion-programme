@@ -8,6 +8,7 @@ tags:
   - cs
   - go
   - java
+  - c
 contributors:
   - Enoch02
   - hansleykowlessur
@@ -124,6 +125,27 @@ public class NegativeOfANumber {
     sc.close();
     System.out.println("Output : " + getOpposite(number));
   }
+}
+```
+
+```c
+#include <stdio.h>
+
+float get_opposite(float number)
+{
+    return number * -1.0;
+}
+
+int main()
+{
+    float number;
+
+    printf("Input  : ");
+    scanf("%f", &number);
+
+    float opposite = get_opposite(number);
+
+    printf("Output : %.2f\n", opposite);
 }
 ```
 
