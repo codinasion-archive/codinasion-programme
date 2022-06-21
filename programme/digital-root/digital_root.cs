@@ -1,12 +1,11 @@
 // Write a programme for Digital Root of a number
-
 using System;
 
 public class DigitalRoot
 {
     public static void Main(string[] args)
     {
-        Console.Write("Input : ");
+        Console.Write("Input  : ");
         int num;
         if (int.TryParse(Console.ReadLine(), out num))
         {
