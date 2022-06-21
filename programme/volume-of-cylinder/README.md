@@ -7,11 +7,13 @@ tags:
   - python
   - java
   - cpp
+  - cs
 contributors:
   - yougottawork
   - dylan-power
   - gilazani
   - javithegreat35
+  - gauravagrwal
 ---
 
 ## Write a program to compute the volume of a Cylinder
@@ -120,6 +122,29 @@ int main()
          << "Volume of Cylinder is : " << volume << endl;
 
     return 0;
+}
+```
+
+```cs
+using System;
+
+public class VolumeOfCylinder
+{
+    public static void Main()
+    {
+        // taking radius of cylinder
+        Console.Write("Enter the radius : ");
+        int radius = int.Parse(Console.ReadLine());
+
+        // taking height of cylinder
+        Console.Write("Enter the height : ");
+        int height = int.Parse(Console.ReadLine());
+
+        // calculating Volume of cylinder
+        double volume = Math.PI * radius * radius * height;
+
+        Console.WriteLine($"\nVolume of cylinder : {Math.Round(volume, 2)}");
+    }
 }
 ```
 
