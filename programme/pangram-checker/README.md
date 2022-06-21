@@ -8,10 +8,12 @@ tags:
   - python
   - java
   - js
+  - go
 contributors:
   - ssavi-ict
   - Regis-Caelum
   - julyvjo
+  - umaxyon
 ---
 
 ## Write a programme to check Pangram sentence
@@ -208,6 +210,42 @@ console.log(
   "Output :",
   isPangram(input) ? "Pangram Sentence" : "Not a pangram sentence"
 );
+```
+
+```go
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+	"strings"
+)
+
+func main() {
+	fmt.Print("Input  : ")
+	// Scanner can read line with space
+	sc := bufio.NewScanner(os.Stdin)
+
+	if sc.Scan() {
+		str := strings.ToLower(sc.Text())
+
+		charMap := make(map[string]struct{})
+
+		for i := 0; i < len(str); i++ {
+			// 97 == 'a', 122 == 'z' (ascii code)
+			if 97 <= str[i] && str[i] <= 122 {
+				charMap[string(str[i])] = struct{}{}
+			}
+		}
+
+		if len(charMap) == 26 {
+			fmt.Println("Output : Pangram Sentence")
+		} else {
+			fmt.Println("Output : Not a Pangram Sentence")
+		}
+	}
+}
 ```
 
 </CodeBlock>
