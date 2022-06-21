@@ -189,7 +189,9 @@ public class CheckPrimeNumber
         Console.Write("Input  : ");
         if (int.TryParse(Console.ReadLine(), out int num))
         {
-            Console.WriteLine("Output : {0} number", IsPrime(num) ? "Prime": "Not prime");
+            Console
+                .WriteLine("Output : {0} number",
+                IsPrime(num) ? "Prime" : "Not prime");
         }
         else
         {
@@ -199,8 +201,10 @@ public class CheckPrimeNumber
 
     public static bool IsPrime(int n)
     {
-        if (n < 2) return false;
-        else if (n == 2) return true;
+        if (n < 2)
+            return false;
+        else if (n == 2)
+            return true;
         else if (n % 2 == 0) return false;
 
         double sqrtNum = Math.Sqrt(n);
