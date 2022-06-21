@@ -9,12 +9,14 @@ tags:
   - cpp
   - go
   - cs
+  - js
 contributors:
   - harshi1122
   - Anzo52
   - ssavi-ict
   - MadhuS-1605
   - hansleykowlessur
+  - victoriacheng15
 ---
 
 ## Write a program to find average of numbers
@@ -189,6 +191,17 @@ namespace AverageOfANumber
         }
     }
 }
+```
+
+```javascript
+function avgOfNumbers(nums) {
+  const len = nums.length;
+  return nums.reduce((acc, curr) => acc + Number(curr), 0) / len;
+}
+
+const nums = [2, 3, 4];
+console.log("Input  :", nums);
+console.log("Output :", avgOfNumbers(nums));
 ```
 
 </CodeBlock>
