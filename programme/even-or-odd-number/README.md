@@ -54,7 +54,7 @@ public class EvenOrOdd {
     sc.close();
   }
 }
-```	
+```
 
 ```cs
 using System;
