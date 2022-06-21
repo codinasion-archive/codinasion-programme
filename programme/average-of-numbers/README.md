@@ -200,8 +200,8 @@ function avgOfNumbers(nums) {
 }
 
 const nums = [2, 3, 4];
-console.log('Input:', nums);
-console.log('Output:', avgOfNumbers(nums));
+console.log("Input  :", nums);
+console.log("Output :", avgOfNumbers(nums));
 ```
 
 </CodeBlock>
