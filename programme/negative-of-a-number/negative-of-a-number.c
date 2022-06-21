@@ -15,5 +15,5 @@ int main()
 
     float opposite = get_opposite(number);
 
-    printf("Output : %f", opposite);
+    printf("Output : %.2f\n", opposite);
 }
