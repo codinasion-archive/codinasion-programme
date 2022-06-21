@@ -9,12 +9,14 @@ tags:
   - java
   - go
   - js
+  - cs
 contributors:
   - GodKimba
   - williamye51
   - HaveACookie
   - rossilor95
   - Micha-L-Davis
+  - umaxyon
 ---
 
 ## Write a programme to convert hours to seconds
@@ -118,6 +120,27 @@ console.log("Seconds :", hoursToSeconds(+hoursInput));
 
 function hoursToSeconds(hours) {
   return hours * 3600;
+}
+```
+
+```cs
+using System;
+
+public class HoursToSeconds
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Hours : ");
+        int num;
+        if (int.TryParse(Console.ReadLine(), out num))
+        {
+            Console.WriteLine("\nSeconds : {0}", num * 3600);
+        }
+        else
+        {
+            Console.WriteLine("Input Err");
+        }
+    }
 }
 ```
 
