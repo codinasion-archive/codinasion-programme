@@ -8,9 +8,9 @@ tags:
   - python
   - java
   - cs
-  - cpp
   - go
   - c
+  - cpp
 contributors:
   - 0ME9A
   - PrajwalBorkar
@@ -151,26 +151,51 @@ int main()
 
 ```cpp
 #include <iostream>
+#include <vector>
 using namespace std;
+template <typename T>
+int array_size(vector<T> array)
+{
+    return array.size();
+}
+
 int main()
 {
-    int arr[5] = {4, 1, 8, 2, 9};
-    int len = sizeof(arr) / sizeof(arr[0]);
-    cout << "Array : { ";
-    for (int i = 0; i < len; i++)
+    // using 'sizeof' function
+    int array[] = {0, 1, 2, 3, 4};
+    int lenOfArray = sizeof(array) / sizeof(array[0]);
+    cout << "Input  : [ ";
+    for (int i = 0; i < lenOfArray; i++)
     {
-        if (i == len - 1)
+        if (i == lenOfArray - 1)
         {
-            cout << arr[i] << " }" << endl;
+            cout << array[i] << " ";
         }
         else
         {
-            cout << arr[i] << ", ";
+            cout << array[i] << ", ";
         }
     }
+    cout << "]" << endl;
+    cout << "Output : " << lenOfArray << endl;
 
-    cout << "\nArray length : " << len << endl;
-    return 0;
+    // using 'vector'
+    vector<int> array1 = {1, 3, 5, 2, 3};
+    int lenOfArray1 = array_size(array1);
+    cout << "Input  : [ ";
+    for (int i = 0; i < lenOfArray1; i++)
+    {
+        if (i == lenOfArray1 - 1)
+        {
+            cout << array1[i] << " ";
+        }
+        else
+        {
+            cout << array1[i] << ", ";
+        }
+    }
+    cout << "]" << endl;
+    cout << "Output : " << lenOfArray1 << endl;
 }
 ```
 
