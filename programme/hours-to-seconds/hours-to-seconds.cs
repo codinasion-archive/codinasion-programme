@@ -1,5 +1,4 @@
-// Write a C programme to convert hours to seconds.
-
+// Write a programme to convert hours to seconds.
 using System;
 
 public class HoursToSeconds
