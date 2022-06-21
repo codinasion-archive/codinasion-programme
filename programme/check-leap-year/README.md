@@ -184,7 +184,9 @@ public class CheckLeapYear
         Console.Write("Input  : ");
         if (int.TryParse(Console.ReadLine(), out int num))
         {
-            Console.WriteLine("Output :{0} Leap Year", DateTime.IsLeapYear(num) ? "" : " Not a");
+            Console
+                .WriteLine("Output :{0} Leap Year",
+                DateTime.IsLeapYear(num) ? "" : " Not a");
         }
         else
         {
