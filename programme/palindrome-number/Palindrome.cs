@@ -1,13 +1,15 @@
-﻿// Write a program to check palindrome number
+// Write a program to check palindrome number
+using System;
 
 namespace SpecialNumbers
 {
     public class Palindrome
     {
-
         public static double Reverse(double number)
         {
-            double remainder, reverse = 0;
+            double
+                remainder,
+                reverse = 0;
             while (number > 0)
             {
                 remainder = number % 10;
@@ -42,7 +44,6 @@ namespace SpecialNumbers
             }
         }
 
-
         public static void Main()
         {
             Console.Write("Input  : ");
@@ -50,13 +51,12 @@ namespace SpecialNumbers
             double number;
             if (double.TryParse(Console.ReadLine(), out number))
             {
-                PalindromeConsoleUtility(number);
+                PalindromeConsoleUtility (number);
             }
             else
             {
                 Console.WriteLine("Invalid Input");
             }
         }
-
     }
 }
