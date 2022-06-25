@@ -9,14 +9,16 @@ tags:
   - java
   - cs
   - js
+  - go
 contributors:
   - PA11TEDDU
   - debaghosh
   - PrajwalBorkar
   - victoriacheng15
+  - umaxyon
 ---
 
-## Write a program to print sum of digits.
+## Write a program to print sum of digits
 
 ```txt
 Input:  2332
@@ -134,6 +136,36 @@ function sumDigits(nums) {
 const digits = 2332;
 console.log("Input  :", digits);
 console.log("Output :", sumDigits(digits));
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var str string
+
+	fmt.Print("Input : ")
+	fmt.Scan(&str)
+
+	num, err := strconv.Atoi(str)
+	if err != nil {
+		fmt.Printf("Input error: %s", str)
+		return
+	}
+
+	var sum, d int
+	for num != 0 {
+		d = num % 10
+		sum = sum + d
+		num = num / 10
+	}
+	fmt.Printf("\nSum of the digits : %d\n", sum)
+}
 ```
 
 </CodeBlock>
