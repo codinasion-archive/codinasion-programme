@@ -9,6 +9,7 @@ tags:
   - cpp
   - js
   - cs
+  - go
 contributors:
   - johnelbacani
   - NeelPatel31
@@ -16,7 +17,7 @@ contributors:
   - umaxyon
 ---
 
-## Write a programme to find sum of cubes of first n natural numbers.
+## Write a programme to find sum of cubes of first n natural numbers
 
 ```txt
 Input  : 4
@@ -140,7 +141,7 @@ import (
 func main() {
 	var str string
 
-	fmt.Print("Input : ")
+	fmt.Print("Input  : ")
 	fmt.Scan(&str)
 
 	num, err := strconv.Atoi(str)
