@@ -3,7 +3,7 @@
 
 // Formula: area = 1/2 * base * height
 
-function calculate_area(int $base, int $height) {
+function calculate_area(int|float $base, int|float $height) {
 
     $area = ($base * $height) / 2;
 
