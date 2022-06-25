@@ -9,6 +9,7 @@ tags:
   - java
   - js
   - go
+  - cs
 contributors:
   - ssavi-ict
   - Regis-Caelum
@@ -250,6 +251,7 @@ func main() {
 
 ```cs
 using System;
+using System.Collections.Generic;
 
 public class PangramChecker
 {
@@ -268,13 +270,15 @@ public class PangramChecker
 
         for (int i = 0; i < chars.Length; i++)
         {
-            int c = (int)chars[i];
+            int c = (int) chars[i];
 
             // 97 == 'a', 122 == 'z' (ascii code)
             if (97 <= c && c <= 122) hs.Add(chars[i]);
         }
 
-        Console.WriteLine("Output : {0}Pangram Sentence", hs.Count == 26 ? "" : "Not a ");
+        Console
+            .WriteLine("Output : {0}Pangram Sentence",
+            hs.Count == 26 ? "" : "Not a ");
     }
 }
 ```
