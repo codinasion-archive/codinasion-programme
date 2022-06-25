@@ -1,7 +1,7 @@
 <?
 // Write a programme to find the area of a right angle triangle
 
-// EQUATION: area = 1/2 * base * height
+// Formula: area = 1/2 * base * height
 
 function calculate_area(int $base, int $height) {
 
