@@ -9,11 +9,14 @@ tags:
   - go
   - java
   - c
+  - js
+  - php
 contributors:
   - Enoch02
   - hansleykowlessur
   - umaxyon
   - rossilor95
+  - 0ME9A
 ---
 
 ## Write a programme to find negative of a number
@@ -40,9 +43,28 @@ int main()
 ```
 
 ```python
-input_number = int(input("Input  : "))
+# simple solution
+# input_number = int(input("Input  : "))
+# print(f"Output : {-input_number}")
 
-print(f"Output : {-input_number}")
+number = 232.34
+print("Input  :", number)
+
+def findNegativeNum(num):
+    if type(num) == int or type(num) == float:
+        negative = num - (num*2)
+        return negative
+    else:
+        # try to convert string into number if possible ("9") != number
+        try:
+            num = int(num)
+            negative = num - (num*2)
+            return negative
+        except:
+            return "number conversion error\nNot a Number"
+
+result = findNegativeNum(number)
+print("Output :", result)
 ```
 
 ```cs
@@ -147,6 +169,60 @@ int main()
 
     printf("Output : %.2f\n", opposite);
 }
+```
+
+```javascript
+let number = 89.09;
+console.log("Input  :", number);
+
+function findNegativeNum(num) {
+  // this keep you float value in float
+  if (typeof num === "number") {
+    let negative = num - num * 2;
+    return negative;
+  } else {
+    // try to convert string into number if possible ("9") != number
+    if (parseInt(num)) {
+      let negative = num - num * 2;
+      return negative;
+    } else {
+      return "Can not convert into number\nNot a Number";
+    }
+  }
+}
+
+let result = findNegativeNum(number);
+console.log("Output :", result);
+```
+
+```php
+<?php
+
+$number = 43;
+print 'Input  : ' . $number;
+
+function findNegativeNum($num)
+{
+    // this keep you float value in float
+    if (gettype($num) == 'integer' or gettype($num) == 'double') {
+        $negative = $num - $num * 2;
+        return $negative;
+    } else {
+        // try to convert string into number if possible ("9") != number
+        if ($con = intval($num)) {
+            $negative = $con - $con * 2;
+            return $negative;
+        } else {
+            return "Can not convert into number\nNot a Number";
+        }
+    }
+}
+
+$result = findNegativeNum($number);
+print "\nOutput : " . $result;
+print "\n";
+
+?>
 ```
 
 </CodeBlock>
