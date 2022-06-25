@@ -1,4 +1,4 @@
-// Write a program to print sum of digits.
+// Write a program to print sum of digits
 
 package main
 
@@ -25,5 +25,5 @@ func main() {
 		sum = sum + d
 		num = num / 10
 	}
-	fmt.Printf("Sum of the digits : %d\n", sum)
+	fmt.Printf("\nSum of the digits : %d\n", sum)
 }
