@@ -6,8 +6,10 @@ tags:
   - js
   - php
   - python
+  - go
 contributors:
   - 0ME9A
+  - yogeshCt3
 ---
 
 ## Write a programme to generate new array with sliced elements of old array
@@ -121,6 +123,33 @@ print()
 # call the function
 array_result = arrayLetterRange(array_list, range_start, range_end)
 print("Sliced Array :", array_result)
+```
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	list := []string{"abcd", "efgh", "ijklmn", "opq", "rstuvw", "xyz"}
+	var start int = 2
+	var end int = 3
+
+	fmt.Printf("Orignal List : ")
+	fmt.Println(list)
+
+	/*
+	   1. "range x" will return index, value pair or iterable entity 'x'
+	   2. expression "variable_name[x:y]" returns a list of element within range having  index >= x and index < y
+	*/
+	for index, value := range list {
+		list[index] = value[start-1 : end]
+	}
+	fmt.Printf("Sliced List  : ")
+	fmt.Println(list)
+}
 ```
 
 </CodeBlock>
