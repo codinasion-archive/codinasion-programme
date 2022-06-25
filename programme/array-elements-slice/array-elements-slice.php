@@ -1,18 +1,19 @@
 <?php
-# Array element slice function
+// Write a programme to generate new array with sliced elements of old array
 
-$array_list = array('abcd', 'efgh', 'ijklmn','opq','rstuvw','xyz');
-print_r($array_list);
+// define array
+$array_list = ['abcd', 'efgh', 'ijklmn', 'opq', 'rstuvw', 'xyz'];
+print 'Array : ' . json_encode($array_list);
 
 # function arguments (arrayList) (start slice from -number) (end slice with -number)
-function arrayLetterRange($a_list, $start=1, $end=2){
-
+function arrayLetterRange($a_list, $start = 1, $end = 2)
+{
     // store slice value in result
-    $result = array();
-    for ($i=0; $i < sizeof($a_list); $i++) { 
-        $sliced_val = substr($a_list[$i], $start-1, $end);
+    $result = [];
+    for ($i = 0; $i < sizeof($a_list); $i++) {
+        $sliced_val = substr($a_list[$i], $start - 1, $end);
 
-        // check slice value if not empty 
+        // check slice value if not empty
         if ($sliced_val != '') {
             array_push($result, $sliced_val);
         }
@@ -20,9 +21,15 @@ function arrayLetterRange($a_list, $start=1, $end=2){
     return $result;
 }
 
+// define range
+$start = 2;
+$end = 3;
+print "\nStart : $start";
+print "\nEnd   : $end";
 
 // call the function
-$array_result = arrayLetterRange($array_list, 2,4);
-print_r($array_result);
+$array_result = arrayLetterRange($array_list, $start, $end);
+print "\n\nSliced Array : " . json_encode($array_result);
+print "\n";
 
 ?>
