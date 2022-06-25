@@ -11,16 +11,16 @@ func main() {
 	var start int = 2
 	var end int = 3
 
-	fmt.Printf("Orignal List: ")
+	fmt.Printf("Orignal List : ")
 	fmt.Println(list)
 
-/*
-        1. "range x" will return index, value pair or iterable entity 'x'
-        2. expression "variable_name[x:y]" returns a list of element within range having  index >= x and index < y
-*/
+	/*
+	   1. "range x" will return index, value pair or iterable entity 'x'
+	   2. expression "variable_name[x:y]" returns a list of element within range having  index >= x and index < y
+	*/
 	for index, value := range list {
-		list [index] = value [start-1 : end]
+		list[index] = value[start-1 : end]
 	}
-	fmt.Printf("Modified List: ")
+	fmt.Printf("Sliced List  : ")
 	fmt.Println(list)
 }
