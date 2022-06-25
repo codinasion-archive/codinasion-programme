@@ -1,4 +1,4 @@
-// Write a programme to find sum of cubes of first n natural numbers.
+// Write a programme to find sum of cubes of first n natural numbers
 
 package main
 
@@ -10,7 +10,7 @@ import (
 func main() {
 	var str string
 
-	fmt.Print("Input : ")
+	fmt.Print("Input  : ")
 	fmt.Scan(&str)
 
 	num, err := strconv.Atoi(str)
