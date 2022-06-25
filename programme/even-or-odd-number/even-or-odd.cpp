@@ -9,12 +9,12 @@ int main()
     cout << "Input Number : ";
     cin >> number;
 
-    cout << "Number " << number << " is ";
-    if(number % 2 == 0 )
+    cout << "\nNumber '" << number << "' is ";
+    if (number % 2 == 0)
         cout << "Even";
-    else 
+    else
         cout << "Odd";
-    
+
     cout << '\n';
     return 0;
 }
