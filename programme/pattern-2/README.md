@@ -9,6 +9,7 @@ tags:
   - java
   - js
   - go
+  - cs
 contributors:
   - yacine-zitouni
   - NeelPatel31
@@ -227,20 +228,21 @@ public class Patern2
         Console.Write("Input  : ");
         if (int.TryParse(Console.ReadLine(), out int num))
         {
-            for (int i = 0; i < num*2; i++)
+            for (int i = 0; i < num * 2; i++)
             {
                 int stars = i <= num ? i : num * 2 - i;
                 string line = "";
 
-                for (int offset = num - stars; offset > 0; offset--) line += " ";
+                for (int offset = num - stars; offset > 0; offset--)
+                line += " ";
                 for (; stars > 0; stars--) line += "* ";
 
-                Console.WriteLine(line);
+                Console.WriteLine (line);
             }
         }
         else
         {
-            Console.WriteLine("Input Err");
+            Console.WriteLine("Input Error");
         }
     }
 }
