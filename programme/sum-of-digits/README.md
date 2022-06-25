@@ -18,7 +18,7 @@ contributors:
   - umaxyon
 ---
 
-## Write a program to print sum of digits.
+## Write a program to print sum of digits
 
 ```txt
 Input:  2332
@@ -164,7 +164,7 @@ func main() {
 		sum = sum + d
 		num = num / 10
 	}
-	fmt.Printf("Sum of the digits : %d\n", sum)
+	fmt.Printf("\nSum of the digits : %d\n", sum)
 }
 ```
 
