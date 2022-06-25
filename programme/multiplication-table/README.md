@@ -8,11 +8,13 @@ tags:
   - python
   - java
   - cs
+  - go
 contributors:
   - Tosin-dotcom
   - PrajwalBorkar
   - Enoch02
   - Dentyr
+  - umaxyon
 ---
 
 ## Write a program to output the following multiplication table
@@ -95,6 +97,32 @@ public class MultiplicationTable
             Console.WriteLine("{0} * {1} = {2}", num, i, num * i);
         }
     }
+}
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var str string
+
+	fmt.Print("Input : ")
+	fmt.Scan(&str)
+
+	num, err := strconv.Atoi(str)
+	if err != nil {
+		fmt.Printf("Input error: %s", str)
+		return
+	}
+
+	for i := 1; i <= 10; i++ {
+		fmt.Printf("%d * %d = %d\n", num, i, num*i)
+	}
 }
 ```
 

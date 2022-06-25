@@ -5,9 +5,18 @@ image: hero.png
 tags:
   - java
   - cs
+  - js
+  - c
+  - go
+  - python
 contributors:
   - nikhilnarla
   - hansleykowlessur
+  - rutterjt
+  - ClasherKasten
+  - umaxyon
+  - Yilmaz98
+  - d-coder111
 ---
 
 ## Write a programme to check a number even or odd
@@ -90,6 +99,97 @@ class EvenOrOdd
                     ex.StackTrace}")
         }
     }
+}
+```
+
+```javascript
+const evenOrOdd = (n) => {
+  return n % 2 === 0 ? "Even Number" : "Odd Number";
+};
+
+const input = 3;
+console.log("Input  :", input);
+console.log("Output :", evenOrOdd(input));
+```
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    unsigned long long number;
+    printf("Input  : ");
+    scanf("%llud", &number);
+    printf("Output : %s Number\n", number % 2 == 0 ? "Even" : "Odd");
+    return 0;
+}
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var str string
+
+	fmt.Print("Input Number : ")
+	fmt.Scan(&str)
+
+	num, err := strconv.Atoi(str)
+	if err != nil {
+		fmt.Printf("Input error: %s", str)
+		return
+	}
+
+	var evenOrOdd string
+	if num%2 == 0 {
+		evenOrOdd = "Even"
+	} else {
+		evenOrOdd = "Odd"
+	}
+
+	fmt.Printf("\nOutput : %s Number\n", evenOrOdd)
+}
+```
+
+```python
+n = int(input("Input  : "))
+print("Output : ", end="")
+if n % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
+```
+
+</CodeBlock>
+
+### Using bitwise AND operator
+
+<CodeBlock>
+
+```java
+import java.util.Scanner;
+
+public class BetterEvenOrOdd {
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int num;
+
+    System.out.print("Enter the number : ");
+    num = sc.nextInt();
+
+    if ((num & 1) == 1) {
+      System.out.println("\nOutput : Odd Number");
+    } else {
+      System.out.println("\nOutput : Even Number");
+    }
+    sc.close();
+  }
 }
 ```
 

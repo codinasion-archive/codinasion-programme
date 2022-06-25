@@ -7,10 +7,13 @@ tags:
   - c
   - cpp
   - java
+  - cs
+  - go
 contributors:
   - harshi1122
   - luiscff
   - nurhaliza
+  - umaxyon
 ---
 
 ## Write a program to convert rupee to paise
@@ -79,6 +82,51 @@ public class rs_to_p {
         System.out.println("\nTotal Rupees : " + rupees + " rupees \nTotal Paise  : " + (long) paise + " paise");
         in.close();
     }
+}
+```
+
+```cs
+using System;
+
+public class RupeeToPaise
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Rupee : ");
+        double rupee;
+        if (double.TryParse(Console.ReadLine(), out rupee))
+        {
+            Console.WriteLine("Paise : {0}", rupee * 100);
+        }
+        else
+        {
+            Console.WriteLine("Input Err");
+        }
+    }
+}
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var str string
+
+	fmt.Print("Rupee : ")
+	fmt.Scan(&str)
+
+	num, err := strconv.ParseFloat(str, 64)
+	if err != nil {
+		fmt.Printf("Input error: %s", str)
+		return
+	}
+
+	fmt.Printf("Paise : %s\n", strconv.FormatFloat(num*100, 'f', -1, 64))
 }
 ```
 

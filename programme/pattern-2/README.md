@@ -8,10 +8,13 @@ tags:
   - cpp
   - java
   - js
+  - go
+  - cs
 contributors:
   - yacine-zitouni
   - NeelPatel31
   - rutterjt
+  - umaxyon
 ---
 
 ## Write a program to print the given pattern
@@ -174,6 +177,75 @@ const printPatternTwo = (n) => {
 };
 
 printPatternTwo(3);
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var str string
+
+	fmt.Print("Input : ")
+	fmt.Scan(&str)
+
+	num, err := strconv.Atoi(str)
+	if err != nil || num < 0 {
+		fmt.Printf("Input error: %s", str)
+		return
+	}
+
+	for i := 1; i < num*2; i++ {
+		var stars int
+		if i <= num {
+			stars = i
+		} else {
+			stars = num*2 - i
+		}
+
+		for offset := num - stars; offset > 0; offset-- {
+			fmt.Print(" ")
+		}
+		for ; stars > 0; stars-- {
+			fmt.Print("* ")
+		}
+		fmt.Println()
+	}
+}
+```
+
+```cs
+using System;
+
+public class Patern2
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Input  : ");
+        if (int.TryParse(Console.ReadLine(), out int num))
+        {
+            for (int i = 0; i < num * 2; i++)
+            {
+                int stars = i <= num ? i : num * 2 - i;
+                string line = "";
+
+                for (int offset = num - stars; offset > 0; offset--)
+                line += " ";
+                for (; stars > 0; stars--) line += "* ";
+
+                Console.WriteLine (line);
+            }
+        }
+        else
+        {
+            Console.WriteLine("Input Error");
+        }
+    }
+}
 ```
 
 </CodeBlock>

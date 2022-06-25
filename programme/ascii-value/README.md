@@ -9,6 +9,7 @@ tags:
   - cpp
   - c
   - go
+  - js
 contributors:
   - Mrczarny
   - PA11TEDDU
@@ -16,6 +17,7 @@ contributors:
   - NeelPatel31
   - RuiL1904
   - MadhuS-1605
+  - CManriqueU
 ---
 
 ## Write a programme to print ASCII Value of a character
@@ -118,6 +120,16 @@ func main() {
 	ch, _ := reader.ReadByte()
 	fmt.Printf("\nThe ASCII value of '%c' : %d\n", ch, ch)
 }
+```
+
+```javascript
+function character_to_ascii(n) {
+  return n.charCodeAt(0);
+}
+
+let char = "A";
+console.log("Input  : " + char);
+console.log("Output :", character_to_ascii(char));
 ```
 
 </CodeBlock>

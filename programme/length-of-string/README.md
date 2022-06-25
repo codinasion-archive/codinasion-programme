@@ -8,12 +8,16 @@ tags:
   - cs
   - python
   - java
+  - go
+  - js
 contributors:
   - jojo4441
   - Badboy-16
   - manny-uncharted
   - superpthegreat
   - srabhishekh
+  - MadhuS-1605
+  - rossilor95
 ---
 
 ## Write a program to print the length of a string
@@ -102,6 +106,37 @@ public class StringLength {
         scanner.close();
     }
 }
+```
+
+```go
+package main
+
+import "fmt"
+
+func lengthOfString(s string) int {
+	return len(s)
+}
+
+func main() {
+	var s string
+	fmt.Print("Enter a string : ")
+	fmt.Scan(&s)
+	fmt.Println("\nLength of string is", lengthOfString(s))
+}
+```
+
+```javascript
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Input  : ", (inputString) => {
+  console.log("Output :", inputString.length);
+  rl.close();
+});
 ```
 
 </CodeBlock>

@@ -8,12 +8,15 @@ tags:
   - java
   - cpp
   - js
+  - go
+  - cs
 contributors:
   - harshi1122
   - Shivam-Shrivastav
   - Prabs09
   - rgodoy86
   - rutterjt
+  - umaxyon
 ---
 
 ## Write a program to print the Fibonacci series for 'n' numbers
@@ -161,6 +164,76 @@ const printFibs = (n) => {
 };
 
 printFibs(10);
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func fib(n int) int {
+	switch n {
+	case 0, 1:
+		return n
+	default:
+		return fib(n-1) + fib(n-2)
+	}
+}
+
+func main() {
+	var str string
+
+	fmt.Print("Input Number : ")
+	fmt.Scan(&str)
+
+	num, err := strconv.Atoi(str)
+	if err != nil || num < 0 {
+		fmt.Printf("Input error: %s", str)
+		return
+	}
+
+	fmt.Print("\nOutput : ")
+	for i := 0; i < num; i++ {
+		fmt.Printf("%d ", fib(i))
+	}
+	fmt.Print("\n")
+}
+```
+
+```cs
+using System;
+
+public class FibonaciRecursion
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Input  : ");
+        int num;
+        if (int.TryParse(Console.ReadLine(), out num))
+        {
+            Console.Write("\nOutput : ");
+            for (int i = 0; i < num; i++)
+            {
+                Console.Write("{0} ", Fibonaci(i));
+            }
+            Console.WriteLine();
+        }
+        else
+        {
+            Console.WriteLine("Input Err");
+        }
+    }
+
+    public static int Fibonaci(int n)
+    {
+        if (n == 0 || n == 1) return n;
+
+        return Fibonaci(n - 1) + Fibonaci(n - 2);
+    }
+}
 ```
 
 </CodeBlock>
