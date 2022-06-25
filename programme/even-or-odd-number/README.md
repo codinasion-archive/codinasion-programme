@@ -9,6 +9,7 @@ tags:
   - c
   - go
   - python
+  - cpp
 contributors:
   - nikhilnarla
   - hansleykowlessur
@@ -17,6 +18,7 @@ contributors:
   - umaxyon
   - Yilmaz98
   - d-coder111
+  - yogeshCt3
 ---
 
 ## Write a programme to check a number even or odd
@@ -165,6 +167,27 @@ else:
     print("Odd Number")
 ```
 
+```cpp
+
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    unsigned long long number;
+    cout << "Input Number : ";
+    cin >> number;
+
+    cout << "Number " << number << " is ";
+    if(number % 2 == 0 )
+        cout << "Even";
+    else 
+        cout << "Odd";
+    
+    cout << '\n';
+    return 0;
+}
+ ```
 </CodeBlock>
 
 ### Using bitwise AND operator
