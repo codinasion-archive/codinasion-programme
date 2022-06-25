@@ -8,13 +8,16 @@ tags:
   - c
   - cpp
   - js
+  - cs
+  - go
 contributors:
   - johnelbacani
   - NeelPatel31
   - victoriacheng15
+  - umaxyon
 ---
 
-## Write a programme to find sum of cubes of first n natural numbers.
+## Write a programme to find sum of cubes of first n natural numbers
 
 ```txt
 Input  : 4
@@ -98,6 +101,61 @@ function sumOfCube(num) {
 
 const num = 3;
 console.log(`The sum of cube for ${num} : ${sumOfCube(num)}`);
+```
+
+```cs
+using System;
+using System.Linq;
+
+public class SumOfCube
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Input  : ");
+        int num;
+        if (int.TryParse(Console.ReadLine(), out num))
+        {
+            double total =
+                Enumerable
+                    .Range(1, Math.Abs(num))
+                    .Aggregate(0, (a, b) => a + (int) Math.Pow(b, 3));
+
+            Console.WriteLine($"Output : {total}");
+        }
+        else
+        {
+            Console.WriteLine("Input Err");
+        }
+    }
+}
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var str string
+
+	fmt.Print("Input  : ")
+	fmt.Scan(&str)
+
+	num, err := strconv.Atoi(str)
+	if err != nil {
+		fmt.Printf("Input error: %s", str)
+		return
+	}
+
+	var total int
+	for i := 1; i <= num; i++ {
+		total += i * i * i
+	}
+	fmt.Printf("Output : %d\n", total)
+}
 ```
 
 </CodeBlock>

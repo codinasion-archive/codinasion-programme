@@ -7,10 +7,16 @@ tags:
   - java
   - c
   - cpp
+  - cs
+  - js
+  - go
 contributors:
   - PA11TEDDU
   - Anzo52
   - ClasherKasten
+  - hansleykowlessur
+  - rossilor95
+  - GodKimba
 ---
 
 ## Write a programme to print first n even numbers
@@ -93,6 +99,95 @@ int main(void)
     }
     std::cout << 2 * (n - 1) << std::endl;
     return 0;
+}
+```
+
+```cs
+using System;
+using System.Linq;
+
+class PrintEvenNumber
+{
+    static void Main(string[] args)
+    {
+        try
+        {
+            // Initialisation
+            string numStr = string.Empty;
+            string evenNumberStr = string.Empty;
+
+            // Read value from keyboard
+            Console.Write("Input  :  ");
+            numStr = Console.ReadLine();
+
+            // Loop n-th time based on value input
+            for (int eachNum = 0; eachNum < int.Parse(numStr); eachNum++)
+            {
+                // Check if even number and concat with previous string
+                if (eachNum % 2 == 0)
+                    evenNumberStr = evenNumberStr + " " + eachNum;
+            }
+
+            // Display result
+            Console.WriteLine($"Output : {evenNumberStr}");
+        }
+        // Handle other exceptions
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Errors => {ex.Message}{Environment.NewLine}{ex.StackTrace}");
+        }
+    }
+}
+```
+
+```javascript
+const isEven = function (number) {
+  return number % 2 === 0;
+};
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Input  : ", (answer) => {
+  process.stdout.write("Output : ");
+  let counter = 0;
+  let number = 0;
+  while (counter < answer) {
+    if (isEven(number)) {
+      process.stdout.write(String(number) + " ");
+      counter++;
+    }
+    number++;
+  }
+  process.stdout.write("\n");
+  rl.close();
+});
+```
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var n int
+	fmt.Print("Enter number : ")
+	fmt.Scanln(&n)
+	fmt.Print("\nOutput : ")
+	printEven(n)
+}
+
+func printEven(n int) {
+	for i := 0; i <= n-1; i++ {
+		fmt.Print(i*2, " ")
+	}
+	fmt.Println("")
 }
 ```
 
