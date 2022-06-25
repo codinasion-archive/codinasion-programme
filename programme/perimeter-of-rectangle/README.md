@@ -8,12 +8,14 @@ tags:
   - c
   - cs
   - cpp
+  - js
 contributors:
   - JDev64
   - Badboy-16
   - KikiManjaro
   - whtann
   - VSen910
+  - ClasherKasten
 ---
 
 ## Write a programme to find perimeter of rectangle
@@ -118,6 +120,29 @@ int main()
     cout << "\nPerimeter of the rectangle: " << perimeter << endl;
     return 0;
 }
+```
+
+```js
+"use strict";
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question('length  : ', length => {
+	rl.question('breadth : ', breadth => {
+		const p = (parseInt(length) + parseInt(breadth)) * 2;
+		if (isNaN(p)) {
+			console.error('Some error occured');
+		} else {
+			console.log(`perimeter : ${p}`);
+		}
+		rl.close();
+	});
+});
 ```
 
 </CodeBlock>

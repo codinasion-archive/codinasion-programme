@@ -8,12 +8,14 @@ tags:
   - java
   - c
   - cpp
+  - js
 contributors:
   - harshi1122
   - Mrczarny
   - KikiManjaro
   - luiscff
   - wkktoria
+  - ClasherKasten
 ---
 
 ## Write a program to print the minimum of given numbers
@@ -135,6 +137,23 @@ int main()
 
   return 0;
 }
+```
+
+```js
+"use strict";
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question('Input  : ', nums => {
+	nums = nums.split(' ').map(Number);
+	console.log(`Output : ${Math.min(...nums)}`);
+	rl.close();
+});
 ```
 
 </CodeBlock>

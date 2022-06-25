@@ -8,6 +8,7 @@ tags:
   - c
   - java
   - cpp
+  - js
 contributors:
   - jojo4441
   - JDev64
@@ -100,6 +101,27 @@ int main(void)
     std::cout << "Days  : " << (int)(years * 365) << std::endl;
     return 0;
 }
+```
+
+```js
+"use strict";
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question('Input : ', years => {
+	const fyears = parseFloat(years);
+	if (isNaN(fyears)) {
+		console.error('Some error occured');
+	} else {
+		console.log(`Output : ${fyears * 365}`);
+	}
+	rl.close();
+});
 ```
 
 </CodeBlock>

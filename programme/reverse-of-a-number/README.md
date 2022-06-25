@@ -8,10 +8,12 @@ tags:
   - c
   - java
   - cpp
+  - js
 contributors:
   - harshi1122
   - Mrczarny
   - NeelPatel31
+  - ClasherKasten
 ---
 
 ## Write a program to print the reverse of a number
@@ -123,6 +125,27 @@ int main()
     cout << endl;
     return 0;
 }
+```
+
+```js
+"use strict";
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question('Input  : ', num => {
+	num = parseInt(num.split('').reverse().join(''));
+	if (isNaN(num)) {
+		console.error('Some error occured');
+	} else {
+		console.log(`Output : ${num}`);
+	}
+	rl.close();
+});
 ```
 
 </CodeBlock>

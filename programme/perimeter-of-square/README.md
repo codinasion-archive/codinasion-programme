@@ -8,12 +8,14 @@ tags:
   - cpp
   - java
   - cs
+  - js
 contributors:
   - Badboy-16
   - JDev64
   - AlfredoR-CSUF
   - HaveACookie
   - whtann
+  - ClasherKasten
 ---
 
 ## Write a programme to find perimeter of square
@@ -124,6 +126,27 @@ public class PerimeterOfSquare
         }
     }
 }
+```
+
+```js
+"use strict";
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question('side : ', n => {
+	const p = parseInt(n) * 4;
+	if (isNaN(p)) {
+		console.error('Some error occured');
+	} else {
+		console.log(`perimeter : ${p}`);
+	}
+	rl.close();
+});
 ```
 
 </CodeBlock>

@@ -9,11 +9,13 @@ tags:
   - java
   - cs
   - go
+  - js
 contributors:
   - harshi1122
   - luiscff
   - nurhaliza
   - umaxyon
+  - ClasherKasten
 ---
 
 ## Write a program to convert rupee to paise
@@ -128,6 +130,27 @@ func main() {
 
 	fmt.Printf("Paise : %s\n", strconv.FormatFloat(num*100, 'f', -1, 64))
 }
+```
+
+```js
+"use strict";
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question('Input:  ', rs => {
+	const p = parseFloat(rs) * 100;
+	if (isNaN(p)) {
+		console.error('Some error occured');
+	} else {
+		console.log(`Output: ${p}`);
+	}
+	rl.close();
+});
 ```
 
 </CodeBlock>

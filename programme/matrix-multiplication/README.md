@@ -7,10 +7,12 @@ tags:
   - c
   - cpp
   - java
+  - js
 contributors:
   - ShruAgarwal
   - ssavi-ict
   - Anzo52
+  - ClasherKasten
 ---
 
 ## Write a program to print multiplication of 2 matrices
@@ -249,6 +251,27 @@ public class MatrixMultiplication {
       System.out.println();
     }
   }
+```
+
+```js
+"use strict";
+
+const A = [Array(3).fill(1), Array(3).fill(2), Array(3).fill(3)];
+const B = [Array(3).fill(1), Array(3).fill(2), Array(3).fill(3)]
+
+let result = [Array(3).fill(0), Array(3).fill(0), Array(3).fill(0)];
+
+for (let i = 0; i < A.length; i++) {
+	for (let j = 0; j < B.length; j++) {
+		for (let k = 0; k < B.length; k++) {
+			result[i][j] += A[i][k] * B[k][j];
+		}
+	}
+}
+
+for (const r of result) {
+	console.log(r.toString());
+}
 ```
 
 </CodeBlock>

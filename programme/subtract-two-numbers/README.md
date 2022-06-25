@@ -8,10 +8,12 @@ tags:
   - cpp
   - java
   - cs
+  - js
 contributors:
   - DarkMatter-999
   - NeelPatel31
   - Mrczarny
+  - ClasherKasten
 ---
 
 ## Write a program to subtract two numbers
@@ -115,6 +117,27 @@ public class Subtraction
         Console.WriteLine("\nDifference of numbers: " + Subtract(a, b));
     }
 }
+```
+
+```js
+"use strict";
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question('Input  : ', (nums) => {
+	let [x, y] = nums.split(' ').map(Number);
+	if (isNaN(x) || isNaN(y)) {
+		console.error('Some error occured');
+	} else {
+		console.log(`Òutput : ${x - y}`);
+	}
+	rl.close();
+});
 ```
 
 </CodeBlock>

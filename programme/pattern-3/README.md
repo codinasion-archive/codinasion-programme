@@ -5,6 +5,7 @@ image: hero.png
 tags:
   - python
   - c
+  - js
 contributors:
   - seraph776
   - ClasherKasten
@@ -81,6 +82,53 @@ int main(void)
     pattern(n);
     return 0;
 }
+```
+
+```js
+"use strict";
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+function pattern(n) {
+	for (let i = 0; i < n - 1; i++)
+    {
+		rl.write('x ');
+    }
+	rl.write('x\n');
+    for (let i = 0; i < n - 2; i++)
+    {
+		rl.write('x')
+        for (let i = 0; i < n - 2; i++)
+        {
+			rl.write('  ');
+        }
+        rl.write(' x\n');
+    }
+    if (n != 1)
+    {
+        for (let i = 0; i < n - 1; i++)
+        {
+            rl.write('x ');
+        }
+        rl.write('x\n');
+    }
+}
+
+rl.question('Input  : ', n => {
+	console.log('Output :\n');
+	n = parseInt(n);
+	if (isNaN(n)) {
+		console.error('Some error occured');
+	} else {
+		pattern(n);
+	}
+	rl.close();
+});
 ```
 
 </CodeBlock>

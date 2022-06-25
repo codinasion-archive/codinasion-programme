@@ -5,9 +5,11 @@ image: hero.png
 tags:
   - python
   - c
+  - js
 contributors:
   - johnelbacani
   - NeelPatel31
+  - ClasherKasten
 ---
 
 ## Write a program to swap two numbers
@@ -51,6 +53,31 @@ int main()
     printf("\nOutput: a = %d , b = %d\n", a, b);
     return 0;
 }
+```
+
+```js
+"use strict";
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question('Enter a: ', a => {
+	rl.question('Enter b: ', b => {
+		[a, b] = [a, b].map(Number);
+		if (isNaN(a) || isNaN(b)) {
+			console.log('Some error occured');
+		} else {
+			let tmp = b;
+			b = a;
+			a = tmp;
+			console.log(`Òutput: a=${a} b=${b}`);
+		}
+	});
+});
 ```
 
 </CodeBlock>

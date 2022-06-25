@@ -9,12 +9,14 @@ tags:
   - java
   - cs
   - go
+  - js
 contributors:
   - Tosin-dotcom
   - PrajwalBorkar
   - Enoch02
   - Dentyr
   - umaxyon
+  - ClasherKasten
 ---
 
 ## Write a program to output the following multiplication table
@@ -124,6 +126,34 @@ func main() {
 		fmt.Printf("%d * %d = %d\n", num, i, num*i)
 	}
 }
+```
+
+```js
+"use strict";
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+function pattern(n) {
+	for (let i = 0; i < n; i++) {
+		console.log(Array(n - i).fill('*').join(' ').padStart(2*n-1));
+	}
+}
+
+rl.question('Input  : ', n => {
+	console.log('Output : ');
+	n = parseInt(n);
+	if (isNaN(n)) {
+		console.error('Some error occured');
+	} else {
+		table_of(n);
+	}
+	rl.close();
+});
 ```
 
 </CodeBlock>
