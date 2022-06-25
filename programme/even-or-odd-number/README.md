@@ -168,26 +168,27 @@ else:
 ```
 
 ```cpp
-
 #include <iostream>
 
 using namespace std;
+
 int main()
 {
     unsigned long long number;
     cout << "Input Number : ";
     cin >> number;
 
-    cout << "Number " << number << " is ";
-    if(number % 2 == 0 )
+    cout << "\nNumber '" << number << "' is ";
+    if (number % 2 == 0)
         cout << "Even";
-    else 
+    else
         cout << "Odd";
-    
+
     cout << '\n';
     return 0;
 }
- ```
+```
+
 </CodeBlock>
 
 ### Using bitwise AND operator
