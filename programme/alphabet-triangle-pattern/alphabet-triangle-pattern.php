@@ -1,6 +1,4 @@
 <?php
-ini_set('display_errors', true);
-error_reporting(E_ALL);
 // Write a PHP program to print out an alphabet triangle pattern
 
 function alpha_triangle(int $length) {
