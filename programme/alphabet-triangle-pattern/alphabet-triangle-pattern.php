@@ -3,7 +3,7 @@ ini_set('display_errors', true);
 error_reporting(E_ALL);
 // Write a PHP program to print out an alphabet triangle pattern
 
-function alpha_triangle($length) {
+function alpha_triangle(int $length) {
   // loop for each output line, starting at 0
   for ($l = 0; $l < $length; $l++) {
     // the center character of the line is char code 65 (A) plus the current line number

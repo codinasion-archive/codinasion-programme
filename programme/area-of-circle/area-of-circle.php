@@ -2,7 +2,7 @@
 
 // Write a programme to find the area of circle
 
-function calculate_area($r) {
+function calculate_area(int|float $r) {
 
     if (!is_numeric($r)) {
 
