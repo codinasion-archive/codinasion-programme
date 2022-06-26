@@ -1,5 +1,5 @@
 //Javascript program to compute
-// sum of series 1/1! + 1/2! + .. + 1/n!
+// sum of series 1/0! + 1/1! + 1/2! + .. + 1/n!
 
 // function calculating the factorials for the sum of series calculated in the following function
 const factorial = (n) => {
@@ -11,9 +11,9 @@ const factorial = (n) => {
 // `sum` is a lot like function for the "harmonic series" solution, but here on line 17 we call the function 'factorial' in the denominator as needed.
 const sum = (n) => {
   let s = 0;
-  for (let i = 1; i <= n; i++) s += 1.0 / factorial(i);
+  for (let i = 0; i <= n; i++) s += 1.0 / factorial(i);
   return s;
 };
 
-console.log("n : 3");
-console.log("\nsum : ", sum(3).toFixed(2));
+console.log("n : 50");
+console.log("\nsum : ", sum(50));
