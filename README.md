@@ -36,7 +36,7 @@ If you're looking for a way to contribute, you can scan through our [existing is
   <img src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
 </div>
 
-### Join us in discussions
+## Join us in discussions
 
 We use GitHub Discussions to talk about all sorts of topics related to documentation and this site. For example: if you'd like help troubleshooting a PR, have a great new idea, or want to share something amazing, join us in the [discussions](https://github.com/codinasion/codinasion/discussions).
 
@@ -44,6 +44,19 @@ We use GitHub Discussions to talk about all sorts of topics related to documenta
   <img src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
 </div>
 
-## Thanks :purple_heart:
+<br>
 
-Thanks for all your contributions and efforts. We thank you being part of our :sparkles: commUnity :sparkles: !
+<table>
+  <tr>
+    <td>
+    <img align="left" src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/sylvie/sylvie-small.png" width="190"></a>
+    <h3>Thanks for contributing :purple_heart:</h3>
+    <ul>
+      <li>Thanks for all your contributions and efforts</li>
+      <li>We thank you being part of our :sparkles: commUnity :sparkles: !</li>
+    </ul>
+    <img width="900" height="0">
+    </td>
+  </tr>
+</table>
+
