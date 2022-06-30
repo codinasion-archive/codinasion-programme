@@ -23,7 +23,7 @@ Check to see what [types of contributions](/contributing/types-of-contributions.
 
 #### Create a new issue
 
-If you want to add or modify Codinasion content, [search if an issue already exists](https://github.com/codinasion/codinasion-programme/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/codinasion/codinasion-programme/issues/new/choose).
+If you want to add or modify Codinasion content, [search if an issue already exists](https://github.com/codinasion/codinasion-programme/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue template](https://github.com/codinasion/codinasion-programme/issues/new/choose).
 
 #### Solve an issue
 
@@ -53,14 +53,13 @@ Click **Edit in GitHub** at the top of any Codinasion webpage to make small chan
 
 #### Add Content
 
-- Add Answer
-  - Add or modify programme file (.py, .c, .cpp, etc) in corresponding folder.
+- Add or modify programme file (.py, .c, .cpp, etc) in corresponding folder.
 
 ### Commit your update
 
 Commit the changes once you are happy with them.
 
-Once your changes are ready, don't forget to [self-review](https://github.com/codinasion/codinasion/blob/master/contributing/self-review.md) to speed up the review process:zap:.
+Once your changes are ready, don't forget to [self-review](https://github.com/codinasion/codinasion/blob/master/contributing/self-review.md) to speed up the review process :zap:
 
 ### Pull Request
 

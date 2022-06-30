@@ -1,6 +1,6 @@
 name: 💡 General Feature Request
 description: Have a new idea/feature for Codinasion? Please suggest!
-labels: ["⭐ goal: addition"]
+labels: ["feature request"]
 body:
   - type: textarea
     id: description
