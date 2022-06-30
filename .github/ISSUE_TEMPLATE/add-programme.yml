@@ -1,11 +1,13 @@
-name: ✍️ Add content
-description: Add question, answer.
-labels: ["📝 content"]
+name: ✍️ Add Programme
+description: Ask/add a Programme
+labels: ["programme"]
 body:
   - type: markdown
     attributes:
       value: |
-        **Hubbers!!** This is an open source repo.
+        **Hey Geek !!!** 
+
+        This is an open source repository.
 
         * For questions, ask in [Discussions](https://github.com/codinasion/codinasion-programme/discussions).
         * Before you file an issue read the [Contributing guide](https://github.com/codinasion/codinasion-programme/blob/master/CONTRIBUTING.md).
@@ -13,18 +15,10 @@ body:
 
   - type: textarea
     attributes:
-      label: Title of programme
-      description: Please enter the Title of the programme.
+      label: Description
+      description: Description of the programme.
     validations:
       required: true
-
-  - type: textarea
-    id: extrainfo
-    attributes:
-      label: Additional information
-      description: Is there anything else we should know about this issue?
-    validations:
-      required: false
 
   - type: checkboxes
     id: terms
