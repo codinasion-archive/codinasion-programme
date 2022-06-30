@@ -8,11 +8,13 @@ tags:
   - c
   - cpp
   - go
+  - cs
 contributors:
   - SpadeQ22
   - GodKimba
   - giftcup
   - rossilor95
+  - gauravagrwal
 ---
 
 ## Write a program to compute the area of a right angle triangle
@@ -154,4 +156,27 @@ func main() {
 }
 ```
 
+```cs
+using System;
+
+public class AreaOfRightAngleTriangle
+{
+	public static void Main()
+	{
+		Console.Write("base : ");
+		int triangleBase = int.Parse(Console.ReadLine());
+		Console.Write("height : ");
+		int triangleHeight = int.Parse(Console.ReadLine());
+		
+		int area = CalculateArea(triangleBase, triangleHeight);
+		Console.WriteLine("area : " + area);
+	}
+
+	public static int CalculateArea(int triangleBase, int triangleHeight)
+	{
+		var area = 0.5 * triangleBase * triangleHeight;
+		return (int)area;
+	}
+}
+```
 </CodeBlock>
