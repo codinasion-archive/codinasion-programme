@@ -59,4 +59,3 @@ We use GitHub Discussions to talk about all sorts of topics related to documenta
     </td>
   </tr>
 </table>
-

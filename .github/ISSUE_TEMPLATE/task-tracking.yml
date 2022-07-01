@@ -1,5 +1,5 @@
 name: Track Issues
-description: Track other relater issues
+description: Track other related issues
 labels: ["track"]
 body:
   - type: markdown
