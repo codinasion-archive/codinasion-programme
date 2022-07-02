@@ -1,5 +1,4 @@
 // Write a python programme to print the given pattern
-
 #include <stdio.h>
 
 #define BOUNDARY_STR ("x")

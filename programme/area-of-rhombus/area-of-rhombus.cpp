@@ -1,6 +1,6 @@
 // Write a program to compute the area of a rhombus
-
 #include <iostream>
+
 using namespace std;
 
 int main()

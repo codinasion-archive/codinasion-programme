@@ -25,7 +25,8 @@ class SwapTwoNumbersWithoutTemp
         catch (Exception ex)
         {
             Console
-                .WriteLine($"Errors => {ex.Message}{Environment.NewLine}{ex.StackTrace}");
+                .WriteLine($"Errors => {ex.Message}{Environment.NewLine}{
+                    ex.StackTrace}");
         }
     }
 }

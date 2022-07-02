@@ -4,24 +4,23 @@ import java.util.Scanner;
 
 public class AreaOfRectangle {
 
-	public static void main(String[] args) {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
 
-		Scanner sc = new Scanner(System.in);
+    // taking length input
+    System.out.print("Enter the length  : ");
+    int length = sc.nextInt();
 
-		// taking length input
-		System.out.print("Enter the length  : ");
-		int length = sc.nextInt();
+    // taking breadth input
+    System.out.print("Enter the breadth : ");
+    int breadth = sc.nextInt();
 
-		// taking breadth input
-		System.out.print("Enter the breadth : ");
-		int breadth = sc.nextInt();
+    // calculating area of a rectangle
+    int area = length * breadth;
 
-		// calculating area of a rectangle
-		int area = length * breadth;
+    // printing the final answer
+    System.out.println("\nArea of rectangle : " + area);
 
-		// printing the final answer
-		System.out.println("\nArea of rectangle : " + area);
-
-		sc.close();
-	}
+    sc.close();
+  }
 }

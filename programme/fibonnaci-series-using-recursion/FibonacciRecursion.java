@@ -2,22 +2,25 @@
 import java.util.Scanner;
 
 class FibonacciRecursion {
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number : ");
-        int num = sc.nextInt();
 
-        System.out.print("Fibonacci Series :");
-        for (int i = 0; i <= num; i++) {
-            System.out.print(" " + fibo(i));
-        }
-        System.out.println();
-    }
+  public static void main(String args[]) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter a number : ");
+    int num = sc.nextInt();
 
-    static int fibo(int num) {
-        if (num < 2) {
-            return num;
-        }
-        return fibo(num - 1) + fibo(num - 2);
+    System.out.print("Fibonacci Series :");
+    for (int i = 0; i <= num; i++) {
+      System.out.print(" " + fibo(i));
     }
+    System.out.println();
+
+    sc.close();
+  }
+
+  static int fibo(int num) {
+    if (num < 2) {
+      return num;
+    }
+    return fibo(num - 1) + fibo(num - 2);
+  }
 }

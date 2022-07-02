@@ -1,5 +1,4 @@
 // Write a program to print alphabet triangle pattern
-
 using System;
 
 public class AlphabetTrianglePattern
@@ -16,7 +15,7 @@ public class AlphabetTrianglePattern
             }
             for (int j = 1; j < 2 * i; j++)
             {
-                Console.Write(((char)c));
+                Console.Write(((char) c));
                 if (j < i)
                 {
                     c++;
@@ -29,10 +28,11 @@ public class AlphabetTrianglePattern
             Console.WriteLine();
         }
     }
+
     public static void Main(String[] args)
     {
         Console.Write("Input  : ");
         int n = int.Parse(Console.ReadLine());
-        pattern(n);
+        pattern (n);
     }
 }

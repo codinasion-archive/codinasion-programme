@@ -1,5 +1,4 @@
 // Write a program to find average of numbers
-
 package main
 
 import "fmt"

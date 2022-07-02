@@ -1,5 +1,4 @@
 // Write a program to divide two numbers
-
 package main
 
 import (

@@ -1,5 +1,4 @@
-// Write a programme to find sum of squares of first n natural numbers.
-
+// Write a programme to find sum of squares of first n natural numbers
 #include <stdio.h>
 
 int main()

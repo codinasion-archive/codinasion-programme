@@ -1,9 +1,11 @@
 // Write a programme to find the length of an array
-
 #include <iostream>
 #include <vector>
+
 using namespace std;
+
 template <typename T>
+
 int array_size(vector<T> array)
 {
     return array.size();

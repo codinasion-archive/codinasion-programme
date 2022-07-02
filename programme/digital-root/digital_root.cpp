@@ -1,6 +1,6 @@
 // Write a programme for Digital Root of a number
-
 #include <iostream>
+
 using namespace std;
 
 int digital_root(int n)

@@ -1,5 +1,4 @@
 // Write a program to check prime number
-
 package main
 
 import "fmt"

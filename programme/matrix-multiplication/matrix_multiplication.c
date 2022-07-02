@@ -1,5 +1,4 @@
 // Write a program to print multiplication of 2 matrices
-
 #include <stdio.h>
 
 int matrix1[10][10], matrix2[10][10], result[10][10];

@@ -1,3 +1,5 @@
+# Write a programme to check Pangram sentence
+
 input_string = input('Input:  ')
 
 input_string = str.lower(input_string)

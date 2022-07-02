@@ -5,7 +5,10 @@ public class AreaOfRhombus
 {
     static void Main()
     {
-        float d1, d2, area;
+        float
+            d1,
+            d2,
+            area;
         Console.Write("Diagonal 1 : ");
         d1 = Single.Parse(Console.ReadLine());
         Console.Write("Diagonal 2 : ");

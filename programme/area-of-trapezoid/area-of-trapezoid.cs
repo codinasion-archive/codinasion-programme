@@ -16,6 +16,5 @@ class MainClass
 
         double area = (base1 + base2) * height / 2;
         Console.WriteLine("\nThe area of trapezoid is : " + area);
-
     }
 }

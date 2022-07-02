@@ -27,6 +27,7 @@ void pattern(int a)
         printf("\n");
     }
 }
+
 int main()
 {
     int a;

@@ -1,5 +1,6 @@
 // Write a program to check prime number
 #include <stdio.h>
+
 int main()
 {
     int a, b = 0;

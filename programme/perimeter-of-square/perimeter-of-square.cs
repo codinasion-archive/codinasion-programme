@@ -8,6 +8,7 @@ public class PerimeterOfSquare
         Console.Write("Side : ");
         string input = Console.ReadLine();
         int side = 0;
+
         // verifies valid input and passes converted int to side variable
         if (int.TryParse(input, out side))
         {

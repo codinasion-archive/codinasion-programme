@@ -1,5 +1,4 @@
 // Write a programme to print the given pattern
-
 package main
 
 import (

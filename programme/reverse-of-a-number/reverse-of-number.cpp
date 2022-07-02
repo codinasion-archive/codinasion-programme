@@ -1,5 +1,6 @@
 // Write a program to print the reverse of a number
 #include <iostream>
+
 using namespace std;
 
 int main()

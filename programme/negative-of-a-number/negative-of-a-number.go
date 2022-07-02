@@ -1,5 +1,4 @@
 // Write a programme to find negative of a number
-
 package main
 
 import (

@@ -1,5 +1,6 @@
 // Write a program to print alphabet triangle pattern
 #include <stdio.h>
+
 void pattern(int a)
 {
   printf("Output :\n");
@@ -26,6 +27,7 @@ void pattern(int a)
     printf("\n");
   }
 }
+
 int main()
 {
   int a;

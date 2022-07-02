@@ -1,8 +1,8 @@
 // Write a program to output the multiplication table
-
 #include <iostream>
 
 using namespace std;
+
 int main()
 {
     int n = 5, i;

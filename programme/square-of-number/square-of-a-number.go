@@ -1,5 +1,4 @@
 // Write a programme to find the square of a number
-
 package main
 
 import (

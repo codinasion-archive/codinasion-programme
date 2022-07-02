@@ -1,6 +1,6 @@
 // Write a program to divide two numbers
-
 #include <iostream>
+
 using namespace std;
 
 double Divide(int num1, int num2)

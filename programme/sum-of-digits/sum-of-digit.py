@@ -1,5 +1,7 @@
-# Write a program to print sum of digits.
+# Write a program to print sum of digits
+
 n = int(input("Enter number: "))
+
 sum_digits = 0
 while n > 0:
     rem = n % 10

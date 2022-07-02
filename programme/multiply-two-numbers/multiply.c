@@ -1,5 +1,4 @@
 // Write a programme to multiply two numbers
-
 #include <stdio.h>
 
 int main(void)

@@ -1,5 +1,4 @@
 // Write a programme to check leap year
-
 import java.util.Scanner;
 
 public class CheckLeapYear {

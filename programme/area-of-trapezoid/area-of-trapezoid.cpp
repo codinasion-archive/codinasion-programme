@@ -1,5 +1,4 @@
 // Write a program to compute area of trapezoid
-
 #include <iostream>
 
 using namespace std;
