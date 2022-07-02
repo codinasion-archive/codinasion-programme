@@ -1,5 +1,4 @@
 // Write a programme to find area of right angle triangle
-
 package main
 
 import (

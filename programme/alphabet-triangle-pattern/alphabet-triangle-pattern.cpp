@@ -1,5 +1,6 @@
 // Write a program to print alphabet triangle pattern
 #include <iostream>
+
 using namespace std;
 
 void pattern(int a)
@@ -28,6 +29,7 @@ void pattern(int a)
     cout << "\n";
   }
 }
+
 int main()
 {
   int a;

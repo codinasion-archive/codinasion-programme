@@ -1,5 +1,4 @@
 // Write a program to check palindrome number
-
 package main
 
 import "fmt"

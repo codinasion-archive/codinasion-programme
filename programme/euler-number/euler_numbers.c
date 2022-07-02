@@ -1,5 +1,4 @@
 // Write a programme to compute the value of Euler's Number
-
 #include <stdio.h>
 
 int main()

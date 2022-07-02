@@ -6,18 +6,19 @@
 import java.util.Scanner;
 
 public class DigitalRoot {
-    public static void convert(int a) {
-        // Ramans formula for calcuating the digital root
-        System.out.println(1 + (a - 1) % 9);
-    }
 
-    public static void main(String[] args) {
-        int a = 0;
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Input  : ");
-        a = sc.nextInt();
-        System.out.print("\nThe digital root is : ");
-        convert(a);
-        sc.close();
-    }
+  public static void convert(int a) {
+    // Ramans formula for calcuating the digital root
+    System.out.println(1 + (a - 1) % 9);
+  }
+
+  public static void main(String[] args) {
+    int a = 0;
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Input  : ");
+    a = sc.nextInt();
+    System.out.print("\nThe digital root is : ");
+    convert(a);
+    sc.close();
+  }
 }

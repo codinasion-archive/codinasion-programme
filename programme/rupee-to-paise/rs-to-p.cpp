@@ -1,6 +1,8 @@
 // Write a program to convert rupee to paise
 #include <iostream>
+
 using namespace std;
+
 int main()
 {
     double paise, rupees;

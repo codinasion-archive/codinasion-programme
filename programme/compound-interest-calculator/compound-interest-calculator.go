@@ -1,5 +1,4 @@
 // Write a programme to calculate compound interest
-
 package main
 
 import (

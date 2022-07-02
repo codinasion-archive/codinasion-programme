@@ -1,6 +1,8 @@
 // Write a program to print fibonacci series using recursion
 #include <stdio.h>
+
 int fibonacci(int);
+
 int main()
 {
     int n, i;

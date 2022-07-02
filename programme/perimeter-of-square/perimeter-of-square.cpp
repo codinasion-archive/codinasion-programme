@@ -1,5 +1,6 @@
 // Write a programme to find perimeter of square
 #include <iostream>
+
 // this namespace function allows you to skip
 // over the "std::".
 using namespace std;

@@ -1,5 +1,6 @@
 // Write a programme to find sum of cubes of first n natural numbers.
 #include <iostream>
+
 using namespace std;
 
 int main()

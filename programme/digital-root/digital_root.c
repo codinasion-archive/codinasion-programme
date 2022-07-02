@@ -1,5 +1,4 @@
 // Write a programme for Digital Root of a number
-
 #include <stdio.h>
 
 int digital_root(int n)

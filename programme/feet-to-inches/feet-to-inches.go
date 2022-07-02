@@ -1,5 +1,4 @@
 // Write a program to convert feet to inches
-
 package main
 
 import "fmt"

@@ -1,5 +1,4 @@
 // Write a programme to check size of an array
-
 import java.util.Arrays;
 
 class ArraySize {

@@ -1,4 +1,4 @@
-// Write a program to swap two numbers without using third variable.
+// Write a program to swap two numbers without using third variable
 #include <iostream>
 
 void swap(int &x, int &y)

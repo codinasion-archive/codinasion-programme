@@ -1,5 +1,4 @@
 // Write a programme to convert feet to inches
-
 #include <stdio.h>
 
 int main(void)

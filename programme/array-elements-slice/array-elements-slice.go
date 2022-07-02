@@ -1,5 +1,5 @@
-// Write a program to generate new array within given range (start, end) sliced from orignal array
-
+// Write a program to generate new array within
+// given range (start, end) sliced from orignal array
 package main
 
 import (

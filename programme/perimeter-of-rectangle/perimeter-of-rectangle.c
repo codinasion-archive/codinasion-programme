@@ -1,5 +1,4 @@
-// Write a programme to find perimeter of rectangle.
-
+// Write a programme to find perimeter of rectangle
 #include <stdio.h>
 
 int main()

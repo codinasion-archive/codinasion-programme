@@ -1,4 +1,5 @@
 # Write a program to print the pattern
+
 def pattern(a):
     print("Output :")
     for i in range(1, a+1):

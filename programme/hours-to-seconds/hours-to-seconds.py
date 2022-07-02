@@ -1,4 +1,5 @@
 # Hours to seconds converter program
+
 # Input the hours from the user
 hours = int(input("How many hours do you want to convert into seconds: "))
 # Convert the number in hours to seconds (convert the variable to integer because input gets input as string by default)

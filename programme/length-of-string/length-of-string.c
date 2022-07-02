@@ -1,5 +1,4 @@
 // Write a programme to find the length of string.
-
 #include <stdio.h>
 
 #define LIMIT 32

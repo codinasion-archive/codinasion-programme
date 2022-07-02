@@ -8,7 +8,11 @@ public class Fibonaci
         Console.Write("Input  : ");
         int n = int.Parse(Console.ReadLine());
 
-        int a = 0, b = 1, i = 0, temp = 0;
+        int
+            a = 0,
+            b = 1,
+            i = 0,
+            temp = 0;
 
         Console.Write("Output : ");
 

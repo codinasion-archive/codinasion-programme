@@ -1,6 +1,6 @@
 // Write a programme to find perimeter of rectangle
-
 #include <iostream>
+
 using namespace std;
 
 int main()

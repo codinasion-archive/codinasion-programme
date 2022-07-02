@@ -1,7 +1,9 @@
 // Write a program to check palindrome number
 #include <iostream>
 #include <cstring>
+
 using namespace std;
+
 string checkPalindrome(int a)
 {
     int pal = 0, n;

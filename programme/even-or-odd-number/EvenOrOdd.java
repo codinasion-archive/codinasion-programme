@@ -1,5 +1,4 @@
 // A program to check if the entered digit is even or odd
-
 import java.util.Scanner;
 
 public class EvenOrOdd {
