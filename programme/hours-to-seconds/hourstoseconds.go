@@ -1,5 +1,4 @@
 // Write a programme to convert hours to seconds
-
 package main
 
 import "fmt"

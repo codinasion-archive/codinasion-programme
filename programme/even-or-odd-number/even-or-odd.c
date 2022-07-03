@@ -1,5 +1,4 @@
 // Write a programme to check a number even or odd
-
 #include <stdio.h>
 
 int main(void)

@@ -1,5 +1,4 @@
 // Write a programme to convert minutes to seconds
-
 #include <stdio.h>
 
 int main(void)

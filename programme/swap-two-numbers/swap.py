@@ -1,4 +1,5 @@
-# Write a program to swap two numbers.
+# Write a program to swap two numbers
+
 # define variables
 a = 10
 b = 20

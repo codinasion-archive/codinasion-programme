@@ -1,5 +1,4 @@
 // Write a program to check armstrong number
-
 #include <iostream>
 #include <cmath>
 

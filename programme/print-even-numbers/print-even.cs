@@ -30,7 +30,9 @@ class PrintEvenNumber
         // Handle other exceptions
         catch (Exception ex)
         {
-            Console.WriteLine($"Errors => {ex.Message}{Environment.NewLine}{ex.StackTrace}");
+            Console
+                .WriteLine($"Errors => {ex.Message}{Environment.NewLine}{
+                    ex.StackTrace}");
         }
     }
 }

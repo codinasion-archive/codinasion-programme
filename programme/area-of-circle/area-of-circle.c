@@ -1,5 +1,4 @@
 // Write a programme to find the area of circle
-
 #include <stdio.h>
 
 #define PI 3.141f

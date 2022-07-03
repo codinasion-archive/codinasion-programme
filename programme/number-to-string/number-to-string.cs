@@ -39,10 +39,9 @@ namespace Number_to_Strings
                 // ===========================
                 List<int> arrOfNumericValues =
                     numStr
-                        .ToCharArray()                  // <= Convert string to array of char. E.g. "123" => ['1','2','3']
-                        .ToList()                       // <= Convert array to List in order to use Linq to be able to convert each char to integer
-                        .ConvertAll(                    
-                        // 1. Convert each char to string. E.g. '1' => "1"
+                        .ToCharArray() // <= Convert string to array of char. E.g. "123" => ['1','2','3']
+                        .ToList() // <= Convert array to List in order to use Linq to be able to convert each char to integer
+                        .ConvertAll(// 1. Convert each char to string. E.g. '1' => "1"
                         // 2. Convert each string to integer. E.g. "1" => 1
                         eachChar => int.Parse(eachChar.ToString()));
 
@@ -50,10 +49,9 @@ namespace Number_to_Strings
                 // =========================
                 string resultStr =
                     string
-                        .Join(" ",                      // <= White space separator
+                        .Join(" ", // <= White space separator
                         arrOfNumericValues
-                            .Select(
-                            // Map each number against their respective value in the dictionary. E.g. 1 => "one"
+                            .Select(// Map each number against their respective value in the dictionary. E.g. 1 => "one"
                             eachNumber => dicNumToStr[eachNumber]));
 
                 // Display result
@@ -63,7 +61,8 @@ namespace Number_to_Strings
             catch (Exception ex)
             {
                 Console
-                    .WriteLine($"Errors => {ex.Message}{Environment.NewLine}{ex.StackTrace}");
+                    .WriteLine($"Errors => {ex.Message}{Environment.NewLine}{
+                        ex.StackTrace}");
             }
         }
     }

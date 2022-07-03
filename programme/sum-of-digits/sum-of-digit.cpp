@@ -1,5 +1,6 @@
 // Write a program to print sum of digits.
 #include <iostream>
+
 using namespace std;
 
 int main()

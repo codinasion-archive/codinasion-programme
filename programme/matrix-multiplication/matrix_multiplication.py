@@ -18,6 +18,7 @@ Product matrix
 18 18 18
 '''
 # SOLUTION --->
+
 # first matrix (3x3)
 A = [[1, 1, 1],
      [2, 2, 2],

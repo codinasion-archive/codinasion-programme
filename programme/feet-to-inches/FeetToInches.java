@@ -1,5 +1,4 @@
 // Write a programme to convert feet to inches
-
 import java.util.Scanner;
 
 class FeetToInches {

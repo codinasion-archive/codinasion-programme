@@ -1,5 +1,6 @@
 // Write a programme to print the given pattern
 #include <iostream>
+
 using namespace std;
 
 void pattern(int n)

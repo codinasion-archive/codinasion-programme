@@ -1,5 +1,4 @@
 // Write a programme to calculate simple interest
-
 #include <iostream>
 
 int simple_interest(int p, int t, int r)

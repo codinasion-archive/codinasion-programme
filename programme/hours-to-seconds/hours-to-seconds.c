@@ -1,5 +1,4 @@
 // Write a C programme to convert hours to seconds.
-
 #include <stdio.h>
 
 int main()

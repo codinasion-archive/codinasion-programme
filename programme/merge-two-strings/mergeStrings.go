@@ -1,5 +1,4 @@
 // Write a programme to merge two strings
-
 package main
 
 import "fmt"

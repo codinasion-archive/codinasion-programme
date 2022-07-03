@@ -1,4 +1,5 @@
 # Write a programme to check leap year
+
 year = int(input("Input  : "))
 
 print("Output : ", end="")

@@ -1,8 +1,8 @@
 // Write a programme to print first n even numbers
-
 import java.util.Scanner;
 
 public class PrintEven {
+
   public static int[] printEven(int num) {
     int[] arr = new int[num];
     int i = 0;

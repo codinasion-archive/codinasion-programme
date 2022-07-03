@@ -1,4 +1,5 @@
 # Write a program to print sum of square
+
 # Input
 n = int(input('Input : '))
 

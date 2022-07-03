@@ -1,6 +1,7 @@
 // Write a programme to convert decimal number to binary
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 void convert(int a)

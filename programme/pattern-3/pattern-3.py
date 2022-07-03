@@ -1,4 +1,5 @@
 # Write a Python programme to print the given pattern
+
 def print_pattern(n: int) -> None:
     print("Output : \n")
     for col in range(n):

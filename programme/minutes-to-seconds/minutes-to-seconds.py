@@ -5,7 +5,7 @@ created: 2022-03-25 20:50:18
 """
 
 
-def minutes_to_second(minutes:int) -> int:
+def minutes_to_second(minutes: int) -> int:
     """converts minutes to seconds"""
     return minutes * 60
 

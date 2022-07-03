@@ -1,5 +1,4 @@
 // Write a program to find average of numbers
-
 #include <stdio.h>
 
 int main()

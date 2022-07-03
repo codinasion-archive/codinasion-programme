@@ -1,5 +1,4 @@
 // Write a program to compute the area of a rhombus
-
 package main
 
 import (

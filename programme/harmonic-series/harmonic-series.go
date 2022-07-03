@@ -1,5 +1,5 @@
-// Write a programme to calculate the sum of following harmonic series for a given value of n
-
+// Write a programme to calculate the sum of 
+// following harmonic series for a given value of n
 package main
 
 import "fmt"

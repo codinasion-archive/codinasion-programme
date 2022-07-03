@@ -2,9 +2,6 @@
 
 "use strict";
 
-// perform following command to run programme
-// node .\add-two-numbers.js
-
 const readline = require("readline");
 
 const rl = readline.createInterface({

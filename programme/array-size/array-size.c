@@ -1,6 +1,6 @@
 // write a program to get length of an array
-
 #include <stdio.h>
+
 int main()
 {
     int Length = 0;

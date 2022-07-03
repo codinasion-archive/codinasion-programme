@@ -1,5 +1,4 @@
 // Write a programme to check leap year
-
 package main
 
 import "fmt"

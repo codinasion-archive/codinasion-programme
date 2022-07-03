@@ -1,5 +1,6 @@
 // Write a program to check palindrome number
 #include <stdio.h>
+
 char *checkPalindrome(int a)
 {
     int pal = 0, n;
@@ -16,6 +17,7 @@ char *checkPalindrome(int a)
     }
     return "Not palindrome number";
 }
+
 int main()
 {
     int num, b = 0;

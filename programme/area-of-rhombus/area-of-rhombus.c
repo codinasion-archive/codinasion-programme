@@ -12,6 +12,7 @@ int main()
     printf("\nArea of rhombus : %.2f\n", ans);
     return 0;
 }
+
 float getD1()
 {
     float x;

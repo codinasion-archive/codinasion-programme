@@ -1,6 +1,6 @@
 // Write a programme to merge two strings
-
 #include <iostream>
+
 using namespace std;
 
 int main()

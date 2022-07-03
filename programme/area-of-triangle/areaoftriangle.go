@@ -1,5 +1,4 @@
 // Write a programme to find area of triangle.
-
 package main
 
 import (

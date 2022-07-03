@@ -1,5 +1,4 @@
 // Write a programme to print ASCII Value of a character
-
 package main
 
 import (

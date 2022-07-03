@@ -1,8 +1,10 @@
 // Write a programme to print ASCII Value of a character
-#include<iostream>
+#include <iostream>
+
 using namespace std;
 
-int main(){
+int main()
+{
     char a;
     cout << "Input: ";
     cin >> a;

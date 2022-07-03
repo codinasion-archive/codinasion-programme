@@ -1,5 +1,4 @@
 // Write a program to print sum of digits
-
 package main
 
 import (

@@ -1,5 +1,4 @@
 // Write a program to compute area of trapezoid
-
 package main
 
 import "fmt"

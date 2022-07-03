@@ -1,5 +1,4 @@
 // Write a programme to check Pangram sentence
-
 #include <iostream>
 
 using namespace std;

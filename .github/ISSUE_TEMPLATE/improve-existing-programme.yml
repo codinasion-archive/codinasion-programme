@@ -1,11 +1,13 @@
-name: Improve existing content
+name: Improve existing programme content
 description: Make a suggestion to improve the content in an existing programme.
-labels: ["📝 content", "🛠 goal: fix"]
+labels: [programme", "enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        **Hubbers!!** This is an open source repo.
+        **Hey Geek !!!** 
+
+        This is an open source repository.
 
         * For questions, ask in [Discussions](https://github.com/codinasion/codinasion-programme/discussions).
         * Before you file an issue read the [Contributing guide](https://github.com/codinasion/codinasion-programme/blob/master/CONTRIBUTING.md).

@@ -1,5 +1,6 @@
 // Write a program to find the area of a square
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main()

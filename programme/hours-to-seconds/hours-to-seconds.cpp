@@ -1,6 +1,6 @@
 // Write a C++ programme to convert hours to seconds.
-
 #include <iostream>
+
 using namespace std;
 
 int main()

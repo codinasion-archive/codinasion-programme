@@ -5,6 +5,8 @@ array_list = ['abcd', 'efgh', 'ijklmn', 'opq', 'rstuvw', 'xyz']
 print("Array :", array_list)
 
 # function arguments (arrayList) (start slice from -number) (end slice with -number)
+
+
 def arrayLetterRange(a_list, start=5, end=1):
 
     # store slice value in result

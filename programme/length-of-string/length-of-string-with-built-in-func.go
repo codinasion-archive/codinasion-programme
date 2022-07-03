@@ -1,5 +1,4 @@
 // Write a program to print the length of a string
-
 package main
 
 import "fmt"

@@ -1,4 +1,5 @@
-# Write a programme to calculate compound interest.
+# Write a programme to calculate compound interest
+
 # Input from User
 p = int(input("Enter Principle Amount : "))
 t = int(input("Enter Time Period : "))

@@ -1,5 +1,4 @@
 // Write a programme to print first n even numbers
-
 #include <iostream>
 
 int main(void)

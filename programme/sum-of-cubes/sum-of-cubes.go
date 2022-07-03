@@ -1,5 +1,4 @@
 // Write a programme to find sum of cubes of first n natural numbers
-
 package main
 
 import (

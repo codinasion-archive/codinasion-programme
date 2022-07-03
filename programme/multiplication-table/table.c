@@ -1,5 +1,4 @@
 // Write a program to output the following multiplication table
-
 #include <stdio.h>
 
 void main()

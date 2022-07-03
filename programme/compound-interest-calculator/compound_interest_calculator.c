@@ -1,5 +1,4 @@
 // Write a programme to calculate compound interest
-
 #include <stdio.h>
 #include <math.h>
 

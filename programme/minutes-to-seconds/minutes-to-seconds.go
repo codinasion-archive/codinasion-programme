@@ -1,5 +1,4 @@
 // Write a programme to convert minutes to seconds
-
 package main
 
 import (

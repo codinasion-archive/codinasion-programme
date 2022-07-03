@@ -1,5 +1,4 @@
 // Write a programme to find the length of an array
-
 package main
 
 import "fmt"

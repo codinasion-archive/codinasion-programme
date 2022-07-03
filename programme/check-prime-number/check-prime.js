@@ -8,7 +8,6 @@ Output: Not a prime number.
 Example:
 Input: n = 7
 Output: Prime number
-
 */
 
 const isPrime = (n) => {
