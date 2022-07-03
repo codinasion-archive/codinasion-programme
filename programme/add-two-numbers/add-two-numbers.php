@@ -7,6 +7,18 @@ error_reporting(E_ALL);
 
 function sum(int|float $one, int|float $two) {
 
+    if (!is_numeric($one)) {
+
+        return 'Invalid input: Input 1 is not a number';
+
+    }
+
+    if (!is_numeric($two)) {
+
+        return 'Invalid input: Input 2 is not a number';
+
+    }
+
     return $one + $two;
 
 }

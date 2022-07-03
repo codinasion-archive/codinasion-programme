@@ -5,6 +5,18 @@
 
 function calculate_area(int|float $length, int|float $width) {
 
+    if (!is_numeric($length)) {
+
+        return 'Invalid input: Length is not a number';
+
+    }
+
+    if (!is_numeric($width)) {
+
+        return 'Invalid input: Width is not a number';
+
+    }
+
     $area = $length * $width;
     return $area;
 
