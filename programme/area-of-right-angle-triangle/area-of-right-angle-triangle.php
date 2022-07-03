@@ -7,13 +7,13 @@ function calculate_area(int|float $base, int|float $height) {
 
     if (!is_numeric($base)) {
 
-        return 'Invalid input: Diagonal 1 is not a number';
+        return 'Invalid input: Base is not a number';
 
     }
 
     if (!is_numeric($height)) {
 
-        return 'Invalid input: Diagonal 2 is not a number';
+        return 'Invalid input: Height is not a number';
 
     }
 
