@@ -8,6 +8,7 @@ contributors:
   - Dentyr
   - rossilor95
   - ClasherKasten
+  - SanjayShetty01
 ---
 
 ## Write a program to check armstrong number

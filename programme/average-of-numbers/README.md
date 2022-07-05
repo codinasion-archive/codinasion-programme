@@ -8,6 +8,7 @@ contributors:
   - MadhuS-1605
   - hansleykowlessur
   - victoriacheng15
+  - SanjayShetty01
 ---
 
 ## Write a program to find average of numbers

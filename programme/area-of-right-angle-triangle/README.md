@@ -9,6 +9,7 @@ contributors:
   - gauravagrwal
   - 0xRenegade
   - jlc893
+  - SanjayShetty01
 ---
 
 ## Write a program to compute the area of a right angle triangle

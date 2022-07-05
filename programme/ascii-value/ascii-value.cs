@@ -1,4 +1,4 @@
-// Write a programme to print ASCII Value of a character.
+// Write a programme to print ASCII Value of a character
 using System;
 using System.Text;
 

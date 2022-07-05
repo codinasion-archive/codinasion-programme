@@ -10,6 +10,7 @@ contributors:
   - ClasherKasten
   - kvaithin
   - 0xRenegade
+  - SanjayShetty01
 ---
 
 ## Write a program to add two numbers

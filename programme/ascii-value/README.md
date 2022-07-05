@@ -9,6 +9,7 @@ contributors:
   - RuiL1904
   - MadhuS-1605
   - CManriqueU
+  - SanjayShetty01
 ---
 
 ## Write a programme to print ASCII Value of a character

@@ -8,6 +8,7 @@ contributors:
   - Dentyr
   - rutterjt
   - 0xRenegade
+  - SanjayShetty01
 ---
 
 ## Write a program to print alphabet triangle pattern

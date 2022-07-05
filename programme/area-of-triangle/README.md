@@ -10,6 +10,7 @@ contributors:
   - rossilor95
   - DaruZero
   - 0xRenegade
+  - SanjayShetty01
 ---
 
 ## Write a programme to find area of triangle

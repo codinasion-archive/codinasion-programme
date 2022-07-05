@@ -8,6 +8,7 @@ contributors:
   - rutterjt
   - MadhuS-1605
   - umaxyon
+  - SanjayShetty01
 ---
 
 ## Write a program to check prime number
