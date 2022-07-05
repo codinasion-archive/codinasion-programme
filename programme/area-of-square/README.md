@@ -9,6 +9,7 @@ contributors:
   - ramanand-rv
   - MadhuS-1605
   - victoriacheng15
+  - 0xRenegade
 ---
 
 ## Write a program to find the area of a square

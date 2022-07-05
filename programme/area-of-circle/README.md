@@ -8,6 +8,7 @@ contributors:
   - ClasherKasten
   - Dentyr
   - rossilor95
+  - 0xRenegade
 ---
 
 ## Write a programme to find the area of circle

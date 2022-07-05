@@ -9,6 +9,7 @@ contributors:
   - GodKimba
   - ClasherKasten
   - kvaithin
+  - 0xRenegade
 ---
 
 ## Write a program to add two numbers

@@ -10,6 +10,7 @@ contributors:
   - Dentyr
   - MadhuS-1605
   - PhysicsMD
+  - 0xRenegade
 ---
 
 ## Write a program to compute the area of a rhombus
