@@ -20,7 +20,7 @@ func main() {
 	var n uint64
 	var i uint64
 	var float_value_at_i float64
-	var euiler_number float64 = 0
+	var euiler_number float64 = 1
 	fmt.Printf("Enter Value of N : ")
 	fmt.Scan(&n)
 

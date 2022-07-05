@@ -7,6 +7,7 @@ contributors:
   - mathcodes
   - ssavi-ict
   - yogeshCt3
+  - umaxyon
 ---
 
 ## Write a programme to compute the value of Euler's Number
