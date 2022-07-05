@@ -8,6 +8,7 @@ contributors:
   - Badboy-16
   - tiarabcodes1
   - rossilor95
+  - DaruZero
 ---
 
 ## Write a programme to find area of triangle
