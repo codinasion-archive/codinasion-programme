@@ -9,6 +9,7 @@ contributors:
   - MadhuS-1605
   - IrumiDesu7
   - umaxyon
+  - SanjayShetty01
 ---
 
 ## Write a programme to check leap year

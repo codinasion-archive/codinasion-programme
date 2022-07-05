@@ -7,6 +7,7 @@ contributors:
   - Enoch02
   - Dentyr
   - umaxyon
+  - ClasherKasten
 ---
 
 ## Write a program to output the following multiplication table

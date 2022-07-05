@@ -8,6 +8,7 @@ contributors:
   - andrew9078
   - MadhuS-1605
   - IrumiDesu7
+  - SanjayShetty01
 ---
 
 ## Write a program to convert the temperature from Celsius to Fahrenheit

@@ -7,6 +7,7 @@ contributors:
   - umaxyon
   - rossilor95
   - 0ME9A
+  - Kirito-Excalibur
 ---
 
 ## Write a programme to find negative of a number

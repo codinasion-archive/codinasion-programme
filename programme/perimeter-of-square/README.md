@@ -7,6 +7,7 @@ contributors:
   - AlfredoR-CSUF
   - HaveACookie
   - whtann
+  - ClasherKasten
 ---
 
 ## Write a programme to find perimeter of square

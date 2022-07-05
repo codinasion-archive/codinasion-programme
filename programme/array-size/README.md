@@ -7,6 +7,7 @@ contributors:
   - gauravagrwal
   - KhalilThabet
   - Yilmaz98
+  - SanjayShetty01
 ---
 
 ## Write a programme to find the length of an array

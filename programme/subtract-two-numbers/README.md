@@ -5,6 +5,7 @@ contributors:
   - DarkMatter-999
   - NeelPatel31
   - Mrczarny
+  - ClasherKasten
 ---
 
 ## Write a program to subtract two numbers

@@ -7,6 +7,7 @@ contributors:
   - gilazani
   - javithegreat35
   - gauravagrwal
+  - ClasherKasten
 ---
 
 ## Write a program to compute the volume of a Cylinder

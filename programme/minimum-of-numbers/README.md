@@ -7,6 +7,7 @@ contributors:
   - KikiManjaro
   - luiscff
   - wkktoria
+  - ClasherKasten
 ---
 
 ## Write a program to print the minimum of given numbers

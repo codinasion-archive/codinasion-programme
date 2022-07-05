@@ -6,6 +6,7 @@ contributors:
   - karthiksbh
   - jojo4441
   - MadhuS-1605
+  - ClasherKasten
 ---
 
 ## Write a program to print Fibonacci series without using recursion

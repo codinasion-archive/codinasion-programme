@@ -9,6 +9,7 @@ contributors:
   - Dafodils
   - MadhuS-1605
   - victoriacheng15
+  - SanjayShetty01
 ---
 
 ## Write a program to compute area of trapezoid

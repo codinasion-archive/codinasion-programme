@@ -4,6 +4,7 @@ description: Write a programme to generate new array with sliced elements of old
 contributors:
   - 0ME9A
   - yogeshCt3
+  - MartynasJanusaitis
 ---
 
 ## Write a programme to generate new array with sliced elements of old array

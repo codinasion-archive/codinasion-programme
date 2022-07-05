@@ -5,6 +5,8 @@ contributors:
   - ShruAgarwal
   - ssavi-ict
   - Anzo52
+  - yogeshCt3
+  - ClasherKasten
 ---
 
 ## Write a program to print multiplication of 2 matrices
