@@ -6,6 +6,7 @@ contributors:
   - luiscff
   - nurhaliza
   - umaxyon
+  - ClasherKasten
 ---
 
 ## Write a program to convert rupee to paise

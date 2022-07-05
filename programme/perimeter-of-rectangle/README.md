@@ -7,6 +7,7 @@ contributors:
   - KikiManjaro
   - whtann
   - VSen910
+  - ClasherKasten
 ---
 
 ## Write a programme to find perimeter of rectangle

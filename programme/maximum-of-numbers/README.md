@@ -6,6 +6,7 @@ contributors:
   - Mrczarny
   - HaveACookie
   - ssavi-ict
+  - ClasherKasten
 ---
 
 ## Write a program to print the maximum of given numbers

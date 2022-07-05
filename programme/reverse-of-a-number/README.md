@@ -5,6 +5,7 @@ contributors:
   - harshi1122
   - Mrczarny
   - NeelPatel31
+  - ClasherKasten
 ---
 
 ## Write a program to print the reverse of a number
