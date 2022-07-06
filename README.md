@@ -49,7 +49,7 @@ We use GitHub Discussions to talk about all sorts of topics related to documenta
 <table>
   <tr>
     <td>
-    <img align="left" src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/sylvie/sylvie-small.png" width="190"></a>
+    <img align="left" src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/sylvie/sylvie-small.png" width="190">
     <h3>Thanks for contributing :purple_heart:</h3>
     <ul>
       <li>Thanks for all your contributions and efforts</li>
@@ -59,3 +59,7 @@ We use GitHub Discussions to talk about all sorts of topics related to documenta
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
+</div>
