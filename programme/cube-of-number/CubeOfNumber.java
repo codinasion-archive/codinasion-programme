@@ -9,6 +9,7 @@ class CubeOfNumber {
     System.out.print("Input: ");
     double input = sc.nextDouble();
     System.out.println("Output: "+cube(input));
+    sc.close();
   }
   
   private static double cube(double num) {
