@@ -6,10 +6,9 @@ class CubeOfNumber {
   
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print("Enter number: ");
+    System.out.print("Input: ");
     double input = sc.nextDouble();
-    System.out.println("=== Output ===");
-    System.out.println("(" + input + ")^3 = " + cube(input));
+    System.out.println("Output: "+cube(input));
   }
   
   private static double cube(double num) {
