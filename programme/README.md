@@ -53,4 +53,4 @@
 51. ### [Write a program to swap two numbers without using third variable](./swap-two-numbers-without-using-third-variable/)
 52. ### [Write a program to find X power Y](./x-power-y/)
 53. ### [Write a programme to convert years to days](./years-to-days/)
-54. ### [Write a Java programme to find cube of a number](./cube-of-number/)
+54. ### [Write a programme to find cube of a number](./cube-of-number/)
