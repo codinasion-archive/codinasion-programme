@@ -18,13 +18,13 @@ double vol_cone(double radius, double height) {
 int main() {
     double radius, height;
 
-    cout << "radius: ";
+    cout << "radius : ";
     cin >> radius;
 
-    cout << "height: ";
+    cout << "height : ";
     cin >> height;
 
-    cout << setprecision(7) << "\nvolume: " << vol_cone(radius, height);
+    cout << setprecision(7) << "\nvolume : " << vol_cone(radius, height);
 
     return 0;
 }
