@@ -1,10 +1,6 @@
 # Write a program to compute the volume of a Cone
 import math
 
-'''
-    Author: PaoloFer
-    Date: 07/10/2022
-'''
 
 # Get radius from user
 enter_radius = float(input('Radius : '))
