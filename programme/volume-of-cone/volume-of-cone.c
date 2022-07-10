@@ -16,4 +16,3 @@ int main(int argc, char *argv[])
 	printf("volume of cone: %lf\n", volume);
     return 0;
 }
-
