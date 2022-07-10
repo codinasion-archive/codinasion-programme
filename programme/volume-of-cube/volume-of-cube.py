@@ -1,5 +1,7 @@
-a = int(input('Enter cube side: '))
+# Write a programme to find volume of a cube
+
+a = int(input('Enter cube side : '))
 
 area = a**3
 
-print(f'Area: {area}')
+print(f'Volume of cube  : {area}')
