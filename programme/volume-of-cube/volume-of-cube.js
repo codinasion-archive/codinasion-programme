@@ -5,4 +5,4 @@ function volumeCube(cubeSide) {
   }
   
   const cubeSide = 2;
-  console.log(`The area of square for ${cubeSide} is ${volumeCube(cubeSide)}`);
+  console.log(`The area of Cube for ${cubeSide} is ${volumeCube(cubeSide)}`);
