@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Write a programme to find cube of a number
+# Write a programme to find volume of cone
 from math import pi
 
 
