@@ -66,3 +66,4 @@
 64. ### [Write a program to compute the volume of a Sphere](./volume-of-sphere/)
 65. ### [Write a program to find X power Y](./x-power-y/)
 66. ### [Write a programme to convert years to days](./years-to-days/)
+67. ### [Write a programme to find the volume of a cone](./volume-of-cone/)
