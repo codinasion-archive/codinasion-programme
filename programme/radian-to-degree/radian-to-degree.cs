@@ -1,3 +1,4 @@
+//Write a programme to convert degree to radian
 using System;
 
 public class RadToDeg
@@ -21,7 +22,7 @@ public class RadToDeg
 
     }
     
-    
+
     public static void RadianToDegree(double radians)
     {
         double degrees = (180 / Math.PI) * radians;
