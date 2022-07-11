@@ -6,6 +6,7 @@ contributors:
   - aukokyong
   - Harshvardhantomar
   - PaoloFer
+  - PagliaraG
 ---
 
 ## Write a programme to find volume of a cube
