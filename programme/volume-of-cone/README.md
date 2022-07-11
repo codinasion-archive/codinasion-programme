@@ -3,6 +3,7 @@ title: Volume of cone
 description: Write a programme to find volume of cone
 contributors:
   - seraph776
+  - Greenboat24
 ---
 
 ## Write a programme to find volume of cone
