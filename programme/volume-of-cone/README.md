@@ -4,6 +4,7 @@ description: Write a programme to find volume of cone
 contributors:
   - seraph776
   - Greenboat24
+  - PaoloFer
 ---
 
 ## Write a programme to find volume of cone

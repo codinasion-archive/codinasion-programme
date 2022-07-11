@@ -1,15 +1,15 @@
-#!/usr/bin/env python3
-# Write a programme to find volume of cone
-from math import pi
+# Write a program to compute the volume of a Cone
+import math
 
 
-def volume_of_cone() -> None:
-    """Returns the volume of a cone"""
-    ht = {0: 'radius', 1: 'height'}
-    radius, height = [int(input(f"Input  {ht.get(i)}: ")) for i in range(2)]
+# Get radius from user
+enter_radius = float(input('Radius : '))
 
-    print("\nOutput :", f'{1 / 3 * pi * pow(radius, 2) * height:.5f}')
+# Get height from user
+enter_height = float(input('Height : '))
 
+# Calculate volume
+volume = 1/3 * math.pi * (enter_radius)**2 * enter_height
 
-if __name__ == '__main__':
-    volume_of_cone()
+# Print result
+print("\nVolume : {:0.2f}".format((volume)))

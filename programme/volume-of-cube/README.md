@@ -5,6 +5,7 @@ contributors:
   - mahdithedev
   - aukokyong
   - Harshvardhantomar
+  - PaoloFer
   - PagliaraG
 ---
 
