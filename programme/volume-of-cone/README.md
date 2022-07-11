@@ -1,13 +1,13 @@
 ---
-title: Write a programme to find volume of cone
-
+title: Volume of cone
+description: Write a programme to find volume of cone
 contributors:
   - seraph776
 ---
 
 ## Write a programme to find volume of cone
 
-Volume of cone = 1/3 * π * (radius)^2 * height
+Volume of cone = 1/3 \* π \* (radius)^2 \* height
 
 ```txt
 radius : 2
