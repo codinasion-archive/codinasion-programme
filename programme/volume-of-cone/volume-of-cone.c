@@ -1,20 +1,20 @@
-// C program to find the volume of a cone
+// write a program to find the volume of a cone
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main(int argc, char *argv[])
 {
-	double pi = 3.14159;
-	double radius,height,volume;
-	printf("enter radius : ");
-	scanf("%lf", &radius);
-	printf("enter height : ");
-	scanf("%lf", &height);
+  double pi = 3.14159;
+  double radius, height, volume;
+  printf("Enter radius : ");
+  scanf("%lf", &radius);
+  printf("Enter height : ");
+  scanf("%lf", &height);
 
-	volume = pi * radius * radius * height / 3.0;
+  volume = pi * radius * radius * height / 3.0;
 
-	printf("radius : %lf\n", radius);
-	printf("height : %lf\n\n", height);
-	printf("volume of cone: %lf\n", volume);
-    return 0;
+  printf("\nRadius of cone : %.2lf\n", radius);
+  printf("Height of cone : %.2lf\n", height);
+  printf("Volume of cone : %.2lf\n", volume);
+  return 0;
 }
