@@ -1,18 +1,11 @@
---
-title: degree to radian
+---
+title: Degree to radian
 description: Write a programme to convert degree to radian
 contributors:
   - PaoloFer
 ---
 
 ## Write a programme to convert degree to radian
-
-mathematical formula
-
-```txt
-1Deg × π/180 = 0.01745Rad
-```
-
 
 ```txt
 Input  : 1
