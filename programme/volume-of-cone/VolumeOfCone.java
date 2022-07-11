@@ -2,19 +2,26 @@
 
 import java.util.Scanner;
 
-public class VolumeOfCone {
-  
+class VolumeOfCone {
+
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
+
     System.out.print("Input radius : ");
-    double radius = sc.nextDouble();
+    double radius = scanner.nextDouble();
+
     System.out.print("Input height : ");
-    double height = sc.nextDouble();
-    System.out.println("Output : " + String.format("%.5f", volumeOfCone(radius, height)));
-    sc.close();
+    double height = scanner.nextDouble();
+
+    System.out.println("\nvolume of cone : " + volCone(radius, height));
+
+    scanner.close();
   }
-  
-  private static double volumeOfCone(double radius, double height) {
-    return 1 / 3d * Math.PI * Math.pow(radius, 2) * height;
+
+  public static double volCone(double radius, double height) {
+    return (
+      Math.round(1.0 / 3 * Math.PI * Math.pow(radius, 2) * height * 100.0) /
+      100.0
+    );
   }
 }
