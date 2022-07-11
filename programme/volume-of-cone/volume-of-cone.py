@@ -9,7 +9,7 @@ enter_radius = float(input('Radius : '))
 enter_height = float(input('Height : '))
 
 # Calculate volume
-volume =  1/3 * math.pi * (enter_radius)**2 * enter_height 
+volume = 1/3 * math.pi * (enter_radius)**2 * enter_height
 
 # Print result
 print("\nVolume : {:0.2f}".format((volume)))
