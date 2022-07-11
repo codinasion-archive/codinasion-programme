@@ -1,7 +1,8 @@
-#Write a programme to convert radian to degree
+# Write a programme to convert radian to degree
 import math
 
-radian = float(input("Input radian: "))
+radian = float(input("Input radian : "))
 
 degrees = radian*(180/math.pi)
-print(degrees)
+
+print("\nDegree :", round(degrees, 5))
