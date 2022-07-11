@@ -1,14 +1,13 @@
-//Write a programme to convert radian to degree
+// Write a programme to convert radian to degree
 
 "use strict";
 
-let radialInput = prompt("Radial : ");
-
-//perform the following command to run programme
-//node radian-to-degree
-console.log("Degrees :", radialToDegrees(+radialInput));
-
-radialToDegrees(rapdial){
+function radian_to_degree(radian) {
   var pi = Math.PI;
-  return radians * (180/pi);
+  return radian * (180 / pi);
 }
+
+let radianInput = prompt("Radial : ");
+
+console.log("Input  : " + radianInput);
+console.log("Output : " + radian_to_degree(radianInput).toFixed(5));
