@@ -19,5 +19,3 @@ public class DegreeToRadian {
         sc.close();
     }
 }
-
-//          radians = (degree)( (Math.PI) / 180);
