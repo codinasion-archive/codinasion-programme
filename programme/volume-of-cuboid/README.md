@@ -3,6 +3,7 @@ title: Volume of a cuboid
 description: Write a programme to find volume of a cuboid
 contributors:
   - Harshvardhantomar
+  - irvinavelino
 ---
 
 ## Write a programme to find volume of a cuboid
