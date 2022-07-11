@@ -4,6 +4,8 @@ description: Write a programme to find volume of a cube
 contributors:
   - mahdithedev
   - aukokyong
+  - Harshvardhantomar
+  - PagliaraG
 ---
 
 ## Write a programme to find volume of a cube
