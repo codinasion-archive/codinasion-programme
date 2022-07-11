@@ -11,9 +11,7 @@ namespace Codinasion.Programme
             double height = GetHeight();
             Cone cone = Cone.Create(height, radius);
             Console
-                .WriteLine($"\nA cone with a radius of {
-                    cone.Radius} and a height of {cone.Height} has a volume of {
-                    string.Format("{0:0.00000}", cone.Volume)}");
+                .WriteLine($"\nA cone with a radius of {cone.Radius} and a height of {cone.Height} has a volume of {string.Format("{0:0.00000}", cone.Volume)}")
         }
 
         private static double GetHeight()
