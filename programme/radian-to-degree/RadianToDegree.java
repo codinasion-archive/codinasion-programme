@@ -6,11 +6,11 @@ public class RadianToDegree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // taking degrees input
+        // taking radians input
         System.out.print("Enter the amount of Radians  : ");
         int radian = sc.nextInt();
 
-        // calculating degree to radian
+        // calculating radian to degree
         double degree = radian * (180/(Math.PI));
 
         // printing the final answer
