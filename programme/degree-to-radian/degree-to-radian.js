@@ -1,7 +1,10 @@
-//Write a programme to convert degree to radian
-function degrees_to_radians(degrees){
+// Write a programme to convert degree to radian
+
+function degrees_to_radians(degrees) {
   var pi = Math.PI;
-  return degrees * (pi/180);
+  return degrees * (pi / 180);
 }
 
-console.log(degrees_to_radians(1));//0.017453292519943295
+degree = 1;
+console.log("Input  : " + degree);
+console.log("Output : " + degrees_to_radians(degree).toFixed(5));
