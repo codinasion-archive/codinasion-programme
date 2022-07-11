@@ -6,4 +6,4 @@ function cube(number) {
 
 const x = 2;
 console.log('Input  :', x);
-console.log('Output :', avgOfNumbers(x));
+console.log('Output :', cube(x));
