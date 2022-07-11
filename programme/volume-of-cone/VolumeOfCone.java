@@ -10,10 +10,10 @@ class VolumeOfCone {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.print("radius : ");
+    System.out.print("Input radius : ");
     double radius = scanner.nextDouble();
 
-    System.out.print("height : ");
+    System.out.print("Input height : ");
     double height = scanner.nextDouble();
 
     System.out.println("\nvolume of cone : " + volCone(radius, height));
@@ -28,5 +28,3 @@ class VolumeOfCone {
     );
   }
 }
-
-// Code contributed by : @isobarbaric (Krish Shah)
