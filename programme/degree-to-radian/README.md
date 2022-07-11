@@ -7,11 +7,11 @@ contributors:
 
 ## Write a programme to convert degree to radian
 
+mathematical formula
 
 ```txt
 1Deg × π/180 = 0.01745Rad
 ```
-
 
 
 ```txt
