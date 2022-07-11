@@ -1,4 +1,8 @@
 # Computes the area of a square
 
-x = int(input('side : '))
-print('area :', x**2)
+def areaSquare(side):
+    return side ** 2
+
+
+side = int(input('side : '))
+print('area :', areaSquare(side))
