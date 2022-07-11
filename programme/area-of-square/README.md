@@ -11,6 +11,7 @@ contributors:
   - victoriacheng15
   - 0xRenegade
   - SanjayShetty01
+  - Stevie011
 ---
 
 ## Write a program to find the area of a square
