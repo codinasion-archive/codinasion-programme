@@ -6,6 +6,8 @@ contributors:
   - Greenboat24
   - PaoloFer
   - aukokyong
+  - boatwrong
+  - isobarbaric
 ---
 
 ## Write a programme to find volume of cone

@@ -1,5 +1,8 @@
-// Write a programme to find volume of cone
-
+/*
+Description:
+    Write a programme to find volume of cone
+    Volume of cone = 1/3 * π * (radius)^2 * height
+*/
 import java.util.Scanner;
 
 class VolumeOfCone {
