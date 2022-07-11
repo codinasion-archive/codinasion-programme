@@ -7,8 +7,8 @@ namespace Codinasion.Programme
         public static void Main()
         {
 
-            string? input = GetInput();
-            var numberOfCapitals = input.Count(c => char.IsUpper(c));
+            string input = GetInput();
+            int numberOfCapitals = input.Count(c => char.IsUpper(c));
             Console.WriteLine($"{input} has {numberOfCapitals} capital letters");
         }
 
@@ -22,7 +22,7 @@ namespace Codinasion.Programme
             while (input == null)
             {
                 Console.Write("Please enter a string to count the capital letters of : ");
-                var consoleInput = Console.ReadLine();
+                string? consoleInput = Console.ReadLine();
                 if (!string.IsNullOrEmpty(consoleInput))
                 {
                     input = consoleInput;
