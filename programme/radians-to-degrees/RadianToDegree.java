@@ -11,9 +11,9 @@ public class RadianToDegree {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Input: ");
+        System.out.println("Input  : ");
         int radian = scan.nextInt();
-        System.out.println("Output: "+ radianToDegree(radian));
+        System.out.println("Output : "+ radianToDegree(radian));
         scan.close();
     }
 }
