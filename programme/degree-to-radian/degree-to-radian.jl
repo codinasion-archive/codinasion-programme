@@ -1,5 +1,7 @@
-#we can use the deg2rad() method. The deg2rad() is an inbuilt function in Julia that converts the specified degree values to radian values.
+# Write a programme to convert degree to radian
+# The deg2rad() is an inbuilt function in Julia that
+# converts the specified degree values to radian values.
 
-#For Getting the values in radian, we can use this code :
-
-println(deg2rad(1))
+degree = 1
+println("Input  : ", degree)
+println("Output : ", deg2rad(degree))
