@@ -1,4 +1,4 @@
-// Write a program to convert Degrees into Radians
+// Write a program to convert Radian to Degree
 import java.util.Scanner;
 
 public class RadianToDegree {
