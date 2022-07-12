@@ -4,6 +4,8 @@ description: Write a programme to convert degree to radian
 contributors:
   - PaoloFer
   - Adarsh-jaiss
+  - TheofilosKaxiris
+  - dcordoba97
 ---
 
 ## Write a programme to convert degree to radian
