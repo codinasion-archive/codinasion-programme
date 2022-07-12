@@ -10,7 +10,6 @@ contributors:
 ```txt
 Input  : hiithere
 Output : Even String
+```
 
-Input  : hii
-Output : Odd String
 ---
