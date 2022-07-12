@@ -1,19 +1,22 @@
+// Write a program to convert Degrees into Radians
 import java.util.Scanner;
 
 public class RadianToDegree {
 
-    public static double radianToDegree(int radian) {
+  public static double radianToDegree(int radian) {
+    return Math.round((radian * 180.0 / Math.PI) * 10000) / 10000.0;
+  }
 
-        return Math.round((radian * 180.0 / Math.PI) * 10000) / 10000.0;
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
 
-    }
+    // taking radians input
+    System.out.print("Enter the amount of Radians  : ");
+    int radian = sc.nextInt();
 
-    public static void main(String[] args) {
+    // printing the answer
+    System.out.printf("\nAmount in Degrees = %f\n", radianToDegree(radian));
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Input  : ");
-        int radian = scan.nextInt();
-        System.out.println("Output : "+ radianToDegree(radian));
-        scan.close();
-    }
+    sc.close();
+  }
 }
