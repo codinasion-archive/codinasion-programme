@@ -8,6 +8,7 @@ contributors:
   - zahyaah
   - dcordoba97
   - BrianJesseKimani
+  - adarsh-jaiss
 ---
 
 ## Write a programme to convert radian to degree
