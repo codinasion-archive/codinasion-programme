@@ -4,6 +4,7 @@ description: Write a programme to check even or odd string
 contributors:
   - danyroza
   - icyca
+  - aukokyong
 ---
 
 ## Write a programme to check even or odd string
