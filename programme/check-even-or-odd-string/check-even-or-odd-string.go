@@ -1,3 +1,4 @@
+// Write a programme to check even or odd string
 package main
 
 import (
@@ -6,11 +7,12 @@ import (
 
 func main() {
 	var str string
-	fmt.Println("Enter a string: ")
+	fmt.Print("Enter a string : ")
 	fmt.Scan(&str)
+	fmt.Printf("\nOutput : ")
 	if len(str)%2 == 0 {
-		fmt.Println("Even")
+		fmt.Println("Even string")
 	} else {
-		fmt.Println("Odd")
+		fmt.Println("Odd string")
 	}
 }
