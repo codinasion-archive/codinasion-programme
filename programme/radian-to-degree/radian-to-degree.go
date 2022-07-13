@@ -1,3 +1,4 @@
+// Write a programme to convert radian to degree
 package main
 
 import (
@@ -7,7 +8,7 @@ import (
 
 func main() {
 	var radian float64
-	fmt.Println("Enter a radian: ")
+	fmt.Print("Enter a radian : ")
 	fmt.Scan(&radian)
-	fmt.Println("Degree of", radian, "is", math.Round(radian*180/math.Pi))
+	fmt.Println("\nDegree of", radian, "radian is", math.Round(radian*180/math.Pi))
 }
