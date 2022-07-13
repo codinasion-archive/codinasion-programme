@@ -1,3 +1,4 @@
+// Write a programme to count capital letters in a string
 package main
 
 import (
@@ -6,9 +7,9 @@ import (
 
 func main() {
 	var str string
-	fmt.Println("Enter a string: ")
+	fmt.Print("Enter a string : ")
 	fmt.Scan(&str)
-	fmt.Println("Number of capital letters in the string is: ", countCapitalLetters(str))
+	fmt.Println("Number of capital letters in the string is : ", countCapitalLetters(str))
 }
 
 func countCapitalLetters(str string) int {
