@@ -5,6 +5,7 @@ contributors:
   - irvinavelino
   - Kaleen-MicheleXO
   - Greenboat24
+  - PaoloFer
   - MadhuS-1605
 ---
 

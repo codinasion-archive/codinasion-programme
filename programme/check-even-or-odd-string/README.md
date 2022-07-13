@@ -5,6 +5,7 @@ contributors:
   - danyroza
   - icyca
   - aukokyong
+  - PaoloFer
   - MadhuS-1605
 ---
 
