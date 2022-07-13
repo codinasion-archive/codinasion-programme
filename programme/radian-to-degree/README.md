@@ -5,6 +5,7 @@ contributors:
   - PaoloFer
   - leighbriody
   - idkjanevim
+  - Adarsh-jaiss
   - zahyaah
   - dcordoba97
   - BrianJesseKimani
