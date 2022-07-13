@@ -3,6 +3,10 @@ title: Degree to radian
 description: Write a programme to convert degree to radian
 contributors:
   - PaoloFer
+  - Adarsh-jaiss
+  - TheofilosKaxiris
+  - dcordoba97
+  - IsaacNoga
 ---
 
 ## Write a programme to convert degree to radian
