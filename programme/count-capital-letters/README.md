@@ -4,6 +4,7 @@ description: Write a programme to count capital letters in a string
 contributors:
   - irvinavelino
   - Kaleen-MicheleXO
+  - Greenboat24
 ---
 
 ## Write a programme to count capital letters in a string
