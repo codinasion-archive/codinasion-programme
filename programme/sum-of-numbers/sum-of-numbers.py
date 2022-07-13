@@ -1,14 +1,16 @@
-#Write a programme to find the sum of n numbers
+# Write a programme to find the sum of n numbers
 
 def sum_of_number(string):
-    numbers=list(string.split(" "))
-    
-    sum=0
-    
+    numbers = list(string.split(" "))
+
+    sum = 0
+
     for number in numbers:
-        sum+=int(number)
+        sum += int(number)
 
     return sum
 
-string="1 2 3 4"
-print(sum_of_number(string))
+
+string = "1 2 3 4"
+print("Input  :", string)
+print("Output :", sum_of_number(string))

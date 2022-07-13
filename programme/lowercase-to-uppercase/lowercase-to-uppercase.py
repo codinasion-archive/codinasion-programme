@@ -1,7 +1,9 @@
-#Write a programme to convert a lowercase string into an upper one
+# Write a programme to convert lowercase string to uppercase string
 
 def lowercase_to_uppercase(string):
     return string.upper()
 
-string="hii there"
-print(lowercase_to_uppercase(string))
+
+string = "hii there"
+print("Input  :", string)
+print("Output :", lowercase_to_uppercase(string))
