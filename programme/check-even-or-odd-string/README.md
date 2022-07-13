@@ -5,6 +5,7 @@ contributors:
   - danyroza
   - icyca
   - aukokyong
+  - MadhuS-1605
 ---
 
 ## Write a programme to check even or odd string
