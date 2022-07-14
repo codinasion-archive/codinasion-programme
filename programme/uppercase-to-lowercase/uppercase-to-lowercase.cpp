@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	string ask; 
 	cout << "String: ";
-	cin >> ask; 
+	getline(cin, ask);
 	int store; 
 	for (auto i : ask) {
 		store = i;
