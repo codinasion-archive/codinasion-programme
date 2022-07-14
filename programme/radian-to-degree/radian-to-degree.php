@@ -1,4 +1,5 @@
 <?php
+// Write a programme to convert radian to degree
 
 function radToDeg(int|float $rad) {
     return round($rad * 180 / pi(), 4);
