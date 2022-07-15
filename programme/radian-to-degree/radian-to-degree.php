@@ -10,13 +10,13 @@ function radiant_to_degrees($radiant)
 
     }
 
-    return $radiant * (180 / pi());
+    return round($radiant * (180 / pi()), 4);
 
 }
 
-$radiant = readline("Enter radiant value  : ");
+$radiant = readline("Enter radiant value : ");
 
 $degrees = radiant_to_degrees($radiant);
 
-print "\nRadiant : {$radiant}";
-print "\nDegrees : {$degrees}\n";
+print "\nRadian : {$radiant}";
+print "\nDegree : {$degrees}\n";

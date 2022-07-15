@@ -10,6 +10,7 @@ contributors:
   - dcordoba97
   - BrianJesseKimani
   - MadhuS-1605
+  - JefvdA
   - PagliaraG
 ---
 
