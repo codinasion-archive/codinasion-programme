@@ -6,6 +6,9 @@ contributors:
   - Adarsh-jaiss
   - TheofilosKaxiris
   - dcordoba97
+  - IsaacNoga
+  - MadhuS-1605
+  - zahyaah
 ---
 
 ## Write a programme to convert degree to radian
