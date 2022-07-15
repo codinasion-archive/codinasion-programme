@@ -3,6 +3,10 @@ title: Count capital letters in a string
 description: Write a programme to count capital letters in a string
 contributors:
   - irvinavelino
+  - Kaleen-MicheleXO
+  - Greenboat24
+  - PaoloFer
+  - MadhuS-1605
 ---
 
 ## Write a programme to count capital letters in a string

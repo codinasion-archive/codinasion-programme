@@ -5,8 +5,11 @@ contributors:
   - PaoloFer
   - leighbriody
   - idkjanevim
+  - Adarsh-jaiss
+  - zahyaah
   - dcordoba97
   - BrianJesseKimani
+  - MadhuS-1605
 ---
 
 ## Write a programme to convert radian to degree

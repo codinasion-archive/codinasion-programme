@@ -10,6 +10,7 @@ contributors:
   - Yilmaz98
   - d-coder111
   - yogeshCt3
+  - Stevie011
 ---
 
 ## Write a programme to check a number even or odd
