@@ -7,6 +7,7 @@ contributors:
   - Greenboat24
   - PaoloFer
   - MadhuS-1605
+  - zahyaah
 ---
 
 ## Write a programme to count capital letters in a string
