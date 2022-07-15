@@ -5,6 +5,7 @@ contributors:
   - PaoloFer
   - MadhuS-1605
   - anastazir
+  - icyca
 ---
 
 ## Write a programme to find index of an alphabet
