@@ -8,6 +8,7 @@ contributors:
   - PaoloFer
   - MadhuS-1605
   - JefvdA
+  - zahyaah
 ---
 
 ## Write a programme to count capital letters in a string
