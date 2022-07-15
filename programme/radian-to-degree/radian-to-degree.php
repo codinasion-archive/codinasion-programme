@@ -1,14 +1,22 @@
 <?php
-// Write a programme to convert radian to degree
+// Write a program that converts radiant do degrees
 
-function radToDeg(int|float $rad) {
-    return round($rad * 180 / pi(), 4);
+function radiant_to_degrees($radiant)
+{
+
+    if (!is_numeric($radiant)) {
+
+        return 'Invalid input: Input is not a number';
+
+    }
+
+    return round($radiant * (180 / pi()), 4);
+
 }
 
-$rad = readline("Enter the value in radian : ");
-$deg = radToDeg($rad);
+$radiant = readline("Enter radiant value : ");
 
-print "\nRadian : {$rad}";
-print "\nDegrees : {$deg}";
+$degrees = radiant_to_degrees($radiant);
 
-?>
+print "\nRadian : {$radiant}";
+print "\nDegree : {$degrees}\n";
