@@ -5,6 +5,8 @@ contributors:
   - aukokyong
   - seraph776
   - Greenboat24
+  - isobarbaric
+  - danyroza
 ---
 
 ## Write a programme to find cube of a number
