@@ -3,12 +3,12 @@
 const alphabets = "abcdefghijklmnopqrstuvwxyz";
 const alphabet = "C";
 
-function getIndexOfAlphabet(alphabet){
-    for (let i = 0; i < alphabets.length; i++){
-        if (alphabets[i] == alphabet.toLowerCase()){
-            return i + 1;
-        }
+function getIndexOfAlphabet(alphabet) {
+  for (let i = 0; i < alphabets.length; i++) {
+    if (alphabets[i] == alphabet.toLowerCase()) {
+      return i + 1;
     }
+  }
 }
-console.log("Input: ", alphabet)
-console.log("Index: ", getIndexOfAlphabet(alphabet));
+console.log("Input :", alphabet);
+console.log("Index :", getIndexOfAlphabet(alphabet));
