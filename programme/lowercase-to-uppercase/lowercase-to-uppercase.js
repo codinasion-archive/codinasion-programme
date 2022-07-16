@@ -2,8 +2,8 @@
 
 const string = "HII THERE";
 
-function lowercaseToUppercase(str){
-    return str.toLowerCase();
+function lowercaseToUppercase(str) {
+  return str.toLowerCase();
 }
 
 console.log("Input  :", string);
