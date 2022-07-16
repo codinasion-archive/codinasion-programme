@@ -4,6 +4,7 @@ description: Write a programme to convert lowercase string to uppercase
 contributors:
   - PaoloFer
   - zahyaah
+  - anastazir
 ---
 
 ## Write a programme to convert lowercase string to uppercase
