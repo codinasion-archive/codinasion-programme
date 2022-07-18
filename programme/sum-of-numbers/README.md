@@ -3,6 +3,7 @@ title: Sum of n numbers
 description: Write a programme to find sum of n numbers
 contributors:
   - PaoloFer
+  - anastazir
 ---
 
 ## Write a programme to find sum of n numbers
