@@ -1,12 +1,11 @@
 <?php
-/* Write a programme to check even or odd string
+/* Write a programme to find square root of a number
 
 Input  : 25
 Output : 5
-*/
+ */
 
 $user_input = readline("Input  : ");
-echo ("Output  :  ". sqrt($user_input))
-
+echo ("Output  :  " . sqrt($user_input) . "\n")
 
 ?>
