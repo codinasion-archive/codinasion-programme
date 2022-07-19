@@ -6,6 +6,7 @@ contributors:
   - PaoloFer
   - icyca
   - seraph776
+  - anastazir
 ---
 
 ## Write a programme to find square root of a number
