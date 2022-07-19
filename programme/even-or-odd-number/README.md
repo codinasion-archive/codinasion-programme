@@ -11,6 +11,7 @@ contributors:
   - d-coder111
   - yogeshCt3
   - Stevie011
+  - sonarypt
 ---
 
 ## Write a programme to check a number even or odd
