@@ -7,6 +7,7 @@ contributors:
   - ssavi-ict
   - victoriacheng15
   - umaxyon
+  - seraph776
 ---
 
 ## Write a programme to find the square of a number
