@@ -5,6 +5,7 @@ contributors:
   - aukokyong
   - PaoloFer
   - icyca
+  - seraph776
 ---
 
 ## Write a programme to find square root of a number
