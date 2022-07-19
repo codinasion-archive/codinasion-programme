@@ -6,10 +6,11 @@ contributors:
   - hansleykowlessur
   - rutterjt
   - ClasherKasten
-  - umaxyon
+  - umaxyon 
   - Yilmaz98
   - d-coder111
   - yogeshCt3
+  - seraph776  
 ---
 
 ## Write a programme to check a number even or odd
