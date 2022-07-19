@@ -7,6 +7,7 @@ contributors:
   - Greenboat24
   - isobarbaric
   - danyroza
+  - sonarypt
 ---
 
 ## Write a programme to find cube of a number

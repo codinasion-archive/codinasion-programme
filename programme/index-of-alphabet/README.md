@@ -6,6 +6,7 @@ contributors:
   - MadhuS-1605
   - anastazir
   - icyca
+  - sonarypt
 ---
 
 ## Write a programme to find index of an alphabet
