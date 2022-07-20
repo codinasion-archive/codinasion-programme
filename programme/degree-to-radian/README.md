@@ -9,6 +9,7 @@ contributors:
   - IsaacNoga
   - MadhuS-1605
   - zahyaah
+  - sonarypt
 ---
 
 ## Write a programme to convert degree to radian
