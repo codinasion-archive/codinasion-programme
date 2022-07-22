@@ -3,6 +3,7 @@ title: Generate random even number
 description: Write a programme to generate a random even number in range n1-n2
 contributors:
   - PaoloFer
+  - anastazir
 ---
 
 ## Write a programme to generate a random even number in range n1-n2
