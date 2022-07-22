@@ -1,10 +1,16 @@
+/*
+
+Programm take as given that inputs are always lower<upper
+Normally we would need a input control to confirm that the uper argument is always bigger
+
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
 int main()
 {
-    int lower, upper;
+    int lower, upper, num;
 
     srand(time(0));
     printf ("Enter lower limit: ") ;
@@ -12,11 +18,16 @@ int main()
     printf ("Enter upper limit: ") ;
     scanf ("%d", &upper);
 
+    
+    int check = 2 % 2;
+
     printf("The random numbers are: ");
-    for (int i = 0; i < 1; i++) {
-        int num = (rand() % (upper - lower + 1)) + lower;
-        printf("%d ", num);
+    
+    while (check == 0){
+        num = (rand() % (upper - lower + 1)) + lower;
+        check = num % 2;
     }
+    printf("%d ", num);
 
     return 0;
 }
