@@ -7,6 +7,7 @@ contributors:
   - anastazir
   - icyca
   - sonarypt
+  - himanshuc09
 ---
 
 ## Write a programme to find index of an alphabet
