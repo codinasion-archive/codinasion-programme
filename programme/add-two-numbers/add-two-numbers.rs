@@ -1,16 +1,19 @@
-use std::io;
+// Write a program to add two numbers
+use std::io::{self, Write};
 
 fn main() {
     // Read user input
-    println!("Enter first number: ");
+    print!("Enter first number  : ");
     let mut first_number = String::new();
+    let _ = io::stdout().flush();
     io::stdin()
         .read_line(&mut first_number)
         .expect("Unable to read entered data");
 
     // Read user input
-    println!("Enter second number: ");
+    print!("Enter second number : ");
     let mut second_number = String::new();
+    let _ = io::stdout().flush();
     io::stdin()
         .read_line(&mut second_number)
         .expect("Unable to read entered data");
@@ -29,5 +32,5 @@ fn main() {
 
     let sum = a + b;
     // Output of basic operations
-    println!("{} + {} = {}", a, b, sum);
+    println!("\n{} + {} = {}", a, b, sum);
 }
