@@ -1,8 +1,8 @@
-/*
+// Write a programme to generate a random even number in range n1-n2
 
+/*
 Programm take as given that inputs are always lower<upper
 Normally we would need a input control to confirm that the uper argument is always bigger
-
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,24 +10,24 @@ Normally we would need a input control to confirm that the uper argument is alwa
 
 int main()
 {
-    int lower, upper, num;
+  int lower, upper, num;
 
-    srand(time(0));
-    printf ("Enter lower limit: ") ;
-    scanf ("%d", &lower);
-    printf ("Enter upper limit: ") ;
-    scanf ("%d", &upper);
+  srand(time(0));
+  printf("Enter lower limit : ");
+  scanf("%d", &lower);
+  printf("Enter upper limit : ");
+  scanf("%d", &upper);
 
-    
-    int check = 3 % 2;
+  int check = 3 % 2;
 
-    printf("The random numbers are: ");
-    
-    while (check != 0){
-        num = (rand() % (upper - lower + 1)) + lower;
-        check = num % 2;
-    }
-    printf("%d ", num);
+  printf("The random number is : ");
 
-    return 0;
+  while (check != 0)
+  {
+    num = (rand() % (upper - lower + 1)) + lower;
+    check = num % 2;
+  }
+  printf("%d\n", num);
+
+  return 0;
 }
