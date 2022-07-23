@@ -1,5 +1,5 @@
 function lowerCased(input)
     
-    println(uppercase(input))
+    println(lowercase(input))
     
 end
