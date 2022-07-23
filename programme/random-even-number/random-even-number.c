@@ -20,7 +20,7 @@ int main()
 
   int check = 3 % 2;
 
-  printf("The random number is : ");
+  printf("The random even number is : ");
 
   while (check != 0)
   {
