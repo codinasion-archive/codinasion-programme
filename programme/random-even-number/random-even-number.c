@@ -1,10 +1,9 @@
-// Write a programme to generate a random number in range n1-n2
+// Write a programme to generate a random even number in range n1-n2
 
 /*
 Programm take as given that inputs are always lower<upper
 Normally we would need a input control to confirm that the uper argument is always bigger
 */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -19,8 +18,16 @@ int main()
   printf("Enter upper limit : ");
   scanf("%d", &upper);
 
-  num = (rand() % (upper - lower + 1)) + lower;
-  printf("\nThe random number is : %d\n", num);
+  int check = 3 % 2;
+
+  printf("The random even number is : ");
+
+  while (check != 0)
+  {
+    num = (rand() % (upper - lower + 1)) + lower;
+    check = num % 2;
+  }
+  printf("%d\n", num);
 
   return 0;
 }
