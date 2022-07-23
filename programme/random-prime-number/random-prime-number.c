@@ -34,7 +34,7 @@ int main()
   printf("Enter upper limit : ");
   scanf("%d", &upper);
 
-  printf("\nThe random number is : ");
+  printf("\nThe random prime number is : ");
 
   int check = 0;
   while (check != 1)
