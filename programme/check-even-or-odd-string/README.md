@@ -8,6 +8,7 @@ contributors:
   - PaoloFer
   - MadhuS-1605
   - zahyaah
+  - SpirosArk
 ---
 
 ## Write a programme to check even or odd string
