@@ -6,6 +6,7 @@ contributors:
   - zahyaah
   - anastazir
   - SpirosArk
+  - KikiManjaro
 ---
 
 ## Write a programme to convert lowercase string to uppercase
