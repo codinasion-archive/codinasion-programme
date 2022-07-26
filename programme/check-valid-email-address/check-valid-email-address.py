@@ -1,7 +1,9 @@
+# Write a programme to check a valid email address
 import re
 
 def solve(s):
-    p = "^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-z]{1,3}$" # pattern (starting with [a-zA-Z0-9-_] then @ then email domain)
+    # pattern (starting with [a-zA-Z0-9-_] then @ then email domain)
+    p = "^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-z]{1,3}$" 
     if re.match(p,s):
         return True
     else:
@@ -19,5 +21,5 @@ def solve(s):
                 return False
         return True
 
-s = input('Email: ')
-print('Valid:', solve(s))
+s = input('Email : ')
+print('Valid :', solve(s))
