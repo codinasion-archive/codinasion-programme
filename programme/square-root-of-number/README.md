@@ -7,6 +7,7 @@ contributors:
   - icyca
   - seraph776
   - anastazir
+  - SpirosArk
 ---
 
 ## Write a programme to find square root of a number
