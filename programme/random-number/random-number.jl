@@ -1,11 +1,11 @@
-function outputInRange()
+function output_in_range()
   println("Enter start range")
-  startRange = readline()
+  start_range = readline()
   
   println("Enter end range")
-  endRange = readline()
+  end_range = readline()
   
-  println(rand((parse(Int64, startRange)):parse(Int64, endRange))) #We use parsing in order to turn a string input into an integer because rand works only with ints
+  println(rand((parse(Int64, start_range)):parse(Int64, end_range))) #We use parsing in order to turn a string input into an integer because rand works only with ints
 end
 
-outputInRange()
+output_in_range()
