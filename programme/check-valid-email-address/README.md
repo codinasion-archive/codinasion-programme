@@ -5,6 +5,7 @@ contributors:
   - anastazir
   - fadyfayek11
   - pabon-alberto
+  - rossilor95
 ---
 
 ## Write a programme to check a valid email address
