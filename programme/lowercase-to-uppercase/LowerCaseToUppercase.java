@@ -1,9 +1,9 @@
-# Write a programme to convert lowercase string to uppercase string
+// Write a programme to convert lowercase string to uppercase string
 import java.util.Scanner;
 
 public class LowerCaseToUppercase {
-  
-    private static String lowerCaseToUpperCase (String lowercase) {
+
+  private static String lowerCaseToUpperCase(String lowercase) {
     return lowercase.toUpperCase();
   }
 
@@ -11,8 +11,9 @@ public class LowerCaseToUppercase {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Enter string : ");
     String input = scanner.next();
-    System.out.println("\nString to uppercase : " + lowerCaseToUpperCase(input));
+    System.out.println(
+      "\nString to uppercase : " + lowerCaseToUpperCase(input)
+    );
     scanner.close();
   }
-
 }
