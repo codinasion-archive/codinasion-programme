@@ -2,6 +2,10 @@
 import java.util.Scanner;
 
 public class LowerCaseToUppercase {
+  
+    private static String lowerCaseToUpperCase (String lowercase) {
+    return lowercase.toUpperCase();
+  }
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -11,7 +15,4 @@ public class LowerCaseToUppercase {
     scanner.close();
   }
 
-  private static String lowerCaseToUpperCase(String lowercase){
-    return lowercase.toUpperCase();
-  }
 }
