@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 class CheckValidEmailAddress {
 
     public static boolean isValidEmail(String emailAddress) {
-        Pattern pattern = Pattern.compile("^[A-Z\\d._%+-]+@[A-Z\\d.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile("^[A-Z](?:[A-Z\\d]|[-_.](?=[A-Z\\d]))+@[-A-Z\\d.]+\\.[A-Z]{2,}$", Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(emailAddress);
         return matcher.find();
     }
