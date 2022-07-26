@@ -3,6 +3,8 @@ title: Generate random prime number
 description: Write a programme to generate a random prime number in range n1-n2
 contributors:
   - PaoloFer
+  - SpirosArk
+  - icyca
 ---
 
 ## Write a programme to generate a random prime number in range n1-n2

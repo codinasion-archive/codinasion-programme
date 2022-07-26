@@ -4,6 +4,7 @@ description: Write a programme to generate a random even number in range n1-n2
 contributors:
   - PaoloFer
   - anastazir
+  - SpirosArk
 ---
 
 ## Write a programme to generate a random even number in range n1-n2
