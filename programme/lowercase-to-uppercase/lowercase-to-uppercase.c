@@ -1,3 +1,5 @@
+## Write a programme turn all lowercase letters of an input to uppercase
+
 #include <stdio.h>
 #include <string.h>
 int main() {
