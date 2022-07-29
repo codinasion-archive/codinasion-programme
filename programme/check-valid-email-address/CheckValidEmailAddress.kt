@@ -8,11 +8,11 @@ fun isValidEmail(emailAddress: String): Boolean {
 }
 
 fun main() {
-    print("Please, insert the email address to validate: ")
+    print("Please, insert the email address to validate : ")
     val emailAddress = readln()
     if (isValidEmail(emailAddress)) {
-        println("The email address provided is valid.")
+        println("\nThe email address provided is valid.")
     } else {
-        println("The email address provided is invalid.")
+        println("\nThe email address provided is invalid.")
     }
 }
