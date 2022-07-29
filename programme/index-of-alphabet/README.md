@@ -9,6 +9,7 @@ contributors:
   - sonarypt
   - himanshuc09
   - rgsk-28
+  - SpirosArk
 ---
 
 ## Write a programme to find index of an alphabet
