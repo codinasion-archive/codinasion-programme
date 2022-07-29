@@ -1,5 +1,4 @@
-## Write a programme to generate a random odd number in range n1-n2
-
+// Write a programme to generate a random odd number in range n1-n2
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,24 +6,24 @@
 
 int main()
 {
-    int lower, upper, num;
+  int lower, upper, num;
 
-    srand(time(0));
-    printf ("Enter lower limit: ") ;
-    scanf ("%d", &lower);
-    printf ("Enter upper limit: ") ;
-    scanf ("%d", &upper);
+  srand(time(0));
+  printf("Enter lower limit : ");
+  scanf("%d", &lower);
+  printf("Enter upper limit : ");
+  scanf("%d", &upper);
 
-    
-    int check = 2 % 2;
+  int check = 2 % 2;
 
-    printf("The random numbers are: ");
-    
-    while (check == 0){
-        num = (rand() % (upper - lower + 1)) + lower;
-        check = num % 2;
-    }
-    printf("%d ", num);
+  printf("\nThe random numbers is : ");
 
-    return 0;
+  while (check == 0)
+  {
+    num = (rand() % (upper - lower + 1)) + lower;
+    check = num % 2;
+  }
+  printf("%d\n", num);
+
+  return 0;
 }
