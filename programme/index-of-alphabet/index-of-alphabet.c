@@ -9,14 +9,10 @@ int main()
     printf("Enter char that you want to learn his alphabet position:\n");
     scanf("%c", &input);
     if (input >= 97){
-        
         position = input - 'a' + 1;
-        
     }
     else{
-    
         position = input - 'A' + 1;
-    
     }
     
     printf("%d", position);
