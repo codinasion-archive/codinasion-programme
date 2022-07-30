@@ -15,9 +15,7 @@ class HelloWorld {
         System.out.println("Random value in int from "+startRange+" to "+endRange+ ":\n");
         int random_int = (int)Math.floor(Math.random()*(endRange-startRange+1)+startRange);
         while (random_int % 2 == 0){
-            
             random_int = (int)Math.floor(Math.random()*(endRange-startRange+1)+startRange);
-            
         }
         System.out.println(random_int);
     }
