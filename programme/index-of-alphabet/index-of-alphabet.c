@@ -1,4 +1,4 @@
-//Program that accepts a char as an input and returns it's position in alphabet
+//Programme that accepts a char as an input and returns it's position in alphabet
 
 #include <stdio.h>
 
