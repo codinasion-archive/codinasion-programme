@@ -1,4 +1,4 @@
-#Program to calculate volumeOfCylinder
+#Programme to calculate volumeOfCylinder
 
 function cylinder(radius,height)
   volume = radius*radius*height*π
