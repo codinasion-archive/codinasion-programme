@@ -1,4 +1,4 @@
-# Write a program to print alphabet triangle pattern
+# Write a programme to print alphabet triangle pattern
 def pattern(a):
     print("Output :")
     for i in range(1, a + 1):

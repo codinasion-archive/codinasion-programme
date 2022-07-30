@@ -1,6 +1,6 @@
 ---
 title: Swap two numbers without using third variable
-description: Write a program to swap two numbers without using third variable
+description: Write a programme to swap two numbers without using third variable
 contributors:
   - Satyapriyo
   - aryangupta701
@@ -10,7 +10,7 @@ contributors:
   - hansleykowlessur
 ---
 
-## Write a program to swap two numbers without using third variable
+## Write a programme to swap two numbers without using third variable
 
 ```txt
 Input:  a=10 b=20

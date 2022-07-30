@@ -1,6 +1,6 @@
 ---
 title: Check Prime Number
-description: Write a program to check prime number
+description: Write a programme to check prime number
 contributors:
   - dylan-power
   - karthiksbh
@@ -11,7 +11,7 @@ contributors:
   - SanjayShetty01
 ---
 
-## Write a program to check prime number
+## Write a programme to check prime number
 
 ```txt
 Input  : 7

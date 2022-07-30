@@ -1,4 +1,4 @@
-//Javascript program to compute
+//Javascript programme to compute
 // sum of series 1/0! + 1/1! + 1/2! + .. + 1/n!
 
 // function calculating the factorials for the sum of series calculated in the following function

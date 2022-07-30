@@ -1,4 +1,4 @@
-// program to compute the value of Euler's number
+// programme to compute the value of Euler's number
 import java.util.Scanner;
 
 public class EulersNumber {

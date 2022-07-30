@@ -1,4 +1,4 @@
-// Write a program to print multiplication of 2 matrices
+// Write a programme to print multiplication of 2 matrices
 package main
 
 import (

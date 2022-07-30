@@ -1,4 +1,4 @@
-// program for matrix multiplication
+// programme for matrix multiplication
 
 public class MatrixMultiplication {
 
