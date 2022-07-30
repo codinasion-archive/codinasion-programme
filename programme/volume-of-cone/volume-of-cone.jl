@@ -1,4 +1,4 @@
-#Program to calculate volumeOfCone
+#Programme to calculate volumeOfCone
 
 function cone(radius,height)
   volume = radius*radius*height/3*π
