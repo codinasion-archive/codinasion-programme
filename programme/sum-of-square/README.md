@@ -1,6 +1,6 @@
 ---
 title: Sum of square
-description: Write a program to find the sum of square of first 'n' numbers
+description: Write a programme to find the sum of square of first 'n' numbers
 contributors:
   - NeelPatel31
   - KikiManjaro
@@ -10,7 +10,7 @@ contributors:
   - umaxyon
 ---
 
-## Write a program to print sum of square of n natural number
+## Write a programme to print sum of square of n natural number
 
 ```txt
 Input  : 3

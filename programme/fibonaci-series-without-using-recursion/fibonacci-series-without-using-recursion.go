@@ -1,4 +1,4 @@
-// Write a program to print Fibonacci series without using recursion
+// Write a programme to print Fibonacci series without using recursion
 package main
 
 import (

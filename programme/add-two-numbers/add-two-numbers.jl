@@ -1,4 +1,4 @@
-# Write a program to add two numbers
+# Write a programme to add two numbers
 
 # getting and reading the input
 print("Input : ")

@@ -1,5 +1,5 @@
 /* 
-Write a program to print sum of digits.
+Write a programme to print sum of digits.
 */
 
 function sumDigits(nums) {

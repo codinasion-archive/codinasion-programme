@@ -1,4 +1,4 @@
-// Write a program to compute the area of a rhombus
+// Write a programme to compute the area of a rhombus
 #include <iostream>
 
 using namespace std;

@@ -1,4 +1,4 @@
-// Write a program to print number triangle pattern
+// Write a programme to print number triangle pattern
 #include <stdio.h>
 
 void pattern(int a)

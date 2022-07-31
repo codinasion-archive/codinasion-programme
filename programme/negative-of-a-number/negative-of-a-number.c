@@ -1,4 +1,4 @@
-// Write a program to convert number to strings.
+// Write a programme to convert number to strings.
 #include <stdio.h>
 
 float get_opposite(float number)

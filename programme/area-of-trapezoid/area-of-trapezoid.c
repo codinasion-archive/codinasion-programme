@@ -1,4 +1,4 @@
-/* Program to Find the area of trapezoid */
+/* programme to Find the area of trapezoid */
 #include <stdio.h>
 
 int main()

@@ -1,5 +1,5 @@
 /*
-Write a program to print the given pattern:
+Write a programme to print the given pattern:
 
 for n = 3:
 

@@ -1,4 +1,4 @@
-// Write a program to compute the volume of a Cone
+// Write a programme to compute the volume of a Cone
 
 const radius = 2;
 const height = 3;

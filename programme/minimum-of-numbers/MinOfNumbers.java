@@ -1,4 +1,4 @@
-// Write a program to print the minimum of given numbers
+// Write a programme to print the minimum of given numbers
 import java.util.*;
 import java.util.stream.Collectors;
 

@@ -1,4 +1,4 @@
-# Write a program to check if the number is an Armstrong number or not
+# Write a programme to check if the number is an Armstrong number or not
 
 # Get input
 num = input("Input  : ")

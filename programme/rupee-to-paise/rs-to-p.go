@@ -1,4 +1,4 @@
-// Write a program to rupee to paise
+// Write a programme to rupee to paise
 package main
 
 import (

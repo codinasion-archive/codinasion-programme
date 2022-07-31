@@ -1,6 +1,6 @@
 ---
 title: Check armstrong number
-description: Write a program to check armstrong number
+description: Write a programme to check armstrong number
 contributors:
   - Badboy-16
   - kzhang01
@@ -11,7 +11,7 @@ contributors:
   - SanjayShetty01
 ---
 
-## Write a program to check armstrong number
+## Write a programme to check armstrong number
 
 Armstrong number is a number that is equal to the sum of cubes of length of its digits.
 

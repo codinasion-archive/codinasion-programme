@@ -1,4 +1,4 @@
-# Write a program to print an alphabet triangle pattern
+# Write a programme to print an alphabet triangle pattern
 
 function makePattern(num)
     print("Output : ")

@@ -1,4 +1,4 @@
-// write a program to get length of an array
+// write a programme to get length of an array
 #include <stdio.h>
 
 int main()
