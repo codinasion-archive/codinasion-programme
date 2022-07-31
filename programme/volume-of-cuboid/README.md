@@ -5,6 +5,7 @@ contributors:
   - Harshvardhantomar
   - irvinavelino
   - anastazir
+  - SpirosArk
 ---
 
 ## Write a programme to find volume of a cuboid
