@@ -1,8 +1,13 @@
-#Programme to calculate volumeOfCone
+# Write a programme to find volume of cone
 
-function cone(radius,height)
-  volume = radius*radius*height/3*π
+function cone(radius, height)
+  volume = radius * radius * height / 3 * π
   println(volume)
 end
 
-cone(2,3)
+radius = 2
+height = 3
+println("Radius : ", radius)
+println("Height : ", height)
+print("Output : ")
+cone(2, 3)
