@@ -1,6 +1,6 @@
 ---
 title: Volume of Sphere
-description: Write a program to compute the volume of a Sphere
+description: Write a programme to compute the volume of a Sphere
 contributors:
   - aashish-khub
   - VSen910
@@ -8,7 +8,7 @@ contributors:
   - ClasherKasten
 ---
 
-## Write a program to compute the volume of a Sphere
+## Write a programme to compute the volume of a Sphere
 
 Volume of a sphere = radius \* radius \* radius \* 4/3 \* π
 

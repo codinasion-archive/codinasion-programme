@@ -1,6 +1,6 @@
 ---
 title: Fibonacci Series using recursion
-description: Write a program to print the Fibonacci series for 'n' numbers using recursion
+description: Write a programme to print the Fibonacci series for 'n' numbers using recursion
 contributors:
   - harshi1122
   - Shivam-Shrivastav
@@ -10,7 +10,7 @@ contributors:
   - umaxyon
 ---
 
-## Write a program to print the Fibonacci series for 'n' numbers
+## Write a programme to print the Fibonacci series for 'n' numbers
 
 ```txt
 Input  : 10

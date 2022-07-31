@@ -1,5 +1,5 @@
 /*
- * program to convert minutes to seconds
+ * programme to convert minutes to seconds
  * @author: Siddhant Chimankar
  */
 

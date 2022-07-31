@@ -1,4 +1,4 @@
-# Write a program to check prime number
+# Write a programme to check prime number
 
 def check_prime(num):
     if (num == 0 or num == 1):

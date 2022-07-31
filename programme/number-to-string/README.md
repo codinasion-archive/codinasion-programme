@@ -1,6 +1,6 @@
 ---
 title: Number to Strings
-description: Write a program to convert number to strings
+description: Write a programme to convert number to strings
 contributors:
   - aryangupta701
   - NeelPatel31
@@ -10,7 +10,7 @@ contributors:
   - umaxyon
 ---
 
-## Write a program to convert number to strings
+## Write a programme to convert number to strings
 
 ```txt
 Input  : 51

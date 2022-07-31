@@ -1,6 +1,6 @@
 ---
 title: Alphabet triangle pattern
-description: Write a program to print alphabet triangle pattern
+description: Write a programme to print alphabet triangle pattern
 contributors:
   - NeelPatel31
   - shrionit
@@ -11,7 +11,7 @@ contributors:
   - SanjayShetty01
 ---
 
-## Write a program to print alphabet triangle pattern
+## Write a programme to print alphabet triangle pattern
 
 ```txt
 Input : 5

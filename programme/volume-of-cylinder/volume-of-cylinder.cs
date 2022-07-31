@@ -1,4 +1,4 @@
-// Write a program to compute the volume of a Cylinder
+// Write a programme to compute the volume of a Cylinder
 using System;
 
 public class VolumeOfCylinder

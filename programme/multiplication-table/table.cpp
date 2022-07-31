@@ -1,4 +1,4 @@
-// Write a program to output the multiplication table
+// Write a programme to output the multiplication table
 #include <iostream>
 
 using namespace std;

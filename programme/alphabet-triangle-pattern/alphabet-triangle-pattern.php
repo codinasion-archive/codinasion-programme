@@ -1,5 +1,5 @@
 <?php
-// Write a PHP program to print out an alphabet triangle pattern
+// Write a PHP programme to print out an alphabet triangle pattern
 
 function alpha_triangle(int $length)
 {

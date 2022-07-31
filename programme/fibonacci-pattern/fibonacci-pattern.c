@@ -1,4 +1,4 @@
-// Write a program to print Fibonacci pattern
+// Write a programme to print Fibonacci pattern
 
 #include <stdio.h>
 #include <math.h>

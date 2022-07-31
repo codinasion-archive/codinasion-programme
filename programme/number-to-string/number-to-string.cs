@@ -1,4 +1,4 @@
-// Write a program to convert number to strings
+// Write a programme to convert number to strings
 using System;
 using System.Collections.Generic;
 using System.Linq;

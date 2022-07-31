@@ -1,4 +1,4 @@
-// Write a program to print fibonacci series without using recursion
+// Write a programme to print fibonacci series without using recursion
 #include <stdio.h>
 
 int main()

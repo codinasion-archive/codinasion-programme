@@ -1,4 +1,4 @@
-// Write a program to print the length of a string
+// Write a programme to print the length of a string
 using System;
 
 public class LengthOfString

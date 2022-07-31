@@ -1,4 +1,4 @@
-// Write a program to print alphabet triangle pattern
+// Write a programme to print alphabet triangle pattern
 using System;
 
 public class AlphabetTrianglePattern

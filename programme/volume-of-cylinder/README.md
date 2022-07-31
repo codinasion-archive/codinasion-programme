@@ -1,6 +1,6 @@
 ---
 title: Volume of a cylinder
-description: Write a program to compute the volume of a Cylinder
+description: Write a programme to compute the volume of a Cylinder
 contributors:
   - yougottawork
   - dylan-power
@@ -11,7 +11,7 @@ contributors:
   - SpirosArk
 ---
 
-## Write a program to compute the volume of a Cylinder
+## Write a programme to compute the volume of a Cylinder
 
 Volume of a cylinder = radius \* radius \* height \* π
 

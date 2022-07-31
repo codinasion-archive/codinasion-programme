@@ -1,4 +1,4 @@
-# Write a  program to compute area of trapezoid
+# Write a  programme to compute area of trapezoid
 
 base1 = int(input('Base 1 : '))
 base2 = int(input('Base 2 : '))

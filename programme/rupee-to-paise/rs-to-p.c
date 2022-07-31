@@ -1,4 +1,4 @@
-// Write a program to convert rupee to paise
+// Write a programme to convert rupee to paise
 #include <stdio.h>
 
 int main()

@@ -1,4 +1,4 @@
-// Write a program to print Fibonacci series without recursion
+// Write a programme to print Fibonacci series without recursion
 
 "use strict";
 

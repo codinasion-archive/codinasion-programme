@@ -1,4 +1,4 @@
-// Write a program to find the length of a string
+// Write a programme to find the length of a string
 #include <iostream>
 #include <string.h>
 
