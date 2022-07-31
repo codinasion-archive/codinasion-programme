@@ -1,4 +1,4 @@
-// Write a program to swap two numbers
+// Write a programmeto swap two numbers
 #include <stdio.h>
 
 int main()

@@ -1,4 +1,4 @@
-// Write a program to print the reverse of a number
+// Write a programmeto print the reverse of a number
 import java.util.Scanner;
 
 public class ReverseOfNumber {

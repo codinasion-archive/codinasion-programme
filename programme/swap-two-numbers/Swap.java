@@ -1,4 +1,4 @@
-// Write a program to swap two numbers
+// Write a programmeto swap two numbers
 import java.util.Scanner;
 
 public class Swap {

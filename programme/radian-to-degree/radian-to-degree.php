@@ -1,5 +1,5 @@
 <?php
-// Write a program that converts radiant do degrees
+// Write a programmethat converts radiant do degrees
 
 function radiant_to_degrees($radiant)
 {

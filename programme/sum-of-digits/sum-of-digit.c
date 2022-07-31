@@ -1,4 +1,4 @@
-// Write a program to print sum of digits.
+// Write a programmeto print sum of digits.
 #include <stdio.h>
 
 int main()

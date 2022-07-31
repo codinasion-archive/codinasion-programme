@@ -1,4 +1,4 @@
-// Write a program to compute the area of a rhombus
+// Write a programmeto compute the area of a rhombus
 
 // Import the Scanner class
 import java.util.Scanner;

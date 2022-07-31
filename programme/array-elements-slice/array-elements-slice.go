@@ -1,4 +1,4 @@
-// Write a program to generate new array within
+// Write a programmeto generate new array within
 // given range (start, end) sliced from orignal array
 package main
 

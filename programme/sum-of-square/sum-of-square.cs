@@ -1,4 +1,4 @@
-// Write a program to print sum of square of n natural number
+// Write a programmeto print sum of square of n natural number
 using System;
 using System.Linq;
 

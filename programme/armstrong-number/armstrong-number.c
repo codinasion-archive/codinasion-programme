@@ -1,4 +1,4 @@
-// Write a program to check armstrong number
+// Write a programmeto check armstrong number
 #include <stdio.h>
 #include <stdlib.h> /* for atoi function */
 #include <ctype.h>  /* for isdigit and isspace functions */

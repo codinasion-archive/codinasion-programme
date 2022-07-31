@@ -1,4 +1,4 @@
-// Write a program to convert radians to degrees
+// Write a programmeto convert radians to degrees
 #include <stdio.h>
 
 int main()

@@ -1,4 +1,4 @@
-// Write a program to check armstrong number
+// Write a programmeto check armstrong number
 import java.util.Scanner;
 
 public class ArmstrongNumber {

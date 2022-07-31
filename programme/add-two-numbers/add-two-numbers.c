@@ -1,4 +1,4 @@
-// Write a program to add two numbers
+// Write a programmeto add two numbers
 #include <stdio.h>
 
 int main(void)

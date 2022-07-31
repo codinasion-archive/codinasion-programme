@@ -1,4 +1,4 @@
-// Write a program to divide two numbers
+// Write a programmeto divide two numbers
 #include <iostream>
 
 using namespace std;

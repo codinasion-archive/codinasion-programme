@@ -9,7 +9,7 @@ contributors:
   - rossilor95
 ---
 
-## Write a program to print Hello World
+## Write a programmeto print Hello World
 
 ```txt
 Hello World !!!

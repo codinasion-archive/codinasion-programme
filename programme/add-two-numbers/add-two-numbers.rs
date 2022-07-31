@@ -1,4 +1,4 @@
-// Write a program to add two numbers
+// Write a programmeto add two numbers
 use std::io::{self, Write};
 
 fn main() {
@@ -23,12 +23,12 @@ fn main() {
         .trim()
         .parse()
         .ok()
-        .expect("Program only processes numbers, Enter number");
+        .expect("programmeonly processes numbers, Enter number");
     let b: f32 = second_number
         .trim()
         .parse()
         .ok()
-        .expect("Program only processes numbers, Enter number");
+        .expect("programmeonly processes numbers, Enter number");
 
     let sum = a + b;
     // Output of basic operations

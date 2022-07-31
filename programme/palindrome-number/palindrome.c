@@ -1,4 +1,4 @@
-// Write a program to check palindrome number
+// Write a programmeto check palindrome number
 #include <stdio.h>
 
 char *checkPalindrome(int a)

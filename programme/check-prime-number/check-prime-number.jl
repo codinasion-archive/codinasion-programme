@@ -1,4 +1,4 @@
-# Write a program to check prime number
+# Write a programmeto check prime number
 
 print("Input  : ")
 number = parse(Int32, readline())

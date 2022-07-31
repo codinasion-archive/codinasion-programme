@@ -1,4 +1,4 @@
-// Write a program to output the following multiplication table
+// Write a programmeto output the following multiplication table
 
 public class MultiplicationTable {
 

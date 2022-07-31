@@ -1,4 +1,4 @@
-// Write a program to find the volume of a cone
+// Write a programmeto find the volume of a cone
 using System;
 
 namespace Codinasion.Programme

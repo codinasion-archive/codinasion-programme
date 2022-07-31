@@ -1,4 +1,4 @@
-// Write a program to compute the area of a rectangle
+// Write a programmeto compute the area of a rectangle
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
 ---
 title: Area of a trapezoid
-description: Write a program to compute area of trapezoid
+description: Write a programmeto compute area of trapezoid
 contributors:
   - lt77777
   - jongwon254
@@ -12,7 +12,7 @@ contributors:
   - SanjayShetty01
 ---
 
-## Write a program to compute area of trapezoid
+## Write a programmeto compute area of trapezoid
 
 ```txt
 Base 1 : 5

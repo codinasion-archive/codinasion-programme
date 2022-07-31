@@ -1,3 +1,3 @@
-// Write a program to print Hello World
+// Write a programmeto print Hello World
 
 console.log("Hello World !!!");

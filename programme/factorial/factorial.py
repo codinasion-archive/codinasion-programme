@@ -1,4 +1,4 @@
-# Write a program to get the factorial of a number
+# Write a programmeto get the factorial of a number
 
 def factorial(n):
     if n == 1 or n == 0:

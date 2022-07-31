@@ -1,4 +1,4 @@
-// Write a program to convert number to strings
+// Write a programmeto convert number to strings
 import java.util.Scanner;
 
 public class NumberToString {

@@ -1,4 +1,4 @@
-// Write a program to compute the volume of a Cube
+// Write a programmeto compute the volume of a Cube
 
 function volumeCube(cubeSide) {
   return cubeSide ** 3;

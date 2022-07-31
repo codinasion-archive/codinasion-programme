@@ -1,4 +1,4 @@
-// Write a program to print sum of square of n natural number
+// Write a programmeto print sum of square of n natural number
 // Check it here : https://onecompiler.com/javascript/3y5c8z56m
 
 var readline = require("readline"); // Process to read standard input

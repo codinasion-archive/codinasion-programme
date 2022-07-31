@@ -1,4 +1,4 @@
-// Write a program to convert the temperature from celsius to fahrenheit
+// Write a programmeto convert the temperature from celsius to fahrenheit
 #include <stdio.h>
 
 void main()

@@ -1,4 +1,4 @@
-// Write a program to print factorial of a number
+// Write a programmeto print factorial of a number
 #include <stdio.h>
 #include <stdlib.h> /* for atoi and atof function */
 

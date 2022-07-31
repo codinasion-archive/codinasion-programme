@@ -1,5 +1,5 @@
 /*
-Write a program to print Fibonacci series using recursion.
+Write a programmeto print Fibonacci series using recursion.
 
 Example:
 Input: n = 10.

@@ -1,4 +1,4 @@
-/* Write a program to check whether a number is even or odd
+/* Write a programmeto check whether a number is even or odd
 
 Example:
 Input  : 3

@@ -1,5 +1,5 @@
 /* 
-Write a program that:
+Write a programmethat:
 
 - Takes the length of two bases and height
 - Uses the formula to calculate the area

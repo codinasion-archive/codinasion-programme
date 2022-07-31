@@ -1,4 +1,4 @@
-// Write a program to convert rupee to paise
+// Write a programmeto convert rupee to paise
 import java.util.Scanner;
 
 public class RupeeToPaise {

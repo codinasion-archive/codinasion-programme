@@ -1,6 +1,6 @@
 ---
 title: Area of a rhombus
-description: Write a program to compute area of Rhombus
+description: Write a programmeto compute area of Rhombus
 contributors:
   - lt77777
   - jspoh
@@ -14,7 +14,7 @@ contributors:
   - SanjayShetty01
 ---
 
-## Write a program to compute the area of a rhombus
+## Write a programmeto compute the area of a rhombus
 
 ```txt
 Diagonal 1 : 6

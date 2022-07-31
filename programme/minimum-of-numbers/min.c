@@ -1,4 +1,4 @@
-// Write a program to print the minimum of given numbers
+// Write a programmeto print the minimum of given numbers
 #include <stdio.h>
 #include <limits.h>
 

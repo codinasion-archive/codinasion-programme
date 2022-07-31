@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Write a program to convert number to strings
+# Write a programmeto convert number to strings
 
 def numbers_to_strings(n: int) -> str:
     """Converts numbers to string"""

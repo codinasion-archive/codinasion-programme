@@ -1,4 +1,4 @@
-# Write a program to convert Radian to Degree
+# Write a programmeto convert Radian to Degree
 # The rad2deg() is an inbuilt function in Julia that converts 
 # the specified radian values to degree values.
 

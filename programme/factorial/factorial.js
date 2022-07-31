@@ -1,4 +1,4 @@
-// Write a program to find the factorial of a number
+// Write a programmeto find the factorial of a number
 
 function factorial(num) {
   if (num === 1) {

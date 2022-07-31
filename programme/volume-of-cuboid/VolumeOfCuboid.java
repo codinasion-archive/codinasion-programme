@@ -1,4 +1,4 @@
-// Write a program to compute the volume of a Sphere
+// Write a programmeto compute the volume of a Sphere
 import java.util.Scanner;
 
 public class VolumeOfCuboid {

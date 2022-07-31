@@ -1,4 +1,4 @@
-# Write a program to compute the volume of a Cone
+# Write a programmeto compute the volume of a Cone
 import math
 
 

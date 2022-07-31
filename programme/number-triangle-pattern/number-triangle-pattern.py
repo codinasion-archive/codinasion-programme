@@ -1,4 +1,4 @@
-# Write a program to print the pattern
+# Write a programmeto print the pattern
 
 def pattern(a):
     print("Output :")

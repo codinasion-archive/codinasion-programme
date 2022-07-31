@@ -1,4 +1,4 @@
-// Write a program to print reverse of a number
+// Write a programmeto print reverse of a number
 
 "use strict";
 

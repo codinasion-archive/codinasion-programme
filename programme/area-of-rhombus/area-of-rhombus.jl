@@ -1,4 +1,4 @@
-# Write a program to compute the area of a rhombus
+# Write a programmeto compute the area of a rhombus
 
 print("Diagonal 1 : ")
 dia1 = parse(Int32, readline())

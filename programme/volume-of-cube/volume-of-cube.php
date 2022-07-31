@@ -1,5 +1,5 @@
 <?php
-// Write a program to find volume of a cube
+// Write a programmeto find volume of a cube
 
 function cube($number)
 {

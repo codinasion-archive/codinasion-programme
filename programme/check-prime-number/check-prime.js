@@ -1,5 +1,5 @@
 /*
-Write a program to check if a number is a prime
+Write a programmeto check if a number is a prime
 
 Example:
 Input: n = 8

@@ -1,4 +1,4 @@
-// Write a program to print sum of square.
+// Write a programmeto print sum of square.
 import java.util.*;
 
 class SumOfSquare {

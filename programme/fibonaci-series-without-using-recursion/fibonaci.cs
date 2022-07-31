@@ -1,4 +1,4 @@
-// Write a program to print Fibonacci series without recursion
+// Write a programmeto print Fibonacci series without recursion
 using System;
 
 public class Fibonaci

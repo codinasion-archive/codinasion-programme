@@ -1,4 +1,4 @@
-// Write a program to compute the area of a right angle triangle
+// Write a programmeto compute the area of a right angle triangle
 #include <iostream>
 
 using namespace std;

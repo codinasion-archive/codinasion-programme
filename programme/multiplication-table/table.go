@@ -1,4 +1,4 @@
-// Write a program to output the multiplication table
+// Write a programmeto output the multiplication table
 package main
 
 import (

@@ -1,4 +1,4 @@
-// Write a program to compute the volume of a Cylinder
+// Write a programmeto compute the volume of a Cylinder
 import java.util.Scanner;
 
 public class volumeOfCylinder {

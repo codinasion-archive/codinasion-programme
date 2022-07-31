@@ -1,12 +1,12 @@
 ---
 title: Number triangle pattern
-description: Write a program to print number triangle pattern
+description: Write a programmeto print number triangle pattern
 contributors:
   - NeelPatel31
   - ClasherKasten
 ---
 
-## Write a program to print number triangle pattern.
+## Write a programmeto print number triangle pattern.
 
 ```txt
 Input  : 5
