@@ -1,6 +1,6 @@
 ---
 title: Add two numbers
-description: Write a programmeto add two numbers
+description: Write a programme to add two numbers
 contributors:
   - harshi1122
   - Mrczarny
@@ -13,7 +13,7 @@ contributors:
   - SanjayShetty01
 ---
 
-## Write a programmeto add two numbers
+## Write a programme to add two numbers
 
 ```txt
 Input  : 5 4

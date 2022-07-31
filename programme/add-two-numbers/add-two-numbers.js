@@ -1,4 +1,4 @@
-// Write a programmeto add two numbers
+// Write a programme to add two numbers
 
 "use strict";
 

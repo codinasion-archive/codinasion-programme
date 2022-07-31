@@ -1,4 +1,4 @@
-// Write a programmeto print the maximum of given numbers
+// Write a programme to print the maximum of given numbers
 #include <stdio.h>
 #include <limits.h>
 

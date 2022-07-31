@@ -11,7 +11,7 @@ contributors:
   - GodKimba
 ---
 
-## Write a programmeto divide two numbers
+## Write a programme to divide two numbers
 
 ```txt
 Input the Dividend : 4

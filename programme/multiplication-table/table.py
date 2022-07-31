@@ -1,4 +1,4 @@
-# Write a programmeto output the following multiplication table
+# Write a programme to output the following multiplication table
 
 def table_of(n):
     for i in range(1, 11):  # get first 10 result

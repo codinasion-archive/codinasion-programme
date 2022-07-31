@@ -1,4 +1,4 @@
-// Write a programmeto check armstrong number
+// Write a programme to check armstrong number
 using System;
 
 public class ArmstrongNumber

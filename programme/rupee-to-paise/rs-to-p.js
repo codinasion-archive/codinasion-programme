@@ -1,4 +1,4 @@
-// Write a programmeto rupee to paise
+// Write a programme to rupee to paise
 
 "use strict";
 

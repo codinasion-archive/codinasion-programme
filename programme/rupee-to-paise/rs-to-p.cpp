@@ -1,4 +1,4 @@
-// Write a programmeto convert rupee to paise
+// Write a programme to convert rupee to paise
 #include <iostream>
 
 using namespace std;

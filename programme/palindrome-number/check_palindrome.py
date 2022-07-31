@@ -1,4 +1,4 @@
-# Write a programmeto check palindrome number
+# Write a programme to check palindrome number
 
 def check_palindrome(n: int) -> str:
     """Checks if n is a palindrome"""

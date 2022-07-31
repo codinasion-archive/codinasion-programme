@@ -1,4 +1,4 @@
-/* programmeto Find the volume of cylinder */
+/* programme to Find the volume of cylinder */
 #include <stdio.h>
 #include <math.h>
 

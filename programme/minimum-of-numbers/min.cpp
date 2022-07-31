@@ -1,4 +1,4 @@
-// Write a programmeto print the minimum of given numbers
+// Write a programme to print the minimum of given numbers
 #include <iostream>
 #include <limits>
 

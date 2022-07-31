@@ -1,4 +1,4 @@
-// Write a programmeto get the factorial of a number
+// Write a programme to get the factorial of a number
 package programme.factorial;
 
 import java.util.Scanner;

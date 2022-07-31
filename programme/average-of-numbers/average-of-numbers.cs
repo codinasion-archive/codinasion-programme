@@ -1,4 +1,4 @@
-// Write a programmeto find average of numbers
+// Write a programme to find average of numbers
 using System;
 using System.Linq;
 

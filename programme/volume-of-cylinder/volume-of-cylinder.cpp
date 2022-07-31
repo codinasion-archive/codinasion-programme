@@ -1,4 +1,4 @@
-// Write a programmeto find the Volume of a Cylinder
+// Write a programme to find the Volume of a Cylinder
 #include <iostream>
 #include <math.h>
 

@@ -1,4 +1,4 @@
-// Write a programmeto convert the temperature from Celsius to Fahrenheit
+// Write a programme to convert the temperature from Celsius to Fahrenheit
 #include <iostream>
 
 using namespace std;

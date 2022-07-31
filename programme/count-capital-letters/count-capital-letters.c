@@ -2,7 +2,7 @@
 
 /*
 We do not use dynamic memory allocation that's why we initialise a 100 chars input
-if we add an input more than 100 characters long the programmewill print some random(random is not quite the word but bare with me)
+if we add an input more than 100 characters long the programme will print some random(random is not quite the word but bare with me)
 number.
 */
 

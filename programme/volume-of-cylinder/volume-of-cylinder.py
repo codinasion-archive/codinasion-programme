@@ -1,4 +1,4 @@
-# Write a programmeto compute the volume of a Cylinder
+# Write a programme to compute the volume of a Cylinder
 import math
 
 '''

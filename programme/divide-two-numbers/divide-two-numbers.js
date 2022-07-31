@@ -1,4 +1,4 @@
-// Write a programmeto divide two given numbers
+// Write a programme to divide two given numbers
 
 function divide(a, b) {
   return (a / b).toFixed(2);

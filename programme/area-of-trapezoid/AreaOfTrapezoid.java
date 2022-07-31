@@ -1,4 +1,4 @@
-/* programmeto calculate area of trapezoid */
+/* programme to calculate area of trapezoid */
 import java.util.Scanner;
 
 public class AreaOfTrapezoid {

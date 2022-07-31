@@ -1,4 +1,4 @@
-// Write a programmeto print reverse of a number
+// Write a programme to print reverse of a number
 using System;
 using System.Linq;
 

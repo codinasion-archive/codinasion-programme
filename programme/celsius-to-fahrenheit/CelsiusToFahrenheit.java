@@ -1,4 +1,4 @@
-/** write a programmeto convert celsius to fahrenheit */
+/** write a programme to convert celsius to fahrenheit */
 import java.util.Scanner;
 
 class CelsiusToFahrenheit {

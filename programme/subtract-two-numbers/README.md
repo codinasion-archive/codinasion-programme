@@ -8,7 +8,7 @@ contributors:
   - ClasherKasten
 ---
 
-## Write a programmeto subtract two numbers
+## Write a programme to subtract two numbers
 
 ```txt
 Input  : 5 3

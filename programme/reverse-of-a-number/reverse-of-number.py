@@ -1,4 +1,4 @@
-# Write a programmeto print the reverse of a number
+# Write a programme to print the reverse of a number
 
 n = int(input('Input : '))
 

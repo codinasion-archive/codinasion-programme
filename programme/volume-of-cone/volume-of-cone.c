@@ -1,4 +1,4 @@
-// write a programmeto find the volume of a cone
+// write a programme to find the volume of a cone
 
 #include <stdio.h>
 

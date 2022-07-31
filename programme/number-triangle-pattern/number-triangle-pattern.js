@@ -1,4 +1,4 @@
-// Write a programmeto print number triangle pattern
+// Write a programme to print number triangle pattern
 
 "use strict";
 

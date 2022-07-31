@@ -1,4 +1,4 @@
-// Write a programmeto print Fibonacci pattern
+// Write a programme to print Fibonacci pattern
 using System;
 
 namespace SimpleNumbers

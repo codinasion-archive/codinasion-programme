@@ -1,4 +1,4 @@
-// Write a programmeto print fibonacci series without using recursion
+// Write a programme to print fibonacci series without using recursion
 import java.util.Scanner;
 
 public class Fibonacci {

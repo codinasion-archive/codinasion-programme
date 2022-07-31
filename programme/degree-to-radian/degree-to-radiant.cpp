@@ -1,4 +1,4 @@
-// programmeto convert from degree to radiant
+// programme to convert from degree to radiant
 #include <iostream>
 #include <string>
 // Math library for constant such as PI

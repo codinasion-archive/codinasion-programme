@@ -1,4 +1,4 @@
-// Write a programmeto check prime number
+// Write a programme to check prime number
 import java.util.*;
 
 public class CheckPrime {

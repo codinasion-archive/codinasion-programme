@@ -1,4 +1,4 @@
-// Write a programmeto count capital letters in a string
+// Write a programme to count capital letters in a string
 #include <iostream>
 
 using namespace std;

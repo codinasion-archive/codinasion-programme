@@ -1,4 +1,4 @@
-// Write a programmeto check armstrong number
+// Write a programme to check armstrong number
 
 const countDigits = function (number) {
   let numberOfDigits = 0;

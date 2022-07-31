@@ -1,4 +1,4 @@
-/* programmeto print Fibonacci pattern using recursion.
+/* programme to print Fibonacci pattern using recursion.
 
 Example:
 Input: n = 5

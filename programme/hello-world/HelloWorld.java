@@ -1,4 +1,4 @@
-// Write a programmeto print Hello World
+// Write a programme to print Hello World
 
 public class HelloWorld {
 

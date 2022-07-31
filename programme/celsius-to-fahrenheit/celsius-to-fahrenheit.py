@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Write a programmeto convert the temperature from Celsius to Fahrenheit
+# Write a programme to convert the temperature from Celsius to Fahrenheit
 
 def celsius_to_fahrenheit(celsius: int) -> float:
     """Converts celsius to farenheit"""

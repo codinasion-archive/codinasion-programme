@@ -1,4 +1,4 @@
-// Write a programmeto check palindrome number
+// Write a programme to check palindrome number
 using System;
 
 namespace SpecialNumbers

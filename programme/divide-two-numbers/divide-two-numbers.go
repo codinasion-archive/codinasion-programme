@@ -1,4 +1,4 @@
-// Write a programmeto divide two numbers
+// Write a programme to divide two numbers
 package main
 
 import (

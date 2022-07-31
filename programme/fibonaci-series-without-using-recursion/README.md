@@ -1,6 +1,6 @@
 ---
 title: Print Fibonacci series without recursion.
-description: Write a programmeto print Fibonacci series of n numbers without using recursion.
+description: Write a programme to print Fibonacci series of n numbers without using recursion.
 contributors:
   - NeelPatel31
   - karthiksbh
@@ -9,7 +9,7 @@ contributors:
   - ClasherKasten
 ---
 
-## Write a programmeto print Fibonacci series without using recursion
+## Write a programme to print Fibonacci series without using recursion
 
 ```txt
 Input: 10

@@ -1,4 +1,4 @@
-// Write a programmeto print the pattern
+// Write a programme to print the pattern
 import java.util.Scanner;
 
 public class NumTrianglePattern {

@@ -1,4 +1,4 @@
-# Write a programmeto print the Fibonacci series for 'n' numbers
+# Write a programme to print the Fibonacci series for 'n' numbers
 
 def Fib(n):
     if n == 0:

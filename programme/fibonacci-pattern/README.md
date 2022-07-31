@@ -1,6 +1,6 @@
 ---
 title: Fibonacci Pattern
-description: Write a programmeto print Fibonacci pattern
+description: Write a programme to print Fibonacci pattern
 contributors:
   - Anzo52
   - waleska404
@@ -10,7 +10,7 @@ contributors:
   - ClasherKasten
 ---
 
-## Write a programmeto print Fibonacci pattern
+## Write a programme to print Fibonacci pattern
 
 ```txt
 Input  : 5
