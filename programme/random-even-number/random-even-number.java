@@ -1,4 +1,4 @@
-//Program to generate random even number in range using Java
+//Programme to generate random even number in range using Java
 
 import java.util.Random;
 import java.util.*;
