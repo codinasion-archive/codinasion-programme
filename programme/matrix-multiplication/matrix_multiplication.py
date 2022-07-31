@@ -1,6 +1,6 @@
 '''
 PROBLEM STATEMENT
-Write a program to print multiplication of 2 matrices.
+Write a programme to print multiplication of 2 matrices.
 
 First matrix
 1  1  1

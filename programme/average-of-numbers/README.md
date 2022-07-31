@@ -1,6 +1,6 @@
 ---
 title: Average of numbers
-description: Write a program to find the average of numbers
+description: Write a programme to find the average of numbers
 contributors:
   - harshi1122
   - Anzo52
@@ -11,7 +11,7 @@ contributors:
   - SanjayShetty01
 ---
 
-## Write a program to find average of numbers
+## Write a programme to find average of numbers
 
 ```txt
 Input:  2 3 4

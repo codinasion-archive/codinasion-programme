@@ -13,7 +13,7 @@ contributors:
   - SanjayShetty01
 ---
 
-## Write a program to compute the area of a rectangle
+## Write a programme to compute the area of a rectangle
 
 ```txt
 length  : 2

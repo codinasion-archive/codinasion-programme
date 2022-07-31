@@ -1,4 +1,4 @@
-// Write a program to print the maximum of given numbers
+// Write a programme to print the maximum of given numbers
 import java.util.*;
 import java.util.Scanner;
 

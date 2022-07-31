@@ -1,6 +1,6 @@
 name: Improve existing programme content
 description: Make a suggestion to improve the content in an existing programme.
-labels: [programme", "enhancement"]
+labels: ["programme", "enhancement"]
 body:
   - type: markdown
     attributes:

@@ -1,4 +1,4 @@
-// Write a program to swap two numbers
+// Write a programme to swap two numbers
 
 "use strict";
 

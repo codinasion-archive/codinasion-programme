@@ -9,6 +9,7 @@ contributors:
   - boatwrong
   - isobarbaric
   - anastazir
+  - SpirosArk
 ---
 
 ## Write a programme to find volume of cone

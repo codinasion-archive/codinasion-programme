@@ -1,4 +1,4 @@
-// Write a program to compute the volume of a Sphere
+// Write a programme to compute the volume of a Sphere
 using System;
 
 namespace Geometry

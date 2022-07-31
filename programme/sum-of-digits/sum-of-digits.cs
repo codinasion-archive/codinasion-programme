@@ -1,4 +1,4 @@
-// Write a program to print sum of digits
+// Write a programme to print sum of digits
 using System;
 
 public class SumExample

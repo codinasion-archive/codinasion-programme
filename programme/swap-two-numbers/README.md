@@ -1,6 +1,6 @@
 ---
 title: Swap two numbers
-description: Write a program to swap two numbers
+description: Write a programme to swap two numbers
 contributors:
   - johnelbacani
   - NeelPatel31
@@ -8,7 +8,7 @@ contributors:
   - ClasherKasten
 ---
 
-## Write a program to swap two numbers
+## Write a programme to swap two numbers
 
 ```txt
 Input:  a=10 b=20

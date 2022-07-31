@@ -1,5 +1,5 @@
 /*
- * Java program to convert minutes to seconds
+ * Java programme to convert minutes to seconds
  * @author: Manan Karnik
  */
 

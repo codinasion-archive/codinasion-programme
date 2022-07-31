@@ -1,4 +1,4 @@
-// Write a program to print sum of square of n natural number
+// Write a programme to print sum of square of n natural number
 package main
 
 import (

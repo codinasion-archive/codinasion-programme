@@ -1,4 +1,4 @@
-// Write a program to add two numbers
+// Write a programme to add two numbers
 // Execute: node inches-to-feet.js
 
 "use strict";

@@ -1,6 +1,6 @@
 ---
 title: Reverse of a Number
-description: Write a program to print the reverse of a number
+description: Write a programme to print the reverse of a number
 contributors:
   - harshi1122
   - Mrczarny
@@ -8,7 +8,7 @@ contributors:
   - ClasherKasten
 ---
 
-## Write a program to print the reverse of a number
+## Write a programme to print the reverse of a number
 
 ```txt
 Input  : 1234

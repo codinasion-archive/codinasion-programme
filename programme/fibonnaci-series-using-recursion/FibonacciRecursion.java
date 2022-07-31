@@ -1,4 +1,4 @@
-// Write a program to print the Fibonacci series for 'n' numbers
+// Write a programme to print the Fibonacci series for 'n' numbers
 import java.util.Scanner;
 
 class FibonacciRecursion {
