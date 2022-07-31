@@ -8,6 +8,7 @@ contributors:
   - javithegreat35
   - gauravagrwal
   - ClasherKasten
+  - SpirosArk
 ---
 
 ## Write a programme to compute the volume of a Cylinder
