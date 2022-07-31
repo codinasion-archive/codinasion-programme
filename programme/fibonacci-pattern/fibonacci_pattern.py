@@ -1,4 +1,4 @@
-# Write a program to print Fibonacci pattern
+# Write a programme to print Fibonacci pattern
 
 def fibonacci_pattern(n: int) -> int:
     assert n > 0

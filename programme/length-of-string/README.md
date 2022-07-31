@@ -1,6 +1,6 @@
 ---
 title: Length of string
-description: Write a program to print the length of a string
+description: Write a programme to print the length of a string
 contributors:
   - jojo4441
   - Badboy-16
@@ -11,7 +11,7 @@ contributors:
   - rossilor95
 ---
 
-## Write a program to print the length of a string
+## Write a programme to print the length of a string
 
 ```txt
 Input  : abcd

@@ -1,6 +1,6 @@
 ---
 title: Multiplication Table
-description: Write a program to output the multiplication table
+description: Write a programme to output the multiplication table
 contributors:
   - Tosin-dotcom
   - PrajwalBorkar
@@ -10,7 +10,7 @@ contributors:
   - ClasherKasten
 ---
 
-## Write a program to output the following multiplication table
+## Write a programme to output the following multiplication table
 
 ```txt
 5 x 1 = 5

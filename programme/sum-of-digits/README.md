@@ -1,6 +1,6 @@
 ---
 title: Sum of Digits
-description: Write a program to print sum of digits
+description: Write a programme to print sum of digits
 contributors:
   - PA11TEDDU
   - debaghosh
@@ -9,7 +9,7 @@ contributors:
   - umaxyon
 ---
 
-## Write a program to print sum of digits
+## Write a programme to print sum of digits
 
 ```txt
 Input:  2332

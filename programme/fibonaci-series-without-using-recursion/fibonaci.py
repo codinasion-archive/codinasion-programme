@@ -1,4 +1,4 @@
-# Write a program to print fibonacci series without using recursion
+# Write a programme to print fibonacci series without using recursion
 
 a = 0
 b = 1

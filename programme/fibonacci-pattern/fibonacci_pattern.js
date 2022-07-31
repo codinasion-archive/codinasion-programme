@@ -1,4 +1,4 @@
-/* Write a program to print the Fibonacci pattern
+/* Write a programme to print the Fibonacci pattern
 
 Example:
 Input: n = 5

@@ -1,4 +1,4 @@
-// Write a program to swap two numbers without using third variable
+// Write a programme to swap two numbers without using third variable
 
 let a = 10;
 let b = 20;

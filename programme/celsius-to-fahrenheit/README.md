@@ -1,6 +1,6 @@
 ---
 title: Celsius to Fahrenheit
-description: Write a program to convert the temperature from Celsius to Fahrenheit
+description: Write a programme to convert the temperature from Celsius to Fahrenheit
 contributors:
   - seraph776
   - yslDevelop
@@ -11,7 +11,7 @@ contributors:
   - SanjayShetty01
 ---
 
-## Write a program to convert the temperature from Celsius to Fahrenheit
+## Write a programme to convert the temperature from Celsius to Fahrenheit
 
 ```txt
 Input ( c )  : -40

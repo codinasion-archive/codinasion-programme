@@ -12,7 +12,7 @@ contributors:
   - SanjayShetty01
 ---
 
-## Write a program to compute the area of a right angle triangle
+## Write a programme to compute the area of a right angle triangle
 
 ```txt
 base  : 2

@@ -1,5 +1,5 @@
 <?php
-// Write a program to add two numbers
+// Write a programme to add two numbers
 
 function sum(int|float $one, int|float $two) {
 

@@ -1,6 +1,6 @@
 ---
 title: Matrix Multiplication
-description: Write a program to print multiplication of 2 matrices
+description: Write a programme to print multiplication of 2 matrices
 contributors:
   - ShruAgarwal
   - ssavi-ict
@@ -9,7 +9,7 @@ contributors:
   - ClasherKasten
 ---
 
-## Write a program to print multiplication of 2 matrices
+## Write a programme to print multiplication of 2 matrices
 
 First matrix
 ```txt

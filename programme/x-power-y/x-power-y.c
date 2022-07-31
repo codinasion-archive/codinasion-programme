@@ -1,4 +1,4 @@
-// Write a program to find X power Y
+// Write a programme to find X power Y
 #include <stdio.h>
 #include <math.h>
 
