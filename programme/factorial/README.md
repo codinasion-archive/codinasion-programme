@@ -8,6 +8,7 @@ contributors:
   - michal-markiewicz
   - akhil484
   - MadhuS-1605
+  - icyca
 ---
 
 ## Write a programme to find the factorial of a number
