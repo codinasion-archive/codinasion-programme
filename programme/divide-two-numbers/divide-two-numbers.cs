@@ -9,9 +9,10 @@ public class DivideTwoNumbers
         string[] numbers = Console.ReadLine().Split(" ");
         float num1 = float.Parse(numbers[0]);
         float num2 = float.Parse(numbers[1]);
+        float result = 0;
         if (num2 != 0)
         {
-            float result = num1 / num2;
+            result = num1 / num2;
         }
         else
         {
