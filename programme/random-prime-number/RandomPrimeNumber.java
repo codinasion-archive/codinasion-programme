@@ -1,3 +1,5 @@
+// Write a programme to generate a random prime number in range n1-n2
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
