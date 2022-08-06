@@ -6,6 +6,7 @@ contributors:
   - anastazir
   - icyca
   - SpirosArk
+  - TimTProd
 ---
 
 ## Write a programme to find sum of n numbers
