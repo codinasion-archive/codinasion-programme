@@ -11,6 +11,7 @@ contributors:
   - rossilor95
   - 0xRenegade
   - SanjayShetty01
+  - KikiManjaro
 ---
 
 ## Write a programme to compute the area of a rectangle
