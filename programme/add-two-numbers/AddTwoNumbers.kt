@@ -1,6 +1,6 @@
 // Write a programme to add two numbers
 
-import java.util.Scanner;
+import java.util.Scanner
 
 class AddTwoNumbers {
 
