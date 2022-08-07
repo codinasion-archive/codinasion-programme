@@ -1,8 +1,8 @@
 // Write a programme to print alphabet triangle pattern
 
-import java.util.Scanner;
+import java.util.Scanner
 
-object AlphaTrianglePattern {
+class AlphaTrianglePattern {
     private fun pattern(height: Int) {
         print("Output :\n")
         for (i in 1..height) {
