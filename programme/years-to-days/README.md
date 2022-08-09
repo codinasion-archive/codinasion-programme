@@ -7,6 +7,7 @@ contributors:
   - Badboy-16
   - Anzo52
   - ClasherKasten
+  - SpirosArk
 ---
 
 ## Write a programme to convert years to days
