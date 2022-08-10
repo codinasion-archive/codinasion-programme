@@ -11,6 +11,7 @@ contributors:
   - kvaithin
   - 0xRenegade
   - SanjayShetty01
+  - KikiManjaro
 ---
 
 ## Write a programme to add two numbers
