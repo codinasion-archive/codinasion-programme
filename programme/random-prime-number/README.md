@@ -6,6 +6,7 @@ contributors:
   - SpirosArk
   - icyca
   - WLBailey0
+  - mathcodes
 ---
 
 ## Write a programme to generate a random prime number in range n1-n2
