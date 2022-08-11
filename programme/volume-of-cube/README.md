@@ -9,6 +9,7 @@ contributors:
   - PagliaraG
   - icyca
   - WLBailey0
+  - SpirosArk
 ---
 
 ## Write a programme to find volume of a cube

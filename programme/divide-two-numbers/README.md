@@ -9,6 +9,7 @@ contributors:
   - arch0nline
   - akhil484
   - GodKimba
+  - icyca
 ---
 
 ## Write a programme to divide two numbers

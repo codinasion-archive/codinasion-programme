@@ -10,6 +10,7 @@ contributors:
   - rossilor95
   - 0xRenegade
   - SanjayShetty01
+  - KikiManjaro
 ---
 
 ## Write a programme to find the area of circle
