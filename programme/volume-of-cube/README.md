@@ -8,6 +8,7 @@ contributors:
   - PaoloFer
   - PagliaraG
   - icyca
+  - WLBailey0
 ---
 
 ## Write a programme to find volume of a cube
