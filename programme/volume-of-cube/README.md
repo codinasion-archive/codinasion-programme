@@ -8,6 +8,7 @@ contributors:
   - PaoloFer
   - PagliaraG
   - icyca
+  - WLBailey0
   - SpirosArk
 ---
 
