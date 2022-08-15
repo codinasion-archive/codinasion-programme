@@ -1,3 +1,5 @@
+// Write a programme to calculate volume of cone
+
 <?php  
 $radius = (int)readline('Enter radius: ');  
 $height = (int)readline('Enter height: ');
