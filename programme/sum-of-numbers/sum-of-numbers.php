@@ -1,3 +1,5 @@
+// Write a programme to find the sum of n numbers
+
 <?php  
 $input1 = (int)readline('Enter first integer: ');  
 $input2 = (int)readline('Enter second integer: ');
