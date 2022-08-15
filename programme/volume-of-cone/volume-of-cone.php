@@ -4,5 +4,5 @@ $height = (int)readline('Enter height: ');
 $piediv3 = pi()/3;
 
 $sum = $piediv3*$height*$radius**2;  
-echo "Sum of Inputs : ". $sum;
+echo "Volume of Cone : ". $sum;
 ?>
